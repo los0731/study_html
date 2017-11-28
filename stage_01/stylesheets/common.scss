@@ -25,12 +25,13 @@ body {
   background-size: cover;
   box-shadow: 4px 10px 10px -8px rgba(0,0,0,.2);
   text-align: center;
+  transition: 0.2s;
 
 }
 
 .card-cover:hover,
 .card-cover:focus {
-  transform: translateY(-200px);
+  transform: translateY(-800px);
 
 }
 
