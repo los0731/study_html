@@ -2,55 +2,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin: 0;
   height: 100vh;
-
-  background: url('https://static.pexels.com/photos/5896/vintage-sweater-retro-wool.jpg') no-repeat center;
-  background-size: cover;
+  background: url('http://cfile4.uf.tistory.com/image/216A144F5289072006EEDA') repeat center;
 }
 
-.card {
-
-
-  padding: 16px;
+.card-cover,
+.card-letter {
+  width: 90%;
+  height: 90%;
+  max-width: 480px;
+  max-height: 480px;
+  border-radius: 4px;
+  box-shadow: 20px 20px 80px -20px black;
 }
 
 .card-cover {
-  position: absolute;
-  z-index: 99999;
-  display: block;
-  padding: 40px;
-
-  display: block;
-  height: 500px;
-  width: 420px;
-  height: 420px;
-
-  border-radius: 4px;
-  box-shadow: 20px 20px 80px -20px black;
-  outline: none;
-
+  position: fixed;
+  transition: 2s;
+  z-index: 999;
   text-align: center;
   color: white;
   font-weight: bold;
-  background: #C74B5A url('https://s-media-cache-ak0.pinimg.com/originals/ee/cb/02/eecb0228d91417e5368c7dc527c16d8f.gif') no-repeat center;
-  transition: 2s;
+  background: #C74B5A url('https://media.giphy.com/media/VKwspRV2pafJu/giphy.gif') no-repeat center;
 }
 
-.card-cover:focus {  transform: translate(520px, 40px) rotate(12deg); }
+.card-cover:hover {  transform: translate(100%, 10%) rotate(12deg);  }
 
 .card-letter {
-
-  padding: 40px;
-  height: 500px;
-  max-width: 420px;
-  max-height: 420px;
-
-  border-radius: 4px;
-  box-shadow: 20px 20px 80px -20px black;
-
   text-align: center;
   background-color: white;
+  box-shadow: 20px 20px 80px -20px black;
+  overflow-y: scroll;
+}
+
+.content {
+  padding: 24px;
 }
 
