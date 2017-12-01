@@ -1,48 +1,56 @@
 body {
-  margin: 0;
-  padding: 16px;
-  background: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?auto=format&fit=crop&w=2700&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') no-repeat center;
-  background-size: cover;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  height: 100vh;
+
+  background: url('https://static.pexels.com/photos/5896/vintage-sweater-retro-wool.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .card {
-  position: fixed;
-  padding: 0;
-  width: calc(100% - 48px);
-  height: calc(100% - 48px);
-  max-width: 500px;
-  max-height: 500px;
-  border-radius: 10px;
-  box-shadow: 20px 40px 80px -40px black;
+
+
+  padding: 16px;
 }
 
 .card-cover {
+  position: absolute;
   z-index: 99999;
-  border: 10px solid white;
-  background: url('https://media3.giphy.com/media/K90ckojkohXfW/giphy.gif') no-repeat center;
-  background-size: cover;
-  text-align: center;
-  transition: 0.2s;
+  display: block;
+  padding: 40px;
+
+  display: block;
+  height: 500px;
+  width: 420px;
+  height: 420px;
+
+  border-radius: 4px;
+  box-shadow: 20px 20px 80px -20px black;
   outline: none;
 
-}
-
-.card-cover:focus {
-  transform: translate(480px, 40px) rotate(12deg);
-}
-
-.card-cover > .title-welcome {
-  margin-top: -200px;
-  font-size: 64px;
+  text-align: center;
   color: white;
+  font-weight: bold;
+  background: #C74B5A url('https://s-media-cache-ak0.pinimg.com/originals/ee/cb/02/eecb0228d91417e5368c7dc527c16d8f.gif') no-repeat center;
+  transition: 2s;
 }
+
+.card-cover:focus {  transform: translate(520px, 40px) rotate(12deg); }
 
 .card-letter {
 
-  background-color: white;
+  padding: 40px;
+  height: 500px;
+  max-width: 420px;
+  max-height: 420px;
+
+  border-radius: 4px;
+  box-shadow: 20px 20px 80px -20px black;
+
   text-align: center;
+  background-color: white;
 }
+
