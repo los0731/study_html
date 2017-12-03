@@ -4,39 +4,34 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
-  background: url('http://cfile4.uf.tistory.com/image/216A144F5289072006EEDA') repeat center;
+  background: gray url('http://cfile4.uf.tistory.com/image/216A144F5289072006EEDA') repeat center;
 }
 
 .card-cover,
-.card-letter {
+.card-background {
   width: 90%;
   height: 90%;
   max-width: 480px;
   max-height: 480px;
   border-radius: 4px;
-  box-shadow: 20px 20px 80px -20px black;
+  box-shadow: 0 40px 80px -40px black;
 }
 
 .card-cover {
   position: fixed;
-  transition: 2s;
-  z-index: 999;
   text-align: center;
   color: white;
   font-weight: bold;
-  background: #C74B5A url('https://media.giphy.com/media/VKwspRV2pafJu/giphy.gif') no-repeat center;
+  background: orange url('https://media.giphy.com/media/VKwspRV2pafJu/giphy.gif') no-repeat center;
+  transition: 2s;
 }
 
 .card-cover:hover {  transform: translate(100%, 10%) rotate(12deg);  }
 
-.card-letter {
+.card-background {
   text-align: center;
   background-color: white;
-  box-shadow: 20px 20px 80px -20px black;
-  overflow-y: scroll;
 }
 
-.content {
-  padding: 24px;
-}
+.page {  padding: 24px;  }
 
