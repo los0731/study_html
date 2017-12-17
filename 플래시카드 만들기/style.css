@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	height: 100vh;
+	background: url("https://d1wfiv6sf8d64f.cloudfront.net/admin/web/real/notice_thumbnail_1502693634442.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.page-title {
+	color: white;
+	text-align: center;
+	background: black;
+	margin: 0;
+	padding: 8px;
+}
+
+.flash-card {
+	position: relative;
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	margin: 16px;
+}
+
+.content {
+	transition: .5s;
+	transform-style: preserve-3d;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 20px 60px -20px black;
+}
+
+.flash-card:hover .content {  transform: rotateY( 180deg );  }
+
+.front,
+.back {
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	border-radius: 4px;
+	backface-visibility: hidden; /*뒷면이 안보이도록*/
+	background: white;
+}
+
+.front {
+	font-size: 32px;
+	font-weight: lighter;
+	background: url("https://n6-img-fp.akamaized.net/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=338&ext=jpg") no-repeat center;
+	background-size: cover;
+}
+
+.back {  transform: rotateY( 180deg );  }
+.back h2 {  padding: 0 16px;  }
+.back p {  padding: 0 16px;  }
