@@ -16,8 +16,8 @@ body {
 .flash-card {
 	position: relative;
 	display: inline-block;
-	width: 160px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 	margin: 16px;
 }
 
@@ -36,19 +36,31 @@ body {
 .back {
 	position: absolute;
 	width: 100%;
-	height: 160px;
+	height: 200px;
 	border-radius: 4px;
-	backface-visibility: hidden; /*뒷면이 안보이도록*/
 	background: white;
+	backface-visibility: hidden; /*뒷면이 안보이도록*/
 }
 
 .front {
 	font-size: 32px;
 	font-weight: lighter;
-	background: url("https://n6-img-fp.akamaized.net/free-vector/abstract-geometric-pattern-background_1319-242.jpg?size=338&ext=jpg") no-repeat center;
+	background: url("https://n6-img-fp.akamaized.net/free-photo/grunge-style-interior-with-metal-plate-floor_1048-2914.jpg?size=338&ext=jpg") no-repeat center;
 	background-size: cover;
 }
 
-.back {  transform: rotateY( 180deg );  }
-.back h2 {  padding: 0 16px;  }
-.back p {  padding: 0 16px;  }
+.back {
+	transform: rotateY( 180deg );
+}
+.back h2 {
+	padding: 0 16px;
+	margin: 8px 0 0 0;
+}
+.back ul {
+	margin: 8px 0 0 0;
+	padding: 0 16px;
+	list-style: none;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+}
