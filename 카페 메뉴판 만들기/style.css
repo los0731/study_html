@@ -1,7 +1,51 @@
 body {
     margin: 0;
     padding: 16px;
-    height: 100vh;
-    background: url("https://images.unsplash.com/photo-1441757801704-6a71cffed732?auto=format&fit=crop&w=2700&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat center;
-    background-size: cover;
+    background: url("https://i.pinimg.com/736x/ae/83/f8/ae83f8d8bdd72a52d744bbb2d34ee228--pattern-floral-pattern-fabric.jpg");
 }
+
+.menu-wrap {
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 30px 70px -30px black;
+    background: url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Paper-Seamless-Pattern-For-Website-Background.jpg");
+    background-size: 50%;
+}
+
+.menu {
+    border: 1px dashed black;
+    padding: 24px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {  margin: 8px 0 0 0;  }
+
+.table-menu {
+    margin: 40px 0 0 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-menu th,
+.table-menu td {  padding: 8px 0 0 0;  }
+
+.table-menu th {  border-bottom: 1px dashed black;  }
+
+.t-title {  text-align: left;  }
+
+.t-size {
+    width: 64px;
+    text-align: center;
+}
+
+.caption {  color: #90A4AE;  }
+
+footer {  text-align: center;  }
+footer img {  margin: 40px 0 0 0;  }
+footer h6 {  margin: 8px 0 0 0;  }
