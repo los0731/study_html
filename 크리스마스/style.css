@@ -1,0 +1,73 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	background: url('https://i.pinimg.com/564x/b7/d6/46/b7d646058bf81ee9db8d4f991853af95.jpg') no-repeat center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.card-christmas {
+
+}
+
+.card-christmas > .cover,
+.card-christmas > .inlay {
+	position: fixed;
+	height: 72%;
+	max-height: 640px;
+	width: 80%;
+	max-width: 480px;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	padding: 20px;
+
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 20px 60px -20px black;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch; /* Lets it scroll lazy */
+}
+
+.card-christmas > .cover {
+	display: flex;
+	align-items: center;
+	z-index: 9;
+	transition: 1s;
+	background: #ECEFF1 url('https://i.pinimg.com/564x/22/57/19/2257197ba2500b6a425e7b1fb87ff350.jpg') no-repeat center;
+	background-size: cover;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: 900;
+
+}
+
+.card-christmas:hover > .cover {
+	transform: translate(50%, -48%) rotate(2deg);
+	transition: transform 0.5s;
+}
+
+
+.cover h1 {
+	padding: 0 24px;
+}
+
+.card-christmas > .inlay {
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/paper.png");
+}
+
+.inlay img {
+	margin-top: 40px;
+}
+
+.inlay > h1 {
+	text-align: center;
+}
+.inlay p {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+}
