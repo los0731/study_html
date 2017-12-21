@@ -1,0 +1,35 @@
+body {
+  background-color: #3F51B5;
+  text-align: center;
+
+}
+
+img {
+
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.destroyed-5s {
+  margin-top: 32vh;
+  animation: cssAnimation 1s forwards;
+  animation-delay: 5s;
+}
+
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+  0%   {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/*
+참고자료.
+https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+https://brunch.co.kr/@99-life/3
+ */
