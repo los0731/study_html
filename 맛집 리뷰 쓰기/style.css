@@ -1,0 +1,15 @@
+body {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h6 {
+  font-family: Serif, sans-serif;
+  text-align: center;
+  color: #607D8B;
+}
+
+p {
+  line-height: 24px;
+}
