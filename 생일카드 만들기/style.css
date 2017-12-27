@@ -1,22 +1,11 @@
 body {
   background: url('http://images.all-free-download.com/images/graphicthumb/cute_cartoon_floral_animals_pattern_vector_set_549953.jpg');
-}
-.birthday-card-top {
-  margin: 40px auto 0 auto;
-  width: 400px;
-  height: 400px;
-
-  background-color: red;
-  background: url('https://image.freepik.com/free-vector/happy-birthday-background_1344-43.jpg') no-repeat center;
-  background-size: cover;
+  text-align: center;
 }
 
-.birthday-card-bottom {
-  margin: 0 auto 40px auto;
+.birthday-card {
+  margin: 40px auto;
   width: 400px;
   background-color: white;
-}
-
-.inner {
-  padding: 16px;
+  padding: 24px;
 }
