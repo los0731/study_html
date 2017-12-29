@@ -1,0 +1,90 @@
+body {
+  background: url("https://images.unsplash.com/photo-1463538161278-14522958a223?auto=format&fit=crop&w=2200&q=80");
+  padding: 30px;
+}
+
+.page-title {
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+
+table {
+  margin: 24px auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  box-shadow: 0 0 0 10px white;
+  /*max-width: 640px;*/
+}
+
+th, td {
+  padding: 16px;
+  border: 1px solid #CFD8DC;
+  text-align: center;
+  background-color: white;
+}
+
+th {
+  font-size: 14px;
+  background-color: #ECEFF1;
+}
+
+td {
+  font-size: 20px;
+  color: #607D8B;
+}
+
+td > b {
+  color: black;
+}
+
+.period, .time {
+  font-size: 14px;
+}
+
+.period {
+  width: 80px;
+}
+
+.time {
+  width: 80px;
+}
+
+td.time {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  background-color: #ECEFF1;
+}
+
+
+/* 수업목록 */
+
+.class-computer-vision {
+  background-color: #FFEBEE;
+}
+
+.class-file-processing {
+  background-color: #FFF3E0;
+}
+
+.class-compiler {
+  background-color: #E1F5FE;
+}
+
+.class-leadership {
+  background-color: #E8F5E9;
+}
+
+.class-algorithm {
+  background-color: #F3E5F5;
+}
+
+.class-philosophy {
+  background-color: #F1F8E9;
+}
+
+.class-student-council {
+  background-color: #FBE9E7;
+}
