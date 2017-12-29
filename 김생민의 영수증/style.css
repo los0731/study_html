@@ -1,0 +1,77 @@
+body {
+  background-color: #ECEFF1;
+}
+
+.receipt {
+  margin: 80px auto;
+  padding: 8px 8px 24px 8px;
+  max-width: 440px;
+  background-color: white;
+  box-shadow: 0 8px 16px -8px #607D8B;
+
+}
+
+.receipt .title {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+tr.comment td {
+  border-top: none;
+  padding-top: 0;
+}
+
+tr.comment h5 {
+  background-color: #ECEFF1;
+  padding: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+th, td {
+  padding: 8px;
+  border: none;
+}
+
+.date {
+  width: 80px;
+}
+
+.cost {
+  width: 56px;
+}
+
+.place {
+  width: 80px;
+}
+
+th {
+  font-size: 18px;
+  border-top: 1px dashed #607D8B;
+}
+
+td {
+  border-top: 1px solid #607D8B;
+  font-size: 14px;
+}
+
+td.cost {
+  text-align: center;
+}
+
+td.place {
+  text-align: center;
+}
+
+.img-barcode {
+  text-align: right;
+}
+
+.img-barcode img {
+  width: 32px;
+}
