@@ -5,8 +5,6 @@
   min-width: 640px;
   min-height: 300px;
   background-color: white;
-  border-left: 1px solid #ECEFF1;
-  border-right: 1px solid #ECEFF1;
 }
 
 .page-title {
@@ -27,4 +25,12 @@
 
 .table-info th {
   text-align: left;
+}
+
+.table-info th,
+.table-info td {
+  padding: 0 40px 16px 0;
+  line-height: 32px;
+  vertical-align: top;
+  font-weight: bold;
 }
