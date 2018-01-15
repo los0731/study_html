@@ -1,0 +1,44 @@
+body {
+  background: url('https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0324/1553/rr2012_0601_2122a_preview.png');
+  background-size: 25%;
+}
+
+.cafe-menu {
+  margin: 40px auto;
+  padding: 16px;
+  width: 640px;
+  background: url('https://i.pinimg.com/564x/d9/97/de/d997de25f7d12ea5cef972f9badd9d5d--white-paper.jpg');
+  box-shadow: 20px 20px 80px -20px black;
+}
+
+.cafe-menu > header {
+  text-align: center;
+}
+
+.cafe-menu > header > img {
+  width: 64px;
+}
+
+.cafe-menu > .table-menu {
+  margin-top: 40px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.cafe-menu > .table-menu .name {
+  text-align: left;
+  width: 400px;
+}
+
+.cafe-menu > .table-menu .price {
+  text-align: center;
+}
+
+.cafe-menu > .table-menu th {
+  border-bottom: 1px dashed black;
+}
+
+.cafe-menu > .table-menu th,
+.cafe-menu > .table-menu td {
+  padding: 4px;
+}
