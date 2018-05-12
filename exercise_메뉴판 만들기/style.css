@@ -1,0 +1,48 @@
+
+body{
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/a8/f3/8c/a8f38c7687e34a6c5fd60d351b6f62e9.jpg');
+	background-size: 500px;
+}
+
+.cafe-menu{
+	width: 700px;
+	margin: 40px auto;
+	padding: 16px;
+	background: url('https://i.pinimg.com/564x/d9/97/de/d997de25f7d12ea5cef972f9badd9d5d--white-paper.jpg');
+	box-shadow: 20px 20px 80px -20px black;
+}
+
+.cafe-menu > header{
+	text-align: center;
+}
+
+.cafe-menu > header > img{
+	width: 100px;
+	padding: 10px;
+}
+
+.cafe-menu > .menu-item{
+	width: 100%;
+	table-layout: fixed;
+	margin-top: 40px;
+}
+
+.cafe-menu > .menu-item .name{
+	text-align: left;
+	width: 410px;
+}
+
+/*자식 선택자와 자손 선택자*/
+.cafe-menu > .menu-item .price{
+	text-align: center;
+}
+
+.cafe-menu > .menu-item th{
+	border-bottom: 1px dashed black;
+}
+
+.cafe-menu > .menu-item th,
+.cafe-menu > .menu-item td { 
+	padding: 4px;
+}
+

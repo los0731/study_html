@@ -1,0 +1,61 @@
+body {margin: 0;}
+
+.system-bar {
+	/*background-color: #f9f9f9;*/
+	background-color: black;
+	opacity: .1;
+	height: 20px;
+	width: 100%;
+}
+
+.nav-bar {
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 40px;
+	padding: 10px 16px; /*얘한테 padding을 왜줬지?*/
+}
+
+.table-nav {
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	height: 40px;
+	table-layout: fixed;
+}
+
+.table-nav .btn-left,
+.table-nav .btn-right {
+	color: blue;
+	font-size: 18px;
+	width: 64px;
+}
+
+.table-nav .btn-left {text-align: left;}
+
+.table-nav .btn-right {text-align: right;}
+
+.table-nav .title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.table-nav td {
+	padding: 0;
+}
+
+.search-bar-wrap{
+	background-color: #f9f9f9;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #b2b2b2;
+	padding: 0 16px 16px 16px;
+}
+
+.search-bar{
+	background-color: #e8e8ea;
+	padding: 8px 12px;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #8e8e93;
+}

@@ -1,0 +1,48 @@
+
+body{
+	background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/acaa4c21382351.56300486bba87.jpg');
+	background-size: 500px;
+}
+
+.cafe-menu{
+	width:700px;
+	margin: 40px auto;
+	padding: 16px;
+	background: url('https://i.pinimg.com/564x/d9/97/de/d997de25f7d12ea5cef972f9badd9d5d--white-paper.jpg');
+	box-shadow: 20px 20px 80px -20px black; /*못쓰는 속성*/
+}
+
+.cafe-menu > header{
+	text-align: center;
+}
+
+.cafe-menu > header > img{
+	width: 100px;
+	padding: 10px;
+}
+
+.cafe-menu > .menu-item{
+	width: 100%;
+	table-layout: fixed;/*모르는 속성*/
+	margin-top: 40px;
+}
+
+.cafe-menu > .menu-item .name{ /*모르는 속성*/
+	text-align: left;
+	width: 410px;
+}
+
+.cafe-menu > .menu-item .price{ /*모르는 속성*/
+	text-align: center;
+}
+
+.cafe-menu > .menu-item th{
+	/*thead와 th 모두 태그인데 왜 thead는 안될까?*/
+	border-bottom: 1px dashed black;
+}
+
+.cafe-menu > .menu-item th, 
+.cafe-menu > .menu-item td{
+	padding: 4px;
+}
+
