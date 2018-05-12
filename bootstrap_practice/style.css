@@ -1,0 +1,28 @@
+/* 화면이 992px보다 좁을때 */
+@media (max-width: 991px) {
+    .test__dropdown--md-down {
+        position: relative;
+        margin: 0 0 0 auto;
+    }
+
+    .test__dropdown {color: rgba(255,255,255,.5);}
+    .test__dropdown:hover {color: rgba(255,255,255,.75);}
+
+    .test__dropdown--menu {
+        left: auto;
+        right: 0;
+    }
+    
+    .navbar-test {
+        flex-direction: unset !important;
+    }
+
+    .navbar-test .nav-item-register {margin-left: auto;}
+
+    .navbar-test .nav-item-dropdown {display: none;}
+}
+  
+/* 화면이 992px보다 넓을때 */
+@media (min-width: 992px) {
+    .test__dropdown--md-down {display: none;}
+}

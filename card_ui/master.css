@@ -1,0 +1,46 @@
+body {
+  background-color: #ECEFF1;
+}
+
+.card-study {
+  /* this is card */
+  width: 400px;
+  margin: 80px auto 0 auto;
+  border: none;
+  box-shadow: 0 20px 20px rgba(0,0,0,.08);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.card-study:hover {
+  /* 만약 .card-study에 마우스를 올리면 아래의 스타일을 적용해라! */
+  box-shadow: 0 40px 40px rgba(0,0,0,.16);
+  transform: translate(0,-20px);
+}
+
+.card-study hr,
+.card-study .line {
+  margin: 18px 0;
+  border-top: 1px solid #E9EBEE;
+}
+
+.card-study .category {
+  margin-bottom: 0;
+}
+
+.card-study:hover .category {
+  display: none;
+}
+
+.view-more {
+  display: none;
+}
+
+.card-study:hover .view-more {
+  display: block;
+}
+
+
+.card-study .card-text small {
+  margin-right: 20px;
+}
