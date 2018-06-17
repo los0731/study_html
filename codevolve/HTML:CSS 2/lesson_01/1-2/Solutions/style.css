@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.content {
+	max-width: 960px;
+	margin: 24px auto;
+}
+
+img {
+	width: 183px;
+}
+
+h1 {
+	margin: 40px 0 8px 0;
+	font-size: 20px;
+}
+
+h2 {
+	margin: 16px 0 8px 0;
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 12px;
+	margin: 8px 0;
+}
+
+p {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 8px 0;
+}
