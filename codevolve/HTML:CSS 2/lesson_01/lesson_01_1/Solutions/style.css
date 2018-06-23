@@ -7,13 +7,18 @@ body {
 	margin: 24px auto;
 }
 
-img {
+.img-logo {
 	width: 183px;
 }
 
-h1 {
+.headline {
 	margin: 40px 0 8px 0;
 	font-size: 20px;
+}
+
+.publication-date {
+	margin: 8px 0;
+	font-size: 12px;
 }
 
 h2 {
@@ -21,13 +26,8 @@ h2 {
 	font-size: 16px;
 }
 
-h6 {
-	font-size: 12px;
-	margin: 8px 0;
-}
-
 p {
+	margin: 8px 0;
 	font-size: 14px;
 	line-height: 22px;
-	margin: 8px 0;
 }
