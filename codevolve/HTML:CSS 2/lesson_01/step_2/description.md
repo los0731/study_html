@@ -33,7 +33,7 @@
     ```
     Content on Google Play is offered by Google Commerce Limited, and when you download, view, use or purchase Content on or using Google Play, you will enter into a separate contract based on these Terms (as applicable) with Google Commerce Limited.
     ```
-
+    
 모두 완료했나요? `CSS` 없이 `HTML`만 작성하니 모습이 어색할 거예요. 하지만 괜찮습니다. 
 이렇게 `HTML`만으로 구조를 먼저 작성하는 것은 아주 좋은 습관이거든요.
 이제 `CSS`를 이용해서, 조금 더 스타일링을 해봅시다.
