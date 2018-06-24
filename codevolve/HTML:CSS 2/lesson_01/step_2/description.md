@@ -5,31 +5,31 @@
 순서대로 따라해 보면서 페이지를 완성해 봅시다.
 
 **Instructions**
-1. `<body>`태그 안에 `<div>`태그를 추가하고, `container`라는 클래스를 적용하세요.
-1. 추가한 `<div>`태그 안에 `img_google_play.png` 이미지를 추가하고, `img-logo`라는 클레스를 적용하세요. 그리고 alt-text:`Google Play`를 추가하세요
-1. 이미지 다음에 `h1`태그를 사용해서 헤드라인:`Google Play Terms of Service`을 추가하세요. 
-1. 헤드라인 다음에 `h6`태그를 사용해서 게시일:`February 5, 2018`을 추가하세요.
-1. 게시일 다음에 `h2`태그를 사용해서 첫번째 소제목을 추가하세요.
+1. `<body>` 안에 `<div>`를 추가하고, `container`라는 클래스를 적용하세요.
+1. 추가한 `<div>` 안에 `img_google_play.png` 이미지를 추가하고, `img-logo`라는 클레스를 적용하세요. 그리고 alt-text:`Google Play`를 추가하세요
+1. 이미지 다음에 `<h1>`를 사용해서 헤드라인:`Google Play Terms of Service`을 추가하세요. 
+1. 헤드라인 다음에 `<h6>`를 사용해서 게시일:`February 5, 2018`을 추가하세요.
+1. 게시일 다음에 `<h2>`를 사용해서 첫번째 소제목을 추가하세요.
     ```
     1. Introduction
     ```
-1. 그 다음줄에, `p`태그를 활용해서 첫번째 소재목에 대한 내용을 추가하세요.
+1. 그 다음줄에, `<p>`를 활용해서 첫번째 소재목에 대한 내용을 추가하세요.
     ```
     "Applicable Terms. Thanks for using Google Play. Google Play is a service provided by Google LLC ("Google", "we" or "us"), located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA. Your use of Google Play and the apps (including Android Instant Apps), games, music, movies, books, magazines, or other digital content or services (referred to as "Content") available through it is subject to these Google Play Terms of Service and the Google Terms of Service ("Google ToS") ( together referred to as the "Terms"). Google Play is a "Service" as described in the Google ToS. If there is any conflict between the Google Play Terms of Service and the Google ToS, the Google Play Terms of Service shall prevail."
     ```
-1. 그 다음줄에, `h2`태그를 사용해서 두번째 소제목을 추가하세요.
+1. 그 다음줄에, `<h2>`를 사용해서 두번째 소제목을 추가하세요.
     ```
     2. Your Use of Google Play
     ```
-1. `p`태그를 활용해서 두번째 내용을 추가하세요.
+1. `<p>`를 활용해서 두번째 내용을 추가하세요.
     ```
     Access to and Use of Content. You may use Google Play to browse, locate, view, stream, or download Content for your mobile, computer, tv, watch, or other supported device ("Device"). To use Google Play, you will need a Device that meets the system and compatibility requirements for the relevant Content, working Internet access, and compatible software. The availability of Content and features will vary between countries and not all Content or features may be available in your country. Some Content may be available to share with family members. Content may be offered by Google or made available by third-parties not affiliated with Google. Google is not responsible for and does not endorse any Content made available through Google Play that originates from a source other than Google.
     ```
-1. 마지막으로 `h2`태그를 사용해서 세번째 소제목을 추가하세요.
+1. 마지막으로 `<h2>`를 사용해서 세번째 소제목을 추가하세요.
     ```
     3. Purchases and Payments
     ```
-1. `p`태그를 활용해서 세번째 내용을 추가하세요.
+1. `<p>`태그를 활용해서 세번째 내용을 추가하세요.
     ```
     Content on Google Play is offered by Google Commerce Limited, and when you download, view, use or purchase Content on or using Google Play, you will enter into a separate contract based on these Terms (as applicable) with Google Commerce Limited.
     ```
