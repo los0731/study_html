@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 24px auto;
+}
+
+.img-logo {
+	width: 183px;
+}
+
+.headline {
+	margin: 40px 0 8px 0;
+	font-size: 20px;
+}
+
+.publication-date {
+	margin: 8px 0;
+	font-size: 12px;
+}
+
+h2 {
+	margin: 16px 0 8px 0;
+	font-size: 16px;
+}
+
+p {
+	margin: 8px 0;
+	font-size: 14px;
+	line-height: 22px;
+}
