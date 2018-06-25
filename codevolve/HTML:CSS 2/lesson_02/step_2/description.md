@@ -40,5 +40,5 @@
       <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" width="400" alt="Birthday Image">
       <h1>Hope you are having a great day Mechelle.<br>Happy Birthday. </h1>
       <h3>from Frank</h3>
-    </div>
+</div>
 ``` 

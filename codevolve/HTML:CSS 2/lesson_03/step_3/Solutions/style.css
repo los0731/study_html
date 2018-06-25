@@ -1,0 +1,44 @@
+body {
+    background-color: #5FC9F1;
+  }
+  
+  .business-card {
+    background-color: #2D3A67;
+    width: 240px;
+    margin: 40px auto; 
+    padding: 40px;
+    box-shadow: 80px 80px 100px -30px rgba(0,0,0,0.3); 
+  }
+  
+  .representive-img {
+    width: 100%;
+    margin-top: 20px;
+    filter: brightness(0) invert(1); margin-top: 20px;
+  }
+  
+  .name {
+    font-family: Arial;
+    font-weight: 900;
+    color: #5FC9F1;
+    margin: 0;  
+  }
+  
+  .job {
+    color: white;
+    margin: 4px 0 0 0;
+  }
+  
+  .phone-number {
+    color: white;
+    margin: 20px 0 0 0;
+  }
+  
+  .e-mail {
+    color: white;
+    margin: 4px 0 0 0;
+  }
+  
+  .personal-website {
+    color: white;
+    margin: 4px 0 0 0;
+  }
