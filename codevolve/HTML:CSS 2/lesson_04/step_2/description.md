@@ -2,16 +2,16 @@
 순서대로 따라해 보면서 페이지를 완성해 봅시다.  
 
 **Instructions**
-1. `<body>` 안에 `<div>`를 추가하고, `container`라는 클래스를 적용하세요.
-1. 추가한 `<div>`태그 안에 `<table>`를 추가하고, `table-receipt`라는 클레스를 적용하세요.
+1. `<body>` 안에 `<div>`를 추가하고, `container`라는 class를 적용하세요.
+1. 추가한 `<div>`태그 안에 `<table>`를 추가하고, `table-receipt`라는 class를 적용하세요.
 1. `<table>`안에 `<thead>`를 추가하세요.
 1. `<thead>`안에 `<tr>`를 추가하세요. `<tr>`안에 `<th>`를 추가하고, 내용:"PAYMENT RECEIPT"을 추가하세요. 그리고 이 `<th>`에 `colspan="2"`속성을 추가하세요.
 1. `<thead>`아래 `<tbody>`를 추가하세요.
-1. `<thead>`안에 `<tr>`를 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`클레스와 내용:"Product"를, 두번째 `<td>`에는 `td-content`클레스와 내용:"Awesome Editor"를 추가하세요.
-1. 같은 방식으로 `<tr>`다음에 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`클레스와 내용:"Date"를, 두번째 `<td>`에는 `td-content`클레스와 내용:"Apr. 22 2018"를 추가하세요.
-1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`클레스와 내용:"Order ID"를, 두번째 `<td>`에는 `td-content`클레스와 내용:"UDVD12548"를 추가하세요.
-1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`클레스와 내용:"Price"를, 두번째 `<td>`에는 `td-content`클레스와 내용:"109.00"를 추가하세요.
-1. 마지막입니다. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 1번 추가하고, `td-footer`클레스를 적용합니다. 그리고 이 `<td>`에 `colspan="2"`속성을 추가하세요.
+1. `<thead>`안에 `<tr>`를 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Product"를, 두번째 `<td>`에는 `td-content`class와 내용:"Awesome Editor"를 추가하세요.
+1. 같은 방식으로 `<tr>`다음에 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Date"를, 두번째 `<td>`에는 `td-content`class와 내용:"Apr. 22 2018"를 추가하세요.
+1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Order ID"를, 두번째 `<td>`에는 `td-content`class와 내용:"UDVD12548"를 추가하세요.
+1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Price"를, 두번째 `<td>`에는 `td-content`class와 내용:"109.00"를 추가하세요.
+1. 마지막입니다. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 1번 추가하고, `td-footer`class를 적용합니다. 그리고 이 `<td>`에 `colspan="2"`속성을 추가하세요.
 
 **NEXT STEP** 버튼을 클릭하세요.
 

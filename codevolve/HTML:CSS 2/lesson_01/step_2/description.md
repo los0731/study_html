@@ -2,7 +2,7 @@
 우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 이런 컨테이너 역할을 하는 태그는 여러가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `div`태그를 사용합니다.  
 
 **Instructions**
-1. `body`태그 안에 `div`태그를 추가하고, 클래스 이름을 `container`로 적용하기.
+1. `body`태그 안에 `div`태그를 추가하고, class 이름을 `container`로 적용하기.
     ```html
     <div class="contianer"></div>
     ```
