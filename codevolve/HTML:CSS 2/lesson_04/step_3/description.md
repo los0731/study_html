@@ -5,7 +5,7 @@
 1. `.container`의 스타일
     * 최대 넓이는 `400px`입니다.
     * 배경색은 `white`입니다.
-    * 위/아래 `margin`은 `80px`이고, 좌/우 `margin`은 `auto`입니다.
+    * 위/아래 margin은 `80px`이고, 좌/우 margin은 `auto`입니다.
 1. `.table-receipt`의 스타일
     * 넓이는 `100%`입니다. 
     * `border-collapse`속성의 값은 `collapse`입니다. 

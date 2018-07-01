@@ -6,9 +6,9 @@ body {
 
 .birthday-card {
   margin: 40px auto;
+  padding: 16px;
   max-width: 400px;
   background-color: white;
-  padding: 16px;
   text-align: center;
   box-shadow: 0 24px 40px -8px #311B92;
 }

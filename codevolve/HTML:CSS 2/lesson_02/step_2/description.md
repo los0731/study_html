@@ -1,4 +1,4 @@
-## 시작하기
+# 시작하기
 `div`태그를 사용하여 카드의 틀을 만들는 것으로 시작합니다.
 
 **Instructions**
@@ -13,7 +13,7 @@
 `<div class="birthday-card">` 안에 카드의 요소들을 추가합니다. 
 
 **Instructions**
-1. `<div class="birthday-card">` 안에 카드를 꾸밀 이미지를 추가하고, alt text를 `Birthday Image`로 적용합니다. 
+1. 이미지를 추가하고, src attribute를 `https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg`, alt attribute를 `Birthday image`로 적용합니다. 
     ```html
     <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" alt="Birthday Image">
     ```
@@ -33,14 +33,14 @@
 * https://www.freepik.com/
 * https://www.pexels.com/
 
-이런 사이트들에는 일러스트레이션 또는 사진들을 무료로 사용할 수 있도록 소스를 공개해두고 있습니다. 파일을 다운로드 받거나, 마우스 우클릭 후 `이미지 주소 복사`를 통해서 이미지를 사용할 수 있습니다. 중요한 점은, 무료로 사용해도 되지만 반드시 출처를 남겨야 한다는 것입니다.
+이런 사이트들은 일러스트레이션 또는 사진들을 무료로 사용할 수 있도록 소스를 공개해두고 있습니다. 파일을 다운로드 받거나, 마우스 우클릭 후 `이미지 주소 복사`를 통해서 이미지를 사용할 수 있습니다. 중요한 점은, 무료로 사용해도 되지만 반드시 출처를 남겨야 한다는 것입니다.
 
 **Instructions**
 1. `<div class="birthday-card">` 아래에 `h6`태그를 추가하고, class를 `sources-link`로 적용하기.
     ```html
     <h6 class="sources-link"></h6>
     ```
-1. `h6`태그 안에 `a`를 추가하고, 출처 내용과 링크를 적용하기.  
+1. `h6`태그 안에 `a`태그를 추가하고, 출처 내용과 링크를 적용하기.  
     ```html
     <h6 class="sources-link">
       <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Freepik</a>

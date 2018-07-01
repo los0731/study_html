@@ -1,4 +1,4 @@
-## 완성
+# 완성
 완성! 잘하셨습니다. 이번 레슨에서 우리는 6개의 HTML tags와 5개의 CSS properties를 사용했습니다.  
 
 HTML

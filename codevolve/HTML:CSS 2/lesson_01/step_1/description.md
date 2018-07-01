@@ -1,4 +1,4 @@
-## Terms of Service
+# Terms of Service
 실제로 서비스되고 있는 웹 페이지들이 모두 복잡한 `HTML`과 `CSS`로 이루어져 있는 것은 아닙니다. Google Play의 이용약관 페이지 처럼 단순하지만 실제 제품에서 꼭 필요한 페이지도 있습니다. 이번 레슨에서는 Google Play의 서비스 이용약관 페이지를 만듭니다.
 
 

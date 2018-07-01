@@ -1,4 +1,4 @@
-## 시작하기
+# 시작하기
 우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 이런 컨테이너 역할을 하는 태그는 여러가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `div`태그를 사용합니다.  
 
 **Instructions**
@@ -13,26 +13,32 @@
 이제부터 `<div class="container">` 안에 나머지 요소들을 추가합니다. 위에서부터 순서대로 이미지, 제목, 게시일, 소제목, 본문을 추가합니다. 
 
 **Instructions**
-1. `<div class="container">` 안에 이미지(img_google_play.png)를 추가하고, Alt-text는 `Google Play`로 적용하기.
+1. `<div class="container">` 안에 이미지(img_google_play.png)를 추가하고, Alt attribute는 `Google Play`로 적용하기.
+
     ```html
     <img src="img_google_play.png" alt="Google Play">
     ```
+
 1. 이미지 다음 라인에 `h1`태그를 사용해서 헤드라인 추가하기.
     ```html
     <h1>Google Play Terms of Service</h1>
     ```
-1. 헤드라인 다음 라인에 `<h6>`를 사용해서 게시일 추가하기.
+
+1. 헤드라인 다음 라인에 `h6`를 사용해서 게시일 추가하기.
     ```html
     <h6>February 5, 2018</h6>
     ```
-1. 게시일 다음 라인에 `<h2>`를 사용해서 첫번째 소제목 추가하기.
+
+1. 게시일 다음 라인에 `h2`를 사용해서 첫번째 소제목 추가하기.
     ```html
     <h2>1. Introduction</h2>
     ```
-1. 첫번째 소제목 다음 라인에 `<p>`를 사용해서 첫번째 소재목에 대한 본문 추가하기.
+
+1. 첫번째 소제목 다음 라인에 `p`를 사용해서 첫번째 소재목에 대한 본문 추가하기.
     ```html
     <p>Applicable Terms. Thanks for using Google Play. Google Play is a service provided by Google LLC ("Google", "we" or "us"), located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA. Your use of Google Play and the apps (including Android Instant Apps), games, music, movies, books, magazines, or other digital content or services (referred to as "Content") available through it is subject to these Google Play Terms of Service and the Google Terms of Service ("Google ToS") ( together referred to as the "Terms"). Google Play is a "Service" as described in the Google ToS. If there is any conflict between the Google Play Terms of Service and the Google ToS, the Google Play Terms of Service shall prevail.</p>
     ```
+
 1. 첫번째 소제목, 본문과 같은 방식으로 두번째/세번째 소제목과 본문을 추가하기.
     ```html
     <h2>2. Your Use of Google Play</h2>

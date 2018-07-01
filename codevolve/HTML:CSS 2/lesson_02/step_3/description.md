@@ -1,13 +1,14 @@
-## 스타일
-#### body 
-
+# 스타일
+## body 
 카드의 색을 하얀색으로 만들 것이기 때문에, 카드가 잘 보이도록 배경은 보라색으로 설정합니다. 
-
+* `body`의 배경컬러는 `#512DA8`입니다.
+* `body`의 padding은 `16px`입니다. 
 **Instructions**
-1. `body`의 `background-color`를 `#512DA8`로 설정하세요. 
+1. `body`의 스타일 적용하기. 
 
-#### 카드 디자인
 
+
+## Birthday-card
 `birthday-card`class를 가지고 있는 `div`태그는 카드의 틀을 만듭니다. 
 지금은 카드가 페이지의 상단에 딱 붙어있습니다. 하지만 카드가 페이지의 상단에서 조금 떨어져있다면 읽는 사람이 카드를 잘 볼 수 있을거에요. `margin`속성은 해당 class를 상위의 `body` 태그와 여백을 만들기 위해 사용합니다. 
 `margin: 40px auto`과 같이 사용하면 상하 여백을 40px으로 설정하고 좌우는 자동으로 중앙에 설정합니다. 
@@ -29,23 +30,10 @@
 1. `birthday-card`class의 `box-shadow`의 반지름은 `-8px`, 색은 `#311B92`입니다. 
 
 모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
- 
 
-## HELP 
-만약 잘 모르겠다면 아래에 있는 완성된 코드를 보고 따라해보세요. 
 
-**Code**
-```css
-body {
-  background-color: #512DA8;
-}
 
-.birthday-card {
-  background-color: white;
-  width: 400px;
-  text-align: center;
-  margin: 40px auto;
-  padding: 16px;
-  box-shadow: 0 24px 40px -8px #311B92;;
-}
-``` 
+## TIPS! 
+* 컬러를 사용하는 기준은 무엇인가요? 
+    > ㅎㅎㅎ 
+
