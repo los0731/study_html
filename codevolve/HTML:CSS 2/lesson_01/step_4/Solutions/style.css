@@ -3,20 +3,21 @@ body {
 }
 
 .container {
-	max-width: 960px;
 	margin: 24px auto;
+	padding: 0 16px;
+	max-width: 960px;
 }
 
-.img-logo {
+img {
 	width: 183px;
 }
 
-.headline {
+h1 {
 	margin: 40px 0 8px 0;
 	font-size: 20px;
 }
 
-.publication-date {
+h6 {
 	margin: 8px 0;
 	font-size: 12px;
 }

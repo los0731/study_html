@@ -1,5 +1,25 @@
 ## 완성
-단순하고 멋지게 디자인된 웹 페이지가 완성되었습니다.
-다음 레슨에서는 생일 축하카드를 만들어봅시다!
+완성! 잘하셨습니다. 이번 레슨에서 우리는 6개의 HTML tags와 5개의 CSS properties를 사용했습니다.  
+
+HTML
+```
+div
+img
+h1
+h2
+h6
+p
+```
+
+CSS
+```
+margin
+padding
+max-width
+font-size
+line-height
+```
+
+
 
 **NEXT STEP** 버튼을 클릭하세요.
