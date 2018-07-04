@@ -1,102 +1,70 @@
-## 스타일
-#### body 
-
-명함의 색은 짙은 남색으로 만들고, 배경은 하늘색으로 설정합니다. 
-
-**Instructions**
-1. `body`의 `background-color`를 `#5FC9F1`로 설정하세요.
-1. `business-card`class의 `background-color`를 `#2D3A67`로 설정하세요. 
-
-#### 명함 디자인
-
-`birthday-card`class를 가지고 있는 `div`태그는 명함의 틀을 만듭니다.
-
-생일 축하 카드를 만들면서 배웠던 `margin`과 `padding`을 다시 연습해볼게요.
-`margin`속성은 해당 class를 상위의 `body` 태그와 여백을 만들기 위해 사용합니다. 
-`padding`속성은 해당 class 안에 있는 콘텐츠와 해당 class의 border 사이에 여백을 만들기 위해 사용합니다.
-`box-shadow`속성은 해당 class에 그림자를 넣기 위해 사용합니다. 
-예를 들어, `box-shadow: 80px 80px 100px -30px rgba(0,0,0,0.3)`는 순서대로 첫 번째 값은 수평, 두 번째 값은 수직, 세 번째 값은 블러 효과, 네 번째 값은 그림자의 반지름, 마지막 다섯 번째 값은 색을 설정합니다.
-다섯 번째 값 `rgba`는 색에 투명도를 넣고 싶을 때 사용합니다.
-
-마지막으로 `img`의 `filter`속성은 이미지의 명암을 반전 시키고 싶을 때 사용합니다. 
+# 스타일
+## body 
+온라인 명함을 더 잘 보여주기 위해 배경 컬러를 선택합니다. 이번에는 [Google colors][1]에서 Blue Grey 50을 선택했습니다.
+* `body`의 padding은 `8px`입니다. 
+* `body`의 폰트는 `Arial, Helvetica, sans-serif`입니다. 
+* `body`의 배경 컬러는 `#ECEFF1`입니다.
 
 **Instructions**
-1. `business-card`class의 `width`는 `400px`입니다.  
-1. `img`의 넓이는 `100%`입니다. 넓이를 `100%`로 설정하면 이미지의 상단에 있는 태그인 business-class의 넓이에 맞게 설정됩니다.  
-1. `img`의 `margin-top`은 `20px`입니다. 
-1. `img`의 `filter`를 `brightness(0) invert(1);"`로 설정하세요.
-1. `business-card`class의 `margin`은 상-하 `40px`이고, 좌-우 `auto`입니다. 
-1. `birthday-card`class의 `padding`은 상-하-좌-우 모두 `40px`입니다. 
-1. `birthday-card`class의 `box-shadow`의 수평은 `80px`, 수직은 `80px`, 블러 효과는 `100px`입니다.
-1. `birthday-card`class의 `box-shadow`의 반지름은 `-30px`, 색은 `rgba(0, 0, 0, 0.3)`입니다. 
+1. `body`의 스타일 적용하기. 
+    ```css
+    body {
+      margin: 0;
+      padding: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ECEFF1;
+    }
+    ```
 
 
-#### 폰트 디자인
 
-가장 중요한 명함 소유자의 이름이 잘 보이게 만들어보겠습니다. 
-`font-family`속성은 해당 class의 글씨체를 변경하기 위해 사용합니다. 
-`font-weight`속성은 해당 class의 글씨를 두껍게 만들기 위해 사용합니다.
-
-추가로 `h`태그는 기본적으로 `margin`값을 가지고 있기 때문에, 여백을 만들고 싶지 않으면 `0`으로 설정해주는 것이 좋습니다.  
+## 명함
+`business-card`는 화면의 가운데 위치해야 하고, 특정 넓이와, 모서리가 둥글어야합니다. 이 외에도 글자 정렬, 배경 컬러, 그림자를 스타일링 합니다. 여기서 배경 컬러가 [Google Colors][1]에서 Blue Grey 50이기 때문에, 그림자의 컬러는 Blue Grey 200으로 하겠습니다. 
+* `business-card`의 margin은 위/아래 `40px`, 좌/우 `auto`입니다.
+* `business-card`의 padding은 `40px`입니다.
+* `business-card`의 border-radius은 `8px`입니다.
+* `business-card`의 넓이는 `240px`입니다. 
+* `business-card`의 글자 정렬은 `center`입니다.
+* `business-card`의 배경 컬러는 `white`입니다.
+* `business-card`의 그림자는 x축 `0`, y축 `16px`, 퍼짐(blur) `32px`, 크기 `-16px`, 컬러 `#B0BEC5;` 입니다.
 
 **Instructions**
-1. `name`class의 `font-family`는 `Arial`입니다.
-1. `name`class의 `font-weight`는 `900`입니다.  
-1. `name`class의 `color`는 `#5FC9F1`입니다.
-1. `name`class의 `margin`는 `0`입니다.
-1. `job`, `phone-number`, `e-mail`, `personal-website`class의 `color`는 `white`이고, `margin`는 `4px 0 0 0`입니다.
-1. `phone-number`class의 `margin`을 `20px 0 0 0`으로 변경하세요. 
+1. `business-card`의 스타일 적용하기.
+    ```css
+    .business-card {
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 8px;
+      width: 240px;
+      text-align: center;
+      background-color: white;
+      box-shadow: 0 16px 32px -16px #B0BEC5;
+    }
+    ```
 
+
+
+## 이미지
+이미지의 크기가 카드보다 크기 때문에 넓이를 주변에 맞게 변경해줘야합니다. 
+* `.image`의 넓이가 `100%`입니다.
+
+**Instructions**
+1. `.image`의 스타일 적용하기.
+    ```css
+    .image {
+      width: 100%;
+    }
+    ```
+    
+    
+    
 모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
- 
 
-## HELP 
-만약 잘 모르겠다면 아래에 있는 완성된 코드를 보고 따라해보세요. 
 
-**Code**
-```css
-body {
-  background-color: #5FC9F1;
-}
 
-.business-card {
-  background-color: #2D3A67;
-  width: 240px;
-  margin: 40px auto; 
-  padding: 40px;
-  box-shadow: 80px 80px 100px -30px rgba(0,0,0,0.3); 
-}
+## TIPS! 
+* `body`태그에 서체를 지정한 의도가 무엇인가요? 
+    > 어떤 프로퍼티들은 지정한 선택자에만 적용됩니다. 하지만 어떤 프로퍼티들은 지정한 선택자와 그 하위 모든 선택자에 적용되기도 합니다. `font-family`는 하위 선택자에 모두 적용되는 프로퍼티입니다. 따라서 이 페이지에서 사용하는 모든 글씨에 `Arial, Helvetica, sans-serif`를 적용하고 싶다면 모든 선택자에 반복적으로 `font-family`를 적용할 필요없이 `body`태그에만 적용하면 됩니다.     
 
-.representive-img {
-  width: 100%;
-  margin-top: 20px;
-  filter: brightness(0) invert(1); margin-top: 20px;
-}
+[1]: https://material.io/design/color/#color-usage-palettes
 
-.name {
-  font-family: Arial;
-  font-weight: 900;
-  color: #5FC9F1;
-  margin: 0;  
-}
-
-.job {
-  color: white;
-  margin: 4px 0 0 0;
-}
-
-.phone-number {
-  color: white;
-  margin: 20px 0 0 0;
-}
-
-.e-mail {
-  color: white;
-  margin: 4px 0 0 0;
-}
-
-.personal-website {
-  color: white;
-  margin: 4px 0 0 0;
-}
-``` 
