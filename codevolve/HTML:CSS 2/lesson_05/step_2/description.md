@@ -8,7 +8,7 @@
     ```html
     <div class="menu-wrap"></div>
     ```
-1. `menu-wrap`클래스 안에 `div`태그를 추가하고, class 이름을 `menu-wrap`로 적용하기. 
+1. `menu-wrap`클래스 안에 `div`태그를 추가하고, class 이름을 `menu`로 적용하기. 
     ```html
     <div class="menu-wrap">
         <div class="menu">
@@ -65,7 +65,7 @@
     ```
 
 ## table 내용 채우기
-`<div class="table-menu">` 안에 커피의 종류와 가격을 추가합니다. 
+`<div class="table-menu">` 안에 커피의 종류와 가격을 추가하여 메뉴판의 내용을 채웁니다. 
 
 
 **Instructions**
