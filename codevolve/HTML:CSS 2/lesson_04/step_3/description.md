@@ -12,7 +12,7 @@
         > `border-collapse: collapse;`는 테이블 또는 셀의 경계선을 겹쳐줌으로서 깔끔하게 선이 표시되도록 합니다. 
     * `box-shadow`속성의 값은 `40px 40px 80px -8px #B0BEC5`입니다.
         > 저는 그림자의 컬러에 black을 사용하지 않습니다. [Google Colors](https://material.io/design/color/#tools-for-picking-colors)에서 제공하는 `Blue grey 200`은 흰 배경일 때의 그림자 컬러로 적당합니다.
-1. `.th-header`의 스타일
+1. `.t-header`의 스타일
     * `padding`은 `24px`입니다.
     * 글씨 컬러는 흰색입니다.
     * 글씨 크기는 `24px`입니다.
@@ -20,11 +20,11 @@
 1. `td`의 스타일
     * 위/아래 `padding`은 `24px`이고, 좌/우는 `16px`입니다.
     * `border-bottom`속성의 값은 `2px solid #ECEFF1;`입니다.
-1. `.td-title`의 스타일
+1. `.t-label`의 스타일
     * 글씨의 크기는 `16px`입니다.
     * 글씨의 두깨는 `700`입니다.
     * 글씨의 컬러는 `#78909C`입니다.
-1. `.td-content`의 스타일
+1. `.t-content`의 스타일
     * 글씨의 크기는 `24px`입니다.
     * `text-align`속성의 값은 `right`입니다.
 1. `.td-footer`의 스타일
@@ -60,7 +60,7 @@ body {
 	box-shadow: 40px 40px 80px -8px #B0BEC5;
 }
 
-.th-header {
+.t-header {
 	padding: 24px;
 	width: 100%;
 	color: white;
@@ -73,13 +73,13 @@ td {
 	border-bottom: 2px solid #ECEFF1;
 }
 
-.td-title {
+.t-label {
 	font-size: 16px;
 	font-weight: 700;
 	color: #78909C;
 }
 
-.td-content {
+.t-content {
 	font-size: 24px;
 	text-align: right;
 }

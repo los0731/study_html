@@ -15,7 +15,7 @@ body {
 	box-shadow: 40px 40px 80px -8px #B0BEC5;
 }
 
-.th-header {
+.t-header {
 	padding: 24px;
 	width: 100%;
 	color: white;
@@ -28,13 +28,13 @@ td {
 	border-bottom: 2px solid #ECEFF1;
 }
 
-.td-title {
+.t-label {
 	font-size: 16px;
 	font-weight: 700;
 	color: #78909C;
 }
 
-.td-content {
+.t-content {
 	font-size: 24px;
 	text-align: right;
 }

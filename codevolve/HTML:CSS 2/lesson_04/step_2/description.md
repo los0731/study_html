@@ -1,56 +1,111 @@
-## HTML로 구조잡기
-순서대로 따라해 보면서 페이지를 완성해 봅시다.  
+# 시작하기
+
+`div`태그를 사용하여 컨테이너를 만들는 것으로 시작합니다.  
 
 **Instructions**
-1. `<body>` 안에 `<div>`를 추가하고, `container`라는 class를 적용하세요.
-1. 추가한 `<div>`태그 안에 `<table>`를 추가하고, `table-receipt`라는 class를 적용하세요.
-1. `<table>`안에 `<thead>`를 추가하세요.
-1. `<thead>`안에 `<tr>`를 추가하세요. `<tr>`안에 `<th>`를 추가하고, 내용:"PAYMENT RECEIPT"을 추가하세요. 그리고 이 `<th>`에 `colspan="2"`속성을 추가하세요.
-1. `<thead>`아래 `<tbody>`를 추가하세요.
-1. `<thead>`안에 `<tr>`를 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Product"를, 두번째 `<td>`에는 `td-content`class와 내용:"Awesome Editor"를 추가하세요.
-1. 같은 방식으로 `<tr>`다음에 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Date"를, 두번째 `<td>`에는 `td-content`class와 내용:"Apr. 22 2018"를 추가하세요.
-1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Order ID"를, 두번째 `<td>`에는 `td-content`class와 내용:"UDVD12548"를 추가하세요.
-1. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 2번 추가하고, 첫번째 `<td>`에는 `td-title`class와 내용:"Price"를, 두번째 `<td>`에는 `td-content`class와 내용:"109.00"를 추가하세요.
-1. 마지막입니다. 새로운 `<tr>`을 추가하세요. `<tr>`안에 `<td>`를 1번 추가하고, `td-footer`class를 적용합니다. 그리고 이 `<td>`에 `colspan="2"`속성을 추가하세요.
+1. `body`태그 안에 `div`태그를 추가하고, class 이름을 `container`로 적용하기. 
+    ```html
+    <div class="container"></div>
+    ```
+
+
+
+# 테이블 추가하기
+`<div class="container">`안에 영수증을 만들기 위해서 `table`태그를 사용하겠습니다. 테이블에 추가해야하는 내용은 아래와 같습니다.
+```html
+|-------------------------|
+|     PAYMENT RECEIPT     |
+|-------------------------|
+| Product |Awesome Editor |
+|-------------------------|
+| Date    |  Apr. 22 2018 |
+|-------------------------|
+| Order ID|     UDVD12548 |
+|-------------------------|
+| Price   |       $109.00 |
+|-------------------------|
+| Thank you for purchas...|
+|-------------------------|
+``` 
+순서대로 따라해봅시다.
+
+
+**Instructions**
+1. `<div class="container">` 안에 `table`태그를 추가하고, `table-receipt`클래스 적용하기. 
+    ```html
+    <table class="table-receipt"></table>
+    ```
+1. `table`태그 안에 `thead`태그와 `tbody`태그 추가하기.  
+    ```html
+    <table class="table-receipt">
+      <thead></thead>
+      <tbody></tbody>
+    </table> 
+    ```
+1. `thead`태그에 `tr`, `th`태그를 추가하고, `t-header` 클래스와 2칸을 모두 채우도록 `colspan="2"` attribute 추가하기.
+    ```html
+    <table class="table-receipt">
+      <thead>
+        <tr>
+          <th colspan="2">PAYMENT RECEIPT</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table> 
+    ```
+1. `tbody`태그에 `tr`을 사용해서 아래와 같이 4개의 행을 추가하기. 그리고 그 안에 2개씩의 `td`태그를 추가하고, 각각 `t-label`, `t-content` 클래스를 적용하기.
+    ```html
+    <table class="table-receipt">
+      <thead>
+        ...
+      </thead>
+      <tbody>
+        <tr>
+          <td class="t-label">Product</td>
+          <td class="t-content">Awesome Editor</td>
+        </tr>
+        <tr>
+          <td class="t-label">Date</td>
+          <td class="t-content">Apr. 22 2018</td>
+        </tr>
+        <tr>
+          <td class="t-label">Order ID</td>
+          <td class="t-content">UDVD12548</td>
+        </tr>
+        <tr>
+          <td class="t-label">Price</td>
+          <td class="t-content">$109.00</td>
+        </tr>
+      </tbody>
+    </table> 
+    ```
+
+1. `tbody`태그에 1개의 행을 더 추가하고, `td-footer` 클래스를 적용한 `td`태그를 추가하기. 마지막 `td`태그는 2칸을 모두 채루도록 `colspan="2"` attribute 추가하기.
+    ```html
+    <table class="table-receipt">
+      <thead>
+        ...
+      </thead>
+      <tbody>
+        ...
+        <tr>
+          <td class="td-footer" colspan="2">
+            Thank you for purchasing form us.
+          </td>
+        </tr>
+      </tbody>
+    </table> 
+    ```
+
+이렇게 HTML로 뼈대를 구성했습니다. 다음 페이지에서 CSS를 사용해서 스타일링을 해봅시다.
 
 **NEXT STEP** 버튼을 클릭하세요.
 
 
 
-## HELP
-`<table>`은 안에 들어가는 태그들이 다양해서 익숙하지 않을 수 있습니다. 만약 뜻대로 되지 않는다면 아래의 완성된 코드를 보는것이 큰 도움이 될거에요.
+## TIPS! 
+* 태이블 태그를 작성하는 것이 번거로워요.  
+    > 맞아요. 저는 그래서 Google에 [html table generator][1]라고 검색을 합니다.     
 
-**Code**
-```html
-<div class="container">
-  <table class="table-receipt">
-    <thead>
-    <tr>
-      <th class="th-header" colspan="2">PAYMENT RECEIPT</th>
-    </tr>
-    </thead>
+[1]: https://www.google.co.kr/search?ei=ECs-W6KxK8fh-AbF-5HIBQ&q=html+table+generator&oq=html+table+generator&gs_l=psy-ab.3...290762.293424.0.295063.0.0.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..0.0.0....0.v4501Hu84LM
 
-    <tbody>
-    <tr>
-      <td class="td-title">Product</td>
-      <td class="td-content">Awesome Editor</td>
-    </tr>
-    <tr>
-      <td class="td-title">Date</td>
-      <td class="td-content">Apr. 22 2018</td>
-    </tr>
-    <tr>
-      <td class="td-title">Order ID</td>
-      <td class="td-content">UDVD12548</td>
-    </tr>
-    <tr>
-      <td class="td-title">Price</td>
-      <td class="td-content">$109.00</td>
-    </tr>
-    <tr>
-      <td class="td-footer" colspan="2">Thank you for purchasing form us.</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
-``` 
