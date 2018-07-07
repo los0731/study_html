@@ -1,49 +1,48 @@
 body {
-  margin: 0;
-	background-color: #ECEFF1;
+  background-color: #ECEFF1;
 }
 
 .container {
-	max-width: 400px;
-	background-color: white;
-	margin: 80px auto;
+  margin: 80px auto;
+  max-width: 400px;
 }
 
 .table-receipt {
-	width: 100%;
-	border-collapse: collapse;
-	box-shadow: 40px 40px 80px -8px #B0BEC5;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  box-shadow: 40px 40px 80px -8px #B0BEC5;
 }
 
-.t-header {
-	padding: 24px;
-	width: 100%;
-	color: white;
-	font-size: 24px;
-	background-color: #2196F3;
+.table-receipt th {
+  padding: 24px;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  background-color: #2196F3;
 }
 
-td {
-	padding: 24px 16px 24px 16px;
-	border-bottom: 2px solid #ECEFF1;
+.table-receipt td {
+  padding: 24px 16px;
+  border-bottom: 2px solid #ECEFF1;
 }
 
-.t-label {
-	font-size: 16px;
-	font-weight: 700;
-	color: #78909C;
+.table-receipt .t-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: #78909C;
 }
 
-.t-content {
-	font-size: 24px;
-	text-align: right;
+.table-receipt .t-value {
+  font-size: 24px;
+  text-align: right;
 }
 
-.td-footer {
-	font-size: 16px;
-	color: #2196F3;
-	font-weight: 700;
-	text-align: center;
-	padding: 24px;
-	border-bottom: 0;
+.table-receipt .t-footer {
+  padding: 24px;
+  border-bottom: 0;
+  font-size: 16px;
+  color: #2196F3;
+  font-weight: 700;
+  text-align: center;
 }

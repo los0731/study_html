@@ -16,48 +16,27 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.57583773">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Starter Files/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="331">
-                  <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="description.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_1/description.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="93">
-                    <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="description.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_03/step_2/description.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="1087">
-                    <caret line="51" column="31" selection-start-line="45" selection-end-line="51" selection-end-column="31" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="description.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_2/description.md">
+            <entry file="file://$PROJECT_DIR$/lesson_04/step_3/description.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="960">
-                    <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                  <first_editor relative-caret-position="1119">
+                    <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="description.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson_04/step_5/description.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="297">
+                    <caret line="11" selection-start-line="11" selection-end-line="11" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -67,28 +46,32 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Solutions/index.html">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Solutions/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="930">
-                  <caret line="30" column="35" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="35" />
+                <state relative-caret-position="702">
+                  <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Solutions/index.html">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Solutions/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
+                <state relative-caret-position="448">
+                  <caret line="21" column="28" lean-forward="true" selection-end-line="47" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Starter Files/index.html">
-              <provider selected="true" editor-type-id="text-editor" />
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Starter Files/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="880">
+                  <caret line="37" column="12" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="12" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -110,6 +93,13 @@
       <find>td-content</find>
       <find>td-header</find>
       <find>th-header</find>
+      <find>td-footer</find>
+      <find>그림자</find>
+      <find>*</find>
+      <find>.table-receipt .t-header</find>
+      <find>padding: 24px 16px 24px 16px;</find>
+      <find>.t-content</find>
+      <find>|-</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;li class=&quot;mail&quot;&gt;jonathanharris@blackrockclan.com&lt;/li&gt;</replace>
@@ -124,6 +114,10 @@
       <replace>t-content</replace>
       <replace>td-header</replace>
       <replace>t-header</replace>
+      <replace>t-footer</replace>
+      <replace>.table-receipt th</replace>
+      <replace>padding: 24px 16px;</replace>
+      <replace>.t-value</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -140,21 +134,33 @@
         <option value="$PROJECT_DIR$/lesson_03/step_3/Solutions/style.css" />
         <option value="$PROJECT_DIR$/lesson_03/step_3/Starter Files/style.css" />
         <option value="$PROJECT_DIR$/lesson_03/step_4/Starter Files/style.css" />
-        <option value="$PROJECT_DIR$/lesson_03/step_3/description.md" />
         <option value="$PROJECT_DIR$/lesson_03/step_2/description.md" />
         <option value="$PROJECT_DIR$/lesson_03/step_4/description.md" />
         <option value="$PROJECT_DIR$/lesson_03/step_5/Starter Files/style.css" />
-        <option value="$PROJECT_DIR$/lesson_03/step_5/description.md" />
         <option value="$PROJECT_DIR$/lesson_03/step_3/Solutions/index.html" />
         <option value="$PROJECT_DIR$/lesson_04/step_1/description.md" />
         <option value="$PROJECT_DIR$/lesson_04/step_1/Solutions/index.html" />
-        <option value="$PROJECT_DIR$/lesson_04/step_1/Starter Files/index.html" />
-        <option value="$PROJECT_DIR$/lesson_04/step_3/Solutions/index.html" />
         <option value="$PROJECT_DIR$/lesson_04/step_3/Starter Files/index.html" />
         <option value="$PROJECT_DIR$/lesson_04/step_4/Solutions/index.html" />
         <option value="$PROJECT_DIR$/lesson_04/step_4/Starter Files/index.html" />
-        <option value="$PROJECT_DIR$/lesson_04/step_2/Solutions/index.html" />
         <option value="$PROJECT_DIR$/lesson_04/step_2/description.md" />
+        <option value="$PROJECT_DIR$/lesson_03/step_3/description.md" />
+        <option value="$PROJECT_DIR$/lesson_04/step_1/Starter Files/index.html" />
+        <option value="$PROJECT_DIR$/lesson_04/step_2/Solutions/index.html" />
+        <option value="$PROJECT_DIR$/lesson_04/step_3/Solutions/index.html" />
+        <option value="$PROJECT_DIR$/lesson_04/step_2/Solutions/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_2/Starter Files/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_3/Starter Files/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_3/Solutions/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_1/Solutions/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_1/Starter Files/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_4/Solutions/style.css" />
+        <option value="$PROJECT_DIR$/lesson_04/step_4/description.md" />
+        <option value="$PROJECT_DIR$/lesson_04/step_4/Starter Files/style.css" />
+        <option value="$PROJECT_DIR$/lesson_03/step_5/description.md" />
+        <option value="$PROJECT_DIR$/lesson_01/step_1/description.md" />
+        <option value="$PROJECT_DIR$/lesson_04/step_5/description.md" />
+        <option value="$PROJECT_DIR$/lesson_04/step_3/description.md" />
       </list>
     </option>
   </component>
@@ -167,10 +173,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="2390" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2560" />
+    <option name="y" value="-114" />
+    <option name="width" value="2560" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -204,6 +211,24 @@
             <path>
               <item name="HTMLCSS 2" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML:CSS 2" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_03" type="462c0819:PsiDirectoryNode" />
+              <item name="step_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLCSS 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML:CSS 2" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_03" type="462c0819:PsiDirectoryNode" />
+              <item name="step_4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLCSS 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML:CSS 2" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_03" type="462c0819:PsiDirectoryNode" />
+              <item name="step_5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLCSS 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML:CSS 2" type="462c0819:PsiDirectoryNode" />
               <item name="lesson_04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,6 +310,12 @@
               <item name="lesson_04" type="462c0819:PsiDirectoryNode" />
               <item name="step_4" type="462c0819:PsiDirectoryNode" />
               <item name="Starter Files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTMLCSS 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML:CSS 2" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_04" type="462c0819:PsiDirectoryNode" />
+              <item name="step_5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,14 +357,15 @@
       <workItem from="1530616026133" duration="13000" />
       <workItem from="1530616113455" duration="7147000" />
       <workItem from="1530759300075" duration="10188000" />
+      <workItem from="1530931142311" duration="9519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20925000" />
+    <option name="totallyTimeSpent" value="30444000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="-2560" y="-114" width="2560" height="1418" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1140625" />
@@ -364,41 +396,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_2/Starter Files/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_2/Starter Files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_3/Solutions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_3/Solutions/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="16" column="8" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_3/Starter Files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_03/step_3/Solutions/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -487,36 +484,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="186">
             <caret line="6" column="3" lean-forward="true" selection-end-line="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_3/description.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="901">
-            <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="59" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_4/description.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="219">
-            <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_5/description.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="93">
-            <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -616,34 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Starter Files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Solutions/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Starter Files/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Solutions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Starter Files/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1209">
@@ -651,35 +590,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Solutions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Starter Files/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Solutions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Starter Files/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_03/step_2/description.md">
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/description.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1087">
-            <caret line="51" column="31" selection-start-line="45" selection-end-line="51" selection-end-column="31" />
+          <first_editor relative-caret-position="265">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
@@ -688,25 +603,193 @@
     <entry file="file://$PROJECT_DIR$/lesson_04/step_1/description.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="93">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="81">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Solutions/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="35" />
+    <entry file="file://$PROJECT_DIR$/lesson_03/step_2/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1377">
+            <caret line="51" column="31" selection-start-line="45" selection-end-line="51" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/description.md">
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Solutions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Starter Files/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Solutions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Starter Files/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Starter Files/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_03/step_4/description.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="960">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <first_editor relative-caret-position="432">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1119">
+            <caret line="75" selection-start-line="75" selection-end-line="75" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Starter Files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_3/Solutions/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Starter Files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_2/Solutions/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Starter Files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Solutions/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1172">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Solutions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_1/Solutions/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Solutions/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="21" column="28" lean-forward="true" selection-end-line="47" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_4/Starter Files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_03/step_5/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="243">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_01/step_1/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="243">
+            <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_5/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="297">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_03/step_3/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="600">
+            <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson_04/step_3/description.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1119">
+            <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           </first_editor>
           <second_editor />
         </state>
