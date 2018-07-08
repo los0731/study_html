@@ -1,22 +1,22 @@
-body {
-  background: url("https://image.freepik.com/free-vector/matisse-inspired-shapes-seamless-pattern_1235-418.jpg")
-}
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
-.menu-wrap {
-  background-color: white;
-  max-width: 640px;
-  margin: 80px auto;
-  padding: 40px;
-  border-radius: 24px;
+body {
+  background: url("https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixlib=rb-0.3.5&s=bb0e76f1949725c83131d875abaa0f1a&auto=format&fit=crop&w=2602&q=80") no-repeat center center;
+  background-size: cover;
 }
 
 .menu {
-  border: 8px solid #FCE4EC;
-  padding: 24px; 
+  background-color: white;
+  max-width: 640px;
+  margin: 120px auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 40px 40px 80px -40px rgba(50,50,80,.4);
 }
 
 .header {
-  text-align: center; 
+  text-align: center;
+  font-family: 'Satisfy', cursive;
 }
 
 .header h4 {

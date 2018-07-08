@@ -19,7 +19,7 @@
     ```
 1. 이미지 다음 라인에 `h1`태그를 사용해서 카드 내용을 추가하기.  
     ```html
-    <h1>Happy Birthday. Hope you are having a great day Mechelle.</h1> 
+    <h1>Happy Birthday. Hope you are having a great day Michelle.</h1> 
     ```
 1. 카드 내용 다음 라인에 `h3`태그를 사용해서 카드의 작성자를 추가하기. 
     ```html
@@ -38,6 +38,9 @@
 **Instructions**
 1. `<div class="birthday-card">` 아래에 `h6`태그를 추가하고, class를 `sources-link`로 적용하기.
     ```html
+    <div class="birthday-card">
+        ...
+    </div>
     <h6 class="sources-link"></h6>
     ```
 1. `h6`태그 안에 `a`태그를 추가하고, 출처 내용과 링크를 적용하기.  
