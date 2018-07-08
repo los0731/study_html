@@ -6,12 +6,12 @@ body {
 }
 
 .business-card {
+  background-color: white;
   margin: 40px auto;
   padding: 40px;
   border-radius: 8px;
   width: 240px;
   text-align: center;
-  background-color: white;
   box-shadow: 0 16px 32px -16px #B0BEC5;
 }
 
