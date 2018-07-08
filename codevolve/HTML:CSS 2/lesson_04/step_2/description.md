@@ -91,5 +91,5 @@
 * `colspan`이 무엇인가요? 
     > `td`, `th`태그의 attribute중 하나인 `colspan`은 각 셀을 가로로 병합합니다. 예를들어 `colspan="2"`는 2칸을 병합하라는 의미입니다. 만약 세로로 병합하고 싶다면 `rowspan="2"`을 사용할 수 있습니다.
 
-[1]: https://www.google.co.kr/search?ei=ECs-W6KxK8fh-AbF-5HIBQ&amp;amp;amp;q=html+table+generator&amp;amp;amp;oq=html+table+generator&amp;amp;amp;gs_l=psy-ab.3...290762.293424.0.295063.0.0.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..0.0.0....0.v4501Hu84LM
+[1]: https://www.google.co.kr/search?ei=ECs-W6KxK8fh-AbF-5HIBQ&amp;amp;amp;amp;q=html+table+generator&amp;amp;amp;amp;oq=html+table+generator&amp;amp;amp;amp;gs_l=psy-ab.3...290762.293424.0.295063.0.0.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..0.0.0....0.v4501Hu84LM
 
