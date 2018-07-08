@@ -3,7 +3,7 @@
 우리는 아주 옅은 회색의 배경에 명함 한 장이 떠 있는 모습을 연출할 겁니다. `div`태그를 사용하여 명함의 틀을 만들는 것으로 시작합니다. 
 
 **Instructions**
-1. `body`태그 안에 `div`태그를 추가하고, class 이름을 `business-card`로 적용하기. 
+1. `body`태그 안에 `div`태그를 추가하고, 클래스 이름을 `business-card`로 적용하기. 
     ```html
     <div class="business-card"></div>
     ```
@@ -11,22 +11,22 @@
 
 
 # 명함 내용 채우기
-`<div class="business-card">` 안에 카드의 요소들을 추가합니다. 이 명함에는 컨셉을 잘 나타내주는 이미지와, 이름, 직업, 전화번호, 이메일이 있습니다. 이미지는 iconfinder.com에서 가져오도록 하겠습니다. 저는 순서가 없는 리스트 태그를 사용해서 직업, 전화번호, 이메일 정보를 나열할 겁니다.
+`<div class="business-card">` 안에 카드의 요소들을 추가합니다. 이 명함에는 컨셉을 잘 나타내주는 이미지와, 이름, 정보(직업, 전화번호, 이메일)가 있습니다. 이미지는 `iconfinder.com`에서 가져오고, 순서가 없는 리스트 태그를 사용해서 정보(직업, 전화번호, 이메일)를 나열할 겁니다.
 
 **Instructions**
-1. `img`태그를 추가하고, alt attribute를 `Profile image`, 클래스를 `image`로 적용하기. 
+1. `img`태그를 추가하고, 클래스를 `image`로, alt attribute를 `Profile image`로 적용하기. 
     ```html
     <img class="image" src="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Orc-512.png" alt="Profile image">
     ```
-1. 이미지 다음 라인에 `h1`태그를 사용해서 이름을 추가하고, 클래스를 `name`으로 적용하기.  
+1. `h1`태그를 사용해서 이름을 추가하고, 클래스를 `name`으로 적용하기.  
     ```html
     <h1 class="name">Jonathan Harris</h1> 
     ```
-1. 이름 다음 라인에 `ul`태그를 사용해서 카드의 작성자를 추가하고, 클래스를 `information`으로 적용하기. 
+1. `ul`태그를 추가하고, 클래스를 `information`으로 적용하기. 
     ```html
     <ul class="information"></ul>
     ```
-1. `ul`태그 안에 `li`태그를 사용해서 직업, 전화번호, 이메일을 추가하기. 
+1. `ul`태그 안에 `li`태그를 사용해서 직업, 전화번호, 이메일과 각 클래스 
     ```html
     <ul class="information">
       <li class="job">Orc</li>

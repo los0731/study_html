@@ -20,24 +20,24 @@
 
 ## 명함
 `business-card`는 화면의 가운데 위치해야 하고, 특정 넓이와, 모서리가 둥글어야합니다. 이 외에도 글자 정렬, 배경 컬러, 그림자를 스타일링 합니다. 여기서 배경 컬러가 [Google Colors][1]에서 Blue Grey 50이기 때문에, 그림자의 컬러는 Blue Grey 200으로 하겠습니다. 
-* `business-card`의 margin은 위/아래 `40px`, 좌/우 `auto`입니다.
-* `business-card`의 padding은 `40px`입니다.
-* `business-card`의 border-radius은 `8px`입니다.
-* `business-card`의 넓이는 `240px`입니다. 
-* `business-card`의 글자 정렬은 `center`입니다.
-* `business-card`의 배경 컬러는 `white`입니다.
-* `business-card`의 그림자는 x축 `0`, y축 `16px`, 퍼짐(blur) `32px`, 크기 `-16px`, 컬러 `#B0BEC5;` 입니다.
+* 배경 컬러는 `white`입니다.
+* margin은 위/아래 `40px`, 좌/우 `auto`입니다.
+* padding은 상-하-좌-우 모두 `40px`입니다.
+* border-radius은 `8px`입니다.
+* 넓이는 `240px`입니다. 
+* 글자 정렬은 `center`입니다.
+* 그림자는 x축 `0`, y축 `16px`, 퍼짐(blur) `32px`, 크기 `-16px`, 컬러 `#B0BEC5;` 입니다.
 
 **Instructions**
 1. `business-card`의 스타일 적용하기.
     ```css
     .business-card {
+      background-color: white;
       margin: 40px auto;
       padding: 40px;
       border-radius: 8px;
       width: 240px;
       text-align: center;
-      background-color: white;
       box-shadow: 0 16px 32px -16px #B0BEC5;
     }
     ```
