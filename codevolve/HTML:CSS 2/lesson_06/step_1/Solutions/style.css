@@ -7,15 +7,15 @@ body {
   margin: 80px auto;
   max-width: 350px;
   box-shadow: 0 20px 20px rgba(0, 0, 0,.08);
-  transition: .16s;
+  transition: .24s;
 }
 
 .card:hover {
-  transform: translateY(-24px);
   box-shadow: 0 40px 40px rgba(0, 0, 0,.16);
+  transform: translateY(-20px);
 }
 
-a.featured {
+a {
   text-decoration: none;
   color: #1D2129;
 }
@@ -34,9 +34,9 @@ a.featured {
 
 .card-block {
   padding: 24px;
-  background-color: white;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  background-color: white;
 }
 
 .card-title {
@@ -48,15 +48,15 @@ a.featured {
 
 .card-description {
   margin: 12px 0 0 0;
+  display: -webkit-box;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  display: -webkit-box;
+  color: #4B4F56;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #4B4F56;
 }
 
 .card-hr {
@@ -69,8 +69,8 @@ a.featured {
 .card-tag {
   margin: 16px 0 0 0;
   font-size: 12px;
-  color: #90949C;
   font-weight: 400;
+  color: #90949C;
 }
 
 .card-tag {display: none;}
