@@ -1,81 +1,70 @@
-# 스타일
-## body
-페이스북 디자인 페이지는 배경의 아주 약한 grey를 사용합니다. 또 전체 영역에 별도의 서체를 지정하고 있어요.
-* `body`의 배경 컬러는 `#FCFCFC`입니다.
-* 서체는 `'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif`입니다.
-
+## 컨텐트
+컨텐트 영역에는 구글 로고 이미지와 검색 입력폼이 있습니다. 그리고 `Google Search`, `I'm Feeling Lucky` 버튼도 있습니다.
 
 **Instructions**
-1. `body`의 스타일 적용하기. 
-    ```css
-    body {
-    	background-color: #FCFCFC;
-    	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    }
+1. `<div class="content">` 안에 `img` 태그를 추가하고, src를 `https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png`, alt를 `Google`로, width를 `272`로 적용하기.
+    ```html
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272">  
+    ```
+1. 이미지 아래에 `div`태그를 추가하고, 클래스를 `form-search-wrap`으로 적용하기 
+    ```html
+    <div class="form-search-wrap"></div>       
+    ```
+1. `<div class="form-search-wrap">`안에 `a`태그를 추가하고 클래스를 `btn-voice`로 적용, 내용에 `mic`아이콘을 추가하기. 그리고 `input`태그를 추가하고 type을 `text`로, 클래스를 `form-search`로 적용하기   
+    ```html
+    <div class="form-search-wrap">
+      <a href="" class="btn-voice"><i class="material-icons">mic</i></a>
+      <input type="text" class="form-search">
+    </div>
+    ```
+1. `<div class="form-search-wrap">` 다음에 `div`태그를 추가하고 클래스를 `buttons-wrap`로 적용하기  
+    ```html
+    <div class="buttons-wrap"></div>
+    ```
+1. `<div class="form-search-wrap">` 안에 2개의 `a`태그를 추가하고 각각 클래스를 `btn-search`, `btn-lucky`로 적용 후 내용 채우기. 
+    ```html
+    <div class="buttons-wrap">
+      <a href="" class="btn-search">Google Search</a>
+      <a href="" class="btn-lucky">I'm Feeling Lucky</a>
+    </div>
     ```
 
 
 
-## 카드
-카드의 스타일을 지정해 봅시다.  
+## 푸터
+푸터는 문서에 대한 꼬릿말로서, 그 문서에 대한 정보를 담고 있습니다. 보통 회사 정보나, 이용약관, 개인정보 보호정책, 그리고 몇몇 다른 링크를 첨부하죠. Google 검색 페이지는 다음의 정보들을 담고 있습니다. 
+> * Privacy
+> * Terms
+> * Settings
+> * Advertising
+> * Business
 
-* `.card`의 마진은 margin은 상-하 `80px` 좌-우 `auto`입니다.
-* 최대 넓이는 `350px`입니다.
-* 그림자는 x축 `0`, y축 `20px`, 퍼짐(blur) `20px`, 컬러 `rgba(0, 0, 0,.08)` 입니다. 
-* 외곽 모서리의 반지름은 `3px`입니다.
-* Transition은 `.24s`입니다.
-
+그리고 Privacy, Terms, Settings는 오른편에, 나머지는 왼편에 배치되어있습니다. 따라서 `navigation`과 마찬가지로 양쪽 영역을 구분합니다.
 
 **Instructions**
-1. `.card`클래스의 스타일 적용하기.
-    ```css
-    .card {
-    	margin: 80px auto;
-    	max-width: 350px;
-    	box-shadow: 0 20px 20px rgba(0, 0, 0,.08);
-        border-radius: 3px;
-    	transition: .24s;
-    }
+1. `<footer class="footer">` 안에 2개의 `div`태그 추가하고, 클래스를 각각 `footer-right`, `footer-left`으로 적용하기. 
+    ```html
+    <footer class="footer">
+      <div class="footer-right"></div>
+      <div class="footer-left"></div>
+    </footer>
+    ```
+1. `<div class="footer-right">` 안에 3개의 `a`태그 추가하고 각각 내용 채우기. 
+    ```html
+    <div class="footer-right">
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Settings</a>
+    </div>
+    ```
+1. `<div class="nav-right">`태그 안에 2개의 `a`태그 추가하고 각각 내용 채우기.   
+    ```html
+    <div class="footer-left">
+      <a href="">Advertising</a>
+      <a href="">Business</a>
+    </div>
     ```
 
 
-
-## 카드에 마우스를 올렸을 때.
-Hover는 해당 요소에 마우스를 올린 상태를 말합니다. 마우스를 사용하는 데스크탑에서 클릭이 가능한 상태라는걸 설명하는 가장 좋은 UI가 hover입니다. 카드의 hover 스타일을 지정해봅시다. 위에 사용한 `transition: .24s;`에 의해서, 일반 상태에서 hover 상태로, hover 상태에서 일반 상태로 더 부드럽게 변화하게 됩니다.
-
-* `.card:hover`의 그림자는 x축 `0`, y축 `40px`, 퍼짐(blur) `40px`, 컬러 `rgba(0, 0, 0,.16)` 입니다.
-* 위로 20px만큼 이동합니다.
-
-
-**Instructions**
-1. `.card:hover`클래스의 스타일 적용하기.
-    ```css
-    .card:hover {
-    	box-shadow: 0 40px 40px rgba(0, 0, 0,.16);
-    	transform: translateY(-20px);
-    }
-    ```
-
-
-
-## a 태그
-이 카드는 hypertext가 적용되어 있어서, blue 컬러와 underline이 적용되어 있습니다. 따라서 a 태그에서 이런 데코레이션들을 제거해 주어야 합니다. 
-
-* `a`의 `text-decoration`은 `none`입니다.
-* 글씨 컬러는 `#1D2129`입니다.
-
-**Instructions**
-1. `a`의 스타일 적용하기.
-    ```css
-    a {
-    	text-decoration: none;
-    	color: #1D2129;
-    }
-    ```
-
-
-
-
-
-다음 스탭에서 카드의 세부 요소들을 스타일링 합니다. **NEXT STEP** 버튼을 클릭하세요.
+ **NEXT STEP** 버튼을 클릭하세요.
 
