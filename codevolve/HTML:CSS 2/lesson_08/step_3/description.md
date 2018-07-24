@@ -1,70 +1,104 @@
-## 컨텐트
-컨텐트 영역에는 구글 로고 이미지와 검색 입력폼이 있습니다. 그리고 `Google Search`, `I'm Feeling Lucky` 버튼도 있습니다.
+# 시작하기 전에 - 구글 아이콘
+이 페이지에는 음성 검색 버튼과 구글 Apps 버튼에 아이콘을 사용할 예정입니다. 아이콘 이미지를 사용하는 방법은 여러가지가 있지만 (예를들어 이미지를 첨부할 수도 있고요.) 이 레슨에서는 웹 아이콘 폰트를 사용할 겁니다. `head`태그에 아이콘을 사용하기 위한 한줄의 코드가 첨부 되어있습니다. 
+
+```html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+이 코드가 추가된 상태에서 `i`태그를 사용해서 아이콘을 추가할 수 있습니다. 
+
+```html
+<i class="material-icons">mic</i>
+<i class="material-icons">accessibility</i>
+<i class="material-icons">assessment</i>
+<i class="material-icons">alarm</i>
+```
+
+또 이 아이콘에 클래스를 추가하여 아이콘의 [크기를 조절][3]할 수 있습니다. 
+```html
+<i class="material-icons md-18">mic</i>
+<i class="material-icons md-24">accessibility</i>
+<i class="material-icons md-36">assessment</i>
+<i class="material-icons md-48">alarm</i>
+```
+
+이 아이콘 폰트를 사용하는 더 자세한 방법을 알아보고 싶다면 [Material Design - Icon][2] 항목에 자세한 가이드가 나와있습니다.
+
+
+
+# 시작하기
+이 페이지는 크게 3부분으로 구분합니다. 네이게이션 영역, 컨텐트 영역, 푸터 영역입니다. 큰 뼈대 먼저 추가합니다.
 
 **Instructions**
-1. `<div class="content">` 안에 `img` 태그를 추가하고, src를 `https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png`, alt를 `Google`로, width를 `272`로 적용하기.
+1. `body`태그 안에 `nav`태그를 추가하고, class는 `navigation`으로 적용하기. 
     ```html
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272">  
+    <body>
+      <nav class="navigation"></nav>
+    </body>
     ```
-1. 이미지 아래에 `div`태그를 추가하고, 클래스를 `form-search-wrap`으로 적용하기 
+1. `<nav class="navigation">` 다음에 `div`태그를 추가하고, class는 `content`로 적용하기. 
     ```html
-    <div class="form-search-wrap"></div>       
+    <div class="content"></div>
     ```
-1. `<div class="form-search-wrap">`안에 `a`태그를 추가하고 클래스를 `btn-voice`로 적용, 내용에 `mic`아이콘을 추가하기. 그리고 `input`태그를 추가하고 type을 `text`로, 클래스를 `form-search`로 적용하기   
+1. `<div class="content">` 다음에 `footer`태그를 추가하고, class는 `footer`로 적용하기. 
     ```html
-    <div class="form-search-wrap">
-      <a href="" class="btn-voice"><i class="material-icons">mic</i></a>
-      <input type="text" class="form-search">
-    </div>
-    ```
-1. `<div class="form-search-wrap">` 다음에 `div`태그를 추가하고 클래스를 `buttons-wrap`로 적용하기  
-    ```html
-    <div class="buttons-wrap"></div>
-    ```
-1. `<div class="form-search-wrap">` 안에 2개의 `a`태그를 추가하고 각각 클래스를 `btn-search`, `btn-lucky`로 적용 후 내용 채우기. 
-    ```html
-    <div class="buttons-wrap">
-      <a href="" class="btn-search">Google Search</a>
-      <a href="" class="btn-lucky">I'm Feeling Lucky</a>
-    </div>
+    <footer class="footer"></footer>
     ```
 
 
 
-## 푸터
-푸터는 문서에 대한 꼬릿말로서, 그 문서에 대한 정보를 담고 있습니다. 보통 회사 정보나, 이용약관, 개인정보 보호정책, 그리고 몇몇 다른 링크를 첨부하죠. Google 검색 페이지는 다음의 정보들을 담고 있습니다. 
-> * Privacy
-> * Terms
-> * Settings
-> * Advertising
-> * Business
+## 네비게이션
+nav 태그는 탐색 링크들의 집합을 정의합니다. 눈으로 화면을 보지 않는 사람들을 위한 화면 판독기는 nav태그를 인식해서 페이지를 더 쉽게 탐색할 수 있도록 도와주기도 합니다. 이 페이지는 다음의 링크들을 가지고 있습니다.
+> * About link
+> * Store link
+> * Gmail link
+> * Images link
+> * Apps button
+> * Sign In button
 
-그리고 Privacy, Terms, Settings는 오른편에, 나머지는 왼편에 배치되어있습니다. 따라서 `navigation`과 마찬가지로 양쪽 영역을 구분합니다.
+그리고 About, Store는 왼편에, 나머지는 오른편에 배치되어있습니다. 따라서 왼쪽 영역과 오른쪽 영역을 구분합니다. 
 
 **Instructions**
-1. `<footer class="footer">` 안에 2개의 `div`태그 추가하고, 클래스를 각각 `footer-right`, `footer-left`으로 적용하기. 
+1. `<nav class="navigation">`태그 안에 2개의 `div`태그 추가하고, 클래스를 각각 `nav-left`, `nav-right`으로 적용하기. 
     ```html
-    <footer class="footer">
-      <div class="footer-right"></div>
-      <div class="footer-left"></div>
-    </footer>
+    <nav class="navigation">
+      <div class="nav-left"></div>
+      <div class="nav-right"></div>
+    </nav>
     ```
-1. `<div class="footer-right">` 안에 3개의 `a`태그 추가하고 각각 내용 채우기. 
+1. `<div class="nav-left">`태그 안에 2개의 `a`태그 추가하고 각각 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
     ```html
-    <div class="footer-right">
-      <a href="">Privacy</a>
-      <a href="">Terms</a>
-      <a href="">Settings</a>
+    <div class="nav-left">
+      <a href="">About</a>
+      <a href="">Store</a>
     </div>
     ```
-1. `<div class="nav-right">`태그 안에 2개의 `a`태그 추가하고 각각 내용 채우기.   
+1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `a`태그 추가하고 각각 내용 채우기. 버튼을 사용할 마지막 2개의 태그에는 클래스를 각각 `btn btn-apps`, `btn btn-sign-in`으로 적용하기. 그리고 3번째 태그에는 `apps`아이콘을 추가하고 크기 조절하는 클래스 `md-24`을 적용하기.   
     ```html
-    <div class="footer-left">
-      <a href="">Advertising</a>
-      <a href="">Business</a>
+    <div class="nav-right">
+      <a href="">Gmail</a>
+      <a href="">Images</a>
+      <a href="" class="btn btn-apps"><i class="material-icons md-24">apps</i></a>
+      <a href="" class="btn btn-sign-in">Sign in</a>
     </div>
     ```
 
 
- **NEXT STEP** 버튼을 클릭하세요.
 
+다음 페이지에서 컨텐트와 푸터의 HTML 코드를 작성합니다.
+**NEXT STEP** 버튼을 클릭하세요.
+
+
+
+## TIPS!
+
+- `head`태그 안에 추가하는 css 태그 `<link rel="stylesheet" href="...">`를 추가하는 순서가 있는건가요? 
+
+  > 네. 결론적으로 아래에 추가된 코드일 수록 우선순위가 높습니다. 따라서 가장 공통적이고 보편적인 스타일일 담당하는 코드를 위에, 상세한 스타일을 담당하는 코드를 아래에 둡니다.  
+  > ```html
+    `style-A.css`파일과 `style-B.css`파일을 사용한다고 생각합시다. 우리는 제품을 만드는 과정에서 style-A에서는 `h1 {color: black;}`이라고 하고, `style-B`에서는 `h1 {color: blue;}`로 지정하는 경우를 쉽게 만날 수 있습니다. 이때 어떤 스타일을 더 최종적으로 적용해야 할지 기준이 필요합니다. 
+    ```
+
+
+[2]:https://material.io/tools/icons
+[3]:https://google.github.io/material-design-icons/#styling-icons-in-material-design

@@ -1,141 +1,37 @@
-# 네비게이션
-네비게이션 부분의 스타일을 정의해봅시다. 우선 네비게이션 안에는 `.nav-left`와 `.nav-right`가 있는데, 이 두개의 `div` 태그를 좌우에 배치해야합니다. 내부 요소들을 가로로 배치하기 좋은 방법은 `flex`를 이용하는 것입니다.
-
-* `.navigation`의 display는 flex입니다.
-* 내부 요소들이 가로 방향으로 중심축이 같도록 합니다. 
-* 내부 요소들이 좌우의 끝에 배치되도록 합니다.
-* 패딩은 위에서부터 시계방향으로 `16px 30px 16px 10px`입니다.
+# 스타일
+## body
+이 페이지는 전체적으로 arial 서체를 사용합니다. 하나씩 스타일을 적용해 갑시다.
+* `body`의 마진은 `0`입니다.
+* 서체는 `arial,sans-serif`입니다.
 
 
 **Instructions**
-1. `.navigation`클래스의 스타일 적용하기.
+1. `body`의 스타일 적용하기. 
+
     ```css
-    .navigation {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 16px 30px 16px 10px;
+    body {
+      margin: 0;
+      font-family: arial,sans-serif;
     }
     ```
 
 
 
-## navigation 내부의 `a`태그
-네비게이션 안에 있는 `a`태그의 스타일을 정리합니다.    
+## a 태그
+역시 모든 a 태그에 공통적으로 underline을 제거합니다. 
 
-- `.navigation a`의 왼쪽 마진은 `15px`입니다.
-- 글씨 크기는 13px입니다.
-- 행간은 16px입니다.
-- 글씨 컬러는 #333입니다.
+* `a`의 text-decoration은 none입니다.
+
 
 **Instructions**
-
-1. `.navigation a`의 스타일 적용하기.
-   ```css
-   .navigation a {
-     margin-left: 15px;
-     font-size: 13px;
-     line-height: 16px;
-     color: #333;
-   }
-   ```
+1. `a`의 스타일 적용하기.
+    ```css
+    a {
+      text-decoration: none;
+    }
+    ```
 
 
 
-## navigation 내부의 `a`태그 - hover
-네비게이션 안에 있는 `a`태그에 마우스를 올린 `hover` 상태에 대한 스타일이 필요합니다. 거기에 더해서 `.btn`클래스를 가진 `a` 태그는 별도의 스타일을 정의할 것이기 때문에, 여기서는 제외 해야합니다. 따라서 `:hover`와 `:not`선택자를 같이 활용합니다.   
+**NEXT STEP** 버튼을 클릭하세요.
 
-- `.navigation a:hover:not(.btn)`의 투명도는 `.85`입니다.
-- 글씨에 `underline`이 적용됩니다.
-
-**Instructions**
-1. `.navigation a:hover:not(.btn)`의 스타일 적용하기.
-   ```css
-   .navigation a:hover:not(.btn) {
-     opacity: .85;
-     text-decoration: underline;
-   }
-   ```
-
-
-
-## navigation 내부의 btn-apps
-네비게이션 안에 있는 `a.btn-apps`의 스타일을 정의합니다. 여기서 저는 그냥 `.btn-apps`를 사용하지 않고, `a.btn-apps`를 사용하는데요. 그냥 클레스만 사용할 경우, 더 높은 우선순위의 다른 프로퍼티가 적용될 수 있습니다. 따라서 태그와 클레스를 같이 사용해서 우선순위를 한 단계 높일 수 있습니다.      
-
-- `a.btn-apps`의 `display` 속성은 `flex`입니다.*
-- 패딩은 `3px`입니다.
-- 글씨 컬러는 `#737373`입니다.*
-
-**Instructions**
-1. `a.btn-apps`의 스타일 적용하기.
-   ```css
-   a.btn-apps {
-     display: flex;
-     padding: 3px;
-     color: #737373;
-   }
-   ```
-
-
-
-## navigation 내부의 btn-sign-in
-우측 상단에 Sign in 버튼의 스타일을 정의합니다.      
-
-- `a.btn-sign-in`의 패딩은 위/아래 `8px`, 좌우 `13px`입니다.
-- `border-radius`는 `2px`입니다.
-- 글씨 두깨는 `bold`입니다.
-- 행간은 `14px`입니다.
-- 글씨 컬러는 `white`입니다.
-- 배경 컬러는 `#4387fd`입니다.
-
-**Instructions**
-1. `a.btn-sign-in`의 스타일 적용하기.
-   ```css
-   a.btn-sign-in {
-     padding: 8px 13px;
-     border-radius: 2px;
-     font-weight: bold;
-     line-height: 14px;
-     color: white;
-     background-color: #4387fd;
-   }
-   ```
-  
-   
-
-## navigation 내부의 btn-sign-in - active
-어떤 요소에 마우스를 올리고 있는 상태를 `:hover`라고 합니다. 마우스를 클릭한 상태는 무엇일까요? Sign in 버튼의 `:active` 상태에 대한 스타일을 적용합니다.      
-- `a.btn-sign-in:active`의 배경 컬러는 `#3c7ae4` 입니다.
-- 그림자는 `inset 0 2px 0 rgba(0,0,0,.15)`입니다.
-
-**Instructions**
-1. `a.btn-sign-in`의 스타일 적용하기.
-   ```css
-   a.btn-sign-in {
-     padding: 8px 13px;
-     border-radius: 2px;
-     font-weight: bold;
-     line-height: 14px;
-     color: white;
-     background-color: #4387fd;
-   }
-   ```
-
-
-
-## navigation 내부의 nav-right
-Sign in 버튼까지 스타일리을 했다면 버튼들이 위-아래로 배치 되어있을 겁니다. `.nav-right`에 `flex`를 이용하여 버튼들을 가로로 정렬해 봅시다. 
-- `.nav-right`의 `display` 속성은 `flex`입니다.
-- 내부 요소들이 가로 방향으로 중심축이 같도록 합니다.
-
-**Instructions**
-1. `.nav-right`의 스타일 적용하기.
-   ```css
-   .nav-right {
-     display: flex;
-     align-items: center;
-   }
-   ```
-
-
-**NEXT STEP** 버튼을 클릭하세요. 
