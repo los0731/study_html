@@ -17,7 +17,7 @@ margin
 padding
 max-width
 width
-text-alignt
+text-align
 text-decoration
 line-height
 color

@@ -6,6 +6,8 @@
 
 ## 이 페이지의 구조
 
+![imaage](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-03.jpg)
+
 이 페이지는 명함 안에 순서대로 이미지, 이름, 리스트가 있는 구조입니다. 그리고 리스트의 항목들로 직업, 전화번호, 이메일이 있습니다. 
 
 ```
