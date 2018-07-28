@@ -39,7 +39,7 @@
 * `.headline-text`의 폰트 굵기는 `900`입니다.
 * `.sub-headline-text`의 폰트 굵기는 `400`입니다.
 * `.sub-headline-text`의 폰트 컬러는 `rgba(162, 164, 181, .8)`입니다.
-* `.body-text`의 마진은 상-하-좌-우 `0 0 80px 0`입니다.
+* `.content-text`의 마진은 상-하-좌-우 `0 0 80px 0`입니다.
 
 
 **Instructions**
@@ -63,9 +63,9 @@
         color: rgba(162,164,181,.8);
     }
     ```
-1. `.body-text`클래스의 스타일 적용하기.
+1. `.content-text`클래스의 스타일 적용하기.
     ```css
-    .body-text {
+    .content-text {
         margin: 0 0 80px 0;
     }
     ```
