@@ -1,26 +1,27 @@
-우리는 lesson1에서 Google Play의 서비스 이용약관 페이지를 만들었습니다. 이번에는 조금 더 복잡한 구조를 가지고 있는 [Medium의 정책 페이지][1]를 만듭니다. 
+Medium 정책 페이지
 
+우리가 레슨 1에서 만들었던 Google의 정책 페이지가 기억 나시나요? 이번에는 조금 더 보기 좋게 디자인 된 [Medium의 정책 페이지][https://legal.medium.com/]를 만들어 봅시다. 반복 또 반복입니다. 우리의 목표는 이미 사용해본 요소들을 반복적으로 사용해서 손에 익숙하게 만드는 것입니다.
 
-**이 페이지의 구조**
+### **이 페이지의 구조**
+
 ```
-|- 페이지
-    |- 네비게이션
-    |- 이미지
-        |- 본문
-            |- 세션
-                |- 제목
-                |- 부제목
-                |- 문단
-            |- 세션
-                |- 제목
-                |- 부제목
-                |- 문단    
+|- Body
+    |- Navigation
+    |- Hero Image
+    |- Container
+    |   |- Content
+    |   |   |- Headline Group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Content-text
+    |   |- Content
+    |   |   |- Headline Group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Content-text
+    |   |- ...
 ```
 
 
 
 **NEXT STEP** 버튼을 클릭하세요.
-
-
-
-[1]:https://legal.medium.com/

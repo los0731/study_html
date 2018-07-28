@@ -1,31 +1,17 @@
-# 완성
-이번 레슨도 고생하셨습니다. 이번 레슨에서 우리는 4개의 HTML tags와 13개의 CSS properties를 사용했습니다.   
+# 스타일
+## 미디어 쿼리란?
 
-HTML
-```
-div
-h1
-h3
-p
-```
+최근 사람들은 다양한 디바이스를 가지고 있고, 그 디바이스는 각기 다른 해상도와 화면 크기를 가지고 있습니다.
+미디어 쿼리란 해당 디바이스의 화면 크기에 맞게 웹 사이트 내의 콘텐츠를 다르게 표현하는 방식을 말합니다. 
 
-CSS
-```
-margin
-padding
-width
-height
-max-width
-color
-font-size
-font-weight
-font-family
-text-align
-line-height
-background
-background-size
-```
+* 만약 디바이스의 최대 넓이가 `990px`이라면 `.headline-text`의 폰트 사이즈를 `32px`로 줄여야 합니다.  
 
+**Instructions**
+1. `.headline-text`의 스타일 적용하기. 
+    ```css
+    @media (max-width: 990px) {
+        .headline-text {font-size: 32px;}
+    }
+    ```
 
-
-**NEXT STEP** 버튼을 클릭하시면 다음 레슨이 시작됩니다.
+모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.

@@ -51,8 +51,3 @@ body {
   .content-text {
     margin: 0 0 80px 0;
   }
-  
-  @media (max-width: 990px) {
-    .headline-text {font-size: 32px;} 
-  }
-  

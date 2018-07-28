@@ -1,74 +1,73 @@
 # 스타일
-## 본문
-본문의 스타일을 지정해 봅시다. 본문에 있는 내용은 페이지의 가운데에서만 보여집니다.
+## body
+바디의 스타일을 지정해 봅시다.  
 
-* `container`의 최대 넓이는 `630px`입니다.
-* `container`의 마진은 상-하 `0`, 좌-우 `auto`입니다.
-
-
-**Instructions**
-1. `container`의 스타일 적용하기. 
-    ```css
-    .cotainer {
-        max-width: 630px;
-        margin: 0 auto;
-    }
-    ```
-
-## 헤드라인 그룹
-제목과 부제목을 감싸고 있는 헤드라인 그룹의 스타일을 지정해 봅시다. 바디 텍스트와 명확히 구분하기 위해 마진을 이용해서 간격을 설정하고, 글씨체를 변경합니다. 
-
-* `.headline-group`의 마진은 상-하-좌-우 `64px 0 24px 0`입니다.
-* `.headline-group`의 폰트는 `sans-serif`입니다.
+* `body`의 마진과 패딩은 모두 `0`입니다.
+* `body`의 서체는 `"Times New Roman", Times, serif`입니다.
+* `body`의 폰트 컬러는 `#333`입니다.
+* `body`의 폰트 사이즈는 `18px`입니다.
+* `body`의 행간은 `1.58`입니다.
 
 
 **Instructions**
-1. `.headline-group`클래스의 스타일 적용하기.
+1. `body`의 스타일 적용하기. 
     ```css
-    .headline-group {
-    	margin: 64px 0 24px 0;
-        font-family: sans-serif;
-    }
-    ```
-
-
-## 제목, 부제목, 바디 텍스트 
-제목과 부제목, 바디 텍스트의 스타일을 지정해봅시다. 
-
-* `.headline-text`와 `.sub-headline-text`의 마진은 모두 `0`입니다.
-* `.headline-text`의 폰트 굵기는 `900`입니다.
-* `.sub-headline-text`의 폰트 굵기는 `400`입니다.
-* `.sub-headline-text`의 폰트 컬러는 `rgba(162, 164, 181, .8)`입니다.
-* `.content-text`의 마진은 상-하-좌-우 `0 0 80px 0`입니다.
-
-
-**Instructions**
-1. `.headline-text`와 `.sub-headline-text`클래스의 스타일 적용하기.
-    ```css
-    .headline-text,
-    .sub-headline-text {
+    body {
         margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", Times, serif;
+    	color: #333;
+        font-size: 18px;
+        line-height: 1.58;
     }
     ```
-1. `.headline-text`클래스의 스타일 적용하기.
+
+## 네비게이션바
+네비게이션바의 스타일을 지정해 봅시다.
+
+* `.navbar`의 폰트 사이즈는 `32px`입니다.
+* `.navbar`의 폰트 굵기는 `900`입니다.
+* `.navbar`의 행간은 `64px`입니다.
+* `.navbar`의 텍스트 정렬 방식은 `center`입니다.
+
+
+**Instructions**
+1. `.navbar`클래스의 스타일 적용하기.
     ```css
-    .headline-text {
+    .navbar {
+    	font-size: 32px;
         font-weight: 900;
-    }
-    ```
-1. `.sub-headline-text`클래스의 스타일 적용하기.
-    ```css
-    .sub-headline-text {
-        font-weight: 400;
-        color: rgba(162,164,181,.8);
-    }
-    ```
-1. `.content-text`클래스의 스타일 적용하기.
-    ```css
-    .content-text {
-        margin: 0 0 80px 0;
+        line-height: 64px;
+        text-align: center;
     }
     ```
 
+## 이미지
+페이지의 성격을 나타내는 hero 이미지의 스타일을 지정해 봅시다.
 
-다음 스탭에서는 미디어 쿼리에 대해서 알아봅니다. **NEXT STEP** 버튼을 클릭하세요.
+* `.hero`의 넓이는 `100%`입니다.
+* `.hero`의 높이는 `320px`입니다.
+* `.hero`의 배경 이미지는 `'https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'`입니다.
+* `hero`의 배경 사이즈는 `cover`*입니다.
+
+
+**Instructions**
+1. `.hero`클래스의 스타일 적용하기.
+    ```css
+    .hero {
+    	width: 100% 
+        height:320px;
+        background: url('https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center;
+        background-size: cover;  
+    }
+    ```
+
+## TIPS!
+
+- `background-size: cover;`은 어떤 의미인가요?
+
+  > 배경 이미지를 넣을 공간에 넓이와 높이를 설정하고, 이미지의 url을 가져오면 이미지를 넣을 수 있습니다. 다만 이미지 사이즈의 비율이 고려되지 않고 공간에 들어가기 때문에, 전체 이미지를 보여주기 위해서는 `background-size`속성을 `cover`로 설정해주어야 합니다.   
+
+
+다음 스탭에서 페이지의 본문을 스타일링 합니다. **NEXT STEP** 버튼을 클릭하세요.
+
