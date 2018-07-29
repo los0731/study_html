@@ -7,7 +7,7 @@
 **Instructions**
 1. `body`태그 안에 `div`태그를 추가하고, class 이름을 `container`로 적용하기.
     ```html
-    <div class="contianer"></div>
+    <div class=" "></div>
     ```
 
 

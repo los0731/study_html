@@ -1,25 +1,72 @@
-# 완성
-완성! 잘하셨습니다. 이번 레슨에서 우리는 6개의 HTML tags와 5개의 CSS properties를 사용했습니다.  
-
-HTML
-```
-div
-img
-h1
-h2
-h6
-p
-```
-
-CSS
-```
-margin
-padding
-max-width
-font-size
-line-height
-```
+# 스타일
+이 페이지에서 제목은 `h1`태그, 게시일은 `h6`태그, 소제목은 `h2`태그, 본문은 `p`태그로 사용되고 있습니다. 각 요소별로 스타일을 적용해야합니다.
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+## 제목 
+* `h1`태그의 margin은 위 `40px`, 오른쪽 `0`, 아래 `8px`, 왼쪽 `0` 입니다.
+* `h1`태그의 글씨 크기는 `ㅈ20px` 입니다.
+
+**Instructions**
+1. `<h1>`태그의 스타일 적용하기.
+    ```css
+    h1 {
+      margin: 40px 0 8px 0;
+      font-size: 20px;
+    }
+    ```
+
+
+
+## 게시일
+* `h6`태그의 margin은 위/아래 `8px`, 좌/우 `0` 입니다.
+* `h6`태그의 글씨 크기는 `12px` 입니다.
+
+**Instructions**
+1. `h6`태그의 스타일 적용하기.
+    ```css
+    h6 {
+      margin: 8px 0;
+      font-size: 12px;
+    }
+    ```
+ㄱ
+
+
+## 소제목
+* `h2`태그의 margin은 위 `16px`, 오른쪽 `0`, 아래 `8px`, 왼쪽 `0` 입니다.
+* `h2`태그의 글씨 크기는 `16px` 입니다.
+
+**Instructions**
+1. `<h2>`태그의 스타일 적용하기.
+    ```css
+    h2 {
+      margin: 16px 0 8px 0;
+      font-size: 16px;
+    }
+    ```
+
+
+
+## 본문
+* `p`태그의 margin은 위/아래 `8px`, 좌/우 `0` 입니다.
+* `p`태그의 글씨 크기는 `14px` 입니다.
+* `p`태그의 행간(글줄과 글줄 간의 간격)은 `22px` 입니다.
+
+**Instructions**
+
+1. `p`태그의 스타일 적용하기.
+    ```css
+    p {
+      margin: 8px 0;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    ```
+
+
+
+모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
+
+
+
