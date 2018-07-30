@@ -1,76 +1,130 @@
-# 여러개의 세션 만들기
+### 컨테이너
 
-앞서 Medium의 정책 페이지의 본문은 여러 개의 세션으로 구성되어 있고, 하나의 세션은 3가지 요소(제목, 부제목, 문단)로 구성되어 있다고 했습니다.
+로고와 히어로 이미지를 제외한 정책 페이지의 내용 요소들을 나열하면 아래와 같습니다.
 
-4개의 세션을 더 추가해보겠습니다.
+```
+|- Container
+    |   |- Content
+    |   |   |- Headline Group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Content-text
+    |   |- Content
+    |   |   |- Headline Group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Content-text
+    |   |- ...
+```
+
+요소들만 보면 헤드라인, 서브 헤드라인, 본문이 있습니다. 헤드라인과 서브 헤드라인은 헤드라인 그룹으로 묶여 있고, 헤드라인 그룹과 본문을 컨텐트로 묶여 있습니다. 컨테이너 안에는 여러개의 컨텐트들이 있습니다. 
+
+**Instructions**
 
 
-1. `container`class 안에 앞서 만들었던 `section`class를 추가하기.
+1. `<div class="hero">` 아래에 `<div>` 를 추가하고, `class="container"` 적용하기.
+
     ```html
-    <body>
-      <div class="navbar">Medium</div>
-      <div class="hero"></div>
-      <div class="container">
-        <div class="section">
-            <div class="headline-group">
-                <div class="headline-text">Intellectual property and privacy</div>
-                <div class="sub-headline-text">Your ownership and rights</div>
-            </div>
-            <p class="content-text">You own everything that you write on Medium. Medium won’t sell it to anyone else. If you decide to delete a post or your entire account, we won’t keep it. You can use Medium to make or remix creative works, and on every post, you can specify the appropriate license (including Creative Commons). If someone is using Medium to unlawfully copy or distribute your creative work without permission, or confuse people about your identity, company, or product, we’ll investigate and where appropriate, take it down. Medium doesn’t sell your personal information, and we respect Do Not Track.</p>
-        </div>
-      </div>
-    </body>
+    <div class="container"></div>
     ```
 
-1. `container`class 안에 앞서 만들었던 `section`class를 추가하기.
+    
+
+1. `<div class="container">` 안에 4개의  `<div>` 를 추가하고, `class="content"` 적용하기.
+
     ```html
-    <body>
-      <div class="navbar">Medium</div>
-      <div class="hero"></div>
-      <div class="container">
-        <div class="section">
-            <div class="headline-group">
-                <div class="headline-text">Trust and Safety</div>
-                <div class="sub-headline-text">Core to a thoughtful conversation</div>
-            </div>
-            <p class="content-text">On Medium, your trust and safety is not an afterthought. The way you feel when you interact with others on Medium is a core product feature. We think every day about how to make Medium a place for thoughtful, vigorous, civil conversation while also ensuring that Medium is free from harassment or intimidation.</p>
-        </div>
-      </div>
-    </body>
+    <div class="container">
+        <div class="content"></div>
+        <div class="content"></div>
+        <div class="content"></div>
+        <div class="content"></div>
+    </div>
     ```
 
-1. `container`class 안에 앞서 만들었던 `section`class를 추가하기.
+1. 첫번째 `<div class="content">` 안에 `<div>` 를 추가하고, `class="headline-group"` 적용하기.
+
     ```html
-    <body>
-      <div class="navbar">Medium</div>
-      <div class="hero"></div>
-      <div class="container">
-        <div class="section">
-            <div class="headline-group">
-                <div class="headline-text">Transparency</div>
-                <div class="sub-headline-text">Direct windows in</div>
-            </div>
-            <p class="content-text">Medium depends on our community’s trust. A key aspect of this is transparency – from writing our terms of service and other legal documents in plain, clear language to publishing an annual transparency report detailing takedowns and information requests, and sharing the rationale behind our decisions and processes.</p>
-        </div>
-      </div>
-    </body>
+    <div class="content">
+        <div class="headline-group"></div>
+    </div>
     ```
-1. `container`class 안에 앞서 만들었던 `section`class를 추가하기.
+
+1. `<div class="headline-group">` 안에 `<h1>` 를 추가하고, `class="headline-text"` 적용 후, 내용 채우기.
+
     ```html
-    <body>
-      <div class="navbar">Medium</div>
-      <div class="hero"></div>
-      <div class="container">
-        <div class="section">
-            <div class="headline-group">
-                <div class="headline-text">Advocacy</div>
-                <div class="sub-headline-text">Taking a stand for better internet</div>
-            </div>
-            <p class="content-text">Medium advocates for our users in a range of forums around the world, including amicus briefs filed in U.S. courts and statements to Congress and various agencies in the U.S., as well as bodies outside the U.S., like the European Union Commission. We influence discussions on issues that we think are critical to a better internet, such as transparency about government data requests, copyright reform, and strong security.</p>
-        </div>
-      </div>
-    </body>
+    <div class="headline-group">
+        <h1 class="headline-text">Legal @ Medium</h1>
+    </div>
     ```
+
+1. `<h1 class="headline-text">` 아래에 `<h3>` 를 추가하고, `class="sub-headline-text"` 적용 후, 내용 채우기.
+
+    ```html
+    <div class="headline-group">
+        <h1 class="headline-text">...</h1>
+        <h3 class="sub-headline-text">Making Medium fair and safe</h3>
+    </div>
+    ```
+
+1. `<div class="headline-group">` 아래에 `<p>` 를 추가하고, `class="content-text"` 적용 후, 내용 채우기.
+
+    ```html
+    <div class="headline-group">
+        <h1 class="headline-text">...</h1>
+        <h3 class="sub-headline-text">...</h3>
+        <p class="content-text">Ideas can only thrive in an environment governed by transparency, trust, and fairness – values that have shaped every aspect of Medium. Above all, Medium is a place that’s safe for anyone to participate. Below, we’ve broken down what you can expect when reading and writing on Medium.</p>
+    </div>
+    ```
+
+1. 위와 같은 방법으로, 두번째 `<div class="content">` 의 코드 작성하기.
+
+    ```html
+    <div class="content">
+        <div class="headline-group">
+          <h2 class="headline-text">Intellectual property and privacy</h2>
+          <h3 class="sub-headline-text">Your ownership and rights</h3>
+        </div>
+        <p class="content-text">You own everything that you write on Medium. Medium won’t sell it to anyone else. If you decide to delete a post or your entire account, we won’t keep it. You can use Medium to make or remix creative works, and on every post, you can specify the appropriate license (including Creative Commons). If someone is using Medium to unlawfully copy or distribute your creative work without permission, or confuse people about your identity, company, or product, we’ll investigate and where appropriate, take it down. Medium doesn’t sell your personal information, and we respect Do Not Track.</p>
+      </div>
+    ```
+
+1. 위와 같은 방법으로, 세번째 `<div class="content">` 의 코드 작성하기.
+
+    ```html
+    <div class="content">
+        <div class="headline-group">
+          <h2 class="headline-text">Trust and Safety</h2>
+          <h3 class="sub-headline-text">Core to a thoughtful conversation</h3>
+        </div>
+        <p class="content-text">On Medium, your trust and safety is not an afterthought. The way you feel when you interact with others on Medium is a core product feature. We think every day about how to make Medium a place for thoughtful, vigorous, civil conversation while also ensuring that Medium is free from harassment or intimidation.</p>
+      </div>
+    ```
+
+1. 위와 같은 방법으로, 네번째 `<div class="content">` 의 코드 작성하기.
+
+    ```html
+    <div class="content">
+        <div class="headline-group">
+          <h2 class="headline-text">Transparency</h2>
+          <h3 class="sub-headline-text">Direct windows in</h3>
+        </div>
+        <p class="content-text">Medium depends on our community’s trust. A key aspect of this is transparency – from writing our terms of service and other legal documents in plain, clear language to publishing an annual transparency report detailing takedowns and information requests, and sharing the rationale behind our decisions and processes.</p>
+      </div>
+    ```
+
+1. 위와 같은 방법으로, 마지막  `<div class="content">` 의 코드 작성하기.
+
+    ```html
+    <div class="content">
+        <div class="headline-group">
+          <h2 class="headline-text">Advocacy</h2>
+          <h3 class="sub-headline-text">Taking a stand for better internet</h3>
+        </div>
+        <p class="content-text">Medium advocates for our users in a range of forums around the world, including amicus briefs filed in U.S. courts and statements to Congress and various agencies in the U.S., as well as bodies outside the U.S., like the European Union Commission. We influence discussions on issues that we think are critical to a better internet, such as transparency about government data requests, copyright reform, and strong security.</p>
+      </div>
+    ```
+
+
 
 
 **NEXT STEP** 버튼을 클릭하세요.
