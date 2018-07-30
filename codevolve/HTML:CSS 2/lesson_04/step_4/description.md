@@ -9,7 +9,7 @@
     .table-receipt td {
     	padding: 24px 16px;
     	border-bottom: 2px solid #ECEFF1;
-    }
+    }C
     ```
     
     

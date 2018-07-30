@@ -18,15 +18,15 @@
     ```html
     <img class="image" src="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Orc-512.png" alt="Profile image">
     ```
-1. `h1`태그를 사용해서 이름을 추가하고, 클래스를 `name`으로 적용하기.  
+1. `h2`태그를 사용해서 이름을 추가하고, 클래스를 `name`으로 적용하기.  
     ```html
-    <h1 class="name">Jonathan Harris</h1> 
+    <h2 class="name">Jonathan Harris</h2> 
     ```
 1. `ul`태그를 추가하고, 클래스를 `information`으로 적용하기. 
     ```html
     <ul class="information"></ul>
     ```
-1. `ul`태그 안에 `li`태그를 사용해서 직업, 전화번호, 이메일과 각 클래스 
+1. `ul`태그 안에 `li`태그를 사용해서 직업, 전화번호, 이메일에 각 클래스 적용하기.  
     ```html
     <ul class="information">
       <li class="job">Orc</li>

@@ -1,17 +1,18 @@
 # HTML
-### 컨테이너
+### Container
 
-우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 이런 컨테이너 역할을 하는 태그는 여러가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `div`태그를 사용합니다.  
+우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 이런 컨테이너 역할을 하는 태그는 여러가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `div`태그를 사용합니다.
+
 
 **Instructions**
 1. `body`태그 안에 `div`태그를 추가하고, class 이름을 `container`로 적용하기.
     ```html
-    <div class="contianer"></div>
+    <div class=" "></div>
     ```
 
 
 
-### 내용
+### Content of Container
 이제부터 `<div class="container">` 안에 나머지 요소들을 추가합니다. 위에서부터 순서대로 이미지, 제목, 게시일, 소제목, 본문을 추가합니다. 
 
 **Instructions**
@@ -49,7 +50,7 @@
     <p>Content on Google Play is offered by Google Commerce Limited, and when you download, view, use or purchase Content on or using Google Play, you will enter into a separate contract based on these Terms (as applicable) with Google Commerce Limited.</p> 
     ```
     
-모두 완료했나요? `CSS` 없이 `HTML`만 작성하니 모습이 어색하지만, 괜찮습니다. 이렇게 `HTML`만으로 구조를 먼저 작성하는 것은 아주 좋은 습관입니다. 이제 `CSS`를 이용해서, 조금 더 스타일링을 해봅시다.
+모두 완료했나요? `CSS` 없이 `HTML`만 작성하니 모습이 어색하지만, 괜찮습니다. 이렇게 `HTML`만으로 구조를 먼저 작성하는 것은 아주 좋은 습관입니다. 이제 `CSS`를 이용해서, 스타일링을 해봅시다.
 
 
 

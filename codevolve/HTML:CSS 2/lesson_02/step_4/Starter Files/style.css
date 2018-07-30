@@ -12,16 +12,3 @@ body {
   text-align: center;
   box-shadow: 0 24px 40px -8px #311B92;
 }
-
-.birthday-card img {
-  width: 100%;
-}
-
-.source-link {
-  text-align: center;
-}
-
-.source-link a {
-  color: #311B92;
-  text-decoration: none;
-}

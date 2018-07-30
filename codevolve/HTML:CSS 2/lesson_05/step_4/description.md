@@ -38,7 +38,7 @@
 `menu` 클래스는 실제 메뉴판의 내용을 채우는 공간입니다.
 
 * `menu`의 경계선 두께는 `8px`, 선의 모양은 `solid`, 색깔은 `#FCE4EC` 입니다.
-* `menu`의 padding는 `24px`입니다.
+* `menu`의 paddingmen는 `24px`입니다.
 
 
 **Instructions**
