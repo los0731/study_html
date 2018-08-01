@@ -6,20 +6,21 @@
 ### 이 페이지의 구조
 ![image-1](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-01.jpg)
 
-코드를 작성하는것 만큼 중요한 것은, 그 구조를 이해하는 것입니다. 이 페이지는 하나의 묶음(컨테이너)에 로고 이미지와 글들이 순서대로 나열되어있습니다. 우리는 먼저 HTML을 이용해서 이 페이지의 뼈대를 잡아야합니다.
+코드를 작성하는것 만큼 중요한 것은, 그 구조를 이해하는 것입니다. 이 페이지는 하나의 묶음(Container)에 로고 이미지와 글들이 순서대로 나열되어있습니다. 우리는 먼저 HTML을 이용해서 이 페이지의 뼈대를 잡아야합니다.
 
 ```
-|- 컨테이너
-    |- 로고이미지
-    |- 제목
-    |- 게시일
-    |- 소제목 1 
-    |- 본문
-    |- 소제목 2
-    |- 본문
-    |- 소제목 3
-    |- 본문
-    |- ...
+|- Body
+    |- Container
+    |   |- Logo Image
+    |   |- Headline
+    |   |- Date
+    |   |- Sub-headline 1
+    |   |- Paragraph
+    |   |- Sub-headline 2
+    |   |- Paragraph
+    |   |- Sub-headline 3
+    |   |- Paragraph
+    |   |- ...
 ```
 
 
