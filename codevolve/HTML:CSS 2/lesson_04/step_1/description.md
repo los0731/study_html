@@ -10,7 +10,7 @@
 
 
 
-## 이 페이지의 구조
+### 이 페이지의 구조
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-04.jpg)
 

@@ -6,7 +6,7 @@
 
 **Instructions**
 
-1. `<body>` 안에 `<nav>`를 추가하고, `class="navbar"` 적용 후, 내용 채우기
+1. `<body>`안에 `<nav>`를 추가하고, `class="navbar"`적용 후, 내용 채우기
 
    ```html
    <body>
@@ -18,11 +18,11 @@
 
 ### 히어로 이미지
 
-페이지 상단에 있는 히어로 이미지 영역을 추가합니다. 이 영역은 `<div>` 로 빈 공간만 열어두고, 후에 CSS에서 다룹니다.
+페이지 상단에 있는 히어로 이미지 영역을 추가합니다. 이 영역은 `<div>`로 빈 공간만 열어두고, 후에 CSS에서 다룹니다.
 
 **Instructions**
 
-1. `<nav class="navbar">` 아래에 `<div>`를 추가하고, `class="hreo"` 적용 하기.
+1. `<nav class="navbar">`아래에 `<div>`를 추가하고, `class="hreo"`적용 하기.
 
    ```html
    <div class="hero"></div>

@@ -22,7 +22,7 @@
 **Instructions**
 
 
-1. `<div class="hero">` 아래에 `<div>` 를 추가하고, `class="container"` 적용하기.
+1. `<div class="hero">`아래에 `<div>`를 추가하고, `class="container"`적용하기.
 
     ```html
     <div class="container"></div>
@@ -30,7 +30,7 @@
 
     
 
-1. `<div class="container">` 안에 4개의  `<div>` 를 추가하고, `class="content"` 적용하기.
+1. `<div class="container">`안에 4개의  `<div>`를 추가하고, `class="content"`적용하기.
 
     ```html
     <div class="container">
@@ -41,7 +41,7 @@
     </div>
     ```
 
-1. 첫번째 `<div class="content">` 안에 `<div>` 를 추가하고, `class="headline-group"` 적용하기.
+1. 첫번째 `<div class="content">`안에 `<div>`를 추가하고, `class="headline-group"`적용하기.
 
     ```html
     <div class="content">
@@ -49,7 +49,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">` 안에 `<h1>` 를 추가하고, `class="headline-text"` 적용 후, 내용 채우기.
+1. `<div class="headline-group">`안에 `<h1>`를 추가하고, `class="headline-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -57,7 +57,7 @@
     </div>
     ```
 
-1. `<h1 class="headline-text">` 아래에 `<h3>` 를 추가하고, `class="sub-headline-text"` 적용 후, 내용 채우기.
+1. `<h1 class="headline-text">`아래에 `<h3>`를 추가하고, `class="sub-headline-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -66,7 +66,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">` 아래에 `<p>` 를 추가하고, `class="content-text"` 적용 후, 내용 채우기.
+1. `<div class="headline-group">`아래에 `<p>`를 추가하고, `class="content-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -76,7 +76,7 @@
     </div>
     ```
 
-1. 위와 같은 방법으로, 두번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 두번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -88,7 +88,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 세번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 세번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -100,7 +100,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 네번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 네번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -112,7 +112,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 마지막  `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 마지막  `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">

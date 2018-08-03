@@ -1,18 +1,18 @@
-# 시작하기
+# HTML
 이 페이지는 크게 3부분으로 구분합니다. 네이게이션 / 컨텐트 / 푸터입니다. 
 
 **Instructions**
-1. `<body>` 안에 `<nav>`를 추가하고, `class="navigation"` 적용하기. 
+1. `<body>`안에 `<nav>`를 추가하고, `class="navigation"`적용하기. 
     ```html
     <body>
       <nav class="navigation"></nav>
     </body>
     ```
-1. `<nav class="navigation">` 다음에 `<div>`를 추가하고, `class="content"` 적용하기. 
+1. `<nav class="navigation">`다음에 `<div>`를 추가하고, `class="content"`적용하기. 
     ```html
     <div class="content"></div>
     ```
-1. `<div class="content">` 다음에 `footer`태그를 추가하고, class는 `footer`로 적용하기. 
+1. `<div class="content">`다음에 `footer`태그를 추가하고, class는 `footer`로 적용하기. 
     ```html
     <footer class="footer"></footer>
     ```
@@ -31,21 +31,21 @@
 그리고 About, Store는 왼편에, 나머지는 오른편에 배치되어있습니다. 따라서 왼쪽 영역과 오른쪽 영역을 구분합니다. 
 
 **Instructions**
-1. `<nav class="navigation">`태그 안에 2개의 `div`태그 추가하고, 클래스를 각각 `nav-left`, `nav-right`으로 적용하기. 
+1. `<nav class="navigation">`태그 안에 2개의 `<div>`추가하고, 클래스를 각각 `nav-left`, `nav-right`으로 적용하기. 
     ```html
     <nav class="navigation">
       <div class="nav-left"></div>
       <div class="nav-right"></div>
     </nav>
     ```
-1. `<div class="nav-left">`태그 안에 2개의 `a`태그 추가하고 각각 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
+1. `<div class="nav-left">`태그 안에 2개의 `<a>` 추가하고 각각 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
     ```html
     <div class="nav-left">
       <a href="">About</a>
       <a href="">Store</a>
     </div>
     ```
-1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `a`태그 추가하고 각각 내용 채우기. 버튼을 사용할 마지막 2개의 태그에는 클래스를 각각 `btn btn-apps`, `btn btn-sign-in`으로 적용하기. 그리고 3번째 태그에는 `apps`아이콘을 추가하고 크기 조절하는 클래스 `md-24`을 적용하기.   
+1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a>` 추가하고 각각 내용 채우기. 버튼을 사용할 마지막 2개의 태그에는 클래스를 각각 `btn btn-apps`, `btn btn-sign-in`으로 적용하기. 그리고 3번째 태그에는 `apps`아이콘을 추가하고 크기 조절하는 클래스 `md-24`을 적용하기.   
     ```html
     <div class="nav-right">
       <a href="">Gmail</a>

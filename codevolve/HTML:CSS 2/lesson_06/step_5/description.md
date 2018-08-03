@@ -1,10 +1,10 @@
-## 타입과 태그
+### 타입과 태그
 카드의 최 하단에 위치한 타입과 테그 텍스트를 스타일링 해봅시다. `.card-type`와 `.card-tag`를 동시에 지정해 주어야 합니다.
 
 * `.card-type, .card-tag`의 마진은 위 `16px`, 나머지는 `0`입니다.*
 * 글씨 크기는 `12px`입니다.
 * 글씨 두깨는 `400`입니다.
-* 글씨 컬러는 `#90949C`입니다.
+* 글씨 색상은 `#90949C`입니다.
 
 
 **Instructions**
@@ -22,8 +22,8 @@
 
 
 
-## Hover
-이제 가장 다이네믹한 파트가 기다리고 있습니다. 평소에는 `VIEW MORE` 가 보이지 않고 있다가, 마우스를 올리면 `VIDEO`가 사라지고, `VIEW MORE`가 나타나야 합니다. 어떻게 할까요? 아래와 같이 한단계씩 알아봅시다.
+### Hover
+이제 가장 다이네믹한 파트가 기다리고 있습니다. 평소에는 `VIEW MORE`가 보이지 않고 있다가, 마우스를 올리면 `VIDEO`가 사라지고, `VIEW MORE`가 나타나야 합니다. 어떻게 할까요? 아래와 같이 한단계씩 알아봅시다.
 
 0.  `VIDEO`와 `VIEW MORE`가 있습니다.
 1. `VIEW MORE`는 보이지 않습니다.
@@ -39,13 +39,13 @@
     .card-tag {display: none;}
     ```
 
-2. `.card`가 `hover`상태일때, `.card` 안에 있는 `.card-type`이 사라지도록 `display`를 `none`으로 적용하기.
+2. `.card`가 `hover`상태일때, `.card`안에 있는 `.card-type`이 사라지도록 `display`를 `none`으로 적용하기.
 
     ```css
     .card:hover .card-type {display: none;}
     ```
 
-3. `.card`가 `hover`상태일때, `.card` 안에 있는 `.card-tag`가 나타나도록 `display`를 `block`으로 적용하기.
+3. `.card`가 `hover`상태일때, `.card`안에 있는 `.card-tag`가 나타나도록 `display`를 `block`으로 적용하기.
 
     ```css
     .card:hover .card-tag {display: block;}
@@ -57,7 +57,7 @@
 
 
 
-## TIPS!
+# TIPS!
 
 - 선택자는 좀 가물 가물 하네요. 두개의 클래스에 동시에 스타일을 적용하려고하면 어떻게 해야했죠?
 

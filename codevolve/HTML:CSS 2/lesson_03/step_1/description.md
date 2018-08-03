@@ -4,7 +4,7 @@
 이런 명함은 어떠신가요? 이번 레슨에서는 온라인 명함을 만듭니다. 
 
 
-## 이 페이지의 구조
+### 이 페이지의 구조
 
 ![imaage](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-03.jpg)
 
