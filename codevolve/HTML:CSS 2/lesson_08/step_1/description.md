@@ -14,29 +14,29 @@
 ```
 |- 네비게이션
     |- 왼쪽 영역
-        |- About    
-        |- Store
+    |   |- About    
+    |   |- Store
     |- 오른쪽 영역
-        |- Gmail
-        |- Images
-        |- Google apps 버튼
-        |- Sign in 버튼
-|-  컨텐트
+    |   |- Gmail
+    |   |- Images
+    |   |- Google apps 버튼
+    |   |- Sign in 버튼
+|- 컨텐트
     |- 구글 이미지
     |- 검색 바
-        |- 인풋 바
-        |- 음성 검색 버튼
+    |   |- 인풋 바
+    |   |- 음성 검색 버튼
     |- 버튼들
-        |- Google Search 버튼
-        |- I'm Feeling Lucky 버튼
+    |   |- Google Search 버튼
+    |   |- I'm Feeling Lucky 버튼
 |- 푸터
     |- 왼쪽 영역
-        |- Advertising
-        |- Business
+    |   |- Advertising
+    |   |- Business
     |- 오른쪽 영역 
-        |- Pricacy
-        |- Terms
-        |- Settings
+    |   |- Pricacy
+    |   |- Terms
+    |   |- Settings
 ```
 
 

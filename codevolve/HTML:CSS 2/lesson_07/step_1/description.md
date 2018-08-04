@@ -12,19 +12,19 @@
 
 ```
 |- Body
-    |- Navigation Bar
-    |- Hero Image
-    |- Container
-    |   |- Content
-    |   |   |- Headline Group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Content-text
-    |   |- Content
-    |   |   |- Headline Group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Content-text
+    |- 네비게이션 바
+    |- 히어로 이미지
+    |- 컨테이너
+    |   |- 컨텐트
+    |   |   |- 제목 그룹
+    |   |   |   |- 제목
+    |   |   |   |- 소제목
+    |   |   |- 본문
+    |   |- 컨텐트
+    |   |   |- 제목 그룹
+    |   |   |   |- 제목
+    |   |   |   |- 소제목
+    |   |   |- 본문
     |   |- ...
 ```
 
