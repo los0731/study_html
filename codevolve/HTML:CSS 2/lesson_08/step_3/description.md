@@ -12,7 +12,7 @@
     ```html
     <div class="content"></div>
     ```
-1. `<div class="content">`다음에 `footer`태그를 추가하고, class는 `footer`로 적용하기. 
+1. `<div class="content">`다음에 `footer`태그를 추가하고, `class="footer"` 적용하기. 
     ```html
     <footer class="footer"></footer>
     ```
@@ -20,7 +20,7 @@
 
 
 ## 네비게이션
-`<nav>`는 탐색 링크들의 집합을 정의합니다. 눈으로 화면을 보지 않는 사람들을 위한 화면 판독기는 `<nav>`를 인식해서 페이지를 더 쉽게 탐색할 수 있도록 도와주기도 합니다. 따라서 탐색 링크들이 모인 네비게이션 영역에는 이 `<nav>`를 사용하는 것이 좋습니다. 이 페이지의 네비게이션에는 다음의 링크들이 있습니다.
+`<nav>`는 탐색 링크들의 집합을 정의합니다. 눈으로 화면을 보지 않는 사람들을 위한 화면 판독기는 `<nav>`를 인식해서 페이지를 더 쉽게 탐색할 수 있도록 도와주기도 합니다.* 따라서 탐색 링크들이 모인 네비게이션 영역에는 이 `<nav>`를 사용하는 것이 좋습니다. 이 페이지의 네비게이션에는 다음의 링크들이 있습니다.
 > About link
 > Store link
 > Gmail link
@@ -31,21 +31,21 @@
 그리고 About, Store는 왼편에, 나머지는 오른편에 배치되어있습니다. 따라서 왼쪽 영역과 오른쪽 영역을 구분합니다. 
 
 **Instructions**
-1. `<nav class="navigation">`태그 안에 2개의 `<div>`추가하고, 클래스를 각각 `nav-left`, `nav-right`으로 적용하기. 
+1. `<nav class="navigation">`태그 안에 2개의 `<div>`를 추가하고, 각각 `class="nav-left"`, `class="nav-right"` 적용하기. 
     ```html
     <nav class="navigation">
       <div class="nav-left"></div>
       <div class="nav-right"></div>
     </nav>
     ```
-1. `<div class="nav-left">`태그 안에 2개의 `<a>` 추가하고 각각 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
+1. `<div class="nav-left">`태그 안에 2개의 `<a href="">`를 추가하고, 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
     ```html
     <div class="nav-left">
       <a href="">About</a>
       <a href="">Store</a>
     </div>
     ```
-1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a>` 추가하고 각각 내용 채우기. 버튼을 사용할 마지막 2개의 태그에는 클래스를 각각 `btn btn-apps`, `btn btn-sign-in`으로 적용하기. 그리고 3번째 태그에는 `apps`아이콘을 추가하고 크기 조절하는 클래스 `md-24`을 적용하기.   
+1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a href="">` 추가하고 각각 내용 채우기. 버튼으로 사용할 마지막 2개의 태그에는 각각 `class="btn btn-apps"`, `class="btn btn-sign-in"` 적용하기. 그리고 `<a href="" class="btn btn-apps">`에 `apps`아이콘을 추가하고 크기 조절하는 `class="md-24"` 적용하기.   
     ```html
     <div class="nav-right">
       <a href="">Gmail</a>
@@ -64,7 +64,7 @@
 
 ## TIPS!
 
-- `head`태그 안에 추가하는 css 태그 `<link rel="stylesheet" href="...">`를 추가하는 순서가 있는건가요? 
+- `<head>` 안에 추가하는 css 태그 `<link rel="stylesheet" href="...">`를 추가하는 순서가 있는건가요? 
 
   > 네. 아래에 추가된 코드일 수록 우선순위가 높습니다. 따라서 가장 공통적이고 보편적인 스타일일 담당하는 코드를 위에, 상세한 스타일을 담당하는 코드를 아래에 둡니다.  
   > ```html
