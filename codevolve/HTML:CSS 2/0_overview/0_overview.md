@@ -1,4 +1,4 @@
-# Goal Oriented HTML/CSS (Recipes)
+# HTML/CSS Recipes
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533081749/img-hero-08_ihzgkd.jpg)
 
