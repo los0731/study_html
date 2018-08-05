@@ -6,11 +6,11 @@
     ```html
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272">  
     ```
-1. 이미지 아래에 `<div>`를 추가하고, `class="form-search-wrap"` 적용하기 
+1. `<img>`  아래에 `<div>`를 추가하고, `class="form-search-wrap"` 적용하기 
     ```html
     <div class="form-search-wrap"></div>       
     ```
-1. `<div class="form-search-wrap">`안에 `<a>`를 추가하고 `class="btn-voice"`로 적용, 내용에 `mic`아이콘을 추가하기. 그리고 `<input>`를 추가하고 `type="text"`, `class="form-search"` 적용하기   
+1. `<div class="form-search-wrap">`안에 `<a>`를 추가하고 `class="btn-voice"`로 적용 및 내용에 `mic`아이콘을 추가하기. 그리고 `<input>`를 추가하고 `type="text"`, `class="form-search"` 적용하기   
     ```html
     <div class="form-search-wrap">
       <a href="" class="btn-voice"><i class="material-icons">mic</i></a>
@@ -21,7 +21,7 @@
     ```html
     <div class="buttons-wrap"></div>
     ```
-    1. `<div class="form-search-wrap">`안에 2개의 `<a>`를 추가하고 각각 `class="btn-search"`, `class="btn-lucky"` 적용 후 내용 채우기. 
+1. `<div class="form-search-wrap">`안에 2개의 `<a>`를 추가하고 각각 `class="btn-search"`, `class="btn-lucky"` 적용 및 내용 채우기. 
     ```html
     <div class="buttons-wrap">
       <a href="" class="btn-search">Google Search</a>

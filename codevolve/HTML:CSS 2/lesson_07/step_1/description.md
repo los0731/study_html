@@ -1,6 +1,6 @@
 # Medium Legal
 
-우리가 레슨 1에서 만들었던 Google의 정책 페이지가 기억 나시나요? 이번에는 조금 더 보기 좋게 디자인 된 [Medium의 정책 페이지][https://legal.medium.com/]를 만들어 봅시다. 이번 레슨은 Medium 정책 페이지가 가로 해상도 768 x 1280일때의 상태를 기준으로 만들어졌습니다. (아직은 @media query를 사용할 때가 아닙니다!)
+우리가 레슨 1에서 만들었던 Google의 정책 페이지가 기억 나시나요? 이번에는 조금 더 보기 좋게 디자인 된 [Medium의 정책 페이지][https://legal.medium.com/]를 만들어 봅시다. 
 
 
 
@@ -32,7 +32,7 @@
 
 ### 기본 서체
 
-Medium에는 별도의 서체를 사용하고 있습니다. 이번 레슨에는 Medium과 동일한 서체를 사용할 수는 없지만* 비슷한 서체를 사용할 수 있도록 CSS 코드가 첨부되어 있습니다. 서체는  [Google Fonts][https://fonts.google.com/] 에서 가져왔습니다.
+Medium에는 별도의 서체를 사용하고 있습니다. 이번 레슨에는 Medium과 동일한 서체를 사용할 수는 없지만 비슷한 서체를 사용할 수 있도록 CSS 코드가 첨부되어 있습니다. 서체는  [Google Fonts][https://fonts.google.com/] 에서 가져왔습니다.
 
 
 

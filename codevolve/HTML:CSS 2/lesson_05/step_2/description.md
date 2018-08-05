@@ -12,7 +12,7 @@
 
 ​    
 ### 헤더
-`<div class="menu-wrap">`안에 해더와 메뉴 아이템들을 채워넣어야 합니다. 헤더에는 카페의 로고와 카페 이름 정보를 담습니다.
+`<div class="menu-wrap">`안에 헤더와 메뉴 아이템들을 채워야 합니다. 헤더에는 카페의 로고와 카페 이름 정보를 담습니다.
 
 **Instructions**
 1. `<div class="menu-wrap">`안에 `<header>` 추가하기. 
@@ -27,7 +27,7 @@
       <img src="https://cdn0.iconfinder.com/data/icons/coffee-brewing-glyph/16/10-512.png" alt="Cafe Ferrol image" width="128">
     </header>
     ```
-1. `<img>` 아래에 `<h4>`를 추가하고, `class="header-title"` 적용 후 내용 채우기.
+1. `<img>` 다음에 `<h4>`를 추가하고, `class="header-title"` 적용 후 내용 채우기.
     ```html
     <img src="..." alt="..." width="...">
     <h4 class="header-title">Cafe Ferrol</h4> 
