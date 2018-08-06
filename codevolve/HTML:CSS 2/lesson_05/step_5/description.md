@@ -1,32 +1,37 @@
-## 완성
+# 완성
 잘했어요! 카페 메뉴판이 완성됬습니다.
-이번 레슨에서 우리는 4개의 HTML tags와 14개의 CSS properties를 사용했습니다.  
+이번 레슨에서 우리는 8개의 HTML 태그와 15개의 CSS 프로퍼티를 사용했습니다.  
 
 
 HTML
 ```
 div
+header
 h4
 img
-table(thead, tbody, tr, th, td)
+table
+tbody
+tr
+td
 ```
 
 CSS
 ```
-background
-background-color
-width
-max-width
 margin
 padding
-border
+width
+max-width
+min-height
+background
+background-size
 border-radius
-border-bottom
 text-align
+font-family
 font-weight
 font-size
+line-height
 color
-table-layout
+box-shadow
 ```
 
 

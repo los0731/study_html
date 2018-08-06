@@ -3,18 +3,17 @@
 로고와 히어로 이미지를 제외한 정책 페이지의 내용 요소들을 나열하면 아래와 같습니다.
 
 ```
-|- Container
-    |   |- Content
-    |   |   |- Headline Group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Content-text
-    |   |- Content
-    |   |   |- Headline Group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Content-text
-    |   |- ...
+    |- 컨테이너
+    |   |- 컨텐트
+    |   |   |- 제목 그룹
+    |   |   |   |- 제목
+    |   |   |   |- 소제목
+    |   |   |- 본문
+    |   |- 컨텐트
+    |   |   |- 제목 그룹
+    |   |   |   |- 제목
+    |   |   |   |- 소제목
+    |   |   |- 본문
 ```
 
 요소들만 보면 헤드라인, 서브 헤드라인, 본문이 있습니다. 헤드라인과 서브 헤드라인은 헤드라인 그룹으로 묶여 있고, 헤드라인 그룹과 본문을 컨텐트로 묶여 있습니다. 컨테이너 안에는 여러개의 컨텐트들이 있습니다. 가장 상위 태그부터 하나 하나 작성해봅시다.
@@ -22,7 +21,7 @@
 **Instructions**
 
 
-1. `<div class="hero">` 아래에 `<div>` 를 추가하고, `class="container"` 적용하기.
+1. `<div class="hero">`아래에 `<div>`를 추가하고, `class="container"`적용하기.
 
     ```html
     <div class="container"></div>
@@ -30,7 +29,7 @@
 
     
 
-1. `<div class="container">` 안에 4개의  `<div>` 를 추가하고, `class="content"` 적용하기.
+1. `<div class="container">`안에 4개의  `<div>`를 추가하고, `class="content"`적용하기.
 
     ```html
     <div class="container">
@@ -41,7 +40,7 @@
     </div>
     ```
 
-1. 첫번째 `<div class="content">` 안에 `<div>` 를 추가하고, `class="headline-group"` 적용하기.
+1. 첫번째 `<div class="content">`안에 `<div>`를 추가하고, `class="headline-group"`적용하기.
 
     ```html
     <div class="content">
@@ -49,7 +48,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">` 안에 `<h1>` 를 추가하고, `class="headline-text"` 적용 후, 내용 채우기.
+1. `<div class="headline-group">`안에 `<h1>`를 추가하고, `class="headline-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -57,7 +56,7 @@
     </div>
     ```
 
-1. `<h1 class="headline-text">` 아래에 `<h3>` 를 추가하고, `class="sub-headline-text"` 적용 후, 내용 채우기.
+1. `<h1 class="headline-text">`아래에 `<h3>`를 추가하고, `class="sub-headline-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -66,7 +65,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">` 아래에 `<p>` 를 추가하고, `class="content-text"` 적용 후, 내용 채우기.
+1. `<div class="headline-group">`아래에 `<p>`를 추가하고, `class="content-text"`적용 후, 내용 채우기.
 
     ```html
     <div class="headline-group">
@@ -76,7 +75,7 @@
     </div>
     ```
 
-1. 위와 같은 방법으로, 두번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 두번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -88,7 +87,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 세번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 세번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -100,7 +99,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 네번째 `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 네번째 `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">
@@ -112,7 +111,7 @@
       </div>
     ```
 
-1. 위와 같은 방법으로, 마지막  `<div class="content">` 의 코드 작성하기.
+1. 위와 같은 방법으로, 마지막  `<div class="content">`의 코드 작성하기.
 
     ```html
     <div class="content">

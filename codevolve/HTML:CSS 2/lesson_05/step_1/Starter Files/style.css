@@ -25,13 +25,11 @@ header {
 
 header h4 {
   margin: 0;
-  font-weight: 100;
   font-size: 40px;
   color: #FF5722;
 }
 
 .table-menu {
-
   margin: 40px 0 0 0;
   width: 100%;
   font-family: 'Questrial', sans-serif;
@@ -39,4 +37,3 @@ header h4 {
   color: #455A64;
   line-height: 40px;
 }
-
