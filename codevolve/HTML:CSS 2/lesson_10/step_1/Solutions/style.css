@@ -2,33 +2,184 @@ body {
 	margin: 0;
 }
 
+a, p, select {
+	transition: .2s .1s;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #1a73e8;
+	font-weight: 500;
+}
+
 .container {
-	margin: 24px auto;
-	padding: 0 16px;
-	max-width: 960px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-img {
-	width: 183px;
+.card-login-wrap {
+	padding: 24px;
+	max-width: 450px;
+	color: #212121;
 }
 
-h1 {
-	margin: 40px 0 8px 0;
-	font-size: 20px;
+.card-login {
+	padding: 40px 40px 64px 40px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
-h6 {
-	margin: 8px 0;
+.card-login-header {
+	text-align: center;
+}
+
+.logo {
+	margin-top: 8px;
+	width: 74px;
+}
+
+.headline {
+	margin: 16px 0 0 0;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.sub-headline {
+	margin: 8px 0 0 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.card-login-form {
+	margin-top: 64px;
+}
+
+.card-login-form input {
+	position: relative;
+	display: block;
+	padding: 8px 0;
+	width: 100%;
+	border: 0;
+	font-size: 16px;
+	background-color: transparent;
+	box-shadow: inset 0 -1px rgba(0,0,0,.12);
+	transition: .4s;
+	outline: none;
+}
+
+.card-login-form input + label {
+	position: absolute;
+	z-index: -1;
+	transition: .4s;
+	display: block;
+	font-size: 16px;
+	color: #757575;
+	transform: translateY(-26px);
+}
+
+.card-login-form input:focus {
+	box-shadow: inset 0 -2px #1a73e8;
+}
+
+.card-login-form input:focus + label,
+.card-login-form input:valid + label {
+	color: #1a73e8;
+	font-weight: bold;
+	font-size: 12px;
+	transform: translateY(-52px)
+}
+
+.btn-account-find {
+	display: inline-block;
+	margin: 40px 0 0 0;
+}
+
+.help {
+	margin: 48px 0 0 0;
+	color: #5f6368;
+}
+
+.card-login-buttons {
+	margin-top: 32px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: #f6fafe;
+}
+
+.btn-account-create {
+	margin-left: -8px;
+}
+
+.btn-next {
+	float: right;
+	padding: 8px 32px;
+	color: white;
+	background-color: #1a73e8;
+}
+
+.btn-next:hover {
+	background-color: #277AE6;
+	box-shadow: 0 1px 1px 0 rgba(66,133,244,0.45), 0 1px 3px 1px rgba(66,133,244,0.3);
+}
+
+.btn-next:active {
+	background-color: #3267D6;
+}
+
+.card-login-footer {
+	margin-top: 16px;
+}
+
+.btn-locale {
+	-webkit-appearance: none;
+	outline: none;
+	display: inline-block;
+	margin-left: -16px;
+	padding: 8px 28px 8px 16px;
+	border: 0;
+	font-size: 12px;
+	background-color: transparent;
+	background-image: url('https://image.flaticon.com/icons/svg/60/60995.svg');
+	background-repeat: no-repeat;
+	background-position: calc(100% - 14px) 50%;
+	background-size: 8px;
+}
+
+.btn-locale:focus {
+	background-color: #e0e0e0;
+}
+
+.list-footer {
+	list-style: none;
+	display: inline-block;
+	margin: 0 -16px 0 0;
+	padding: 0;
+	float: right;
+}
+
+.list-footer li {
+	display: inline-flex;
+}
+
+.list-footer .btn-list-footer {
+	padding: 8px 16px;
+	border-radius: 4px;
+	color: #757575;
 	font-size: 12px;
 }
 
-h2 {
-	margin: 16px 0 8px 0;
-	font-size: 16px;
-}
-
-p {
-	margin: 8px 0;
-	font-size: 14px;
-	line-height: 22px;
+.list-footer .btn-list-footer:focus {
+	background-color: #e0e0e0;
 }

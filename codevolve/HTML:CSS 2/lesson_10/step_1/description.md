@@ -1,5 +1,5 @@
 # Google Login
-실제로 서비스되고 있는 웹 페이지들이 모두 복잡한 `HTML`과 `CSS`로 이루어져 있는 것은 아닙니다. Google Play의 이용 약관 페이지 처럼 단순하지만 실제 제품에서 꼭 필요한 페이지도 있습니다. 이번 레슨에서는 Google Play의 서비스 이용 약관 페이지를 만듭니다.
+Google material design의 특징중 하나는 [스타일리시한 입력 폼](https://material-components.github.io/material-components-web-catalog/#/component/text-field)입니다. 폼을 클릭하면 Placeholder 글씨가 멋지게 움직이면서 라벨이 되죠. 구글의 이 다이나믹한 폼을 사용하려면 JavaScript를 이용해야 합니다. 하지만 이 레슨에서는 JavaScript 없이 순수한 CSS만 이용하여 이 멋진 폼을 만들어 봅니다.
 
 
 
