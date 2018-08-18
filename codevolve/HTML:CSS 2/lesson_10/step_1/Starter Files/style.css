@@ -2,7 +2,8 @@ body {
 	margin: 0;
 }
 
-a, p {
+a, p, select {
+	transition: .2s .1s;
   font-size: 15px;
 }
 
@@ -20,6 +21,7 @@ a {
 }
 
 .card-login-wrap {
+	padding: 24px;
   max-width: 450px;
   color: #212121;
 }
@@ -106,9 +108,7 @@ a {
   margin-top: 32px;
 }
 
-
 .btn {
-  transition: .2s .1s;
   display: inline-block;
   padding: 8px;
   border-radius: 4px;
@@ -138,6 +138,48 @@ a {
   background-color: #3267D6;
 }
 
-.btn-locale {
+.card-login-footer {
+	margin-top: 16px;
+}
 
+.btn-locale {
+	-webkit-appearance: none;
+	outline: none;
+	display: inline-block;
+	margin-left: -16px;
+	padding: 8px 28px 8px 16px;
+	border: 0;
+	font-size: 12px;
+	background-color: transparent;
+	background-image: url('https://image.flaticon.com/icons/svg/60/60995.svg');
+	background-repeat: no-repeat;
+	background-position: calc(100% - 14px) 50%;
+	background-size: 8px;
+}
+
+.btn-locale:focus {
+	background-color: #e0e0e0;
+}
+
+.list-footer {
+	list-style: none;
+	display: inline-block;
+	margin: 0 -16px 0 0;
+	padding: 0;
+	float: right;
+}
+
+.list-footer li {
+	display: inline-flex;
+}
+
+.list-footer .btn-list-footer {
+	padding: 8px 16px;
+	border-radius: 4px;
+	color: #757575;
+	font-size: 12px;
+}
+
+.list-footer .btn-list-footer:focus {
+	background-color: #e0e0e0;
 }
