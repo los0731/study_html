@@ -3,8 +3,8 @@ body {
 }
 
 a, p, select {
-	transition: .2s .1s;
 	font-size: 15px;
+	transition: .2s .1s;
 }
 
 a {
@@ -14,10 +14,10 @@ a {
 }
 
 .container {
-	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	min-height: 100vh;
 }
 
 .card-login-wrap {
@@ -60,11 +60,11 @@ a {
 }
 
 .card-login-form input {
-	position: relative;
 	display: block;
+	position: relative;
 	padding: 8px 0;
-	width: 100%;
 	border: 0;
+	width: 100%;
 	font-size: 16px;
 	background-color: transparent;
 	box-shadow: inset 0 -1px rgba(0,0,0,.12);
@@ -73,12 +73,12 @@ a {
 }
 
 .card-login-form input + label {
+	display: block;
 	position: absolute;
 	z-index: -1;
-	transition: .4s;
-	display: block;
 	font-size: 16px;
 	color: #757575;
+	transition: .4s;
 	transform: translateY(-26px);
 }
 
@@ -91,7 +91,7 @@ a {
 	color: #1a73e8;
 	font-weight: bold;
 	font-size: 12px;
-	transform: translateY(-52px)
+	transform: translateY(-52px);
 }
 
 .btn-account-find {
@@ -123,10 +123,10 @@ a {
 }
 
 .btn-next {
-	float: right;
 	padding: 8px 32px;
 	color: white;
 	background-color: #1a73e8;
+	float: right;
 }
 
 .btn-next:hover {
@@ -144,7 +144,6 @@ a {
 
 .btn-locale {
 	-webkit-appearance: none;
-	outline: none;
 	display: inline-block;
 	margin-left: -16px;
 	padding: 8px 28px 8px 16px;
@@ -155,6 +154,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: calc(100% - 14px) 50%;
 	background-size: 8px;
+	outline: none;
 }
 
 .btn-locale:focus {
