@@ -1,59 +1,29 @@
-# CSS
+### btn-account-find
 
-### 컨테이너
-이제 가운데 있는 코드에디터의 `style.css`탭을 클릭하세요. 모든 요소들을 담고 있는 `.container`는 화면 가운데 위치 해야하고, 일정 넓이 이상 넓어지지 않도록 해야합니다.  
-* `.container`의 마진은 상/하 `24px`, 좌/우 `auto`입니다.
-* 패딩은 상/하 `0`, 좌/우 `16px`입니다.
-* 최대 넓이는 `960px`입니다.
+입력 폼 아래에는 자신의 이메일을 분실했을 경우에 대비하는 이메일 찾기 버튼이 있어야합니다. 
 
 **Instructions**
-1. `.container`의 스타일 적용하기.
-    ```css
-    .container {
-      margin: 24px auto;
-      padding: 0 16px;
-      max-width: 960px;
-    }
-    ```
+
+1. `<header class="card-header">`  다음에 `<div>`를 추가하고, `class="card-form"`적용하기.
+
+   ```html
+   <div class="card-form"></div>
+   ```
+
+2. `<div class="card-form">`  안에 `<input>`을 추가하고 `type="text"`, `id="input-account-id`, `required="required"`,  `autofocus` 적용하기.
+
+   ```html
+   <input type="text" id="input-account-id" required="required" autofocus>
+   ```
+
+3. `<input>`다음에 `<label>`을 추가하고, `for="input-account-id"` 적용 및 내용채우기.
+
+   ```html
+   <label for="input-account-id">이메일 또는 휴대전화</label>
+   ```
 
 
-
-### 로고 이미지
-로고 이미지의 스타일을 적용해봅시다.
-- `img`의 넓이는 `183px`입니다.
-
-**Instructions**
-1. `img`의 스타일 지정하기
-    ```css
-    img {
-      width: 183px;
-    }
-    ```
 
 
 
 **NEXT STEP** 버튼을 클릭하세요.
-
-
-
-# TIPS
-* 마진 또는 패딩의 값이 4개인 것과, 2개인 것은 어떤 차이가 있을까요? 
-
-    > 4개의 값을 입력하면 위를 시작으로 시계방향으로 적용됩니다. 이것을 줄여서 2개의 값을 입력할 수 있는데, 2개의 값을 입력하면 브라우저는 첫번째 값을 위와 아래에 적용하고, 두번째 값을 왼쪽과 오른쪽에 적용합니다.
-    >
-    > margin: 10px 20px 10px 8px --> 상 / 우 / 하 / 좌
-    >
-    > margin: 10px 20px --> 상하 / 좌우
-
-* 마진 auto
-
-    > margin의 값 `auto`는 브라우저가 자동으로 최대 값을 계산합니다. 만약 좌/우를 `auto`로 설정하면 브라우저는 이 요소를 화면 가운데 위치시킵니다.
-
-* 웹에서 선명한 이미지를 사용하려면?
-    > 웹에서 이미지를 사용할 때에는 2배 큰 크기의 이미지를 사용해야 합니다. 애플의 맥북 레티나와 같은 기기처럼 높은 해상도를 지원하는 디스플레이에서도 이미지가 선명하게 보이기 위해서입니다. 예를 들어 웹에 100 x 100 이미지를 넣고싶다면, 파일은 200 x 200 사이즈의 이미지를 사용해야합니다. 
-
-* 이미지의 파일 크기를 줄이는 것이 중요한가요?
-    > 네. 파일 크기는 매우 매우 중요합니다. 실제 제품의 속도에 직접적인 영향을 주거든요. 이미지의 파일 크기를 작게 만들기 위하새 저는 주로 Online Image Optimize 서비스를 이용합니다. 예를 들어 https://tinypng.com/ 같은 사이트죠. 저는 개인적으로 `1MB`가 넘는 이미지는 절대 사용하지 않습니다. 보통 `100kb` 보다 작은 크기를 유지하려고 노력합니다.  
-
-* 0px vs 0 
-    > 어떤 값이 `0`이면, `px`과 같은 단위를 붙이지 않는 것이 좋습니다. 코드가 더 간결해지거든요. (`0px`도 틀린 표현은 아닙니다.)
