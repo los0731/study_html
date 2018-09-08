@@ -10,16 +10,16 @@
    <footer></footer>
    ```
 
-2. `<footer> ` 안에 `<select>`를 추가하고, `class="btn-locale dropdown-mark"` 적용하기.
+2. `<footer> ` 안에 `<select>`를 추가하고, `class="btn-locale"` 적용하기.
 
    ```html
-   <select class="btn-locale dropdown-mark"></select>
+   <select class="btn-locale"></select>
    ```
 
-3. `<select class="btn-locale dropdown-mark">` 안에 4개의 `<option>` 를 추가하고, 각각 `value="..."` 적용 및 내용 채우기
+3. `<select class="btn-locale">` 안에 4개의 `<option>` 를 추가하고, 각각 `value="..."` 적용 및 내용 채우기
 
    ```html
-   <select class="btn-locale dropdown-mark">
+   <select class="btn-locale">
        <option value="english">English</option>
        <option value="spanish">Spanish</option>
        <option value="German">German</option>
@@ -27,7 +27,7 @@
    </select>
    ```
 
-4. `<select class="btn-locale dropdown-mark">` 다음에 `<ul>` 을 추가하고, `class="list-footer"` 적용하기.
+4. `<select class="btn-locale">` 다음에 `<ul>` 을 추가하고, `class="list-footer"` 적용하기.
 
    ```html
    <ul class="list-footer"></ul>

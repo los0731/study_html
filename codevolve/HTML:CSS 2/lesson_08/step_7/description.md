@@ -46,7 +46,7 @@
 - 글씨 크기는 `16px`입니다.
 - 행간은 `34px`입니다.
 - 그림자의 x축/y축/퍼짐(blur)/크기는 `0 2px 2px 0 rgba(0,0,0,0.16)`, `0 0 0 1px rgba(0,0,0,0.08)` 2개의 속성을 같이 사용합니다.
-- 트렌지션은 `.2s` 입니다.
+- `transition` 속성은 `.2s` 입니다.
 
 **Instructions**
 1. `.navigation a:hover:not(.btn)`의 스타일 적용하기.

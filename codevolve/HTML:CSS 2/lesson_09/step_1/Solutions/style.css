@@ -60,7 +60,6 @@ a {
 }
 
 .card-form input {
-	display: block;
 	position: relative;
 	padding: 8px 0;
 	border: 0;
@@ -72,8 +71,7 @@ a {
 	outline: none;
 }
 
-.card-form input + label {
-	display: block;
+.card-form label {
 	position: absolute;
 	z-index: -1;
 	font-size: 16px;
@@ -114,12 +112,12 @@ a {
 	border-radius: 4px;
 }
 
-.btn:hover {
-	background-color: #f6fafe;
-}
-
 .btn-account-create {
 	margin-left: -8px;
+}
+
+.btn-account-create:hover {
+	background-color: #f6fafe;
 }
 
 .btn-next {
@@ -170,16 +168,16 @@ footer {
 }
 
 .list-footer li {
-	display: inline-flex;
+	display: inline-block;
 }
 
-.list-footer .btn-list-footer {
+.btn-list-footer {
 	padding: 8px 16px;
 	border-radius: 4px;
 	color: #757575;
 	font-size: 12px;
 }
 
-.list-footer .btn-list-footer:focus {
+.btn-list-footer:focus {
 	background-color: #e0e0e0;
 }
