@@ -3,7 +3,7 @@
 이메일 찾기 버튼의 스타일을 지정합니다.
 
 - `.btn-account-find`의 `display` 속성은  `inline-block` 입니다. 
-- 마진은  `40px 0 0 0`입니다.
+- 마진은  `24px 0 0 0`입니다.
 
 **Instructions**
 
@@ -12,7 +12,7 @@
    ```css
    .btn-account-find {
      display: inline-block;
-     margin: 40px 0 0 0;
+     margin: 24px 0 0 0;
    }
    ```
 
@@ -24,6 +24,7 @@
 
 - `.help`의 마진은  `48px 0 0 0` 입니다. 
 - 글씨 색상은  `#5f6368`입니다.
+- 글씨 크기는 `14px`입니다.
 
 **Instructions**
 
@@ -33,6 +34,7 @@
    .help {
      margin: 48px 0 0 0;
      color: #5f6368;
+     font-size: 14px;
    }
    ```
 
@@ -40,7 +42,7 @@
 
 ## .card-buttons
 
-계정 만들기 버튼과, 다음 버튼을 감싸고 있는 `<div class="card-buttons">`의 스타일을 지정합니다.
+`Create account` 버튼과, `Next` 버튼을 감싸고 있는 `<div class="card-buttons">`의 스타일을 지정합니다.
 
 - `.card-buttons`의 위 마진은  `32px` 입니다. 
 
@@ -58,7 +60,7 @@
 
 ## .btn
 
-계정 만들기 버튼과, 다음 버튼은 공통적으로 `.btn` 클래스를 가지고 있습니다.
+`Create account` 버튼과, `Next` 버튼은 공통적으로 `.btn` 클래스를 가지고 있습니다.
 
 - `.btn`의 `display` 속성은 `inline-block`입니다.
 - 패딩은 8px입니다.
@@ -80,7 +82,7 @@
 
 ## .btn-account-create
 
-계정 만들기 버튼의 스타일을 지정합니다. 이 버튼은 평소에 배경 색상이 없기 때문에 패딩의 수치만큼 왼쪽으로 이동시켜서 일열로 정렬되도록 합니다.
+`Create account` 버튼의 스타일을 지정합니다. 이 버튼은 평소에 배경 색상이 없기 때문에 패딩의 수치만큼 왼쪽으로 이동시켜서 일열로 정렬되도록 합니다.
 
 - `.btn-account-create`의 왼쪽 마진은 `-8px`입니다.
 
@@ -98,7 +100,7 @@
 
 ## .btn-account-create:hover
 
-계정 만들기 버튼의 `:hover` 스타일을 지정합니다.
+`Create account` 버튼의 `:hover` 스타일을 지정합니다.
 
 - `.btn-account-create:hover`의 배경 색상은 `#f6fafe` 입니다.
 
@@ -116,7 +118,7 @@
 
 ## .btn-next
 
-다음 버튼의 스타일을 지정합니다.
+`Next` 버튼의 스타일을 지정합니다.
 
 - `.btn-next`의 패딩은 8px 32px입니다.
 - 글씨 색상은 `흰색` 입니다.
@@ -140,7 +142,7 @@
 
 ## .btn-next:hover
 
-다음 버튼의 `:hover` 스타일을 지정합니다.
+`Next` 버튼의 `:hover` 스타일을 지정합니다.
 
 - `.btn-next:hover`의 배경 색상은 `#277AE6`입니다.
 - 그림자의 x축/y축/퍼짐(blur)/크기는 `0 1px 1px 0 rgba(66,133,244,0.45)`, `0 1px 3px 1px rgba(66,133,244,0.3)` 2개의 속성을 같이 사용합니다.
@@ -160,7 +162,7 @@
 
 ## .btn-next:active
 
-다음 버튼의 `:active` 스타일을 지정합니다.
+`Next` 버튼의 `:active` 스타일을 지정합니다.
 
 - `.btn-next:active`의 배경 색상은 `#3267D6`입니다.
 

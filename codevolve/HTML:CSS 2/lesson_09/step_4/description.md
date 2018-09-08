@@ -46,9 +46,9 @@
 6. 각각의 `<li>` 안에 `<a>` 을 추가하고, `class="btn-list-footer"`, `href=""` 적용하고 내용 채우기.
 
    ```html
-   <li><a class="btn-list-footer" href="">도움말</a></li>
-   <li><a class="btn-list-footer" href="">개인정보 보호</a></li>
-   <li><a class="btn-list-footer" href="">약관</a></li>
+   <li><a class="btn-list-footer" href="">Help</a></li>
+   <li><a class="btn-list-footer" href="">Privacy</a></li>
+   <li><a class="btn-list-footer" href="">Terms</a></li>
    ```
 
 

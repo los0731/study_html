@@ -103,7 +103,7 @@
 
 `.list-footer` 안에 위치한 `li` 의 스타일을 지정합니다.
 
-- `.list-footer li`의 `display` 속성은 `inline-block`입니다.
+- `.list-footer li`의 `display` 속성은 `inline-flex`입니다.
 
 **Instructions**
 
@@ -111,7 +111,7 @@
 
    ```css
    .list-footer li {
-     display: inline-block;
+     display: inline-flex;
    }
    ```
 

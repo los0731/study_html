@@ -60,20 +60,20 @@
 3. `<img>`다음에 `<h1>`를 추가하고 `class="headline"` 적용 및 내용 채우기.
 
    ```html
-   <h1 class="headline">로그인</h1>
+   <h1 class="headline">Sign in</h1>
    ```
 
 4. `<h1 class="headline">` 다음에 `<h2>`를 추가하고 `class="sub-headline"` 적용 및 내용 채우기.
 
    ```html
-   <h2 class="sub-headline">Google 계정 사용</h2>
+   <h2 class="sub-headline">with your Google Account</h2>
    ```
 
 
 
 ### Card-form
 
-`card-form`에는 검색어를 입력하는 인풋 요소가 들어갑니다.
+`card-form`에는 검색어를 입력하는 인풋 요소가 들어갑니다. `autofocus` 속성을 사용하여 페이지가 로딩되면 자동으로 `input`에 `focus` 되도록 할 수 있습니다.
 
 **Instructions**
 
@@ -92,7 +92,7 @@
 3. `<input>`다음에 `<label>`을 추가하고, `for="input-account-id"` 적용 및 내용채우기.
 
    ```html
-   <label for="input-account-id">이메일 또는 휴대전화</label>
+   <label for="input-account-id">Email or phone</label>
    ```
 
 
