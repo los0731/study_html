@@ -1,10 +1,11 @@
 # CSS
 ## 이미지
-이미지의 넓이를 카드에 맞게 변경합니다.
-* `.birthday-card` 안에 위치한 `img`의 넓이는 `100%`입니다.
+Change the width of the image to match the card.
+* The width of `img` in `.birthday-card` is `100%`.
+
 
 **Instructions**
-1. `.birthday-card img`의 스타일 적용하기.
+1. Apply style to `.birthday-card img`.
     ```css
     .birthday-card img {
       width: 100%;
@@ -20,13 +21,14 @@
 * `.source-link a`의 밑줄을 제거합니다.
 
 **Instructions**
-1. `.source-link`의 스타일 적용하기.
+1. Apply style to `.source-link`.
     ```css
     .source-link {
       text-align: center;
     }
     ```
-1. `.source-link a`의 스타일 적용하기.
+1. Apply style to `.source-link a`.
+
     ```css
     .source-link a {
       color: #311B92;
@@ -36,4 +38,4 @@
 
 
 
-모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.

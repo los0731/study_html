@@ -1,8 +1,8 @@
 # HTML
-`<div>`를 사용하여 카드의 틀을 만드는 것으로 시작합니다.
+Start by using `<div>` to make the frame of the card.
 
 **Instructions**
-1. `<body>`안에 `<div>`를 추가하고, `class="birthday-card`적용하기. 
+1. Add `<div>` within `<body>` and apply `class="birthday-card`.
     ```html
     <div class="birthday-card"></div>
     ```
@@ -10,10 +10,10 @@
 
 
 ### 내용 채우기
-`<div class="birthday-card">`안에 카드의 요소들을 추가합니다. 
+Add elements of card in `<div class="birthday-card">`.
 
 **Instructions**
-1. `<img>`를 추가하고,  `src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg"`와  `alt="Birthday image"`적용합니다. 
+1. Add `<img>`, and apply `src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg"` and `alt="Birthday image"`. 
     ```html
     <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" alt="Birthday Image">
     ```
@@ -50,7 +50,7 @@
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

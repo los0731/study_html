@@ -1,13 +1,13 @@
 # CSS
 ### body
-카드의 색을 하얀색, 배경은 보라색으로 설정합니다.
+Set the color of the card to white and the background to purple.
 
 * `body`의 마진은 `0`으로 적용되어 있습니다.
 * 패딩은 상/우/하/좌 모두`16px`입니다.
-* 배경 색상은 `#512DA8`입니다.
+* Background color is `#512DA8`.
 
 **Instructions**
-1. `body`의 스타일 적용하기.
+1. Apply style to `body`. 
     ```css
     body {
       margin: 0;
@@ -18,17 +18,17 @@
 
 
 
-### 생일 카드
+### birthday-card
 `.birthday-card`는 카드를 작성할 공간입니다.
 * 마진은 상/하 `40px`, 좌/우 `auto`입니다.
-* 패딩은 `16px`입니다.
-* 최대 넓이는 `400px`입니다.
-* 배경 색상은 `white`입니다.
+* Padding is `16px`
+* The maximum width is `400px`.
+* Background color is `white`.
 * 글자 정렬은 `center`입니다.
 * 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `0 24px 40px -8px #311B92`입니다.
 
 **Instructions**
-1. `birthday-card`의 스타일 적용하기.
+1. Apply style to `birthday-card`.
     ```css
     .birthday-card {
       margin: 40px auto;
@@ -42,7 +42,7 @@
 
 
 
-모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

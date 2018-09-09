@@ -68,7 +68,7 @@
 
 
 
-When you are done, click the **NEXT STEP** button.
+Click the **NEXT STEP** button.
 
 
 
