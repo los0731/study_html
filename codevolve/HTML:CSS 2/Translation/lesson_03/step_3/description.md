@@ -2,12 +2,12 @@
 ### body 
 온라인 명함을 더 잘 보여주기 위해 배경 색상을 선택합니다. 이번에는 [Google colors][1]에서 Blue Grey 50을 선택했습니다.
 * `body`의 마진은 `0`으로 적용되어 있습니다.
-* 패딩은 `8px`입니다. 
-* 서체는 `Arial, Helvetica, sans-serif`입니다.
-* 배경 색상은 `#ECEFF1`입니다.
+* Padding is `8px`.
+* The font is `Arial, Helvetica, sans-serif`.
+* Background color is `#ECEFF1`.
 
 **Instructions**
-1. `body`의 스타일 적용하기. 
+1. Apply style to `body`.
     ```css
     body {
       margin: 0;
@@ -19,18 +19,18 @@
 
 
 
-### 명함
+### business-card
 `business-card`는 화면의 가운데 위치해야 하고, 특정 넓이를 가지며, 모서리가 둥글어야합니다. 이 외에도 글자 정렬, 배경 컬러, 그림자를 스타일링 합니다. 여기서 배경 컬러가 [Google Colors][1]에서 Blue Grey 50이기 때문에, 그림자의 색상은 Blue Grey 200으로 하겠습니다. 
-* 배경 색상은 `white`입니다.
+* Background color is `white`.
 * 마진은 상/하 `40px`, 좌/우 `auto`입니다.
 * 패딩은 상/우/하/좌 모두 `40px`입니다.
 * 모서리의 둥글기는 `8px`입니다.
-* 넓이는 `240px`입니다. 
+* The width is `240px`.
 * 글은 가운데 정렬 입니다.
 * 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `0 16px 32px -16px #B0BEC5;`입니다.
 
 **Instructions**
-1. `business-card`의 스타일 적용하기.
+1. Apply style to `business-card`.
     ```css
     .business-card {
       background-color: white;
@@ -46,11 +46,11 @@
 
 
 ### 이미지
-이미지의 크기를 카드의 크기에 맞게 줄여야 합니다.
-* `.image`의 넓이가 `100%`입니다.
+The size of the image must be reduced to match the size of the card.
+* The width of `.image` is `100%`.
 
 **Instructions**
-1. `.image`의 스타일 적용하기.
+1. Apply style to `.image`.
     ```css
     .image {
       width: 100%;
@@ -59,7 +59,7 @@
     
     
     
-모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

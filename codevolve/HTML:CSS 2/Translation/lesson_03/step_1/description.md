@@ -3,22 +3,22 @@
 게임 회사를 준비하고 있으신가요? 그렇다면 게이머 같은 온라인 명함은 어떠세요? 하하 맞아요. 아무 의미 없죠.. 게이머스러운 명함 하나 가지고 있다고 게임회사에서 뽑아줄까요? 요즘 같은 어려운 세상에.. 에휴. 그래도 만들어 봅시다. 혹시 모르잖아요? 예상치 못하게 필요할 때가 올지. 이번 레슨에서는 온라인 명함을 만듭니다. 
 
 
-### 이 페이지의 구조
+### Structure on this page
 
 ![imaage](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-03.jpg)
 
 이 페이지는 명함 안에 순서대로 이미지, 이름, 리스트가 있는 구조입니다. 그리고 리스트의 항목들로 직업, 전화번호, 이메일이 있습니다. 
 
 ```
-|- 명함
-    |- 이미지
-    |- 이름
-    |- 리스트
-	|   |- 직업
-	|   |- 전화번호
-	|   |- 이메일
+|- Business Card
+    |- Image
+    |- Name 
+    |- List
+	|   |- occupation
+	|   |- phone-number
+	|   |- e-mail
 ```
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
