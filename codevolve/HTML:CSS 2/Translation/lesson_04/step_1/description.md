@@ -10,21 +10,21 @@
 
 
 
-### 이 페이지의 구조
+### Structure on this page
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-04.jpg)
 
 ```
-|- 컨테이너
-    |- 테이블
-    |   |- 제목
-    |   |- 제품명
+|- Container
+    |- table
+    |   |- title
+    |   |- product name
     |   |- 구매일
-    |   |- 주문 ID
-    |   |- 가격
-    |   |- 푸터
+    |   |- order Id
+    |   |- price
+    |   |- footer
 ```
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.

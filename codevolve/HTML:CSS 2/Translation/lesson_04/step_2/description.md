@@ -1,8 +1,10 @@
 # HTML
-`<div>`를 사용하여 컨테이너를 만드는 것으로 시작합니다.  
+Start by creating container using `<div>`.
+
 
 **Instructions**
-1. `<body>`안에 `<div>`를 추가하고, `class="container"` 적용하기. 
+1. Add `<div>` within `<body>` and apply `class="container"`.
+
     ```html
     <body>
       <div class="container"></div> 
@@ -11,7 +13,7 @@
 
 
 
-### 테이블 추가하기
+### Add table
 `<div class="container">`안에 영수증의 뼈대가 될 `<table>`를 추가합니다. 영수증에 들어가는 내용은 아래와 같습니다.
 > * PAYMENT RECEIPT
 > * Product: Awesome Editor
@@ -22,13 +24,15 @@
 
 
 **Instructions**
-1. `<div class="container">`안에 `<table>`를 추가하고, `class="table-receipt"` 적용하기. 
+1. Add `<table>` within `<div class="container">` and apply `class="table-receipt"`.
+
     ```html
     <div class="container">
       <table class="table-receipt"></table>
     </div>
     ```
-1. `<table>` 안에 `<thead>`와 `<tbody>` 추가하기.  
+1. `<table>` 안에 `<thead>`와 `<tbody>` 추가하기. 
+
     ```html
     <table class="table-receipt">
       <thead></thead>
@@ -81,7 +85,7 @@
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

@@ -30,4 +30,4 @@ box-shadow
 
 
 
-**NEXT STEP** 버튼을 클릭하시면 다음 레슨이 시작됩니다.
+Click the **NEXT STEP** button.

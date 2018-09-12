@@ -1,10 +1,10 @@
 # CSS
-### 배경 
+### background
 영수증이 배경에서 조금 떠있는 스타일을 연출하기 위해서는 배경이 흰색보다 약간 회색에 가깝도록 해봅시다. 배경 색상은 [Google colors][999]의 Blue Grey 50를 사용합니다. 
-* `body`의 배경 색상은 `#ECEFF1`입니다.
+* The background color is `#ECEFF1`.
 
 **Instructions**
-1. `body`의 스타일 적용하기. 
+1. Apply style to `body`.
     ```css
     body {
       background-color: #ECEFF1;
@@ -13,13 +13,13 @@
 
 
 
-### 컨테이너
+### container
 컨테이너는 영수증을 일정 넓이로 고정해주고, 화면의 가운데 있도록 해줍니다.  
 * `.container`의 마진은 상/하 `80px`, 좌/우 `auto`입니다.
-* 최대 넓이는 `400px`입니다.
+* The maximum width is `400px`.
 
 **Instructions**
-1. `.container`의 스타일 적용하기. 
+1. Apply style to `.container`.
     ```css
     .container {
       margin: 80px auto;
@@ -29,15 +29,15 @@
 
 
 
-### 영수증 
+### receipt
 컨테이너 안에 있는 영수증의 스타일을 정의해봅시다. 
 * `.table-receipt`의 경계선들이 겹쳐서 한줄로 표시되도록 합니다. 
-* 넓이는 `100%`입니다.
-* 배경 색상은 `white`입니다.
+* The width is `100%`.
+* Background color is `white`.
 * 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `40px 40px 80px -8px #B0BEC5`입니다.
 
 **Instructions**
-1. `.table-receipt`의 스타일 적용하기. 
+1. Apply style to `.table-receipt`
     ```css
     .table-receipt {
     	border-collapse: collapse;
@@ -52,12 +52,13 @@
 ### 제목 
 영수증의 제목 부분인 `th`의 스타일을 정의합시다. 이 레슨에서 선택자를 입력할 때는 `.table-receipt th`라고 하겠습니다.
 * `.table-receipt th ` 의 패딩은 `24px`입니다.
-* 넓이는 `100%`입니다.
-* 글씨 색상은 `white`입니다.
-* 배경 색상은 `#2196F3`입니다. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
+* The width is `100%`.
+* The font color is `white`.
+* Background color is `#2196F3`. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
 
 **Instructions**
-1. `.table-receipt th`의 스타일 적용하기. 
+1. Apply style to `.table-receipt th`.
+ 
     ```css
     .table-receipt th {
     	padding: 24px;
@@ -70,7 +71,7 @@
     
     
 
-모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요. 다음 스텝에서 영수증의 나머지 부분의 스타일을 정의해봅시다. 
+Click the **NEXT STEP** button.
 
  
 
