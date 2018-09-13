@@ -8,7 +8,7 @@
 
 
 **Instructions**
-1. `body`의 스타일 적용하기. 
+1. Apply style to `body`.
     ```css
     body {
       margin: 0;
@@ -25,16 +25,16 @@
 `.menu-wrap`는 메뉴판을 둘러싸는 공간입니다.
 
 * `menu-wrap`의 마진은 상/하 `0`, 좌/우 `auto`입니다.
-* 패딩은 `40px`입니다.
+* Padding is `40px`.
 * 모서리의 둥글기는 `8px`입니다.
-* 최대 넓이는 `400px`입니다.
-* 배겅 색상은 `white`입니다.
+* The maximum width is `400px`.
+* Background color is `white`
 * 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `40px 40px 80px -40px rgba(50,50,80,.4)`입니다. 
 
 
 
 **Instructions**
-1. `.menu-wrap`의 스타일 적용하기.
+1. Apply style to `.menu-wrap`.
     ```css
     .menu-wrap {
       margin: 0 auto;
@@ -49,14 +49,13 @@
 
 
 ### header
+`header` contains the name and logo of the cafe.
 
-`header`는 카페의 이름과 로고가 들어갑니다. 
-
-* `header`의 서체는 `'Satisfy', cursive` 입니다.
-* 글은 가운데 정렬 입니다.
+* The font of `header` is `'Satisfy', cursive`.
+* The letters are centered.
 
 **Instructions**
-1. `header`의 스타일 적용하기.
+1. Apply style to `header`.
     ```css
     header {
       font-family: 'Satisfy', cursive;
@@ -66,16 +65,16 @@
     
 
 
-### 카페의 이름 
+### cafe name 
 
 `header`안에 포함된 `h4`는 카페의 이름입니다. 
 
-* `header h4`의 마진은 `0` 입니다.
-* 글씨의 사이즈는 `40px`입니다.
-* 글씨의 색상은 `#FF5722`입니다.
+* The margin of `header h4` is `0`.
+* The font size is `40px`.
+* The font color is `#FF5722`.
 
 **Instructions**
-1. `header`의 스타일 적용하기.
+1. Apply style to `header`.
     ```css
     header h4 {
       margin: 0;
@@ -86,20 +85,20 @@
     
 
 
-### 메뉴
+### menu
 
 `.table-menu`는 커피의 종류와 가격을 보여주는 메뉴판의 내용 공간입니다.
 
 * `.table-menu`의 마진은 상/우/하/좌 `40px 0 0 0`입니다.
-* 넓이는 `100%`입니다.
-* 서체는 `'Questrial', sans-serif`입니다.
-* 글씨 크기는 `24px`입니다.
-* 글씨 색상은 `#455A64`입니다.
+* The width is `100%`.
+* The font is `'Questrial', sans-serif`.
+* The font size is `24px`.
+* The font color is `#455A64`.
 * 행간은 `40px`입니다.
 
 
 **Instructions**
-1. `.table-menu`의 스타일 적용하기.
+1. Apply style to `.table-menu`.
     ```css
     .table-menu {
       margin: 40px 0 0 0;
@@ -113,5 +112,5 @@
 
 
 
-모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 

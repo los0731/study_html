@@ -1,14 +1,14 @@
-### 메뉴 목록
+### menu list
 헤더 아래에 커피 메뉴 정보를 추가합니다. 메뉴 정보는 상품 이름과, 가격으로 이루어져있습니다. `<table>`를 활용합니다. 
 
 **Instructions**
-1. `<header>` 안에 `<table>`를 추가하고, `class="table-menu"`로 적용하기. 
+1. Add `<table>` within `<header>` and apply `class="table-menu"`.
     ```html
     <header>...</header>
     <table class="table-menu"></table>
     ```
 
-1. `<thead>` 아래에 `<tbody>`를 추가하기
+1. Add `<tbody>` below `<thead>`.
     ```html
     <table class="table-menu">
         <tbody>
@@ -31,7 +31,7 @@
     </table>
     ```
 
-1. `<tr>` 안에 각각 2개의 `<td>`를 추가하고, 각 클래스와 내용 추가하기.
+1. Add two '<td>' within `<tr>`, and add each class and its contents.
     ```html
     <table class="table-menu">
         <tbody>
@@ -67,4 +67,4 @@
     </table>
     ```
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
