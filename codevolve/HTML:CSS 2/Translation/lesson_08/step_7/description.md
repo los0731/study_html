@@ -1,10 +1,10 @@
-# 컨텐트
+# content
 컨텐트 영역의 스타일을 적용합시다.
 * `.content`의 위 패딩은 `136px`입니다.
-* 글은 가운데 정렬입니다.
+* The letters are centered.
 
 **Instructions**
-1. `.content`의 스타일 적용하기.
+1. Apply style to `.content`.
     ```css
     .content {
       padding-top: 136px;
@@ -18,9 +18,9 @@
 검색 폼과 음성 검색 버튼을 감싸고 있는 이 요소는 `position: relative;`으로 지정해주어야 합니다. 이유는 이후에 나올 음성 검색 버튼에서 설명하겠습니다. 다음의 스타일들을 적용해 봅시다.      
 - `.form-search-wrap`의 `position`은 `relative`입니다.
 - 마진은 상/우/하/좌 `24px auto 0 auto`입니다.
-- 넓이는 `50%`입니다.
-- 최대 넓이는 `584px`입니다.
-- 최소 넓이는 `428px`입니다.
+- The width is `50%`입니다.Wi
+- The maximum area is `584px`.
+- The minimum area is `428px`.
 
 **Instructions**
 1. `.form-search-wrap`의 스타일 적용하기.
@@ -40,16 +40,16 @@
 이 페이지에서 가장 중요한 요소라면 역시 검색 폼일 겁니다. 이 검색 폼의 스타일을 적용해 봅시다.
 - `.form-search`의 패딩은 상/하 `5px`, 좌/우 `16px`입니다.
 - `outline`을 제거합니다.
-- 경계선이 없습니다.
+- No boundary line.
 - 모서리의 둥글기는 `2px`입니다.
 - 넓이는 `100%`에서 `32px`만큼 뺀 만큼의 길이 입니다.
-- 글씨 크기는 `16px`입니다.
+- The font size is `16px`.
 - 행간은 `34px`입니다.
 - 그림자의 x축/y축/퍼짐(blur)/크기는 `0 2px 2px 0 rgba(0,0,0,0.16)`, `0 0 0 1px rgba(0,0,0,0.08)` 2개의 속성을 같이 사용합니다.
 - `transition` 속성은 `.2s` 입니다.
 
 **Instructions**
-1. `.navigation a:hover:not(.btn)`의 스타일 적용하기.
+1. Apply style to `.navigation a:hover:not(.btn)`.
    ```css
    .form-search {
      padding: 5px 16px;
@@ -71,7 +71,7 @@
 - `.form-search:hover, .form-search:focus`의 그림자의 x축/y축/퍼짐(blur)/크기는 `0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08)` 2개의 속성을 같이 사용합니다.
 
 **Instructions**
-1. `.form-search:hover, .form-search:focus`의 스타일 적용하기.
+1. Apply style to `.form-search:hover,` and `.form-search:focus`.
    ```css
    .form-search:hover,
    .form-search:focus {
@@ -87,10 +87,10 @@
 - `.btn-voice`의 `position`은 `absolute`입니다.
 - 위에서부터 `10px`만큼 떨어져 있습니다.
 - 오른쪽에서 `10px`만큼 떨어져 있습니다.
-- 글씨 색상은 `#4387fd`입니다.
+- The font color is `#4387fd`.
 
 **Instructions**
-1. `.btn-voice`의 스타일 적용하기.
+1. Apply style to `.btn-voice`.
    ```css
    .btn-voice {
      position: absolute;
@@ -107,7 +107,7 @@
 - `.buttons-wrap`의 위 마진은 `40px`입니다.
 
 **Instructions**
-1. `.buttons-wrap`의 스타일 적용하기.
+1. Apply style to `.buttons-wrap`.
    ```css
    .buttons-wrap {
      margin-top: 40px;
@@ -122,14 +122,14 @@
 - 패딩은 상/하 `10px`, 좌/우 `16px`입니다.
 - 경계선은 `1px`의 직선이지만 투명합니다.
 - 모서리의 둥글기는 `2px`입니다.
-- 글씨 크기는 `13px`입니다.
+- The font size is `13px`.
 - 글씨 두께는 `bold`입니다.
 - 행간은 `16px`입니다.
-- 글씨 색상은 `#757575`입니다.
-- 배경 색상은 `#f2f2f2`입니다.
+- The font color is `#757575`.
+- Background color is `#f2f2f2`.
 
 **Instructions**
-1. `.nav-right`의 스타일 적용하기.
+1. Apply style to `.nav-right`.
    ```css
    .btn-secondary {
      margin: 0 4px;
@@ -149,11 +149,11 @@
 ## btn-secondary - hover
 이 버튼의 hover 상태에는 다음과 같은 스타일을 적용합니다.  
 - `.btn-secondary:hover`의 경계선의 색상은 `#c6c6c6`입니다. 
-- 글씨 색상은 `#222`입니다.
+- The font color is `#222`.
 - 그림자의 x축/y축/퍼짐(blur)/크기는 `0 1px 1px rgba(0,0,0,0.1);`입니다.
 
 **Instructions**
-1. `.btn-secondary:hover`의 스타일 적용하기.
+1. Apply style to `.btn-secondary:hover`.
    ```css
    .btn-secondary:hover {
      border-color: #c6c6c6;
@@ -164,4 +164,4 @@
 
 
 
-**NEXT STEP** 버튼을 클릭하세요. 
+Click the **NEXT STEP** button.

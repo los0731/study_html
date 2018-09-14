@@ -58,7 +58,7 @@
 
 
 다음 페이지에서는 컨텐트와 푸터의 HTML 코드를 작성합시다.
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

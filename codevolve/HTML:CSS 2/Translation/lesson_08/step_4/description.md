@@ -66,5 +66,5 @@
     ```
 
 
- **NEXT STEP** 버튼을 클릭하세요.
+ Click the **NEXT STEP** button.
 
