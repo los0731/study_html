@@ -4,7 +4,7 @@
 
 
 
-### **이 페이지의 구조**
+### Structure on this page
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533078133/img-wire-07_o6ryro.jpg)
 
@@ -12,18 +12,18 @@
 
 ```
 |- Body
-    |- 네비게이션 바
-    |- 히어로 이미지
-    |- 컨테이너
-    |   |- 컨텐트
-    |   |   |- 제목 그룹
-    |   |   |   |- 제목
-    |   |   |   |- 소제목
+    |- navigation bar
+    |- hero image
+    |- container
+    |   |- content
+    |   |   |- headline-group
+    |   |   |   |- headline
+    |   |   |   |- sub-headline
     |   |   |- 본문
-    |   |- 컨텐트
-    |   |   |- 제목 그룹
-    |   |   |   |- 제목
-    |   |   |   |- 소제목
+    |   |- content
+    |   |   |- headline-group
+    |   |   |   |- headline
+    |   |   |   |- sub-headline
     |   |   |- 본문
     |   |- ...
 ```
@@ -36,4 +36,4 @@ Medium에는 별도의 서체를 사용하고 있습니다. 이번 레슨에는 
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.

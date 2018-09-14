@@ -1,18 +1,18 @@
-### 컨테이너
+### container
 
 로고와 히어로 이미지를 제외한 정책 페이지의 내용 요소들을 나열하면 아래와 같습니다.
 
 ```
-    |- 컨테이너
-    |   |- 컨텐트
-    |   |   |- 제목 그룹
-    |   |   |   |- 제목
-    |   |   |   |- 소제목
+    |- container
+    |   |- content
+    |   |   |- headline-group
+    |   |   |   |- headline
+    |   |   |   |- sub-headline
     |   |   |- 본문
-    |   |- 컨텐트
-    |   |   |- 제목 그룹
-    |   |   |   |- 제목
-    |   |   |   |- 소제목
+    |   |- content
+    |   |   |- headline-group
+    |   |   |   |- headline
+    |   |   |   |- sub-headline
     |   |   |- 본문
 ```
 
@@ -21,7 +21,7 @@
 **Instructions**
 
 
-1. `<div class="hero">`아래에 `<div>`를 추가하고, `class="container"`적용하기.
+1. Add `<div>` below `<div class="hero">` and apply `class="container"`.
 
     ```html
     <div class="container"></div>
@@ -40,7 +40,7 @@
     </div>
     ```
 
-1. 첫번째 `<div class="content">`안에 `<div>`를 추가하고, `class="headline-group"`적용하기.
+1. Add `<div>`  within first `<div class="content">`and apply `class="headline-group"`.
 
     ```html
     <div class="content">
@@ -48,7 +48,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">`안에 `<h1>`를 추가하고, `class="headline-text"`적용 후, 내용 채우기.
+1. Add `<h1>` inside `<div class="headline-group">` and fill contents after applying `class="headline-text"`.
 
     ```html
     <div class="headline-group">
@@ -56,7 +56,7 @@
     </div>
     ```
 
-1. `<h1 class="headline-text">`아래에 `<h3>`를 추가하고, `class="sub-headline-text"`적용 후, 내용 채우기.
+1. Add `<h3>` below `<h1 class="headline-text">` and fill contents after applying `class="sub-headline-text"`.
 
     ```html
     <div class="headline-group">
@@ -65,7 +65,7 @@
     </div>
     ```
 
-1. `<div class="headline-group">`아래에 `<p>`를 추가하고, `class="content-text"`적용 후, 내용 채우기.
+1. Add `<p>` below `<div class="headline-group">` and fill contents after applying `class="content-text"`.
 
     ```html
     <div class="headline-group">
@@ -126,5 +126,5 @@
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
