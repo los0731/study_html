@@ -4,24 +4,24 @@ Card UI는 웹과 모바일을 통틀어 가장 많이 사용되는 UI 요소 �
 
 
 
-### **이 페이지의 구조**
+### Structure on this page
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-06.jpg)
 
 ```
-|- 카드
-    |- 클릭 영역
-        |- 카드이미지
-        |- 카드 블록
-        |   |- 타이틀
-        |   |- 설명
-        |   |- 구분선
-        |   |- 타입 / 태그
+|- card
+    |- click area
+        |- card-hero 
+        |- card-block
+        |   |- card-title
+        |   |- card-description
+        |   |- border
+        |   |- card-type and card-tag
 ```
 
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

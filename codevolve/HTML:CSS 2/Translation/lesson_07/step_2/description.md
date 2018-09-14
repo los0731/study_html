@@ -8,13 +8,13 @@
 > - hover 했을 때 등장하는 `VIEW MORE`텍스트
 
 **Instructions**
-1. `<body>`안에 `<div>`를 추가하고, `class="card"` 적용하기. 
+1. Add `<div>` within `<body>` and apply `class="card"`.
     ```html
     <body>
       <div class="card"></div>
     </body>
     ```
-1. `<div class="card">`안에 `<a>`를 추가하고 `href="https://facebook.design/videos/designing-at-facebook"`로 적용하기. 
+1. Add `<a>` within `<div class="card">` and apply `href="https://facebook.design/videos/designing-at-facebook"`.
     ```html
     <div class="card">
       <a href="https://facebook.design/videos/designing-at-facebook"></a>
@@ -23,11 +23,11 @@
 
 
 
-### 카드 히어로 이미지
+### card-hero 
 히어로 이미지는 보통 영역 상단에 풀 스크린으로 배치된 큰 이미지입니다. 히어로 이미지는 해당 영역의 큰 분위기를 표현하고, 사용자가 글을 읽기 전에 호기심을 자극하거나, 대략적인 의미를 전달하는 기능을 수행합니다. 이 요소는 곧 CSS에서 다룰태니, 지금은 빈 태그와 클래스만 남겨둡니니다.
 
 **Instructions**
-1. `<a>` 안에 `<div>`를 추가하고, `class="card-hero"` 적용하기. 
+1. Add `<div>` within `<a>` and apply `class="card-hero"`.
     ```html
     <a href="https://facebook.design/videos/designing-at-facebook">
       <div class="card-hero"></div>
@@ -36,17 +36,18 @@
 
 
 
-### 카드 블록
+### card-block
 카드 히어로 이미지를 제외하고, 나머지 요소들(타이틀, 설명, 구분선, 태그 등)은 하나로 묶어 줄겁니다. 이 요소들을 `card-block`이라고 합시다.
 
 **Instructions**
-1. `<div class="card-hero">`아래에 `<div>`를 추가하고, `class="card-block"` 적용하기. 
+1. Add `<div>` below `<div class="card-hero">` and apply `class="card-block"`
     ```html
     <div class="card-hero"></div>
     <div class="card-block"></div> 
     ```
 
 1. `<div class="card-block">`안에 `<h2>`를 추가하고, `class="card-title"` 적용 및 내용 채우기.
+
     ```html
     <div class="card-block">
       <h2 class="card-title">Designing at Facebook</h2> 
@@ -58,7 +59,7 @@
     <p class="card-description">Get a sneak peek at the design process at Facebook from product designers Cat Audi and George Kedenburg III.</p>       
     ```
 
-1. `<p class="card-description">`아래에 `<hr>`를 추가하고, `class="card-hrclass="` 적용하기. 
+1. Add `<hr>` below `<p class="card-description">` and apply `class="card-hrclass="`.
     ```html
     <hr class="card-hr">       
     ```
@@ -70,7 +71,7 @@
     ```
 
 
-**NEXT STEP** 버튼을 클릭하세요.
+Click the **NEXT STEP** button.
 
 
 

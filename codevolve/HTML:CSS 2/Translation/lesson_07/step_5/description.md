@@ -1,14 +1,14 @@
-### 타입과 태그
+### card-type and card-tag
 카드의 최 하단에 위치한 타입과 테그 텍스트를 스타일링 해봅시다. `.card-type`와 `.card-tag`를 동시에 지정해 주어야 합니다. 2개 이상의 클래스를 동시에 선택할때는 클래스와 클래스 사이에 `, `로 표시합니다.
 
 * `.card-type, .card-tag`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
-* 글씨 크기는 `12px`입니다.
+* The font size is `12px`.
 * 글씨 두께는 `400`입니다.
-* 글씨 색상은 `#90949C`입니다.
+* The font color is `#90949C`.
 
 
 **Instructions**
-1. `.card-type, .card-tag`의 스타일 적용하기. 
+1. Apply style to `.card-type,` and `.card-tag`.
     ```css
     .card-type, 
     .card-tag {
@@ -52,7 +52,7 @@
 
     
 
-**NEXT STEP** 버튼을 클릭해서 완성된 모습을 봅시다!
+Click the **NEXT STEP** button.
 
 
 
