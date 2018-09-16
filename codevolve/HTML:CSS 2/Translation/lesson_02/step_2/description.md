@@ -9,7 +9,7 @@ Start by using `<div>` to make the frame of the card.
 
 
 
-### 내용 채우기
+### .birthday-card
 Add elements of card in `<div class="birthday-card">`.
 
 **Instructions**
@@ -54,6 +54,6 @@ Click the **NEXT STEP** button.
 
 
 
-# TIPS
+## TIPS
 * 이미지에 `alt` 속성을 추가하는 이유
     > `alt` 속성은 Alternate의 줄임말입니다. 이미지가 정상적으로 보이지 않는 상황에서 보이는 대체 글씨입니다. 예를 들어 화면을 볼 수 없는 상황의 사용자는 스크린리더로 이미지를 듣습니다. 이때 `alt` 속성에 포함된 내용을 듣게 됩니다. 또는 네트워크가 좋지 않아서 이미지 로드를 실패했을 경우에도 `alt` 의 내용이 표시됩니다.

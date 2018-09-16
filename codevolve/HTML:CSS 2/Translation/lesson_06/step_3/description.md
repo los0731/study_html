@@ -1,19 +1,19 @@
-### container
+### .container
 
 로고와 히어로 이미지를 제외한 정책 페이지의 내용 요소들을 나열하면 아래와 같습니다.
 
 ```
-    |- container
-    |   |- content
-    |   |   |- headline-group
-    |   |   |   |- headline
-    |   |   |   |- sub-headline
-    |   |   |- 본문
-    |   |- content
-    |   |   |- headline-group
-    |   |   |   |- headline
-    |   |   |   |- sub-headline
-    |   |   |- 본문
+    |- Container
+    |   |- Content
+    |   |   |- Headline-group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Main text
+    |   |- Content
+    |   |   |- Headline-group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Main text
 ```
 
 요소들만 보면 헤드라인, 서브 헤드라인, 본문이 있습니다. 헤드라인과 서브 헤드라인은 헤드라인 그룹으로 묶여 있고, 헤드라인 그룹과 본문을 컨텐트로 묶여 있습니다. 컨테이너 안에는 여러개의 컨텐트들이 있습니다. 가장 상위 태그부터 하나 하나 작성해봅시다.

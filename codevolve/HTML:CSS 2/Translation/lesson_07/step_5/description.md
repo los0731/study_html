@@ -1,4 +1,4 @@
-### card-type and card-tag
+### .card-type, .card-tag
 카드의 최 하단에 위치한 타입과 테그 텍스트를 스타일링 해봅시다. `.card-type`와 `.card-tag`를 동시에 지정해 주어야 합니다. 2개 이상의 클래스를 동시에 선택할때는 클래스와 클래스 사이에 `, `로 표시합니다.
 
 * `.card-type, .card-tag`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
@@ -21,7 +21,7 @@
 
 
 
-### Hover
+### Hover style
 평소에는 'VIDEO(`.card-type`)'만 보이고 'VIEW MORE(`.card-tag`)'가 보이지 않는 상태에서, 카드에 마우스를 올리면 'VIDEO'가 사라지고, 'VIEW MORE'가 나타나야 합니다. 
 
 > 1. 'VIDEO'와 'VIEW MORE'가 있습니다.
@@ -55,7 +55,7 @@ Click the **NEXT STEP** button.
 
 
 
-# TIPS!
+## TIPS!
 
 - 선택자(selector)는 좀 가물 가물 하네요. 두개의 클래스에 동시에 스타일을 적용하려고하면 어떻게 해야했죠?
 

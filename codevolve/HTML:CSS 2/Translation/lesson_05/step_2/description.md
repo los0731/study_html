@@ -11,7 +11,7 @@
 
 
 ​    
-### header
+### <header>
 `<div class="menu-wrap">`안에 헤더와 메뉴 아이템들을 채워야 합니다. 헤더에는 카페의 로고와 카페 이름 정보를 담습니다.
 
 **Instructions**

@@ -1,5 +1,5 @@
 # CSS
-### body
+### <body>
 페이스북 디자인 페이지는 배경의 아주 연한 회색을 사용합니다. 또 전체 영역에 별도의 서체를 지정하고 있어요.
 * `body`의 배경 색상은 `#FCFCFC`입니다.
 * 서체는 `'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif`입니다. (실제 facebook design의 서체입니다.)
@@ -16,7 +16,7 @@
 
 
 
-### 카드
+### .card
 카드의 스타일을 지정해 봅시다.  
 
 * `.card`의 마진은 상/하 `80px`좌/우 `auto`입니다.
@@ -40,7 +40,7 @@
 
 
 
-### card:hover
+### .card:hover
 `:hover`는 해당 요소에 마우스를 올린 상태를 말합니다. 마우스를 사용하는 데스크탑에서 클릭이 가능한 상태라는걸 설명하는 가장 좋은 UI가 hover입니다. 카드의 hover 스타일을 지정해봅시다. 위에 사용한 `transition: .24s;`에 의해서, 일반 상태에서 hover 상태로, hover 상태에서 일반 상태로 더 부드럽게 변화하게 됩니다.
 
 * `.card:hover`의 그림자는 x축/y축/퍼짐(blur)/크기/색상은 `0 40px 40px 0 rgba(0, 0, 0,.16)`입니다.
@@ -58,7 +58,7 @@
 
 
 
-### a 태그
+### <a>
 `<a>`에는 기본적으로 글씨에 파랑색과 밑줄이 적용되어 있습니다. 따라서 별도로 스타일을 지정하여 장식 요소들을 제거해야 합니다. 
 
 * `a`의 글씨의 장식이 없습니다.
@@ -83,7 +83,7 @@
 
 
 
-# TIPS!
+## TIPS!
 
 - 트렌지션 속성
 

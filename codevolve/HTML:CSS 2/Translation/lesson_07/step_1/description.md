@@ -9,14 +9,14 @@ Card UI는 웹과 모바일을 통틀어 가장 많이 사용되는 UI 요소 �
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-06.jpg)
 
 ```
-|- card
-    |- click area
-        |- card-hero 
-        |- card-block
-        |   |- card-title
-        |   |- card-description
-        |   |- border
-        |   |- card-type and card-tag
+|- Card
+    |- Click area
+        |- Card-hero 
+        |- Card-block
+        |   |- Card-title
+        |   |- Card-description
+        |   |- Border
+        |   |- Card-type and card-tag
 ```
 
 

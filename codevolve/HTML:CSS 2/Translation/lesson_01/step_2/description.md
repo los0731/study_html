@@ -1,5 +1,5 @@
 # HTML
-### Container
+### .container
 
 우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 컨테이너는 무언가를 담아두고 있는 의미를 가지고 있습니다. 여기서는 이미지와 글들을 담아두겠죠. 이런 컨테이너 역할을 하는 태그는 여러 가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `<div> `를 사용합니다.
 
@@ -23,18 +23,18 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     <img src="img_google_play.png" alt="Google Play">
     ```
 
-1. Add `<h1>`(title) to the next line of `<img>`, fill in the content below.
+1. Add `<h1>`(headline) to the next line of `<img>`, fill in the content below.
 
     ```html
     <h1>Google Play Terms of Service</h1>
     ```
 
-1. Add `<h6>` to the next line of `<h1>`, fill in the content below.
+1. Add `<h6>`(last modified) to the next line of `<h1>`, fill in the content below.
     ```html
     <h6>February 5, 2018</h6>
     ```
 
-1. Add `<h2>`(subheading) to the next line of `<h6>`, fill in the content below.
+1. Add `<h2>`(subheadline) to the next line of `<h6>`, fill in the content below.
 
     ```html
     <h2>1. Introduction</h2>

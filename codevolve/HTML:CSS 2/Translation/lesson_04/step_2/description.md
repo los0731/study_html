@@ -13,7 +13,7 @@ Start by creating container using `<div>`.
 
 
 
-### Add table
+### .table-receipt
 `<div class="container">`안에 영수증의 뼈대가 될 `<table>`를 추가합니다. 영수증에 들어가는 내용은 아래와 같습니다.
 > * PAYMENT RECEIPT
 > * Product: Awesome Editor
@@ -89,7 +89,7 @@ Click the **NEXT STEP** button.
 
 
 
-# TIPS! 
+## TIPS! 
 * 태이블 태그를 작성하는 것이 번거로워요.  
     > 맞아요. 그래서 저는 [Table Generator][https://www.tablesgenerator.com/html_tables] 를 이용합니다.
 * `colspan`이 무엇인가요? 

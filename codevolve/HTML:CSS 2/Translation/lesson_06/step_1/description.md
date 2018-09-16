@@ -12,19 +12,19 @@
 
 ```
 |- Body
-    |- navigation bar
-    |- hero image
-    |- container
-    |   |- content
-    |   |   |- headline-group
-    |   |   |   |- headline
-    |   |   |   |- sub-headline
-    |   |   |- 본문
-    |   |- content
-    |   |   |- headline-group
-    |   |   |   |- headline
-    |   |   |   |- sub-headline
-    |   |   |- 본문
+    |- Navigation bar
+    |- Hero image
+    |- Container
+    |   |- Content
+    |   |   |- Headline-group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Main text
+    |   |- Content
+    |   |   |- Headline-group
+    |   |   |   |- Headline
+    |   |   |   |- Sub-headline
+    |   |   |- Main text
     |   |- ...
 ```
 
