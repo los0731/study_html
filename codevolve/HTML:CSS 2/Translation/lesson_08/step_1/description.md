@@ -12,24 +12,24 @@
 따라서 우리는 순서대로 네비게이션 / 컨튼트 / 푸터 순으로 구조를 잡아나갈 것 입니다. 간단하게 보면 아래와 같습니다.
 
 ```
-|- 네비게이션
+|- Navigation
     |- 왼쪽 영역
     |   |- About    
     |   |- Store
     |- 오른쪽 영역
     |   |- Gmail
     |   |- Images
-    |   |- Google apps 버튼
-    |   |- Sign in 버튼
-|- 컨텐트
-    |- 구글 이미지
-    |- 검색 바
-    |   |- 인풋 바
-    |   |- 음성 검색 버튼
-    |- 버튼들
-    |   |- Google Search 버튼
-    |   |- I'm Feeling Lucky 버튼
-|- 푸터
+    |   |- Google apps button
+    |   |- Sign in button
+|- Content
+    |- Google logo image
+    |- Search bar
+    |   |- Input bar
+    |   |- Voice search button
+    |- Buttons
+    |   |- Google Search button
+    |   |- I'm Feeling Lucky button
+|- Footer
     |- 왼쪽 영역
     |   |- Advertising
     |   |- Business

@@ -19,7 +19,7 @@
     |- table
     |   |- title
     |   |- product name
-    |   |- 구매일
+    |   |- Date
     |   |- order Id
     |   |- price
     |   |- footer

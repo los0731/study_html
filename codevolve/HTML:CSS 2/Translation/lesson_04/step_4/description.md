@@ -11,8 +11,7 @@
     	border-bottom: 2px solid #ECEFF1;
     }
     ```
-    
-    
+
 
 ### label
 이제 라벨의 스타일을 정의합시다.
@@ -32,7 +31,7 @@
 
 
 
-### 값
+### Price
 값은 영수증에서 가장 중요한 부분입니다. 이 부분의 스타일을 정의합시다.
 * `.table-receipt .t-value`의 글씨 크기는 `24px`입니다.
 * The letters are centered.
@@ -69,8 +68,7 @@
     	text-align: center;
     }
     ```
-    
-    
+
 
 Click the **NEXT STEP** button. 
 

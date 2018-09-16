@@ -19,8 +19,9 @@
 
 
 
-### business-card
+### Business-card
 `business-card`는 화면의 가운데 위치해야 하고, 특정 넓이를 가지며, 모서리가 둥글어야합니다. 이 외에도 글자 정렬, 배경 컬러, 그림자를 스타일링 합니다. 여기서 배경 컬러가 [Google Colors][1]에서 Blue Grey 50이기 때문에, 그림자의 색상은 Blue Grey 200으로 하겠습니다. 
+
 * Background color is `white`.
 * 마진은 상/하 `40px`, 좌/우 `auto`입니다.
 * 패딩은 상/우/하/좌 모두 `40px`입니다.
@@ -45,7 +46,7 @@
 
 
 
-### 이미지
+### Image
 The size of the image must be reduced to match the size of the card.
 * The width of `.image` is `100%`.
 
@@ -56,17 +57,17 @@ The size of the image must be reduced to match the size of the card.
       width: 100%;
     }
     ```
-    
-    
-    
+
 Click the **NEXT STEP** button.
 
 
 
 # TIPS! 
 * `<body>`에 서체를 지정하면 그 하위의 모든 태그에 적용됩니다.
+
     > 어떤 프로퍼티들은 지정한 선택자에만 적용됩니다. 하지만 어떤 프로퍼티들은 지정한 선택자와 그 하위 모든 선택자에 적용되기도 합니다. `font-family`는 하위 선택자에 모두 적용되는 프로퍼티입니다. 따라서 이 페이지에서 사용하는 모든 글씨에 `Arial, Helvetica, sans-serif`를 적용하고 싶다면 모든 선택자에 반복적으로 `font-family`를 적용할 필요없이 `<body>`에만 적용하면 됩니다.     
 * `font-family: Arial, Helvetica, sans-serif;`의 서체들이 여러개인 이유가 뭐죠?
+
     > 왼쪽에서부터 Arial을 적용하고, 만약 사용자의 컴퓨터에 해당 폰트가 없을 경우, 그 다음인 Helvetica를 적용하라는 의미 입니다. 또 만약 Helvetica가 없을 경우, san-serif가 적용됩니다.
 
 [1]: https://material.io/design/color/#color-usage-palettes

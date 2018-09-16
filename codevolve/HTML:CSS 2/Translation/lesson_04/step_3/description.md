@@ -49,7 +49,7 @@
 
 
 
-### 제목 
+### receipt title 
 영수증의 제목 부분인 `th`의 스타일을 정의합시다. 이 레슨에서 선택자를 입력할 때는 `.table-receipt th`라고 하겠습니다.
 * `.table-receipt th ` 의 패딩은 `24px`입니다.
 * The width is `100%`.
@@ -58,7 +58,7 @@
 
 **Instructions**
 1. Apply style to `.table-receipt th`.
- 
+
     ```css
     .table-receipt th {
     	padding: 24px;
@@ -68,8 +68,7 @@
     	background-color: #2196F3;
     }
     ```
-    
-    
+
 
 Click the **NEXT STEP** button.
 
@@ -88,6 +87,7 @@ Click the **NEXT STEP** button.
     > ```
     > 간결하게 코드를 작성하면 좋은 이유는 짧은 시간에 코드를 이해하는데 도움이 되기 때문입니다. 특히 다른 사람이 내 코드를 봐야한다면요.
 * `border-collapse`는 뭔가요?
+
     > [border-collapse][2]는 테이블 cell 경계선의 겹침 속성을 설정하는 CSS 프로퍼티입니다. 값은 collapse, separate가 있습니다. `collapse`: 테이블 cell의 테두리를 통합합니다. 즉 겹쳐서 한줄로 보이도록 합니다. `separate`: 기본설정으로 테이블 cell의 테두리를 분리해서 두줄로 보이게됩니다.
 
 [1]: https://www.w3schools.com/cssref/css_selectors.asp

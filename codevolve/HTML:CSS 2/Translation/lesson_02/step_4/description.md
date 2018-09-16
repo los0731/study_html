@@ -1,5 +1,5 @@
 # CSS
-## 이미지
+## Image
 Change the width of the image to match the card.
 * The width of `img` in `.birthday-card` is `100%`.
 
@@ -14,7 +14,7 @@ Change the width of the image to match the card.
 
 
 
-## 출처
+## Source
 출처는 작은 글씨로 카드 아래에 약하게 표시되었으면 좋겠습니다.
 * `.source-link`의 글은 가운데 정렬입니다.
 * `.source-link a`의 글씨 색상은 `#311B92`입니다.

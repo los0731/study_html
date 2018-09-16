@@ -18,7 +18,7 @@
 검색 폼과 음성 검색 버튼을 감싸고 있는 이 요소는 `position: relative;`으로 지정해주어야 합니다. 이유는 이후에 나올 음성 검색 버튼에서 설명하겠습니다. 다음의 스타일들을 적용해 봅시다.      
 - `.form-search-wrap`의 `position`은 `relative`입니다.
 - 마진은 상/우/하/좌 `24px auto 0 auto`입니다.
-- The width is `50%`입니다.Wi
+- The width is `50%`.
 - The maximum area is `584px`.
 - The minimum area is `428px`.
 
@@ -99,8 +99,7 @@
      color: #4387fd;
    }
    ```
-  
-   
+
 
 ## buttons-wrap
 검색 폼 아래에 있는 2개의 버튼에 스타일을 지정합니다. 물론 그전에 그 둘을 싸고 있는 이 요소에 간격부터 정의 합시다.      
@@ -143,8 +142,7 @@
      background-color: #f2f2f2;
    }
    ```
-   
-   
+
 
 ## btn-secondary - hover
 이 버튼의 hover 상태에는 다음과 같은 스타일을 적용합니다.  

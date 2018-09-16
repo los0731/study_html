@@ -50,7 +50,6 @@
     .card:hover .card-tag {display: block;}
     ```
 
-    
 
 Click the **NEXT STEP** button.
 
@@ -58,7 +57,7 @@ Click the **NEXT STEP** button.
 
 # TIPS!
 
-- 선택자는 좀 가물 가물 하네요. 두개의 클래스에 동시에 스타일을 적용하려고하면 어떻게 해야했죠?
+- 선택자(selector)는 좀 가물 가물 하네요. 두개의 클래스에 동시에 스타일을 적용하려고하면 어떻게 해야했죠?
 
   > 몇가지 많이 쓰는 선택자를 알려줄게요.
   >
@@ -67,7 +66,7 @@ Click the **NEXT STEP** button.
   >   ```css
   >   .classA, .classB {...} /* 클래스 사이에 ,로 구분합니다. */
   >   
-  >   /* 또는 */
+  >   /* or */
   >   
   >   .classA, 
   >   .classB {...} /* 가독성을 위해 클래스간에 줄바꿈을 사용하기도 합니다.. */
