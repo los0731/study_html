@@ -7,7 +7,7 @@ Medium's policy page uses a lot of styles for the body tag, like `font-size`, `f
 * Padding is `0`.
 * The font is `'Source Serif Pro', serif`.
 * The font size is `19px`.
-* 행간은 `1.58`입니다.
+* line height is `1.58`.
 * The font color is `#333`.
 * Apply Anti-Aliasing.
 
@@ -32,12 +32,12 @@ Medium's policy page uses a lot of styles for the body tag, like `font-size`, `f
 
 let's set the style for the navigation bar, which includes the logo text. 
 
-* `.navbar`의 아래 패딩은 `8px`입니다.
+* The padding below .navbar` is `8px`.
 * The letters are centered.
 * The font is `'Playfair Display', serif`.
 * The font size is `39px`.
-* 글씨 두께는 `bold`입니다.
-* 행간은 `56px`입니다.
+* The font-weight is `bold`.
+* The line height is `56px`.
 
 
 **Instructions**
@@ -63,8 +63,8 @@ let's define the hero image style, to set the theme for this page. We found an i
 * The height is `30vw`.
 * Minimum height is `200px`.
 * The maximum height is `534px`.
-* 배경 이미지의 url/반복/x축 정렬/y축 정렬은 각각 `url("https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center`입니다.
-* 배경 이미지가 모든 영역을 덮어 씁니다.
+* The background image's url/repetition/x-axis range/y-axis range is each set to `url("https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center`.
+* Background image overwrites all areas.
 
 
 **Instructions**

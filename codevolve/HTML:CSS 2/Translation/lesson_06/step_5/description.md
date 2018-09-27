@@ -1,8 +1,8 @@
 ### .container
 We set the style of the container which carries the page's contents. No matter how wide it gets, the container should maintain the width of the browser. Also, it has to placed in the middle of the screen. 
 
-* `container`의 마진은 상/하 `0`, 좌/우 `auto`입니다.
-* 패딩은 상/하 `0`, 좌/우 `16px`입니다.
+* The margin of `container` is `0` top/down, `auto` left/right.
+* Padding is `0` top/down, `16px` left/right.
 * The maximum width is `630px`.
 
 
@@ -22,7 +22,7 @@ We set the style of the container which carries the page's contents. No matter h
 
 The subtag of the container, the content, covers the headline group and body text. 
 
-- `.content`의 아래 마진은 `70px`입니다.
+- The bottom margin of `.content` is `70px`.
 
 **Instructions**
 
@@ -40,7 +40,7 @@ The subtag of the container, the content, covers the headline group and body tex
 
 let's define the style of the headline group which covers the title and subheadings. To clearly distinguish it from the body text, we need to use the margin, to set the spacing, and change the font. 
 
-* `.headline-group`의 마진은 상/우/하/좌 `64px 0 24px 0`입니다.
+* The margin of `.headline-group` is `64px 0 24px 0` for top/right/down/left.
 * The font is `'Heebo', sans-serif`.
 
 

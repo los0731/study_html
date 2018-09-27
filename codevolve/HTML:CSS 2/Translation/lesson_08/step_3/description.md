@@ -2,17 +2,17 @@
 This page has 3 major sections: navigation / contents / footer. 
 
 **Instructions**
-1. `<body>`안에 `<nav>`를 추가하고, `class="navigation"`적용하기. 
+1. Add `<nav>` in `<body>` and apply `class="navigation"`.
     ```html
     <body>
       <nav class="navigation"></nav>
     </body>
     ```
-1. `<nav class="navigation">`다음에 `<div>`를 추가하고, `class="content"`적용하기. 
+1. After `<nav class="navigation"> add `<div>` and apply `class="content"`
     ```html
     <div class="content"></div>
     ```
-1. `<div class="content">`다음에 `footer`태그를 추가하고, `class="footer"` 적용하기. 
+1. After `<div class="content">` add `footer` tag and apply `class="footer"`
     ```html
     <footer class="footer"></footer>
     ```
@@ -32,21 +32,28 @@ This page has 3 major sections: navigation / contents / footer.
 About, Store are placed on the left, the rest are on the right. That means the left and right areas are seperated. 
 
 **Instructions**
-1. `<nav class="navigation">`태그 안에 2개의 `<div>`를 추가하고, 각각 `class="nav-left"`, `class="nav-right"` 적용하기. 
+1. In the `<nav class="navigation">` tag add 2 `<div>` and apply `class="nav-left"`, `class="nav-right"` respectively
     ```html
     <nav class="navigation">
       <div class="nav-left"></div>
       <div class="nav-right"></div>
     </nav>
     ```
-1. `<div class="nav-left">`태그 안에 2개의 `<a href="">`를 추가하고, 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
+
+1. In the `<div class="nav-left">` tag add 2 `<a href="">` and fill with contents (leave the href attribute empty, as this is just practice programming).
     ```html
     <div class="nav-left">
       <a href="">About</a>
       <a href="">Store</a>
     </div>
     ```
-1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a href="">` 추가하고 각각 내용 채우기. 버튼으로 사용할 마지막 2개의 태그에는 각각 `class="btn btn-apps"`, `class="btn btn-sign-in"` 적용하기. 그리고 `<a href="" class="btn btn-apps">`에 `apps`아이콘을 추가하고 크기 조절하는 `class="md-24"` 적용하기.   
+
+1. In the `<div class="nav-right">` tag add 4 `<a href="">` and fill each with contents. 
+
+    Apply respectively `class="btn btn-apps"`, `class="btn btn-sign-in"`to the last 2 tags, that will be used as buttons. 
+
+    Also in `<a href="" class="btn btn-apps">` add `apps` icon and apply size adjustment of `class="md-24"`
+
     ```html
     <div class="nav-right">
       <a href="">Gmail</a>

@@ -15,7 +15,7 @@ To create a style, where the receipt seems to float on the background, let's go 
 
 ### .container
 The container sets the receipt in the middle of the screen, at a certain, predetermined width. 
-* `.container`의 마진은 상/하 `80px`, 좌/우 `auto`입니다.
+* The margin of `.container` is `80px` for top/down, `auto` for left/right.
 * The maximum width is `400px`.
 
 **Instructions**
@@ -32,10 +32,10 @@ The container sets the receipt in the middle of the screen, at a certain, predet
 ### .table-receipt
 
 let's define the style of the receipt inside the container. 
-* `.table-receipt`의 경계선들이 겹쳐서 한줄로 표시되도록 합니다. 
+* Make sure the borders of the `.table-receipt` overlap and appear as one line.
 * The width is `100%`.
 * Background color is `white`.
-* 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `40px 40px 80px -8px #B0BEC5`입니다.
+* The shadow's x-axis/y-axis/blur/size/color is `40px 40px 80px -8px #B0BEC5`.
 
 **Instructions**
 1. Apply style to `.table-receipt`
@@ -52,7 +52,7 @@ let's define the style of the receipt inside the container.
 
 ### <th> 
 let's define the style of `th`, the title part of the receipt. In this lesson when we input a selector, we will call it `.table-receipt th`. 
-* `.table-receipt th ` 의 패딩은 `24px`입니다.
+* The padding of `.table-receipt th ` is `24px`.
 * The width is `100%`.
 * The font color is `white`.
 * Background color is `#2196F3`. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.

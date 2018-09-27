@@ -18,7 +18,7 @@ The whole page uses `arial` font. let's apply styles, one by one.
 
 ## <a>
 Also, we remove the `underline`, common for the whole `a`. 
-* `a`의 글씨의 장식이 없습니다.
+* There are no text decorations in `a`'s text.
 
 
 **Instructions**

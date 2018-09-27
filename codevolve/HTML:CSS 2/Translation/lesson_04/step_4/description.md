@@ -36,7 +36,7 @@ let's now define the style of the label.
 ### .t-price
 
 The price is the most important part of the receipt. let's go ahead and define it's style. 
-* `.table-receipt .t-price`의 글씨 크기는 `24px`입니다.
+* `.table-receipt .t-price`'s text size is `24px`.
 * The letters are centered.
 
 **Instructions**
@@ -53,11 +53,11 @@ The price is the most important part of the receipt. let's go ahead and define i
 ### .t-footer
 
 Last but not least, is the style of the footer. 
-* `.table-receipt .t-footer`의 패딩은 `24px`입니다.
-* 하단의 경계선은 `0`입니다.
+* `.table-receipt .t-footer`'s padding is `24px`.
+* The border at the bottom is `0`.
 * The font size is `16px`.
 * The font color is `#2196F3`. (same as background color.)
-* 글씨 두께는 `700`입니다.
+* The font-weight is `700`.
 * The letters are centered.
 
 **Instructions**

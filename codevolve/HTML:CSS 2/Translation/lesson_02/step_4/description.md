@@ -17,9 +17,9 @@ Change the width of the image to match the card.
 ### .source-link
 
 It's better if the source of the image is marked discritly in small font at the bottom of the card. 
-* `.source-link`의 글은 가운데 정렬입니다.
-* `.source-link a`의 글씨 색상은 `#311B92`입니다.
-* `.source-link a`의 밑줄을 제거합니다.
+* `.source-link`'s text is centered
+* text color is `#311B92`.
+* underscore is removed
 
 **Instructions**
 1. Apply style to `.source-link`.

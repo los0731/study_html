@@ -2,8 +2,8 @@
 ### <body>
 Set the color of the card to white and the background to purple.
 
-* `body`의 마진은 `0`으로 적용되어 있습니다.
-* 패딩은 상/우/하/좌 모두`16px`입니다.
+* The margin of the body is `0`.
+* For the padding all is `16px` for top/right/down/left.
 * Background color is `#512DA8`.
 
 **Instructions**
@@ -21,12 +21,12 @@ Set the color of the card to white and the background to purple.
 ### .birthday-card
 `.birthday-card` is the space to write the actual card
 
-* 마진은 상/하 `40px`, 좌/우 `auto`입니다.
+* The margin is `40px` for top/down, `auto` for left/right
 * Padding is `16px`
 * The maximum width is `400px`.
 * Background color is `white`.
-* 글자 정렬은 `center`입니다.
-* 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `0 24px 40px -8px #311B92`입니다.
+* The text range is `center`.
+* The shadow's x-axis/y-axis/blur/size/color is `0 24px 40px -8px #311B92`.
 
 **Instructions**
 1. Apply style to `birthday-card`.

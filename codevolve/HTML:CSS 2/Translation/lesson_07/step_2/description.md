@@ -46,7 +46,7 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     <div class="card-block"></div> 
     ```
 
-1. `<div class="card-block">`안에 `<h2>`를 추가하고, `class="card-title"` 적용 및 내용 채우기.
+1. Add `<h2>` in `<div class="card-block">` and, after applying `class="card-title"`, fill out the contents.
 
     ```html
     <div class="card-block">
@@ -54,7 +54,7 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     </div>  
     ```
 
-1. `<h2 class="card-title>`아래에 `<p>`를 추가하고, `class="card-description"`으로 적용 및 내용 채우기. 
+1. After `<h2 class="card-title>` add `<p>` and, after applying `class="card-description"`, fill out with contents.
     ```html
     <p class="card-description">Get a sneak peek at the design process at Facebook from product designers Cat Audi and George Kedenburg III.</p>       
     ```
@@ -64,7 +64,7 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     <hr class="card-hr">       
     ```
 
-1. `<hr class="card-hr">`아래에 `<h6>`를 2개 추가하고, 각각 `class="card-type"`, `class="card-tag"` 적용 및 내용 채우기. 
+1. After `<hr class="card-hr">` add 2 `<h6>` and, after applying respectively `class="card-type"`, `class="card-tag"`, fill out with contents.
     ```html
     <h6 class="card-type">VIDEO</h6>
     <h6 class="card-tag">VIEW MORE</h6>

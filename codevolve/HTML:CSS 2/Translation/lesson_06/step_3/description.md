@@ -27,7 +27,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     <div class="container"></div>
     ```
 
-1. `<div class="container">`안에 4개의  `<div>`를 추가하고, `class="content"`적용하기.
+1. Add 4 `<div>` in `<div class="container">` and apply `class="content"`
 
     ```html
     <div class="container">
@@ -73,7 +73,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. 위와 같은 방법으로, 두번째 `<div class="content">`의 코드 작성하기.
+1. Same as above, write code for the second `<div class="content">`
 
     ```html
     <div class="content">
@@ -85,7 +85,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. 위와 같은 방법으로, 세번째 `<div class="content">`의 코드 작성하기.
+1. Same as above, write code for the third `<div class="content">`
 
     ```html
     <div class="content">
@@ -97,7 +97,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. 위와 같은 방법으로, 네번째 `<div class="content">`의 코드 작성하기.
+1. Same as above, write code for the fourth `<div class="content">`
 
     ```html
     <div class="content">
@@ -109,7 +109,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. 위와 같은 방법으로, 마지막  `<div class="content">`의 코드 작성하기.
+1. Same as above, write code for the last `<div class="content">`
 
     ```html
     <div class="content">

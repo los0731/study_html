@@ -6,7 +6,7 @@ First we add the navigation bar with Medium's logo in it. On it's official page,
 
 **Instructions**
 
-1. `<body>`안에 `<nav>`를 추가하고, `class="navbar"`적용 후, 내용 채우기
+1. Add `<nav>` in `<body>` and, after applying `class="navbar"`, fill out the contents.
 
    ```html
    <body>

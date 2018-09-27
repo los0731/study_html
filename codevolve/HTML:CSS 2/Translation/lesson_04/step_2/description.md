@@ -31,7 +31,7 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       <table class="table-receipt"></table>
     </div>
     ```
-1. `<table>` 안에 `<thead>`와 `<tbody>` 추가하기. 
+1. Add `<thead>` and `<tbody>`in the `<table>`
 
     ```html
     <table class="table-receipt">
@@ -39,10 +39,10 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       <tbody></tbody>
     </table> 
     ```
-1. `<thead>` 부분 코드 작성하기.
-    * `<thead>`에 `<tr>`를 사용해서 1개의 행을 만들기.
-    * `<tr>`안에 `<th>`를 사용해서 1개의 열을 추가하고, `class="t-header"`, `colspan="2"` 적용하기
-    * 내용 채우기.
+1. Write code for the `<thead>` part
+    * Use `<tr>`in `<thead>` to create 1 row.
+    * Use `<th>` in `<tr>` to add 1 column and apply `class="t-header"`, `colspan="2"`
+    * Fill in content
     ```html
     <thead>
       <tr>
@@ -50,11 +50,11 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       </tr>
     </thead> 
     ```
-1. `<tbody>` 부분 코드 작성하기.
-    * `<tbody>`에 `<tr>`를 사용해서 5개의 행을 추가하기. 
-    * 1~4번째 행에는 `<td>`를 사용해서 2개의 열을 만들고, 각각 `class="t-label"`, `class="t-content"` 적용하기. 
-    * 5번째 행에는 1개의 열을 만들고, `class="t-footer"`, `colspan="2"`로 적용하기. 
-    * 각 항목에 내용 채우기. 
+1. Write code for the `<tbody>` part
+    * Use `<tr>`in `<tbody>` to create 5 rows.
+    * For rows 1~4 use `<tr>` to create 2 columns and apply `class="t-label"`, `class="t-content"` to each.
+    * For the 5th row create 1 column and apply `class="t-footer"`, `colspan="2"`.
+    * Fill each item with content
     ```html
     <tbody>
       <tr>

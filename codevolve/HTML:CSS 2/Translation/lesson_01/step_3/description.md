@@ -2,8 +2,8 @@
 
 ### .container
 Now click the `style.css` tab in the middle of the code editor. The `.container`, that has all the elements, should be in the middle of the screen and shouldn't be wider than the already predetermined width. 
-* `.container`의 마진은 상/하 `24px`, 좌/우 `auto`입니다.
-* 패딩은 상/하 `0`, 좌/우 `16px`입니다.
+* `.container`'s margin is `24px` top/down, `auto` left/right.
+* Padding is `0` top/down, `16px` left/right.
 * The maximum width is `960px`.
 
 **Instructions**

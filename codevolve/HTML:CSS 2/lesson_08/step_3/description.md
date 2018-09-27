@@ -38,6 +38,7 @@
       <div class="nav-right"></div>
     </nav>
     ```
+
 1. `<div class="nav-left">`태그 안에 2개의 `<a href="">`를 추가하고, 내용 채우기. (실제 기능 개발은 아니기 때문에 href attribute는 비워둡시다.) 
     ```html
     <div class="nav-left">
@@ -45,7 +46,13 @@
       <a href="">Store</a>
     </div>
     ```
-1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a href="">` 추가하고 각각 내용 채우기. 버튼으로 사용할 마지막 2개의 태그에는 각각 `class="btn btn-apps"`, `class="btn btn-sign-in"` 적용하기. 그리고 `<a href="" class="btn btn-apps">`에 `apps`아이콘을 추가하고 크기 조절하는 `class="md-24"` 적용하기.   
+
+1. `<div class="nav-right">`태그 안에 아래와 같이 4개의 `<a href="">` 추가하고 각각 내용 채우기. 
+
+    버튼으로 사용할 마지막 2개의 태그에는 각각 `class="btn btn-apps"`, `class="btn btn-sign-in"` 적용하기. 
+
+    그리고 `<a href="" class="btn btn-apps">`에 `apps`아이콘을 추가하고 크기 조절하는 `class="md-24"` 적용하기.   
+
     ```html
     <div class="nav-right">
       <a href="">Gmail</a>

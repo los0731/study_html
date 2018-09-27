@@ -16,7 +16,7 @@ Below the header we add the menu information. The menu information is composed o
     </table>
     ```
 
-1. 메뉴가 7가지이므로, `<tbody>` 안에 7개의 `<tr>` 추가하기
+1. Since the menu has 7 elements, add 7 `<tr>` inside `<tbody>`.
     ```html
     <table class="table-menu">
         <tbody>

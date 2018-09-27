@@ -1,9 +1,9 @@
 ## .footer
 Finally, we will define the style of the footer area. The footer must be pinned to the bottom of the screen.
-* `.footer`의 `position`은 `absolute`입니다.
-* 아래에서 `0`만큼 떨어져 있습니다.
-* 위 경계선은 `1px`의 직선이고 색상은 `#e4e4e4`입니다.
-* 넓이는 브라우저 전체 입니다.
+* `.footer`'s `position` is `absolute`.
+* It's `0` from below.
+* The top border is `1px` solid line and the color is `#e4e4e4`.
+* The width is the entire browser.
 * Background color is `#f2f2f2`.
 
 **Instructions**
@@ -22,8 +22,8 @@ Finally, we will define the style of the footer area. The footer must be pinned 
 
 ## .footer-right
 The two `<div>`within the footer must be positioned left/right of each other. This time in `.footer-right` let's use `float` function to capture the layout
-- `.footer-right`의 `float`속성은 `right`입니다.
-- 오른쪽 마진은 `25px`입니다.
+- `.footer-right`'s `float` attribute is `right`.
+- The right margin is `25px`.
 
 **Instructions**
 1. Apply style to `.form-search-wrap`.
@@ -38,9 +38,9 @@ The two `<div>`within the footer must be positioned left/right of each other. Th
 
 ## .footer a
 let's style all the `a` tags in the footer.
-- `.footer a`의 왼쪽 마진은 `25px`입니다.
+- The left margin of `.footer a` is `25px`.
 - The font size is `13px`.
-- 행간은 `40px`입니다.
+- The line height is `40px`.
 - The font color is `#666`. 
 
 **Instructions**
@@ -58,7 +58,7 @@ let's style all the `a` tags in the footer.
 
 ## footer a:hover
 Last but not least, when the `a` tags in the footer are in the hover mode, they should get underlined.    
-- `.footer a:hover`의 텍스트에 밑줄이 생깁니다.
+- `.footer a:hover`'s text is underlined.
 
 **Instructions**
 1. Apply style to `.footer a:hover`.

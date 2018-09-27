@@ -1,10 +1,10 @@
 # CSS
 ### <body>
 We now add the page's background image. In order to fill the entire `body` area, the background has to be set as the height of the entire browser. And so, we can set the entire height as the difference between the `body`'s minimum height and `body`'s up/down padding value. 
-* `body`의 패딩은 상/하 `80px`, 좌/우 `16px`입니다.
-* 최소 높이는 전체 `Viewport height`에서 `160px`만큼 뺀 값입니다. 
-* 배경 이미지의 url/반복/x축 정렬/y축 정렬은 각각 `url("https://image.freepik.com/free-vector/matisse-inspired-shapes-seamless-pattern_1235-418.jpg") no-repeat center center`입니다.
-* 배경 이미지가 모든 영역을 덮어 씁니다.
+* The padding of `body` is `80px` top/down, `16px left/right.
+* The minimum height value is the difference between the total `Viewport height` and `160px`.
+* The background image's url/repetition/x-axis range/y-axis range is each set to `url("https://image.freepik.com/free-vector/matisse-inspired-shapes-seamless-pattern_1235-418.jpg") no-repeat center center`.
+* Background image overwrites all areas.
 
 
 **Instructions**
@@ -24,12 +24,12 @@ We now add the page's background image. In order to fill the entire `body` area,
 ### .menu-wrap
 `.menu-wrap` is the space surrounding the menu.
 
-* `menu-wrap`의 마진은 상/하 `0`, 좌/우 `auto`입니다.
+* The margin of `menu-wrap` is `0` top/down, `auto` left/right.
 * Padding is `40px`.
-* 모서리의 둥글기는 `8px`입니다.
+* The rounded edges are `8px`.
 * The maximum width is `400px`.
 * Background color is `white`
-* 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `40px 40px 80px -40px rgba(50,50,80,.4)`입니다. 
+* The shadow's x-axis/y-axis/blur/size/color is  `40px 40px 80px -40px rgba(50,50,80,.4)`.
 
 
 
@@ -91,12 +91,12 @@ We now add the page's background image. In order to fill the entire `body` area,
 
 `.table-menu` is the area where the coffee types and the prices are to be displayed. 
 
-* `.table-menu`의 마진은 상/우/하/좌 `40px 0 0 0`입니다.
+* The margin of `.table-menu` is `40px 0 0 0` for top/right/down/left.
 * The width is `100%`.
 * The font is `'Questrial', sans-serif`.
 * The font size is `24px`.
 * The font color is `#455A64`.
-* 행간은 `40px`입니다.
+* The line height is `40px`.
 
 
 **Instructions**

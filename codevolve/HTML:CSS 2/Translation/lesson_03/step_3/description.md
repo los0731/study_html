@@ -1,7 +1,7 @@
 # CSS
 ### <body> 
 To better showcase the online business card, we will choose a background color. In [Google colors][1] choose `Blue Grey 50`. 
-* `body`의 마진은 `0`으로 적용되어 있습니다.
+* The margin of the body is `0`.
 * Padding is `8px`.
 * The font is `Arial, Helvetica, sans-serif`.
 * Background color is `#ECEFF1`.
@@ -23,12 +23,12 @@ To better showcase the online business card, we will choose a background color. 
 `business-card` should be placed in the middle of the screen, and it should have a specific width and rounded corners. We will also style the font alignment, background color, shadow. Since the background color here is [Google Colors][1]'s `Blue Grey 50`, we will make the shadow color `Blue Grey 200`. 
 
 * Background color is `white`.
-* 마진은 상/하 `40px`, 좌/우 `auto`입니다.
-* 패딩은 상/우/하/좌 모두 `40px`입니다.
-* 모서리의 둥글기는 `8px`입니다.
+* The margin is `40px` for top/down, `auto` for left/right
+* For the padding all is `40px` for top/right/down/left.
+* The rounded edges are `8px`.
 * The width is `240px`.
-* 글은 가운데 정렬 입니다.
-* 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `0 16px 32px -16px #B0BEC5;`입니다.
+* The text is centered
+* The shadow's x-axis/y-axis/blur/size/color is `0 16px 32px -16px #B0BEC5;`.
 
 **Instructions**
 1. Apply style to `business-card`.

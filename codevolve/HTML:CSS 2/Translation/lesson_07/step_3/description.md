@@ -19,11 +19,11 @@ Facebook design page uses a very light grey background. Also there's a separate 
 ### .card
 let's define the style of the card. 
 
-* `.card`의 마진은 상/하 `80px`좌/우 `auto`입니다.
+* The margin of `.card` is `80px` top/down, `auto` left/right.
 * The maximum width is `350px`.
-* 그림자의 x축/y축/퍼짐(blur)/크기/색상은 `0 20px 20px 0 rgba(0, 0, 0,.08)`입니다. 
-* 모서리의 둥글기는 `3px`입니다.
-* `transition` 속성은 `.24s`입니다.
+* The shadow's x-axis/y-axis/blur/size/color is `0 20px 20px 0 rgba(0, 0, 0,.08)`.
+* The rounded edges are `3px`.
+* The `transition` attribute is `.24s`.
 
 
 **Instructions**
@@ -43,8 +43,8 @@ let's define the style of the card.
 ### .card:hover
 `:hover` refers to the hovering the mouse over an element. it's the best UI practice to explain to desktop users that they can click their mouse on an element. let's define the hover style of the card. Thanks to using the `transition: .24s;` at the top, the transition from normal state to hover and back to normal is much smoother. 
 
-* `.card:hover`의 그림자는 x축/y축/퍼짐(blur)/크기/색상은 `0 40px 40px 0 rgba(0, 0, 0,.16)`입니다.
-* `transform` 을 사용하여 위로 `20px` 움직입니다.
+* `.card:hover`'s shadow's x-axis/y-axis/blur/size/color is ``0 40px 40px 0 rgba(0, 0, 0,.16)`.
+* Use `transform` to move `20px` upwards.
 
 
 **Instructions**
@@ -61,7 +61,7 @@ let's define the style of the card.
 ### <a>
 In `<a>` the text is by default blue and underlined. that's why we have to define the style separately and remove all the decorative elements. 
 
-* `a`의 글씨의 장식이 없습니다.
+* There are no text decorations in `a`'s text.
 * The font color is `#1D2129`.
 
 **Instructions**
@@ -72,8 +72,6 @@ In `<a>` the text is by default blue and underlined. that's why we have to defin
     	color: #1D2129;
     }
     ```
-
-
 
 
 

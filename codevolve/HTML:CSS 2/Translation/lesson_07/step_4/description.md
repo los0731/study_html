@@ -4,11 +4,11 @@ Like mentioned before, let's style the card's hero with CSS.
 * The width of `.card-hero` is `100%`.
 * The height is `296px`.
 * The url of the background image is `https://scontent-hkg3-1.xx.fbcdn.net/v/t15.0-10/12323191_10153628757763553_1398467009_n.jpg?_nc_cat=0&oh=76da236f6fc18effbfec0f9020e4d009&oe=5BDA9FDB`.
-* 배경 이미지는 반복하지 않습니다.
-* 배경 이미지의 위치는 x축/y축  `center center`입니다. 
-* 배경 이미지가 모든 영역을 덮어 씁니다.
-* 위/왼쪽 모서리의 둥글기는 `4px`입니다.
-* 위/오른쪽 모서리의 둥글기는 `4px`입니다.
+* The background image is not repeated.
+* The background image's location is `center center` for x-axis/y-axis.
+* The background image overwrites all areas.
+* The top-left rounded edge is `4px`.
+* The top-right rounded edge is `4px`.
 
 
 **Instructions**
@@ -32,7 +32,7 @@ Like mentioned before, let's style the card's hero with CSS.
 ### .card-block
 Now that the hero image is complete, let's style the card block, a bundle of the rest of the elements of the card.
 
-* `.card-block`의 패딩은 `24px`입니다.
+* The padding of `.card-block` is `24px`.
 * Background color is `white`.
 
 
@@ -50,10 +50,10 @@ Now that the hero image is complete, let's style the card block, a bundle of the
 ### .card-title
 The card's title uses  `<h2>`. A basic margin has been applied to all the title tags from `<h1>`to`<h6>`. Hence, when defining the style of the titles, the default style has to be taken into consideration. 
 
-* `.card-title`의 마진은 `0`입니다. 
+* The margin of `.card-title` is `0`
 * The font size is `24px`.
-* 글씨 두께는 `400`입니다.
-* 행간은 `32px`입니다.
+* The font-weight is `400`.
+* The line height is `32px`.
 
 
 **Instructions**
@@ -73,11 +73,11 @@ The card's title uses  `<h2>`. A basic margin has been applied to all the title 
 
 The description text should only show the beginning part of the text. Therefore we have to choose whether it will show 2 or 3 first lines of the text. Here we will set it to show up to only 3 lines. Whatever exceeds 3 lines will be displayed as `...`.
 
-- `.card-description`이 3줄 까지만 보여주고, 그 이상이면 `...`처리합니다.
-- 마진은 상/우/하/좌 `12px 0 0 0 0`입니다.
+- `.card-description` shows text only until the 3rd line, after that it displays `...`.
+- The margin is `12px 0 0 0 0` for top/right/down/left.
 - The font size is `12px`.
-- 글씨 두께는 `400`입니다.
-- 행간은 `20px`입니다.
+- The font-weight is `400`.
+- The line height is `20px`.
 - The font color is `#4B4F56`. 
 
 **Instructions**
@@ -107,9 +107,9 @@ The description text should only show the beginning part of the text. Therefore 
 
 `<hr>` used as a partition line, has a default setting of  `border-width: 1px`. that's why I usually overwrite it with a new `border` attribute and use a partition line that I actually like. 
 
-- `.card-hr`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
+- The margin of `.card-hr` is `16px 0 0 0` for top/right/down/left.
 - There are no borders.
-- 상단 경계선은 `1px solid #ECEFF1`입니다.
+- The top border is `1px solid #ECEFF1`
 
 **Instructions**
 

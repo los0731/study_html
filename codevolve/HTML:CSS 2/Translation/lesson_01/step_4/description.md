@@ -5,7 +5,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 ### Headline 
 
-* `h1`의 마진은 상/우/하/좌 `40px 0 8px 0`입니다.
+* Margin of `h1` is `40px 0 8px 0` for top/right/down/left.
 * The font size is `20px`.
 
 
@@ -22,7 +22,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 ### Posting
 
-* `h6`의 마진은 상/하 `8px`, 좌/우 `0`입니다.
+* Margin of `h6` is `8px` for top/down `0` for left/right.
 * The font size is `12px`.
 
 **Instructions**
@@ -38,7 +38,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 ### Subheadline
 
-* `h2`의 마진은 상/우/하/좌 `16px 0 8px 0`입니다.
+* Margin of `h2` is `16px 0 8px 0` for top/right/down/left.
 * The font size is `16px`.
 
 **Instructions**
@@ -53,9 +53,9 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 
 ### Main text
-* `p`의 마진은 상/하 `8px`, 좌/우 `0`입니다.
+* Margin of `p` is `8px` for top/down `0` for left/right.
 * The font size is `14px`.
-* 행간은 `22px`입니다.
+* The line height is `22px`
 
 **Instructions**
 

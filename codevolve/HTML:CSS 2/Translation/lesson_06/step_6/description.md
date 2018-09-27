@@ -21,10 +21,10 @@ Now let's trim the most detailed parts. First of all, the title and subheadings 
 
 let's apply the title style. 
 
-- `.headline-text`의 아래 마진은 `8px`입니다.
+- The bottom margin of `.headline-text` is `8px`.
 - The font size is `30px`.
-- 글씨 두께는 `700`입니다.
-- 행간은 `1`입니다.
+- The font-weight is `700`.
+- The line height is `1`.
 
 **Instructions**
 
@@ -46,8 +46,8 @@ let's apply the title style.
 The subheadings, which assist the main title part, are expressed in smaller font, lighter color, less boldness.  
 
 - The font size of `.sub-headline-text` is `24px`. 
-- 글씨 두께는 `300`입니다.
-- 행간은 `1.4`입니다.
+- The font-weight is `300`.
+- The line height is `1.4`.
 - The font color is `#8f8f8f`.
 
 **Instructions**
@@ -69,7 +69,7 @@ The subheadings, which assist the main title part, are expressed in smaller font
 
 Actually, the `<body>`'s style is applied to the the content text (`<p>`) as is, and other than adjusting the margin, there's no need to specify the style. it's because it is all already defined within the body. 
 
-- `.content-text`의 마진은 상/우/하/좌 `0 0 80px 0`입니다.
+- The margin of `.content-text `is `0 0 80px 0` for top/right/down/left.
 
 **Instructions**
 

@@ -1,9 +1,9 @@
 ### .card-type, .card-tag
 let's style the type and tag text, located on the left of the card. `.card-type` and `.card-tag` have to be defined simultaneously. When selecting more than 2 classes at the same time, use `, ` between them. 
 
-* `.card-type, .card-tag`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
+* The margin of `.card-type, .card-tag` is `16px 0 0 0` for top/right/down/left.
 * The font size is `12px`.
-* 글씨 두께는 `400`입니다.
+* The font-weight is `400`.
 * The font color is `#90949C`.
 
 
@@ -33,18 +33,19 @@ let's use CSS for 1, 2, 3.
 
 
 **Instructions**
-1. `.card-tag`를 보이지 않도록 하기.
+1. Don't show `.card-tag`
+
     ```css
     .card-tag {display: none;}
     ```
 
-2. `.card:hover`안에 있는 `.card-type`는 보이지 않도록 하기.
+2. Don't show `.card-type` that is in `.card:hover`.
 
     ```css
     .card:hover .card-type {display: none;}
     ```
 
-3. `.card:hover`안에 있는 `.card-tag`가 나타나도록 하기.
+3. Show `.card-tag` that is in `.card:hover`.
 
     ```css
     .card:hover .card-tag {display: block;}

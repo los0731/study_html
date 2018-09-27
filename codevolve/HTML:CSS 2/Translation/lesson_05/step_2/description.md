@@ -28,7 +28,7 @@ We have to put in the header and the menu items into `<div class="menu-wrap">`. 
       <img src="https://cdn0.iconfinder.com/data/icons/coffee-brewing-glyph/16/10-512.png" alt="Cafe Ferrol image" width="128">
     </header>
     ```
-1. `<img>` 다음에 `<h4>`를 추가하고, `class="header-title"` 적용 후 내용 채우기.
+1. After `<img>` add `<h4>` and after applying `class="header-title"`fill out the contents.
     ```html
     <img src="..." alt="..." width="...">
     <h4 class="header-title">Cafe Ferrol</h4> 
