@@ -14,7 +14,7 @@ Start by creating container using `<div>`.
 
 
 ### .table-receipt
-`<div class="container">`안에 영수증의 뼈대가 될 `<table>`를 추가합니다. 영수증에 들어가는 내용은 아래와 같습니다.
+In the `<div class="container">` we add `<table>`, which will be the framework for the receipt. The following items will be part of the receipt. 
 > * PAYMENT RECEIPT
 > * Product: Awesome Editor
 > * Date: Apr. 22 2018
@@ -81,7 +81,7 @@ Start by creating container using `<div>`.
     </tbody> 
     ```
 
-이렇게 HTML로 뼈대를 구성했습니다. 다음 페이지에서 CSS를 사용해서 스타일링을 해봅시다.
+So this is how we have constructed the page framework using `HTML`. On the next page let's use `CSS` to do some styling. 
 
 
 
@@ -90,7 +90,9 @@ Click the **NEXT STEP** button.
 
 
 ## TIPS! 
-* 태이블 태그를 작성하는 것이 번거로워요.  
-    > 맞아요. 그래서 저는 [Table Generator][https://www.tablesgenerator.com/html_tables] 를 이용합니다.
-* `colspan`이 무엇인가요? 
-    > `<td>`, `<th>`의 속성 중 하나인 `colspan`은 각 셀을 가로로 병합합니다. 예를 들어 `colspan="2"`는 2칸을 병합하라는 의미입니다. 만약 세로로 병합하고 싶다면 `rowspan="2"`을 사용할 수 있습니다.
+* It's really tedious to write a table tag.
+
+    > That's true. That's why I use  [Table Generator][https://www.tablesgenerator.com/html_tables]. 
+* What's `colspan`?
+
+    > Among the properties of `<td>`, `<th>`, there is one called `colspan`, which merges each cell horizontally. For example, `colspan="2"` means two cells will be merged. When you want to merge two cells vertically, you can use `rowspan="2"`. 

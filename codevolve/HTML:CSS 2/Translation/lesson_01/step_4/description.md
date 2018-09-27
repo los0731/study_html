@@ -1,5 +1,5 @@
 # CSS
-이 페이지에서 제목은 `h1`, 최근 수정일은 `h6`, 소제목은 `h2`, 본문은 `p` 로 사용되고 있습니다. 
+On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` is the body. 
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-### Last modified
+### Posting
 
 * `h6`의 마진은 상/하 `8px`, 좌/우 `0`입니다.
 * The font size is `12px`.

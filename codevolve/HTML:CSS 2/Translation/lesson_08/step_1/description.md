@@ -1,22 +1,22 @@
 # Google Search
-세상에서 가장 많은 사람이 방문하는 웹 페이지는 어디일까요? 바로 [google.com](https://google.com) 입니다. 재미있는 것은 세상에서 가장 많은 사람들이 방문하는 웹 페이지가 세상에서 가장 단순하다는 점이죠. 우리는 이번 레슨에서 이 단순하고 아름다운 검색 페이지를 만들어 볼니다.
+What is the web page most visited by people around the world? it's [google.com](https://google.com). it's funny that the most visited webpage in the world is also one of the simplest. In this lesson we will try to make this simple yet beautiful search page. 
 
 
 
-###이 페이지의 구조
-###### 설명 영역을 넓게 하여 이미지를 더 크게 볼 수 있습니다.
+###The page structure 
+###### By having the description area set wider, we can view the images bigger. 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609842/wire/img-wire-08.jpg)
 
-구글 검색 페이지는 '네비게이션 / 컨텐트 / 푸터' 3부분으로 구분되어 있습니다. 네비게이션은 또 왼쪽 메뉴 영역과 오른쪽 버튼 영역으로 나뉘어져 있습니다. 오른쪽 버튼 영역에는 구글의 여러 앱 모양의 아이콘 버튼과, 로그인 버튼 등이 있네요. 그리고 컨텐트 영역에는 구글 로고 이미지, 검색 바, 그리고 Google Search 버튼과 I'm Feeling Lucky 순서대로 배치되어 있습니다. 마지막으로 푸터에는 네비게이션 부분과 비슷하게, 왼쪽과 오른쪽 각각 링크들이 배치되어 있습니다.
+The Google search page is made of 3 parts: `navigation / content / footer`. The navigation is further split into left menu area and right button area. In the right button area there are various Google app-shaped icon buttons, Google login button etc. In the content area the Google logo image, search bar, as well as Google Search button and `I'm feeling lucky` button are placed in determined order. Last but not least, in the footer, similar to the navigation bar, links are each placed on the left and right. 
 
-따라서 우리는 순서대로 네비게이션 / 컨튼트 / 푸터 순으로 구조를 잡아나갈 것 입니다. 간단하게 보면 아래와 같습니다.
+And so we will set up the page structure in the following order: navigation / content / footer. In brief, it goes as follows: 
 
 ```
 |- Navigation
-    |- 왼쪽 영역
+    |- Left area
     |   |- About    
     |   |- Store
-    |- 오른쪽 영역
+    |- Right area
     |   |- Gmail
     |   |- Images
     |   |- Google apps button
@@ -30,10 +30,10 @@
     |   |- Google Search button
     |   |- I'm Feeling Lucky button
 |- Footer
-    |- 왼쪽 영역
+    |- Left area
     |   |- Advertising
     |   |- Business
-    |- 오른쪽 영역 
+    |- Right area
     |   |- Pricacy
     |   |- Terms
     |   |- Settings

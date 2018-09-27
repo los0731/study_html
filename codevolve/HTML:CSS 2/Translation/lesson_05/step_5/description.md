@@ -1,9 +1,8 @@
-# 완성
-잘했어요! 카페 메뉴판이 완성됬습니다.
-이번 레슨에서 우리는 8개의 HTML 태그와 15개의 CSS 프로퍼티를 사용했습니다.  
-
+# Finished
+Congratulations! You've completed the cafe's menu. In this lesson we used 8 HTML tags and 15 CSS properties. 
 
 HTML
+
 ```
 div
 header

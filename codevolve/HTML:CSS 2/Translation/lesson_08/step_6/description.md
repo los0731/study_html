@@ -1,6 +1,6 @@
 ## .navigation
 
-네비게이션 부분의 스타일을 정의해봅시다. 우선 네비게이션 안에는 `<div class="nav-left">`와 `<div class="nav-right">`가 있는데, 이 두개의 `<div>`를 좌/우에 배치해야합니다. 내부 요소들을 가로로 배치하기 좋은 방법은 `flex`를 이용하는 것입니다.
+let's define the style of the navigation part. First, in the navigation there are `<div class="nav-left">` and `<div class="nav-right">`, where both `<div>` have to be dispatched on the left/right. To dispatch the elements inside horizontally, it is good to use `flex` function. 
 
 * `.navigation`의 `display`는 `flex`입니다.
 * `flex`가 적용된 내부 요소들이 수직으로 중앙 정렬합니다.   
@@ -21,8 +21,8 @@
 
 
 
-## <a> in .navigation
-네비게이션 안에 있는 `a`의 스타일을 정리합니다.    
+## .navigation a
+let's arrange the style of `a` in the navigation. 
 
 - `.navigation a`의 왼쪽 마진은 `15px`입니다.
 - The font size is `13px`.
@@ -43,8 +43,9 @@
 
 
 
-## a:hover in .navigation
-네비게이션 안에 있는 `a:hover`에 대한 스타일이 필요합니다. 거기에 더해서 `.btn`를 가진 `<a>`는 별도의 스타일을 정의할 것이기 때문에, 여기서는 제외 해야합니다. 따라서 `:hover`와 `:not`선택자를 같이 활용합니다.   
+## .navigation a:hover
+`a:hover`, which is inside the navigation, needs a style. Additionally, the  `<a>`there will have a seperate style defined with a `.btn`, so here we have to exclude it. that's why we will use the `:hover` and `:not` selectors together. 
+
 - `.navigation a:hover:not(.btn)`의 투명도는 `.85`입니다.
 - 글씨에 `underline`이 적용됩니다.
 
@@ -62,7 +63,7 @@
 
 ## .btn-apps
 
-`a.btn-apps`의 스타일을 정의합니다. 여기서 저는 그냥 `.btn-apps`를 사용하지 않고, `a.btn-apps`를 사용하는데요. 그냥 클래스만 사용할 경우, 더 높은 우선순위의 다른 프로퍼티가 적용될 수 있습니다. 따라서 태그와 클래스를 같이 사용해서 우선순위를 한 단계 높일 수 있습니다.      
+We will now arrange the style of `a.btn-apps`. Here, I don't just use `.btn-apps` but `a.btn-apps`. If we use just a class here, other higher priority properties may get applied. that's why we use the tag and class together to rise the priority higher. 
 
 - `a.btn-apps`의 `display`속성은 `flex`입니다.
 - Padding is `3px`.
@@ -82,7 +83,7 @@
 
 ## .btn-sign-in
 
-우측 상단에 Sign in 버튼의 스타일을 정의합니다.      
+In the upper right corner, define the style of the 'sign-in` button.  
 
 - `a.btn-sign-in`의 패딩은 상/하 `8px`, 좌/우 `13px`입니다.
 - 모서리의 둥글기는 `2px`입니다.
@@ -103,11 +104,10 @@
      background-color: #4387fd;
    }
    ```
-  
-   
+
 
 ## .btn-sign-in:active
-어떤 요소에 마우스를 올리고 있는 상태를 `:hover`라고 하죠. 마우스를 클릭한 상태는 무엇일까요? Sign in 버튼의 `:active`상태에 대한 스타일을 적용합니다.      
+If you move your mouse over an element it says `:hover`, doesn't it? What happens when you click the mouse? Active mode is applied to the 'sign-in` button!
 - Background color of `a.btn-sign-in:active` is `#3c7ae4`.
 - 그림자의 내부/x축/y축/퍼짐(blur)/크기/색상은 `inset 0 2px 0 rgba(0,0,0,.15)`입니다.
 
@@ -123,7 +123,7 @@
 
 
 ## .nav-right
-Sign in 버튼까지 스타일리을 했다면 버튼들이 위-아래로 배치 되어있을 겁니다. `.nav-right`에 `flex`를 이용하여 버튼들을 가로로 정렬해 봅시다. 
+Once you've styled the `sign-in` button, the buttons will be placed from top to down. In `.nav-right` let's use `flex` to arrange the buttons horizontally.
 - `.nav-right`의 `display`속성은 `flex`입니다.
 - `flex`가 적용된 내부 요소들의 y축으로 중앙 정렬합니다.
 

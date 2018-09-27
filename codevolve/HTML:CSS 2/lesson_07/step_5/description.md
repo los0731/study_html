@@ -24,10 +24,10 @@
 ### Hover 스타일
 평소에는 'VIDEO(`.card-type`)'만 보이고 'VIEW MORE(`.card-tag`)'가 보이지 않는 상태에서, 카드에 마우스를 올리면 'VIDEO'가 사라지고, 'VIEW MORE'가 나타나야 합니다. 
 
-> 1. 'VIDEO'와 'VIEW MORE'가 있습니다.
-> 2. 'VIEW MORE'는 보이지 않습니다.
-> 3. 카드에 마우스를 올리면 'VIDEO'는 사라집니다.
-> 4. 카드에 마우스를 올리면 'VIEW MORE'는 나타납니다.
+1. 'VIDEO'와 'VIEW MORE'가 있습니다. 
+2. 'VIEW MORE'는 보이지 않습니다. 
+3. 카드에 마우스를 올리면 'VIDEO'는 사라집니다. 
+4. 카드에 마우스를 올리면 'VIEW MORE'는 나타납니다.
 
 1, 2, 3번을 CSS로 표현해 봅시다.
 
@@ -50,7 +50,6 @@
     .card:hover .card-tag {display: block;}
     ```
 
-    
 
 **NEXT STEP** 버튼을 클릭해서 완성된 모습을 봅시다!
 

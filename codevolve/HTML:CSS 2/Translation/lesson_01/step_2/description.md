@@ -1,7 +1,7 @@
 # HTML
 ### .container
 
-우리는 컨테이너를 생성하는 것으로 시작할 수 있습니다. 컨테이너는 무언가를 담아두고 있는 의미를 가지고 있습니다. 여기서는 이미지와 글들을 담아두겠죠. 이런 컨테이너 역할을 하는 태그는 여러 가지가 있지만, 지금과 같이 특정한 의미가 없는 묶음일 경우 주로 `<div> `를 사용합니다.
+We can start off by creating the container. A `container` here means that it contains something within. In this case, it will have an image and text. There are many kinds of tags that act as this kind of container, but we use `<div>` for bundles, like we have now, that don`t carry any specific meaning. 
 
 
 **Instructions**
@@ -14,7 +14,7 @@
 
 ### Components of Container
 
-From now on, add the remaining elements in `<div class="container">`. Add image, title, post date, subheadings, and main text from above in order.
+From now on, add the remaining elements in `<div class="container">`. Add image, headline, posting, subheadline, and body text from above in order.
 
 
 **Instructions**
@@ -29,7 +29,7 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     <h1>Google Play Terms of Service</h1>
     ```
 
-1. Add `<h6>`(last modified) to the next line of `<h1>`, fill in the content below.
+1. Add `<h6>`(posting) to the next line of `<h1>`, fill in the content below.
     ```html
     <h6>February 5, 2018</h6>
     ```
@@ -40,14 +40,14 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     <h2>1. Introduction</h2>
     ```
 
-1. Add `<p>`(main text) to the next line of `<h2>`, fill in the content below.
+1. Add `<p>`(body text) to the next line of `<h2>`, fill in the content below.
     ```html
     <p>
         Applicable Terms. Thanks for using Google Play. Google Play is a service provided by Google LLC ("Google", "we" or "us"), located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA. Your use of Google Play and the apps (including Android Instant Apps), games, music, movies, books, magazines, or other digital content or services (referred to as "Content") available through it is subject to these Google Play Terms of Service and the Google Terms of Service ("Google ToS") ( together referred to as the "Terms"). Google Play is a "Service" as described in the Google ToS. If there is any conflict between the Google Play Terms of Service and the Google ToS, the Google Play Terms of Service shall prevail.
     </p>
     ```
 
-1. In the next line, add the second `<h2>`(subheading) and `<p>`(main text) in the same way as above.
+1. In the next line, add the second `<h2>`(subheadline) and `<p>`(body text) in the same way as above.
 
     ```html
     <h2>2. Your Use of Google Play</h2>
@@ -56,7 +56,7 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     </p>
     ```
 
-1. In the next line, add the third `<h2>`(subheading) and `<p>`(main text) in the above manner.
+1. In the next line, add the second `<h2>`(subheadline) and `<p>`(body text) in the above manner.
 
     ```html
     <h2>3. Purchases and Payments</h2>
@@ -65,11 +65,10 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     </p> 
     ```
 
-    
 
 
 
-모두 완료했나요? `CSS`없이 `HTML`만 작성하니 모습이 어색하지만, 괜찮습니다. 이렇게 `HTML`만으로 구조를 먼저 작성하는 것은 아주 좋은 습관입니다. 이제 `CSS`를 이용해서, 스타일링을 해봅시다.
+Are you done? Since we only wrote the `HTML`, without any `CSS`, the page looks awkward, but that's alright! it's considered a good practice to first just use `HTML` to write the framework. Now let's do some styling, with `CSS`. 
 
 
 

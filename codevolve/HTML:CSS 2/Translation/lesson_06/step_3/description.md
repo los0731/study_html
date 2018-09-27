@@ -1,6 +1,6 @@
 ### .container
 
-로고와 히어로 이미지를 제외한 정책 페이지의 내용 요소들을 나열하면 아래와 같습니다.
+Here are the content elements of the policy page, excluding the logo and hero image. 
 
 ```
     |- Container
@@ -8,15 +8,15 @@
     |   |   |- Headline-group
     |   |   |   |- Headline
     |   |   |   |- Sub-headline
-    |   |   |- Main text
+    |   |   |- Body text
     |   |- Content
     |   |   |- Headline-group
     |   |   |   |- Headline
     |   |   |   |- Sub-headline
-    |   |   |- Main text
+    |   |   |- Body text
 ```
 
-요소들만 보면 헤드라인, 서브 헤드라인, 본문이 있습니다. 헤드라인과 서브 헤드라인은 헤드라인 그룹으로 묶여 있고, 헤드라인 그룹과 본문을 컨텐트로 묶여 있습니다. 컨테이너 안에는 여러개의 컨텐트들이 있습니다. 가장 상위 태그부터 하나 하나 작성해봅시다.
+Looking just at the elements there are: headline, sub-headline and body text. The headline and subheadline are grouped into the headline group and together with the body, they form the content. Starting at the very top, let's write the tags for them, one by one. 
 
 **Instructions**
 
@@ -26,8 +26,6 @@
     ```html
     <div class="container"></div>
     ```
-
-    
 
 1. `<div class="container">`안에 4개의  `<div>`를 추가하고, `class="content"`적용하기.
 

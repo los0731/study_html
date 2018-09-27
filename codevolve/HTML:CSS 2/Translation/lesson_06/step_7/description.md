@@ -1,5 +1,5 @@
-# 완성
-이번 레슨도 고생하셨습니다. 이번 레슨에서 우리는 5개의 HTML 태그와 16개의 CSS 프로퍼티를 사용했습니다.   
+# Finished
+You're done! Good job! In this lesson we used 5 HTML tags and 16 CSS properties. 
 
 HTML
 ```

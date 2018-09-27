@@ -1,7 +1,7 @@
 # CSS
 ### <body>
 
-Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `line-height `와 같이 적용된 스타일이 많습니다. 이들의 공통점은 속성이 하위 태그에도 적용된다는 점 입니다. 그래서 사이트 전체의 기준이 되는 서체, 서체 크기, 서체 색상을 기준으로 정하고 시작할때 이렇게 최상위 태그인 body 태그에 속성을 부여합니다. body 태그에 스타일을 적용합시다.
+Medium's policy page uses a lot of styles for the body tag, like `font-size`, `font-size`, `color`, `line-height`. What they have is common is that the properties can be also applied to the tags that follow the body. that's why we start by setting the basic attributes for the entire site, like font, font size, font color, in the top-level the body tag. let's define the body tag's style. 
 
 * The margin of `body` is `0`.
 * Padding is `0`.
@@ -30,7 +30,7 @@ Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `li
 
 ### .navbar 
 
-로고 텍스트가 있는 네비게이션 바의 스타일을 정의해봅시다. 
+let's set the style for the navigation bar, which includes the logo text. 
 
 * `.navbar`의 아래 패딩은 `8px`입니다.
 * The letters are centered.
@@ -57,7 +57,7 @@ Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `li
 
 ### .hero 
 
-이 페이지의 성격을 나타내는 히어로 이미지의 스타일을 지정해 봅시다. 배경에 사용하는 이미지는 [PEXELS][https://www.pexels.com/] 에서 찾아 이미지 주소를 복사해왔습니다.
+let's define the hero image style, to set the theme for this page. We found an image for the background at [PEXELS][https://www.pexels.com/] and copied it's address. 
 
 * The width of `.hero` is `100%`.
 * The height is `30vw`.
@@ -88,9 +88,9 @@ Click the **NEXT STEP** button.
 
 ## TIPS!
 
-- `background-size: cover;`은 어떤 의미인가요?
+- What meaning does `background-size: cover;` have?
 
-  > 배경 이미지를 넣을 공간에 넓이와 높이를 설정하고, 이미지의 url을 가져오면 이미지를 넣을 수 있습니다. 다만 이미지 사이즈의 비율이 고려되지 않고 공간에 들어가기 때문에, 전체 이미지를 보여주기 위해서는 `background-size`속성을 `cover`로 설정해주어야 합니다.   
+  > You can set the width and height of the space where you'll put the background image and you can import the image itself by just copying and pasting the url. However, because the image's size proportions are not being considered here, in order to see the whole image, the `background-size` property should be set as `cover`.
 
 
 

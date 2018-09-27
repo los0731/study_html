@@ -1,7 +1,8 @@
 # HTML
-`<div>`를 사용하여 메뉴판의 내용들을 담는 틀을 만드는 것으로 시작합니다. 
+We start with using `<div>` to create a framework for the contents of the menu. 
 
 **Instructions**
+
 1. Add `<div>` within `<body>` and apply `class="menu-wrap"`.
     ```html
     <body>
@@ -12,7 +13,7 @@
 
 ​    
 ### <header>
-`<div class="menu-wrap">`안에 헤더와 메뉴 아이템들을 채워야 합니다. 헤더에는 카페의 로고와 카페 이름 정보를 담습니다.
+We have to put in the header and the menu items into `<div class="menu-wrap">`. The header consists of the cafe's logo and it's name. 
 
 **Instructions**
 1. Add `<header>` in `<div class="menu-wrap">`.

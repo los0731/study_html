@@ -1,7 +1,7 @@
 # CSS
 
 ### .container
-이제 가운데 있는 코드에디터의 `style.css`탭을 클릭하세요. 모든 요소들을 담고 있는 `.container`는 화면 가운데 위치 해야하고, 일정 넓이 이상 넓어지지 않도록 해야합니다.  
+Now click the `style.css` tab in the middle of the code editor. The `.container`, that has all the elements, should be in the middle of the screen and shouldn't be wider than the already predetermined width. 
 * `.container`의 마진은 상/하 `24px`, 좌/우 `auto`입니다.
 * 패딩은 상/하 `0`, 좌/우 `16px`입니다.
 * The maximum width is `960px`.
@@ -19,7 +19,7 @@
 
 
 ### Logo Image
-로고 이미지의 스타일을 적용해봅시다.
+let's style the logo image. 
 - The width of `img` is `183px`.
 
 **Instructions**
@@ -37,26 +37,26 @@ Click the **NEXT STEP** button.
 
 
 ## TIPS
-* 마진 또는 패딩의 값이 4개인 것과, 2개인 것은 어떤 차이가 있을까요? 
+* What is the difference between margin or padding with 4 values vs 2 values? 
 
-    > 4개의 값을 입력하면 위를 시작으로 시계방향으로 적용됩니다. 이것을 줄여서 2개의 값을 입력할 수 있는데, 2개의 값을 입력하면 브라우저는 첫번째 값을 위와 아래에 적용하고, 두번째 값을 왼쪽과 오른쪽에 적용합니다.
+    > If you enter 4 values, they will be applied clockwise, starting from the top. You can shorten this process to entering 2 values, in which case the browser applies the first value to the top and bottom and the second to left and right. 
     >
-    > margin: 10px 20px 10px 8px --> 상 / 우 / 하 / 좌
+    > margin: 10px 20px 10px 8px --> top / right / bottom / left
     >
-    > margin: 10px 20px --> 상하 / 좌우
+    > margin: 10px 20px --> vertical(top/down) / Horizontal(left/right)
 
 * Margin: auto;
 
-    > margin의 값 `auto`는 브라우저가 자동으로 최대 값을 계산합니다. 만약 좌/우를 `auto`로 설정하면 브라우저는 이 요소를 화면 가운데 위치시킵니다.
+    > The margin's `auto` value is automatically calculated by the browser for the maximum value. If left/right margins are set to `auto` the browser places the element in the middle of the screen. 
 
-* 웹에서 선명한 이미지를 사용하려면?
+* What if you want to use a clear and focused image from the Internet? 
 
-    > 웹에서 이미지를 사용할 때에는 2배 큰 크기의 이미지를 사용해야 합니다. 애플의 맥북 레티나와 같은 기기처럼 높은 해상도를 지원하는 디스플레이에서도 이미지가 선명하게 보이기 위해서입니다. 예를 들어 웹에 100 x 100 이미지를 넣고싶다면, 파일은 200 x 200 사이즈의 이미지를 사용해야합니다. 
+    > When using online images, you have to use an image file, that's twice it's size. it's tthat the image stays clear and focused on a high resolution display, like Apple Macbook's Retina. For example if you are going to have a 100x100 image on the web, the image's file should have the size of 200x200. 
 
-* 이미지의 파일 크기를 줄이는 것이 중요한가요?
+* Is it important to reduce the file size of an image file?
 
-    > 네. 파일 크기는 매우 매우 중요합니다. 실제 제품의 속도에 직접적인 영향을 주거든요. 이미지의 파일 크기를 작게 만들기 위하새 저는 주로 Online Image Optimize 서비스를 이용합니다. 예를 들어 https://tinypng.com/ 같은 사이트죠. 저는 개인적으로 `1MB`가 넘는 이미지는 절대 사용하지 않습니다. 보통 `100kb` 보다 작은 크기를 유지하려고 노력합니다.  
+    > The sort answer is yes. File size is very very important. It affects the speed of the final page To make the image file size smaller, I use online image optimization services, like https://tinypng.com. Personally, I don't use images bigger than `1MB`. In fact, if possible, I try to use images smaller than `100kb`. 
 
 * 0px vs 0 
 
-    > 어떤 값이 `0`이면, `px`과 같은 단위를 붙이지 않는 것이 좋습니다. 코드가 더 간결해지거든요. (`0px`도 틀린 표현은 아닙니다.)
+    > If you set a value as `0`, it's better not to put a unit like `px`. That way the code stays simple and clear (but FYI. `0px` is not a mistake!).

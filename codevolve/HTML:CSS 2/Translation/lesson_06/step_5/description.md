@@ -1,5 +1,5 @@
 ### .container
-이 페이지의 내용들을 담고 있는 컨테이너의 스타일을 지정합니다. 컨테이너는 브라우저의 넓이가 아무리 넓어도 최대 넓이를 유지해야합니다. 그리고 화면의 가운데 위치해야합니다. 
+We set the style of the container which carries the page's contents. No matter how wide it gets, the container should maintain the width of the browser. Also, it has to placed in the middle of the screen. 
 
 * `container`의 마진은 상/하 `0`, 좌/우 `auto`입니다.
 * 패딩은 상/하 `0`, 좌/우 `16px`입니다.
@@ -20,7 +20,7 @@
 
 ### .content 
 
-컨테이너 하위 태그인 컨텐트는 해드라인 그룹과 컨텐트 텍스트를 감싸고 있습니다.  
+The subtag of the container, the content, covers the headline group and body text. 
 
 - `.content`의 아래 마진은 `70px`입니다.
 
@@ -38,7 +38,7 @@
 
 ### .headline-group
 
-제목과 부제목을 감싸고 있는 헤드라인 그룹의 스타일을 지정해 봅시다. 바디 텍스트와 명확하게 구분하기 위해 마진을 이용해서 간격을 설정하고, 서체를 변경해야 합니다.
+let's define the style of the headline group which covers the title and subheadings. To clearly distinguish it from the body text, we need to use the margin, to set the spacing, and change the font. 
 
 * `.headline-group`의 마진은 상/우/하/좌 `64px 0 24px 0`입니다.
 * The font is `'Heebo', sans-serif`.

@@ -1,6 +1,6 @@
 ### .card-hero
 
-아까 언급한 카드 히어로의 스타일을  적용해봅시다.
+Like mentioned before, let's style the card's hero with CSS.
 * The width of `.card-hero` is `100%`.
 * The height is `296px`.
 * The url of the background image is `https://scontent-hkg3-1.xx.fbcdn.net/v/t15.0-10/12323191_10153628757763553_1398467009_n.jpg?_nc_cat=0&oh=76da236f6fc18effbfec0f9020e4d009&oe=5BDA9FDB`.
@@ -30,7 +30,7 @@
 
 
 ### .card-block
-히어로 이미지가 완성되었으니, 나머지 요소들의 묶음인 카드 블록의 스타일을 합시다. 
+Now that the hero image is complete, let's style the card block, a bundle of the rest of the elements of the card.
 
 * `.card-block`의 패딩은 `24px`입니다.
 * Background color is `white`.
@@ -48,7 +48,7 @@
 
 
 ### .card-title
-카드의 제목은 `<h2>`를 사용하고 있습니다. 그리고 `<h1>`부터 `<h6>`까지의 모든 제목 태그에는 기본 적으로 마진이 적용되어있습니다. 따라서 타이틀의 스타일을 정의할 때, 기본 스타일을 고려해야 합니다.
+The card's title uses  `<h2>`. A basic margin has been applied to all the title tags from `<h1>`to`<h6>`. Hence, when defining the style of the titles, the default style has to be taken into consideration. 
 
 * `.card-title`의 마진은 `0`입니다. 
 * The font size is `24px`.
@@ -71,7 +71,7 @@
 
 ### .card-description
 
-설명글은 본문의 앞 부분만 보여주어야 합니다. 따라서 2줄 까지만 보여줄지, 3줄 까지만 보여줄지 선택 해야합니다. 여기서는 3줄까지만 보여주도록 할 것입니다. 3줄이 지나면 `...`처리가 되도록 해야합니다. 
+The description text should only show the beginning part of the text. Therefore we have to choose whether it will show 2 or 3 first lines of the text. Here we will set it to show up to only 3 lines. Whatever exceeds 3 lines will be displayed as `...`.
 
 - `.card-description`이 3줄 까지만 보여주고, 그 이상이면 `...`처리합니다.
 - 마진은 상/우/하/좌 `12px 0 0 0 0`입니다.
@@ -105,7 +105,7 @@
 
 ### .card-hr
 
-구분선으로 사용한 `<hr>`는 기본적으로 `border-width: 1px`이 적용되어 있습니다. 따라서 보통 저는 새로운 `border` 속성을 덮어써서 마음에 드는 구분선으로 만듭니다.
+`<hr>` used as a partition line, has a default setting of  `border-width: 1px`. that's why I usually overwrite it with a new `border` attribute and use a partition line that I actually like. 
 
 - `.card-hr`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
 - There are no borders.
@@ -133,7 +133,7 @@ Click the **NEXT STEP** button.
 
 - background-image + background-position + background-repeat = background
 
-  > * 다음 두개의 스타일은 같습니다. 경우에 따라 위를 선택하기도, 더 간단한 아래를 선택하기도 합니다.
+  > * The next two styles are the same. Depending on the situation you may choose the top one or the simpler, bottom one. 
   >
   >   ```css
   >   background-image: url('...');
@@ -143,11 +143,11 @@ Click the **NEXT STEP** button.
   >   background: url('...') no-repeat center center;
   >   ```
 
-- 3줄 까지만 뭐요? 난감하네요. 뭐 어떻게 해야하죠?
+- What does it mean `first 3 lines only`? I'm lost. What do I have to do?
 
-  > - 많은 개발자/디자이너들이 자신이 잘 모르는 요구조건을 만나면 가장 먼저 하는 것이 무엇일까요? 
+  > - What is the first thing that many developers/designers do when they come across a requirement they don't know or understand? 
   >
-  > - 위의 케이스에는 보통 구글에 `text ellipsis 3 line css`라고 검색합니다. 그럼 대다수의 경우 해결이 되죠. 제가 찾은 코드는 아래와 같습니다.
+  >   In the above case, we usually search in Google for `text ellipsis 3 line css`. In most cases, it solves the problem. Here is the code that I found for that: 
   >
   >   ```css
   >   display: -webkit-box;
@@ -157,8 +157,8 @@ Click the **NEXT STEP** button.
   >   text-overflow: ellipsis;
   >   ```
   >
-  >   그럼 그것을 복붙하고, 되는지 체크 해봅니다. 그때그때 구글에 검색합니다. 저도 그렇지만 조금만 기억 안나면 구글에 검색합니다. 이런식으로 stackoverflow.com, css-tricks.com 등에서 많은 지식을 얻어요.
+  >   let's paste it in and check if it works. Then let's search on Google. Even I, when I don't remember something, look it up on Google. Moreover, you can get a lot of useful knowhow on `stackoverflow.com`, `css-tricks.com` and similar sites. 
 
-- 위에 `border`를 `0`으로 하고, `border-top`을 또 주는 이유가 있어요? 
+- Why is `border` at the top set to `0` and `border-top` is added on?
 
-  > hr태그에는 기본적으로 `border-width: 1px`이 적용되어 있어요. 하지만 저는 `<hr>`에 `border-top`만 적용하고 싶거든요. 그래서 `border: 0`을 선언해서 기본 옵션을 초기화 해주는 겁니다. 그리고 거기에 새로운 `border-top`속성을 부여하는거죠. 
+  > By default the `<hr>` is set as `border-width: 1px`. However, I only want to apply `border-top` to `<hr>`. that's why I declared  `border: 0` and I reset the default option. And there I added a new `border-top` attribute. 

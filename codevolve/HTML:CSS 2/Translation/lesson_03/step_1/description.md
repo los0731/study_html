@@ -1,13 +1,13 @@
 # Business Card
 
-게임 회사를 준비하고 있으신가요? 그렇다면 게이머 같은 온라인 명함은 어떠세요? 하하 맞아요. 아무 의미 없죠.. 게이머스러운 명함 하나 가지고 있다고 게임회사에서 뽑아줄까요? 요즘 같은 어려운 세상에.. 에휴. 그래도 만들어 봅시다. 혹시 모르잖아요? 예상치 못하게 필요할 때가 올지. 이번 레슨에서는 온라인 명함을 만듭니다. 
+Are you preparing yourself for a job at a game company? Than how about a gamer-like online business card? Haha, that's right! it's not really that important but..  If you have a gamer business card, maybe you will get a few extra points in the recruitment process? Who knows… Either way, let's make one. You don't know what it is? Other than when looking for a job, you never know when you`ll need one! In this lesson we will be making an online business card. 
 
 
 ### Structure on this page
 
 ![imaage](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-03.jpg)
 
-이 페이지는 명함 안에 순서대로 이미지, 이름, 리스트가 있는 구조입니다. 그리고 리스트의 항목들로 직업, 전화번호, 이메일이 있습니다. 
+The structure of this page is what is within the business card in the following order: image, name, list. The items on the list are job position, phone number and email address. 
 
 ```
 |- Business Card

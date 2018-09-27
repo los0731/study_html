@@ -1,5 +1,5 @@
 ## .content
-컨텐트 영역의 스타일을 적용합시다.
+let's choose the style of the content area.
 * `.content`의 위 패딩은 `136px`입니다.
 * The letters are centered.
 
@@ -15,7 +15,7 @@
 
 
 ## .form-search-wrap
-검색 폼과 음성 검색 버튼을 감싸고 있는 이 요소는 `position: relative;`으로 지정해주어야 합니다. 이유는 이후에 나올 음성 검색 버튼에서 설명하겠습니다. 다음의 스타일들을 적용해 봅시다.      
+The element around the search form and voice search button should be set as `position: relative;`. The reason for this is explained further along in the `voice search button` part. let's go on with applying other styles.
 - `.form-search-wrap`의 `position`은 `relative`입니다.
 - 마진은 상/우/하/좌 `24px auto 0 auto`입니다.
 - The width is `50%`.
@@ -37,7 +37,7 @@
 
 
 ## .form-search
-이 페이지에서 가장 중요한 요소라면 역시 검색 폼일 겁니다. 이 검색 폼의 스타일을 적용해 봅시다.
+The most important element on this page will be, of course, the search form. let's choose the style for this form.
 - `.form-search`의 패딩은 상/하 `5px`, 좌/우 `16px`입니다.
 - `outline`을 제거합니다.
 - No boundary line.
@@ -67,7 +67,7 @@
 
 
 ## .form-search:hover, .form-search:hover
-검색 폼의 마우스를 올리거나 클릭해서 폼에 포커스 되어 있을 때, 그림자가 살짝 길어지도록 해야합니다.      
+By hovering the mouse over it or by clicking the form, make sure that the shadows are slightly longer, when the form is in focus.  
 - `.form-search:hover, .form-search:focus`의 그림자의 x축/y축/퍼짐(blur)/크기는 `0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08)` 2개의 속성을 같이 사용합니다.
 
 **Instructions**
@@ -82,7 +82,7 @@
 
 
 ## .btn-voice
-마이크 아이콘을 사용하는 음성 검색 버튼은 검색 폼 안에 위치하도록 해야하는데, 그렇기 위해서는 `position`속성을 `absolute`로 지정해 주어야 합니다. 한번 해봅시다.      
+The voice search button, represented by the microphone icon, should be placed within the the search form, and to do so the `position` properties should be set to `absolute`. let's try to do this now.  
 
 - `.btn-voice`의 `position`은 `absolute`입니다.
 - 위에서부터 `10px`만큼 떨어져 있습니다.
@@ -102,7 +102,7 @@
 
 
 ## .buttons-wrap
-검색 폼 아래에 있는 2개의 버튼에 스타일을 지정합니다. 물론 그전에 그 둘을 싸고 있는 이 요소에 간격부터 정의 합시다.      
+Go ahead and style the two buttons under the search form. Before doing that though, let's define the space between those those two elements.    
 - `.buttons-wrap`의 위 마진은 `40px`입니다.
 
 **Instructions**
@@ -116,7 +116,7 @@
 
 
 ## .btn-secondary
-본격적으로 두 버튼의 스타일을 정의합니다.  
+let's go ahead and define the style of the two buttons.
 - `.btn-secondary`의 마진은 상/하 `0`, 좌/우 `4px`입니다.
 - 패딩은 상/하 `10px`, 좌/우 `16px`입니다.
 - 경계선은 `1px`의 직선이지만 투명합니다.
@@ -147,10 +147,10 @@
 
 ## .btn-secondary:hover
 
-이 버튼의 hover 상태에는 다음과 같은 스타일을 적용합니다.  
-- `.btn-secondary:hover`의 경계선의 색상은 `#c6c6c6`입니다. 
+let's apply the following styles to the `hover` mode of this button.
+- `.btn-secondary:hover`'s border line's color is `#c6c6c6`.
 - The font color is `#222`.
-- 그림자의 x축/y축/퍼짐(blur)/크기는 `0 1px 1px rgba(0,0,0,0.1);`입니다.
+- The shadow's x-axis/y-axis/blur/size is `0 1px 1px rgba(0,0,0,0.1);`.
 
 **Instructions**
 1. Apply style to `.btn-secondary:hover`.

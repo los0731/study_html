@@ -2,7 +2,7 @@
 
 ### .navbar
 
-먼저 Medium 로고가 포함된 네비게이션 바를 추가합니다. Medium 공식 페이지에서는 로고를 그래픽 이미지로 사용하지만 우리는 연습을 하는것이니, 텍스트로 표현합니다. 
+First we add the navigation bar with Medium's logo in it. On it's official page, Medium displays it's logo as a graphic image, but for the sake of practice, we will define it with text. 
 
 **Instructions**
 
@@ -18,7 +18,7 @@
 
 ### .hero
 
-페이지 상단에 있는 히어로 이미지 영역을 추가합니다. 이 영역은 `<div>`로 빈 공간만 열어두고, 후에 CSS에서 다룹니다.
+At the top of the page, we add the hero image area. We open up an empty space using `<div>` and will later on fill it with `CSS`. 
 
 **Instructions**
 

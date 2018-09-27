@@ -1,5 +1,5 @@
-# 완성
-와우! 멋진 명함이 완성되었습니다. 이번 레슨에서 우리는 5개의 HTML 태그와 13개의 CSS 프로퍼티를 사용했습니다.  
+# Finished
+Wow! You have made a very elegant business card. In this lesson we used 5 HTML tags and 13 CSS properties. 
 
 HTML
 ```

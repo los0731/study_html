@@ -1,6 +1,6 @@
 # Cafe Menu
 
-요즘은 종이 메뉴판보다 아이패드로 메뉴를 보여주는 식당이 점점 많아지고 있습니다. 이번 레슨에서는 웹 메뉴판을 만들어 봅시다.
+These days more and more restaurants use iPad menus, rather than the old school paper ones. In this lesson let's try and make a web-based menu. 
 
 ### Structure on this page
 

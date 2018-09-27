@@ -1,5 +1,5 @@
 ### .table-menu
-헤더 아래에 커피 메뉴 정보를 추가합니다. 메뉴 정보는 상품 이름과, 가격으로 이루어져있습니다. `<table>`를 활용합니다. 
+Below the header we add the menu information. The menu information is composed of the dish/beverage name and a price. We use  `<table>` to do this. 
 
 **Instructions**
 1. Add `<table>` within `<header>` and apply `class="table-menu"`.

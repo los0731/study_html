@@ -1,6 +1,6 @@
 # CSS
 ### <body>
-페이지의 배경이미지를 추가합니다. `body` 의 전체 영역에 이미지를 채워 넣기 위해서는 배경의 높이를 브라우저 전체 높이로 지정해야 합니다. 따라서  `body` 의 최소 높이에서 `body` 의 상/하 패딩 값을 빼서 전체 높이를 맞출 수 있습니다.
+We now add the page's background image. In order to fill the entire `body` area, the background has to be set as the height of the entire browser. And so, we can set the entire height as the difference between the `body`'s minimum height and `body`'s up/down padding value. 
 * `body`의 패딩은 상/하 `80px`, 좌/우 `16px`입니다.
 * 최소 높이는 전체 `Viewport height`에서 `160px`만큼 뺀 값입니다. 
 * 배경 이미지의 url/반복/x축 정렬/y축 정렬은 각각 `url("https://image.freepik.com/free-vector/matisse-inspired-shapes-seamless-pattern_1235-418.jpg") no-repeat center center`입니다.
@@ -22,7 +22,7 @@
 
 
 ### .menu-wrap
-`.menu-wrap`는 메뉴판을 둘러싸는 공간입니다.
+`.menu-wrap` is the space surrounding the menu.
 
 * `menu-wrap`의 마진은 상/하 `0`, 좌/우 `auto`입니다.
 * Padding is `40px`.
@@ -68,7 +68,7 @@
 
 ### <h4> 
 
-`header`안에 포함된 `h4`는 카페의 이름입니다. 
+`h4` included in the `header` is the name of the cafe.
 
 * The margin of `header h4` is `0`.
 * The font size is `40px`.
@@ -89,7 +89,7 @@
 
 ### .table-menu
 
-`.table-menu`는 커피의 종류와 가격을 보여주는 메뉴판의 내용 공간입니다.
+`.table-menu` is the area where the coffee types and the prices are to be displayed. 
 
 * `.table-menu`의 마진은 상/우/하/좌 `40px 0 0 0`입니다.
 * The width is `100%`.

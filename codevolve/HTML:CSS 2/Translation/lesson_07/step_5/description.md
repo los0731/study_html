@@ -1,5 +1,5 @@
 ### .card-type, .card-tag
-카드의 최 하단에 위치한 타입과 테그 텍스트를 스타일링 해봅시다. `.card-type`와 `.card-tag`를 동시에 지정해 주어야 합니다. 2개 이상의 클래스를 동시에 선택할때는 클래스와 클래스 사이에 `, `로 표시합니다.
+let's style the type and tag text, located on the left of the card. `.card-type` and `.card-tag` have to be defined simultaneously. When selecting more than 2 classes at the same time, use `, ` between them. 
 
 * `.card-type, .card-tag`의 마진은 상/우/하/좌 `16px 0 0 0`입니다.
 * The font size is `12px`.
@@ -22,14 +22,14 @@
 
 
 ### Hover style
-평소에는 'VIDEO(`.card-type`)'만 보이고 'VIEW MORE(`.card-tag`)'가 보이지 않는 상태에서, 카드에 마우스를 올리면 'VIDEO'가 사라지고, 'VIEW MORE'가 나타나야 합니다. 
+Usually only `VIDEO(`.card-type`)` can be seen and  `VIEW MORE(`.card-tag`)` cannot. When we hover the mouse over the card, `VIDEO` should disappear and `VIEW MORE` should pop up. 
 
-> 1. 'VIDEO'와 'VIEW MORE'가 있습니다.
-> 2. 'VIEW MORE'는 보이지 않습니다.
-> 3. 카드에 마우스를 올리면 'VIDEO'는 사라집니다.
-> 4. 카드에 마우스를 올리면 'VIEW MORE'는 나타납니다.
+1. There are `VIDEO` and `VIEW MORE`. 
+2. `VIEW MORE` cannot be seen. 
+3. When the mouse is hovered over the card, `VIDEO` disappears. 
+4. When the mouse is hovered over the card, `VIEW MORE` appears. 
 
-1, 2, 3번을 CSS로 표현해 봅시다.
+let's use CSS for 1, 2, 3. 
 
 
 **Instructions**
@@ -57,30 +57,30 @@ Click the **NEXT STEP** button.
 
 ## TIPS!
 
-- 선택자(selector)는 좀 가물 가물 하네요. 두개의 클래스에 동시에 스타일을 적용하려고하면 어떻게 해야했죠?
+- The selector is kind of slow. What should I do if I want to apply a style to two classes at the same time? 
 
-  > 몇가지 많이 쓰는 선택자를 알려줄게요.
+  > Let me introduce you to a few popular selectors. 
   >
-  > * A와 B에 동시에 적용. 
+  > * Apply to A and B simultaneously 
   >
   >   ```css
-  >   .classA, .classB {...} /* 클래스 사이에 ,로 구분합니다. */
+  >   .classA, .classB {...} /* Between the classes use ',' to seperate them. */
   >   
   >   /* or */
   >   
   >   .classA, 
-  >   .classB {...} /* 가독성을 위해 클래스간에 줄바꿈을 사용하기도 합니다.. */
+  >   .classB {...} /* For better readability, you can also use wrapping for the classes.  */
   >   
   >   ```
   >
-  > * A안에 있는 모든 B
+  > * All the B in the A
   >
   >   ```css
-  >   .classA .classB {...} /* 한 칸만 띄어씁니다.. */
+  >   .classA .classB {...} /* Skip only one line.  */
   >   ```
   >
-  > * A의 바로 1단계 안에 있는 B
+  > * B in the very first phase of A
   >
   >   ```css
-  >   .classA > .classB {...} /* 클래스 사이에 > 마크를 넣습니다. */
+  >   .classA > .classB {...} /* Put '>' mark between classes.  */
   >   ```

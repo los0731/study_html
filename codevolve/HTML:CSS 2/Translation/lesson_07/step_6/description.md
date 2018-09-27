@@ -1,6 +1,5 @@
-# 완성
-완성입니다. 멋진 Card UI를 만들었네요. 정말 정말 잘하셨습니다. 
-이번 레슨에서 우리는 6개의 HTML 태그와 29개의 CSS 프로퍼티를 사용했습니다.  
+# Finished
+Done! You made a really pretty Card UI. You really really did a great job here. In this lesson we used 6 HTML tags and 29 CSS properties. 
 
 
 HTML

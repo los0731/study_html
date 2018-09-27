@@ -1,5 +1,5 @@
 ## .content
-컨텐트 영역에는 구글 로고 이미지와 검색 입력폼이 있습니다. 그리고 'Google Search', 'I'm Feeling Lucky'버튼도 있습니다.
+In the content area there are the Google logo image and the search input form. There are also `Google Search`, `I'm Feeling Lucky` buttons. 
 
 **Instructions**
 
@@ -34,14 +34,14 @@
 
 
 ## .footer
-푸터는 문서에 대한 꼬릿말로서, 그 문서에 대한 정보를 담고 있습니다. 보통 회사 정보나, 이용약관, 개인정보 보호정책, 그리고 몇몇 다른 링크를 첨부하죠. Google 검색 페이지는 다음의 정보들을 담고 있습니다. 
+A footer is a reference section of a document, it contains information about the document. It usually has company information, terms of use, privacy policy and several other links. In the Google search page, there are the following information.
 > * Privacy
 > * Terms
 > * Settings
 > * Advertising
 > * Business
 
-그리고 Privacy, Terms, Settings는 오른편에, 나머지는 왼편에 배치되어있습니다. 따라서 작성한 `<nav class="navigation">`과 마찬가지로 양쪽 영역을 구분합니다.
+The Privacy, Terms, Settings are on the right, the rest are placed on the left. Just like with `<nav class="navigation">` this section is seperated into two.
 
 **Instructions**
 1. `<footer class="footer">`안에 2개의 `<div>`추가하고, 각각 `class="footer-right"`, `class="footer-left"` 적용하기. 

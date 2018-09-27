@@ -1,6 +1,6 @@
 # Facebook Card UI
 
-Card UI는 웹과 모바일을 통틀어 가장 많이 사용되는 UI 요소 입니다. 그 자체로 직관적이고 무엇보다 다양한 타입의 정보를 효과적으로 나열할 수 있는 장점이 있어요. [Facebook Design][1] 은 가장 아름다운 Card UI를 만날 수 있는 곳 중 하나입니다. 이번 레슨에서는 페이스북 디자인팀이 했던 것 처럼 Hover 애니메이션이 적용된 카드 UI를 만들어 봅니다. 
+Card UI is the most used UI element throughout web and mobile applications. it's very intuitive and, most importantly, it has a strong advantage of being able to list effectively different kinds of information. [Facebook Design][1] is one of the most beautiful places to see a Card UI in action. In this lesson we will be making a Card UI with a Hover animation, just like the one created by the Facebook design team. 
 
 
 

@@ -1,6 +1,6 @@
 # CSS
 ### <body> 
-온라인 명함을 더 잘 보여주기 위해 배경 색상을 선택합니다. 이번에는 [Google colors][1]에서 Blue Grey 50을 선택했습니다.
+To better showcase the online business card, we will choose a background color. In [Google colors][1] choose `Blue Grey 50`. 
 * `body`의 마진은 `0`으로 적용되어 있습니다.
 * Padding is `8px`.
 * The font is `Arial, Helvetica, sans-serif`.
@@ -20,7 +20,7 @@
 
 
 ### .business-card
-`business-card`는 화면의 가운데 위치해야 하고, 특정 넓이를 가지며, 모서리가 둥글어야합니다. 이 외에도 글자 정렬, 배경 컬러, 그림자를 스타일링 합니다. 여기서 배경 컬러가 [Google Colors][1]에서 Blue Grey 50이기 때문에, 그림자의 색상은 Blue Grey 200으로 하겠습니다. 
+`business-card` should be placed in the middle of the screen, and it should have a specific width and rounded corners. We will also style the font alignment, background color, shadow. Since the background color here is [Google Colors][1]'s `Blue Grey 50`, we will make the shadow color `Blue Grey 200`. 
 
 * Background color is `white`.
 * 마진은 상/하 `40px`, 좌/우 `auto`입니다.
@@ -63,12 +63,12 @@ Click the **NEXT STEP** button.
 
 
 ## TIPS! 
-* `<body>`에 서체를 지정하면 그 하위의 모든 태그에 적용됩니다.
+* If you specify a font in the `<body>`, it will apply to all the tags after it. 
 
-    > 어떤 프로퍼티들은 지정한 선택자에만 적용됩니다. 하지만 어떤 프로퍼티들은 지정한 선택자와 그 하위 모든 선택자에 적용되기도 합니다. `font-family`는 하위 선택자에 모두 적용되는 프로퍼티입니다. 따라서 이 페이지에서 사용하는 모든 글씨에 `Arial, Helvetica, sans-serif`를 적용하고 싶다면 모든 선택자에 반복적으로 `font-family`를 적용할 필요없이 `<body>`에만 적용하면 됩니다.     
-* `font-family: Arial, Helvetica, sans-serif;`의 서체들이 여러개인 이유가 뭐죠?
+    > Some properties apply to sections they are defined in. However, some properties apply not only to the sections they are specified in, but to all the sections following them. `font-family` is such a property, that applies to sections herethenon. Therefore, if you want to use the fonts `Arial, Helvetica, sans-serif` on all the text on this page, you don't have to define `font-family` for each section, but just for `<body>`.  
+* Why are there multiple different fonts specified in `font-family: Arial, Helvetica, sans-serif;`? 
 
-    > 왼쪽에서부터 Arial을 적용하고, 만약 사용자의 컴퓨터에 해당 폰트가 없을 경우, 그 다음인 Helvetica를 적용하라는 의미 입니다. 또 만약 Helvetica가 없을 경우, san-serif가 적용됩니다.
+    > Starting from the left, `Arial` font will be applied to the text. If the user doesn't have that font installed on their computer, it means that `Helvetica` will be applied. And if they don't have Helvetica, the font of the text will be set to `san-serif`. 
 
 [1]: https://material.io/design/color/#color-usage-palettes
 

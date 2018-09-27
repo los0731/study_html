@@ -1,6 +1,6 @@
 # CSS
 ## <body>
-이 페이지는 전체적으로 `arial` 서체를 사용합니다. 하나씩 스타일을 적용해 갑시다.
+The whole page uses `arial` font. let's apply styles, one by one. 
 * The margin of `body` is `0`.
 * The font is `arial,sans-serif`.
 
@@ -17,7 +17,7 @@
 
 
 ## <a>
-역시 모든 `a`에 공통적으로 `underline`을 제거합니다. 
+Also, we remove the `underline`, common for the whole `a`. 
 * `a`의 글씨의 장식이 없습니다.
 
 

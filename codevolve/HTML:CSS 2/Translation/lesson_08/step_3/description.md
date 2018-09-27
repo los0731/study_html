@@ -1,5 +1,5 @@
 # HTML
-이 페이지는 크게 3부분으로 구분합니다. 네이게이션 / 컨텐트 / 푸터입니다. 
+This page has 3 major sections: navigation / contents / footer. 
 
 **Instructions**
 1. `<body>`안에 `<nav>`를 추가하고, `class="navigation"`적용하기. 
@@ -20,7 +20,8 @@
 
 
 ## <nav>
-`<nav>`는 탐색 링크들의 집합을 정의합니다. 눈으로 화면을 보지 않는 사람들을 위한 화면 판독기는 `<nav>`를 인식해서 페이지를 더 쉽게 탐색할 수 있도록 도와주기도 합니다. 따라서 탐색 링크들이 모인 네비게이션 영역에는 이 `<nav>`를 사용하는 것이 좋습니다. 이 페이지의 네비게이션에는 다음의 링크들이 있습니다.
+`<nav>` defines a set of navigation links. For people who cannot see the screen, screen readers recognize `<nav>` and help them navigate the page more easily. that's why it's really good practise to use `<nav>` in the navigation area to get all the navigation links together. This page's navigation has the following links. 
+
 > About link
 > Store link
 > Gmail link
@@ -28,7 +29,7 @@
 > Apps button
 > Sign In button
 
-그리고 About, Store는 왼편에, 나머지는 오른편에 배치되어있습니다. 따라서 왼쪽 영역과 오른쪽 영역을 구분합니다. 
+About, Store are placed on the left, the rest are on the right. That means the left and right areas are seperated. 
 
 **Instructions**
 1. `<nav class="navigation">`태그 안에 2개의 `<div>`를 추가하고, 각각 `class="nav-left"`, `class="nav-right"` 적용하기. 
@@ -57,20 +58,20 @@
 
 
 
-다음 페이지에서는 컨텐트와 푸터의 HTML 코드를 작성합시다.
+Next, let's write HTML code for the page's content and footer. 
 Click the **NEXT STEP** button.
 
 
 
 ## TIPS!
 
-- `<head>` 안에 추가하는 css 태그 `<link rel="stylesheet" href="...">`를 추가하는 순서가 있는건가요? 
+- Is there a specific order of adding the CSS tag  `<link rel="stylesheet" href="...">` in the `<head>`?
 
-  > 네. 아래에 추가된 코드일 수록 우선순위가 높습니다. 따라서 가장 공통적이고 보편적인 스타일일 담당하는 코드를 위에, 상세한 스타일을 담당하는 코드를 아래에 둡니다.  
-  > ```html
-    `style-A.css`파일과 `style-B.css`파일을 사용한다고 생각합시다. 우리는 제품을 만드는 과정에서 style-A에서는 `h1 {color: black;}`이라고 하고, `style-B`에서는 `h1 {color: blue;}`로 지정하는 경우를 쉽게 만날 수 있습니다. 이때 어떤 스타일을 더 최종적으로 적용해야 할지 기준이 필요합니다. 
-    ```
+  > Yes, there is. The code at the bottom, has higher priority. that's why the codes of all the common and universal styles are placed at the top and the oned responsible for the detailed styling are at the bottom. 
+  >
+  > Suppose you are using a file `style-A.css` and a file `style-B.css`. In the process of making our page, we can easily get into a situation where in `style-A` we define `h1 {color: black;}` and in `style-B` we define `h1 {color: blue;}`. In such case, we need criteria for which style to ultimately implement. 
 
 
 [2]:https://material.io/tools/icons
 [3]:https://google.github.io/material-design-icons/#styling-icons-in-material-design
+

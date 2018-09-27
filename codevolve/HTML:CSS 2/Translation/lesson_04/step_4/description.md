@@ -1,7 +1,7 @@
 ### <td>
-영수증의 내용 부분에서 공통적으로 사용하는 `td`의 스타일을 정리합시다.
-* `.table-receipt td`의 패딩은 상/하 `24px`, 좌/우 `16px`입니다.
-* 하단에 경계선이 있습니다. 보더의 넓이/스타일/색상은 `2px solid #ECEFF1`입니다.
+let's organize the `td` style, which is commonly used for body contents of the receipt.
+* The `.table-receipt td`'s padding is `24px` for top/down and `16px` for left/right.
+* There is a border line at the bottom. The border's width/style/color are set as `2px solid #ECEFF1`.
 
 **Instructions**
 1. Apply style to `.table-receipt td`.
@@ -16,10 +16,10 @@
 
 ### .t-label
 
-이제 라벨의 스타일을 정의합시다.
+let's now define the style of the label. 
 * The font size of `.table-receipt .t-label` is `16px`.
-* 글씨 두께는 `700`입니다.
-* The font color is `#78909C`. [Google color][999]의 blue grey 400과 같습니다.
+* The letter thickness, font-weight, is `700`. 
+* The font color is `#78909C`. The color is [Google color][999]'s `Blue grey 400`.
 
 **Instructions**
 1. Apply style to `.table-receipt .t-label`.
@@ -35,7 +35,7 @@
 
 ### .t-price
 
-값은 영수증에서 가장 중요한 부분입니다. 이 부분의 스타일을 정의합시다.
+The price is the most important part of the receipt. let's go ahead and define it's style. 
 * `.table-receipt .t-price`의 글씨 크기는 `24px`입니다.
 * The letters are centered.
 
@@ -52,7 +52,7 @@
 ​    
 ### .t-footer
 
-마지막으로 푸터의 스타일입니다.
+Last but not least, is the style of the footer. 
 * `.table-receipt .t-footer`의 패딩은 `24px`입니다.
 * 하단의 경계선은 `0`입니다.
 * The font size is `16px`.
