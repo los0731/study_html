@@ -1,0 +1,23 @@
+body {
+	background-color: #ECEFF1;
+}
+
+.container {
+	margin: 80px auto;
+	max-width: 400px;
+}
+
+.table-receipt {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	box-shadow: 40px 40px 80px -8px #B0BEC5;
+}
+
+.table-receipt th {
+	padding: 24px;
+	width: 100%;
+	color: white;
+	font-size: 24px;
+	background-color: #2196F3;
+}
