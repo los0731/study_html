@@ -1,9 +1,9 @@
 # Google Play Terms of Service
-Not all web pages are composed of complicated `HTML` or `CSS`. There are very simple pages, like Google Play`s Term&Conditions page, that have important roles to plat. So in this lesson, we will try to make a Google Play Service Term&Conditions page.
+Not all web pages are composed of complicated `HTML` or `CSS`. There are very simple pages, like Google Play's Term&Conditions page, that have important roles to plat. So in this lesson, we will try to make a Google Play Service Term&Conditions page.
 
 
 
-### Structure on this page
+## Structure on this page
 ![image-1](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-01.jpg)
 
 

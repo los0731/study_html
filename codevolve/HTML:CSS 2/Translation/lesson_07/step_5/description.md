@@ -1,4 +1,4 @@
-### .card-type, .card-tag
+## .card-type, .card-tag
 let's style the type and tag text, located on the left of the card. `.card-type` and `.card-tag` have to be defined simultaneously. When selecting more than 2 classes at the same time, use `, ` between them. 
 
 * The margin of `.card-type, .card-tag` is `16px 0 0 0` for top/right/down/left.
@@ -21,7 +21,7 @@ let's style the type and tag text, located on the left of the card. `.card-type`
 
 
 
-### Hover style
+## Hover style
 Usually only `VIDEO(`.card-type`)` can be seen and  `VIEW MORE(`.card-tag`)` cannot. When we hover the mouse over the card, `VIDEO` should disappear and `VIEW MORE` should pop up. 
 
 1. There are `VIDEO` and `VIEW MORE`. 

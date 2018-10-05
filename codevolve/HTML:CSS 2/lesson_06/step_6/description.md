@@ -1,4 +1,4 @@
-### .headline-text, .sub-headline-text
+## .headline-text, .sub-headline-text
 
 이제부터 가장 디테일한 부분을 다듬어 봅시다. 우선 제목과 부제목에 공통으로 적용되는 스타일이 있습니다. 바로 마진이죠.
 
@@ -17,7 +17,7 @@
 
 
 
-### .headline-text
+## .headline-text
 
 제목의 스타일을 적용해 봅시다.
 
@@ -41,7 +41,7 @@
 
 
 
-### .sub-headlind-text
+## .sub-headlind-text
 
 제목을 보조하는 부제목은 제목보다 크기와 컬러, 두께가 조금 약하게 표현됩니다.
 
@@ -65,7 +65,7 @@
 
 
 
-### .content-text
+## .content-text
 
 사실 body태그에서 지정한 스타일을 그대로 적용받는 이 컨텐트 텍스트 (`<p>`)는 마진을 통해서 간격만 조정할 뿐 별도의 스타일을 지정할 필요가 없습니다. body에서 이미 적용 되었기 때문이죠.
 

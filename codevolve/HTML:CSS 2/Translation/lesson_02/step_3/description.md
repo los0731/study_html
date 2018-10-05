@@ -1,5 +1,5 @@
 # CSS
-### <body>
+## <body>
 Set the color of the card to white and the background to purple.
 
 * The margin of the body is `0`.
@@ -18,7 +18,7 @@ Set the color of the card to white and the background to purple.
 
 
 
-### .birthday-card
+## .birthday-card
 `.birthday-card` is the space to write the actual card
 
 * The margin is `40px` for top/down, `auto` for left/right

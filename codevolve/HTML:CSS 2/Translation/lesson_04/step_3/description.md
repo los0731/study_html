@@ -1,5 +1,5 @@
 # CSS
-### <body>
+## <body>
 To create a style, where the receipt seems to float on the background, let's go for a more grey background, rather than white. For the background color we use `Blue Grey 50` from [Google colors][999]. 
 * The background color is `#ECEFF1`.
 
@@ -13,7 +13,7 @@ To create a style, where the receipt seems to float on the background, let's go 
 
 
 
-### .container
+## .container
 The container sets the receipt in the middle of the screen, at a certain, predetermined width. 
 * The margin of `.container` is `80px` for top/down, `auto` for left/right.
 * The maximum width is `400px`.
@@ -29,7 +29,7 @@ The container sets the receipt in the middle of the screen, at a certain, predet
 
 
 
-### .table-receipt
+## .table-receipt
 
 let's define the style of the receipt inside the container. 
 * Make sure the borders of the `.table-receipt` overlap and appear as one line.
@@ -50,7 +50,7 @@ let's define the style of the receipt inside the container.
 
 
 
-### <th> 
+## <th> 
 let's define the style of `th`, the title part of the receipt. In this lesson when we input a selector, we will call it `.table-receipt th`. 
 * The padding of `.table-receipt th ` is `24px`.
 * The width is `100%`.

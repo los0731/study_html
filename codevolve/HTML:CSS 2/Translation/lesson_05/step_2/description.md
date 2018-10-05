@@ -12,7 +12,7 @@ We start with using `<div>` to create a framework for the contents of the menu.
 
 
 ​    
-### <header>
+## <header>
 We have to put in the header and the menu items into `<div class="menu-wrap">`. The header consists of the cafe's logo and it's name. 
 
 **Instructions**

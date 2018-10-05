@@ -4,7 +4,7 @@ Card UI는 웹과 모바일을 통틀어 가장 많이 사용되는 UI 요소 �
 
 
 
-### **이 페이지의 구조**
+## **이 페이지의 구조**
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-06.jpg)
 

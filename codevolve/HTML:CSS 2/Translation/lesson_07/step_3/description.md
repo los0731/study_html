@@ -1,5 +1,5 @@
 # CSS
-### <body>
+## <body>
 Facebook design page uses a very light grey background. Also there's a separate font assigned to the whole area. 
 * Background color of `body` is `#FCFCFC`.
 * The font is `'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif`.(This is actually a font for Facebook design.)
@@ -16,7 +16,7 @@ Facebook design page uses a very light grey background. Also there's a separate 
 
 
 
-### .card
+## .card
 let's define the style of the card. 
 
 * The margin of `.card` is `80px` top/down, `auto` left/right.
@@ -40,7 +40,7 @@ let's define the style of the card.
 
 
 
-### .card:hover
+## .card:hover
 `:hover` refers to the hovering the mouse over an element. it's the best UI practice to explain to desktop users that they can click their mouse on an element. let's define the hover style of the card. Thanks to using the `transition: .24s;` at the top, the transition from normal state to hover and back to normal is much smoother. 
 
 * `.card:hover`'s shadow's x-axis/y-axis/blur/size/color is ``0 40px 40px 0 rgba(0, 0, 0,.16)`.
@@ -58,7 +58,7 @@ let's define the style of the card.
 
 
 
-### <a>
+## <a>
 In `<a>` the text is by default blue and underlined. that's why we have to define the style separately and remove all the decorative elements. 
 
 * There are no text decorations in `a`'s text.

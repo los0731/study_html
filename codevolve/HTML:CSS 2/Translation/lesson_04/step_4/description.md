@@ -1,4 +1,4 @@
-### <td>
+## <td>
 let's organize the `td` style, which is commonly used for body contents of the receipt.
 * The `.table-receipt td`'s padding is `24px` for top/down and `16px` for left/right.
 * There is a border line at the bottom. The border's width/style/color are set as `2px solid #ECEFF1`.
@@ -14,7 +14,7 @@ let's organize the `td` style, which is commonly used for body contents of the r
 
 
 
-### .t-label
+## .t-label
 
 let's now define the style of the label. 
 * The font size of `.table-receipt .t-label` is `16px`.
@@ -33,7 +33,7 @@ let's now define the style of the label.
 
 
 
-### .t-price
+## .t-price
 
 The price is the most important part of the receipt. let's go ahead and define it's style. 
 * `.table-receipt .t-price`'s text size is `24px`.
@@ -50,7 +50,7 @@ The price is the most important part of the receipt. let's go ahead and define i
 
 
 ​    
-### .t-footer
+## .t-footer
 
 Last but not least, is the style of the footer. 
 * `.table-receipt .t-footer`'s padding is `24px`.

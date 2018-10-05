@@ -1,5 +1,5 @@
 # HTML
-### Container
+## Container
 
 `container`를 추가하고 그 안에 `card-login-wrap`을 추가합니다. 2중으로 감싸져 있는 구조가 되겠네요. `card-login-wrap`안에 이후에 `card-login`과  `footer`를 배치하여 전체적인 구조를 만듭니다. 
 
@@ -17,9 +17,9 @@
    <div class="card-login-wrap"></div>
    ```
 
-### 
+## 
 
-### Card-login-wrap
+## Card-login-wrap
 
 `card-login-wrap`은 `card-login`과 `footer`를 포함합니다. 로그인 폼 요소들은 `card-login`에 추가하고, 이외의 정보는 `footer`에 추가하겠습니다.
 
@@ -37,9 +37,9 @@
    <footer></footer>
    ```
 
-### 
+## 
 
-### Card-header
+## Card-header
 
 `card-header` 는 이 페이지를 설명하는 로고이미지, 헤드라인 요소들을 포함합니다.
 
@@ -71,7 +71,7 @@
 
 
 
-### Card-form
+## Card-form
 
 `card-form`에는 검색어를 입력하는 인풋 요소가 들어갑니다. `autofocus` 속성을 사용하여 페이지가 로딩되면 자동으로 `input`에 `focus` 되도록 할 수 있습니다.
 

@@ -1,4 +1,4 @@
-### .headline-text, .sub-headline-text
+## .headline-text, .sub-headline-text
 
 Now let's trim the most detailed parts. First of all, the title and subheadings share a common style. it's the margin, of course. 
 
@@ -17,7 +17,7 @@ Now let's trim the most detailed parts. First of all, the title and subheadings 
 
 
 
-### .headline-text
+## .headline-text
 
 let's apply the title style. 
 
@@ -41,7 +41,7 @@ let's apply the title style.
 
 
 
-### .sub-headlind-text
+## .sub-headlind-text
 
 The subheadings, which assist the main title part, are expressed in smaller font, lighter color, less boldness.  
 
@@ -65,7 +65,7 @@ The subheadings, which assist the main title part, are expressed in smaller font
 
 
 
-### .content-text
+## .content-text
 
 Actually, the `<body>`'s style is applied to the the content text (`<p>`) as is, and other than adjusting the margin, there's no need to specify the style. it's because it is all already defined within the body. 
 

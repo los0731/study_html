@@ -1,6 +1,6 @@
 # HTML
 
-### .navbar
+## .navbar
 
 First we add the navigation bar with Medium's logo in it. On it's official page, Medium displays it's logo as a graphic image, but for the sake of practice, we will define it with text. 
 
@@ -16,7 +16,7 @@ First we add the navigation bar with Medium's logo in it. On it's official page,
 
 
 
-### .hero
+## .hero
 
 At the top of the page, we add the hero image area. We open up an empty space using `<div>` and will later on fill it with `CSS`. 
 

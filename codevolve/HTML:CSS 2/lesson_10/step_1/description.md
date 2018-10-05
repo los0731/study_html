@@ -3,7 +3,7 @@ Google material design의 특징중 하나는 [스타일리시한 입력 폼](ht
 
 
 
-### 이 페이지의 구조
+## 이 페이지의 구조
 ![image-1](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1536398894/img-wire-09_didnd2.jpg)
 
 

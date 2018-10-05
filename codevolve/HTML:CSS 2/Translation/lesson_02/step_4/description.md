@@ -1,5 +1,5 @@
 # CSS
-### Image
+## Image
 Change the width of the image to match the card.
 * The width of `img` in `.birthday-card` is `100%`.
 
@@ -14,7 +14,7 @@ Change the width of the image to match the card.
 
 
 
-### .source-link
+## .source-link
 
 It's better if the source of the image is marked discritly in small font at the bottom of the card. 
 * `.source-link`'s text is centered

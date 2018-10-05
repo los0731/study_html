@@ -1,5 +1,5 @@
 # HTML
-### .container
+## .container
 
 We can start off by creating the container. A `container` here means that it contains something within. In this case, it will have an image and text. There are many kinds of tags that act as this kind of container, but we use `<div>` for bundles, like we have now, that don`t carry any specific meaning. 
 
@@ -12,7 +12,7 @@ We can start off by creating the container. A `container` here means that it con
 
 
 
-### Components of Container
+## Components of Container
 
 From now on, add the remaining elements in `<div class="container">`. Add image, headline, posting, subheadline, and body text from above in order.
 

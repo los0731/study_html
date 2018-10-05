@@ -23,7 +23,7 @@ Using `<div>`, we create a card. Inside it let's use `<a>` to add a link. The ma
 
 
 
-### .card-hero 
+## .card-hero 
 Hero image is usually big, take up the full screen and is set on top of the designated area. Hero image sets the tone for the page, sparks curiosity in the users before reading the contents or simply conveys the general message of the text. This element will be handled with CSS, so for now we just leave an empty tag and class. 
 
 **Instructions**
@@ -36,7 +36,7 @@ Hero image is usually big, take up the full screen and is set on top of the desi
 
 
 
-### .card-block
+## .card-block
 Other than the hero image, the rest of the elements (title, descriptions, dividing lines, tags etc.) will be grouped together. These elements are called `card-block`. 
 
 **Instructions**

@@ -13,7 +13,7 @@ Start by creating container using `<div>`.
 
 
 
-### .table-receipt
+## .table-receipt
 In the `<div class="container">` we add `<table>`, which will be the framework for the receipt. The following items will be part of the receipt. 
 > * PAYMENT RECEIPT
 > * Product: Awesome Editor

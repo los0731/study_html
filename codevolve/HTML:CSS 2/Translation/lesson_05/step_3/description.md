@@ -1,4 +1,4 @@
-### .table-menu
+## .table-menu
 Below the header we add the menu information. The menu information is composed of the dish/beverage name and a price. We use  `<table>` to do this. 
 
 **Instructions**

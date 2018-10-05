@@ -2,13 +2,13 @@
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533081749/img-hero-08_ihzgkd.jpg)
 
-### Overview
+## Overview
 
 Write your own code by following this simple step-by-step guide for pair programming. Code online, without having to additionally install any development environment. The goal of this training program is not only to introduce you to programming grammar. it's aim is also to get you used to coding as you progress from the first easy tasks up to creating and launching an actual running page. 
 
 
 
-### Who is this for? 
+## Who is this for? 
 
 * **Beginners**: You followed a few HTML/CSS courses here and there, but, let's be honest, at the end of the day Isn't writing code annoyingly hard? If you don't really know where to start with practical coding, start here, right now!
 * **Developers**: As you learn the HTML/CSS knowhow, discover useful design tips, so helpful for developers doing projects on their own. You can learn methods of calculating and selecting colors and easily understandable methods of spacial planning. 
@@ -17,7 +17,7 @@ Write your own code by following this simple step-by-step guide for pair program
 
 
 
-### Program Features
+## Program Features
 
 * All projects here consist of 100% practical coding assignments.
 
@@ -28,14 +28,16 @@ Write your own code by following this simple step-by-step guide for pair program
 * This course consists of 8 project.
 
 
-### Requirements
+
+## Requirements
 
 * Basic HTML/CSS knowledge is needed, as we don't really explain all the basic gammar points in this course. 
 
 * If you don't know where to get yourself up to date with the basics, we recommend you check out the HTML/CSS course on [HTML & CSS Basics][https://www.next.xyz/catalog/html-css-basics].
 
 
-### Projects
+
+## Projects
 
 1. Google Play Terms of Service - Easy
 2. Birthday Card - Easy

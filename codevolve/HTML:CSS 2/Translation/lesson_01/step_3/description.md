@@ -1,6 +1,6 @@
 # CSS
 
-### .container
+## .container
 Now click the `style.css` tab in the middle of the code editor. The `.container`, that has all the elements, should be in the middle of the screen and shouldn't be wider than the already predetermined width. 
 * `.container`'s margin is `24px` top/down, `auto` left/right.
 * Padding is `0` top/down, `16px` left/right.
@@ -18,7 +18,7 @@ Now click the `style.css` tab in the middle of the code editor. The `.container`
 
 
 
-### Logo Image
+## Logo Image
 let's style the logo image. 
 - The width of `img` is `183px`.
 

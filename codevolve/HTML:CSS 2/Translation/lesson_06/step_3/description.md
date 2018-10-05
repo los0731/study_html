@@ -1,4 +1,4 @@
-### .container
+## .container
 
 Here are the content elements of the policy page, excluding the logo and hero image. 
 

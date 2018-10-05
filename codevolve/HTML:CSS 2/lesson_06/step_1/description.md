@@ -4,7 +4,7 @@
 
 
 
-### **이 페이지의 구조**
+## **이 페이지의 구조**
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533078133/img-wire-07_o6ryro.jpg)
 
@@ -30,7 +30,7 @@
 
 
 
-### 기본 서체
+## 기본 서체
 
 Medium에는 별도의 서체를 사용하고 있습니다. 이번 레슨에는 Medium과 동일한 서체를 사용할 수는 없지만 비슷한 서체를 사용할 수 있도록 CSS 코드가 첨부되어 있습니다. 서체는  [Google Fonts][https://fonts.google.com/] 에서 가져왔습니다.
 

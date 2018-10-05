@@ -1,4 +1,4 @@
-### .container
+## .container
 We set the style of the container which carries the page's contents. No matter how wide it gets, the container should maintain the width of the browser. Also, it has to placed in the middle of the screen. 
 
 * The margin of `container` is `0` top/down, `auto` left/right.
@@ -18,7 +18,7 @@ We set the style of the container which carries the page's contents. No matter h
 
 
 
-### .content 
+## .content 
 
 The subtag of the container, the content, covers the headline group and body text. 
 
@@ -36,7 +36,7 @@ The subtag of the container, the content, covers the headline group and body tex
 
 
 
-### .headline-group
+## .headline-group
 
 let's define the style of the headline group which covers the title and subheadings. To clearly distinguish it from the body text, we need to use the margin, to set the spacing, and change the font. 
 

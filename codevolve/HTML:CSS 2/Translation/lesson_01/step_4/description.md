@@ -3,7 +3,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 
 
-### Headline 
+## Headline 
 
 * Margin of `h1` is `40px 0 8px 0` for top/right/down/left.
 * The font size is `20px`.
@@ -20,7 +20,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 
 
-### Posting
+## Posting
 
 * Margin of `h6` is `8px` for top/down `0` for left/right.
 * The font size is `12px`.
@@ -36,7 +36,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 
 
-### Subheadline
+## Subheadline
 
 * Margin of `h2` is `16px 0 8px 0` for top/right/down/left.
 * The font size is `16px`.
@@ -52,7 +52,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 
 
 
-### Main text
+## Main text
 * Margin of `p` is `8px` for top/down `0` for left/right.
 * The font size is `14px`.
 * The line height is `22px`

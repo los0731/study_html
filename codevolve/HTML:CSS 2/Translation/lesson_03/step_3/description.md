@@ -1,5 +1,5 @@
 # CSS
-### <body> 
+## <body> 
 To better showcase the online business card, we will choose a background color. In [Google colors][1] choose `Blue Grey 50`. 
 * The margin of the body is `0`.
 * Padding is `8px`.
@@ -19,7 +19,7 @@ To better showcase the online business card, we will choose a background color. 
 
 
 
-### .business-card
+## .business-card
 `business-card` should be placed in the middle of the screen, and it should have a specific width and rounded corners. We will also style the font alignment, background color, shadow. Since the background color here is [Google Colors][1]'s `Blue Grey 50`, we will make the shadow color `Blue Grey 200`. 
 
 * Background color is `white`.
@@ -46,7 +46,7 @@ To better showcase the online business card, we will choose a background color. 
 
 
 
-### .image
+## .image
 The size of the image must be reduced to match the size of the card.
 * The width of `.image` is `100%`.
 

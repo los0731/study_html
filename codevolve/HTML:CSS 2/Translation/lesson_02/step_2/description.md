@@ -9,7 +9,7 @@ Start by using `<div>` to make the frame of the card.
 
 
 
-### .birthday-card
+## .birthday-card
 Add elements of card in `<div class="birthday-card">`.
 
 **Instructions**
@@ -28,7 +28,7 @@ Add elements of card in `<div class="birthday-card">`.
 
 
 
-### Leave the image's source for now.
+## Leave the image's source for now.
 If you are not a designer, it's difficult to make and use your own graphic sources. that's why when you need an image, you can use free source sites. Here are some popular sites that you can check out:
 * https://www.freepik.com/ (You can use graphic images/illustrations for personal/commercial use, but you have to leave in the source)
 * https://www.pexels.com/ (For pictures taken by professional photographers, you don't have to leave in the source. )

@@ -1,5 +1,5 @@
 # CSS
-### <body>
+## <body>
 We now add the page's background image. In order to fill the entire `body` area, the background has to be set as the height of the entire browser. And so, we can set the entire height as the difference between the `body`'s minimum height and `body`'s up/down padding value. 
 * The padding of `body` is `80px` top/down, `16px left/right.
 * The minimum height value is the difference between the total `Viewport height` and `160px`.
@@ -21,7 +21,7 @@ We now add the page's background image. In order to fill the entire `body` area,
 
 
 
-### .menu-wrap
+## .menu-wrap
 `.menu-wrap` is the space surrounding the menu.
 
 * The margin of `menu-wrap` is `0` top/down, `auto` left/right.
@@ -48,7 +48,7 @@ We now add the page's background image. In order to fill the entire `body` area,
 
 
 
-### <header>
+## <header>
 `header` contains the name and logo of the cafe.
 
 * The font of `header` is `'Satisfy', cursive`.
@@ -66,7 +66,7 @@ We now add the page's background image. In order to fill the entire `body` area,
 
 
 
-### <h4> 
+## <h4> 
 
 `h4` included in the `header` is the name of the cafe.
 
@@ -87,7 +87,7 @@ We now add the page's background image. In order to fill the entire `body` area,
 
 
 
-### .table-menu
+## .table-menu
 
 `.table-menu` is the area where the coffee types and the prices are to be displayed. 
 

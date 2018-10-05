@@ -11,7 +11,7 @@
 
 
 
-### .table-receipt
+## .table-receipt
 `<div class="container">`안에 영수증의 뼈대가 될 `<table>`를 추가합니다. 영수증에 들어가는 내용은 아래와 같습니다.
 > * PAYMENT RECEIPT
 > * Product: Awesome Editor

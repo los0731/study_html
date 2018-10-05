@@ -1,5 +1,5 @@
 # CSS
-### <body>
+## <body>
 
 Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `line-height `와 같이 적용된 스타일이 많습니다. 이들의 공통점은 속성이 하위 태그에도 적용된다는 점 입니다. 그래서 사이트 전체의 기준이 되는 서체, 서체 크기, 서체 색상을 기준으로 정하고 시작할때 이렇게 최상위 태그인 body 태그에 속성을 부여합니다. body 태그에 스타일을 적용합시다.
 
@@ -28,7 +28,7 @@ Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `li
 
 
 
-### .navbar
+## .navbar
 
 로고 텍스트가 있는 네비게이션 바의 스타일을 정의해봅시다. 
 
@@ -55,7 +55,7 @@ Medium 정책 페이지는 body 태그에 `font-size`, `font-size`, `color`, `li
 
 
 
-### .hero
+## .hero
 
 이 페이지의 성격을 나타내는 히어로 이미지의 스타일을 지정해 봅시다. 배경에 사용하는 이미지는 [PEXELS][https://www.pexels.com/] 에서 찾아 이미지 주소를 복사해왔습니다.
 

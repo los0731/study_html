@@ -4,7 +4,7 @@ Do you remember the Google policy page we made in lesson 1? This time let's try 
 
 
 
-### Structure on this page
+## Structure on this page
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533078133/img-wire-07_o6ryro.jpg)
 
@@ -30,7 +30,7 @@ This page is divided into 3 areas: navigation area/ hero [image] area / containe
 
 
 
-### Default Font
+## Default Font
 
 Medium uses it's own fonts. In this lesson, we cannot use the exact same fonts as Medium, however a CSS code has been attached here, so we can use something similar. We brought in the fonts from [Google Fonts][https://fonts.google.com/]. 
 

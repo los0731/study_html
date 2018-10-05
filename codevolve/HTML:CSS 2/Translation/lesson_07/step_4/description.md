@@ -1,4 +1,4 @@
-### .card-hero
+## .card-hero
 
 Like mentioned before, let's style the card's hero with CSS.
 * The width of `.card-hero` is `100%`.
@@ -29,7 +29,7 @@ Like mentioned before, let's style the card's hero with CSS.
 
 
 
-### .card-block
+## .card-block
 Now that the hero image is complete, let's style the card block, a bundle of the rest of the elements of the card.
 
 * The padding of `.card-block` is `24px`.
@@ -47,7 +47,7 @@ Now that the hero image is complete, let's style the card block, a bundle of the
 
 
 
-### .card-title
+## .card-title
 The card's title uses  `<h2>`. A basic margin has been applied to all the title tags from `<h1>`to`<h6>`. Hence, when defining the style of the titles, the default style has to be taken into consideration. 
 
 * The margin of `.card-title` is `0`
@@ -69,7 +69,7 @@ The card's title uses  `<h2>`. A basic margin has been applied to all the title 
 
 
 
-### .card-description
+## .card-description
 
 The description text should only show the beginning part of the text. Therefore we have to choose whether it will show 2 or 3 first lines of the text. Here we will set it to show up to only 3 lines. Whatever exceeds 3 lines will be displayed as `...`.
 
@@ -103,7 +103,7 @@ The description text should only show the beginning part of the text. Therefore 
 
 
 
-### .card-hr
+## .card-hr
 
 `<hr>` used as a partition line, has a default setting of  `border-width: 1px`. that's why I usually overwrite it with a new `border` attribute and use a partition line that I actually like. 
 

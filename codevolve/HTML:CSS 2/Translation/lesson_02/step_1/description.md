@@ -3,7 +3,7 @@ How do you send a birthday message to a friend? In this lesson you will be makin
 
 
 
-### Structure on this page
+## Structure on this page
 
 ![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609841/wire/img-wire-02.jpg)
 
