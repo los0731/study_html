@@ -18,9 +18,9 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
 
 
 **Instructions**
-1. Add `<img>` within `<div class="container">` and apply `src="img_google_play.png"` and `alt="Google Play"`.
+1. Add `<img>` within `<div class="container">` and apply `src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png"` and `alt="Google Play"`.
     ```html
-    <img src="img_google_play.png" alt="Google Play">
+    <img src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png" alt="Google Play">
     ```
 
 1. Add `<h1>`(headline) to the next line of `<img>`, fill in the content below.

@@ -16,10 +16,10 @@
 이제부터 `<div class="container">`안에 나머지 요소들을 추가합니다. 위에서부터 순서대로 이미지, 제목, 최근 수정일, 소제목, 본문을 추가합니다. 
 
 **Instructions**
-1. `<div class="container">`안에 `<img>`를 추가하고, `src="img_google_play.png"`와 `alt="Google Play"`속성 적용하기.
+1. `<div class="container">`안에 `<img>`를 추가하고, `src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png"`와 `alt="Google Play"`속성 적용하기.
 
     ```html
-    <img src="img_google_play.png" alt="Google Play">
+    <img src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png" alt="Google Play">
     ```
 
 1. `<img>`다음 줄에 `<h1>`(제목)을 추가하고, 아래 내용 채우기.
