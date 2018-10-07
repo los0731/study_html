@@ -44,3 +44,26 @@ body {
   padding: 64px 0 24px 0;
   font-family: 'Heebo', sans-serif;
 }
+
+.headline-text,
+.sub-headline-text {
+  margin: 0;
+}
+
+.headline-text {
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.sub-headline-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #8f8f8f;
+}
+
+.content-text {
+  margin: 0 0 40px 0;
+}

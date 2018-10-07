@@ -1,97 +1,59 @@
-# CSS
-## <body>
+## .container
+We set the style of the container which carries the page's contents. No matter how wide it gets, the container should maintain the width of the browser. Also, it has to placed in the middle of the screen. 
 
-Medium's policy page uses a lot of styles for the body tag, like `font-size`, `font-size`, `color`, `line-height`. What they have is common is that the properties can be also applied to the tags that follow the body. that's why we start by setting the basic attributes for the entire site, like font, font size, font color, in the top-level the body tag. let's define the body tag's style. 
-
-* The margin of `body` is `0`.
-* Padding is `0`.
-* The font is `'Source Serif Pro', serif`.
-* The font size is `19px`.
-* line height is `1.58`.
-* The font color is `#333`.
-* Apply Anti-Aliasing.
+* The margin of `container` is `0` top/down, `auto` left/right.
+* Padding is `0` top/down, `16px` left/right.
+* The maximum width is `630px`.
 
 
-**Instructions**
-1. Apply style to `body`.
+**lesson6_step4_instruction1**
+1. Apply style to `.container`.
     ```css
-    body {
-    	margin: 0;
-    	padding: 0;
-    	font-family: 'Source Serif Pro', serif;
-    	font-size: 19px;
-    	line-height: 1.58;
-    	color: #333;
-    	-webkit-font-smoothing: antialiased;
+    .container {
+      margin: 0 auto;
+      padding: 0 16px;
+      max-width: 630px;
     }
     ```
 
 
 
-## .navbar 
+## .content 
 
-let's set the style for the navigation bar, which includes the logo text. 
+The subtag of the container, the content, covers the headline group and body text. 
 
-* The padding below .navbar` is `8px`.
-* The letters are centered.
-* The font is `'Playfair Display', serif`.
-* The font size is `39px`.
-* The font-weight is `bold`.
-* The line height is `56px`.
+- The bottom margin of `.content` is `70px`.
+
+**lesson6_step4_instruction2**
+
+1. Apply style to `.content`.
+
+   ```css
+   .content {
+     margin-bottom: 70px;
+   }
+   ```
 
 
-**Instructions**
-1. Apply style to `.navbar`.
+
+## .headline-group
+
+let's define the style of the headline group which covers the title and subheadings. To clearly distinguish it from the body text, we need to use the margin, to set the spacing, and change the font. 
+
+* The margin of `.headline-group` is `64px 0 24px 0` for top/right/down/left.
+* The font is `'Heebo', sans-serif`.
+
+
+**lesson6_step4_instruction3**
+1. Apply style to `.headline-group`.
     ```css
-    .navbar {
-        padding-bottom: 8px;
-        text-align: center;
-        font-family: 'Playfair Display', serif;
-        font-size: 39px;
-        font-weight: bold;
-        line-height: 56px;
+    .headline-group {
+      padding: 64px 0 24px 0;
+      font-family: 'Heebo', sans-serif;
     }
     ```
 
-
-
-## .hero 
-
-let's define the hero image style, to set the theme for this page. We found an image for the background at [PEXELS][https://www.pexels.com/] and copied it's address. 
-
-* The width of `.hero` is `100%`.
-* The height is `30vw`.
-* Minimum height is `200px`.
-* The maximum height is `534px`.
-* The background image's url/repetition/x-axis range/y-axis range is each set to `url("https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center`.
-* Background image overwrites all areas.
-
-
-**Instructions**
-1. Apply style to `.hero`
-    ```css
-    .hero {
-        width: 100%;
-        min-height: 200px;
-        height: 30vw;
-        max-height: 534px;
-        background: url('https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center;
-        background-size: cover;
-    }
-    ```
 
 
 
 Click the **NEXT STEP** button.
-
-
-
-## TIPS!
-
-- What meaning does `background-size: cover;` have?
-
-  > You can set the width and height of the space where you'll put the background image and you can import the image itself by just copying and pasting the url. However, because the image's size proportions are not being considered here, in order to see the whole image, the `background-size` property should be set as `cover`.
-
-
-
-

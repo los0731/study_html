@@ -1,38 +1,32 @@
-# Medium Legal
+# HTML
 
-Do you remember the Google policy page we made in lesson 1? This time let's try and make a better designed and more visually appealing one, that is [Medium's policy page][https://legal.medium.com/].
+## .navbar
 
+First we add the navigation bar with Medium's logo in it. On it's official page, Medium displays it's logo as a graphic image, but for the sake of practice, we will define it with text. 
 
+**lesson6_step1_instruction1**
 
-## Structure on this page
+1. Add `<nav>` in `<body>` and, after applying `class="navbar"`, fill out the contents.
 
-![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1533078133/img-wire-07_o6ryro.jpg)
-
-This page is divided into 3 areas: navigation area/ hero [image] area / container area. The container area consists of a title, subheadings and body text. 
-
-```
-|- Body
-    |- Navigation bar
-    |- Hero image
-    |- Container
-    |   |- Content
-    |   |   |- Headline-group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Body text
-    |   |- Content
-    |   |   |- Headline-group
-    |   |   |   |- Headline
-    |   |   |   |- Sub-headline
-    |   |   |- Body text
-    |   |- ...
-```
+   ```html
+   <body>
+     <nav class="navbar">Medium</nav>
+   </body>
+   ```
 
 
 
-## Default Font
+## .hero
 
-Medium uses it's own fonts. In this lesson, we cannot use the exact same fonts as Medium, however a CSS code has been attached here, so we can use something similar. We brought in the fonts from [Google Fonts][https://fonts.google.com/]. 
+At the top of the page, we add the hero image area. We open up an empty space using `<div>` and will later on fill it with `CSS`. 
+
+**lesson6_step1_instruction2**
+
+1. Add `<div>` below `<nav class="navbar">` and apply `class="hreo"`.
+
+   ```html
+   <div class="hero"></div>
+   ```
 
 
 

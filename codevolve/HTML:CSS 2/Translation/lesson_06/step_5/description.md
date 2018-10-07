@@ -1,58 +1,85 @@
-## .container
-We set the style of the container which carries the page's contents. No matter how wide it gets, the container should maintain the width of the browser. Also, it has to placed in the middle of the screen. 
+## .headline-text, .sub-headline-text
 
-* The margin of `container` is `0` top/down, `auto` left/right.
-* Padding is `0` top/down, `16px` left/right.
-* The maximum width is `630px`.
+Now let's trim the most detailed parts. First of all, the title and subheadings share a common style. it's the margin, of course. 
 
+- The margin of `.headline-text` and `.sub-headline-text` is `0`.
 
-**Instructions**
-1. Apply style to `.container`.
-    ```css
-    .container {
-      margin: 0 auto;
-      padding: 0 16px;
-      max-width: 630px;
-    }
-    ```
+**lesson6_step5_instruction1**
 
-
-
-## .content 
-
-The subtag of the container, the content, covers the headline group and body text. 
-
-- The bottom margin of `.content` is `70px`.
-
-**Instructions**
-
-1. Apply style to `.content`.
+1. Apply style to `.headline-text,` and `.sub-headline-text`.
 
    ```css
-   .content {
-     margin-bottom: 70px;
+   .headline-text,
+   .sub-headline-text {
+     margin: 0;
    }
    ```
 
 
 
-## .headline-group
+## .headline-text
 
-let's define the style of the headline group which covers the title and subheadings. To clearly distinguish it from the body text, we need to use the margin, to set the spacing, and change the font. 
+let's apply the title style. 
 
-* The margin of `.headline-group` is `64px 0 24px 0` for top/right/down/left.
-* The font is `'Heebo', sans-serif`.
+- The bottom margin of `.headline-text` is `8px`.
+- The font size is `30px`.
+- The font-weight is `700`.
+- The line height is `1`.
+
+**lesson6_step5_instruction2**
+
+1. Apply style to `.headline-text`
+
+   ```css
+   .headline-text {
+     margin-bottom: 8px;
+     font-size: 30px;
+     font-weight: 700;
+     line-height: 1;
+   }
+   ```
 
 
-**Instructions**
-1. Apply style to `.headline-group`.
-    ```css
-    .headline-group {
-      padding: 64px 0 24px 0;
-      font-family: 'Heebo', sans-serif;
-    }
-    ```
 
+## .sub-headlind-text
+
+The subheadings, which assist the main title part, are expressed in smaller font, lighter color, less boldness.  
+
+- The font size of `.sub-headline-text` is `24px`. 
+- The font-weight is `300`.
+- The line height is `1.4`.
+- The font color is `#8f8f8f`.
+
+**lesson6_step5_instruction3**
+
+1. Apply style to `.sub-headline-text`.
+
+   ```css
+   .sub-headline-text {
+     font-size: 24px;
+     font-weight: 300;
+     line-height: 1.4;
+     color: #8f8f8f;
+   }
+   ```
+
+
+
+## .content-text
+
+Actually, the `<body>`'s style is applied to the the content text (`<p>`) as is, and other than adjusting the margin, there's no need to specify the style. it's because it is all already defined within the body. 
+
+- The margin of `.content-text `is `0 0 80px 0` for top/right/down/left.
+
+**lesson6_step5_instruction4**
+
+1. Apply style to `.content-text`.
+
+   ```css
+   .content-text {
+     margin: 0 0 40px 0;
+   }
+   ```
 
 
 

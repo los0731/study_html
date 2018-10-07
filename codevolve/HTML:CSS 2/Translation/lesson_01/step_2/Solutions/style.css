@@ -1,27 +1,13 @@
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .container {
-
+  margin: 24px auto;
+  padding: 0 16px;
+  max-width: 960px;
 }
 
 img {
-
-}
-
-h1 {
-
-}
-
-h6 {
-
-}
-
-h2 {
-
-}
-
-p {
-
+  width: 183px;
 }

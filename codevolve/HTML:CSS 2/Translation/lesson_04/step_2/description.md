@@ -1,98 +1,100 @@
-# HTML
-Start by creating container using `<div>`.
+# CSS
+## <body>
+To create a style, where the receipt seems to float on the background, let's go for a more grey background, rather than white. For the background color we use `Blue Grey 50` from [Google colors][999]. 
+* The background color is `#ECEFF1`.
+
+**lesson4_step2_instruction1**
+1. Apply style to `body`.
+    ```css
+    body {
+      background-color: #ECEFF1;
+    }
+    ```
 
 
-**Instructions**
-1. Add `<div>` within `<body>` and apply `class="container"`.
 
-    ```html
-    <body>
-      <div class="container"></div> 
-    </body>
+## .container
+The container sets the receipt in the middle of the screen, at a certain, predetermined width. 
+* The margin of `.container` is `80px` for top/down, `auto` for left/right.
+* The maximum width is `400px`.
+
+**lesson4_step2_instruction2**
+1. Apply style to `.container`.
+    ```css
+    .container {
+      margin: 80px auto;
+      max-width: 400px;
+    }
     ```
 
 
 
 ## .table-receipt
-In the `<div class="container">` we add `<table>`, which will be the framework for the receipt. The following items will be part of the receipt. 
-> * PAYMENT RECEIPT
-> * Product: Awesome Editor
-> * Date: Apr. 22 2018
-> * Order ID: UDVD12548
-> * Price: $109.00
-> * Thank you for purchasing form us.
 
+let's define the style of the receipt inside the container. 
+* Make sure the borders of the `.table-receipt` overlap and appear as one line.
+* The width is `100%`.
+* Background color is `white`.
+* The shadow's x-axis/y-axis/blur/size/color is `40px 40px 80px -8px #B0BEC5`.
 
-**Instructions**
-1. Add `<table>` within `<div class="container">` and apply `class="table-receipt"`.
-
-    ```html
-    <div class="container">
-      <table class="table-receipt"></table>
-    </div>
-    ```
-1. Add `<thead>` and `<tbody>`in the `<table>`
-
-    ```html
-    <table class="table-receipt">
-      <thead></thead>
-      <tbody></tbody>
-    </table> 
-    ```
-1. Write code for the `<thead>` part
-    * Use `<tr>`in `<thead>` to create 1 row.
-    * Use `<th>` in `<tr>` to add 1 column and apply `class="t-header"`, `colspan="2"`
-    * Fill in content
-    ```html
-    <thead>
-      <tr>
-        <th class="t-header" colspan="2">PAYMENT RECEIPT</th>
-      </tr>
-    </thead> 
-    ```
-1. Write code for the `<tbody>` part
-    * Use `<tr>`in `<tbody>` to create 5 rows.
-    * For rows 1~4 use `<tr>` to create 2 columns and apply `class="t-label"`, `class="t-content"` to each.
-    * For the 5th row create 1 column and apply `class="t-footer"`, `colspan="2"`.
-    * Fill each item with content
-    ```html
-    <tbody>
-      <tr>
-        <td class="t-label">Product</td>
-        <td class="t-content">Awesome Editor</td>
-      </tr>
-      <tr>
-        <td class="t-label">Date</td>
-        <td class="t-content">Apr. 22 2018</td>
-      </tr>
-      <tr>
-        <td class="t-label">Order ID</td>
-       <td class="t-content">UDVD12548</td>
-      </tr>
-      <tr>
-        <td class="t-label">Price</td>
-        <td class="t-content">$109.00</td>
-      </tr>
-      <tr>
-        <td class="t-footer" colspan="2">
-          Thank you for purchasing form us.
-        </td>
-      </tr>
-    </tbody> 
+**lesson4_step2_instruction3**
+1. Apply style to `.table-receipt`
+    ```css
+    .table-receipt {
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	box-shadow: 40px 40px 80px -8px #B0BEC5;
+    }
     ```
 
-So this is how we have constructed the page framework using `HTML`. On the next page let's use `CSS` to do some styling. 
 
+
+## <th> 
+let's define the style of `th`, the title part of the receipt. In this lesson when we input a selector, we will call it `.table-receipt th`. 
+* The padding of `.table-receipt th ` is `24px`.
+* The width is `100%`.
+* The font color is `white`.
+* Background color is `#2196F3`. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
+
+**lesson4_step2_instruction4**
+1. Apply style to `.table-receipt th`.
+
+    ```css
+    .table-receipt th {
+    	padding: 24px;
+    	width: 100%;
+    	color: white;
+    	font-size: 24px;
+    	background-color: #2196F3;
+    }
+    ```
 
 
 Click the **NEXT STEP** button.
 
+ 
 
 
 ## TIPS! 
-* It's really tedious to write a table tag.
+* Reasons for omitting the CSS selector. 
+    > If, like in the previous case, you enter the selector very precisely, you can write as follows.   
+    > ```css
+    > table.table-receipt thead tr th {...}
+    > ```
+    > However, if you think that using classes for the selected range is appropriate, you can omit certain code, making your coding shorter and more efficient. 
+    > ```css
+    > .table-receipt th {...}
+    > ```
+    > A good argument for writing short and concise code is that it helps understand it quicker. Especially when other people have to look through it.
+* What's `border-collapse`?
 
-    > That's true. That's why I use  [Table Generator][https://www.tablesgenerator.com/html_tables]. 
-* What's `colspan`?
+    > [border-collapse][2] is a CSS property, which sets overlapping properties for table cell borders. The values can be set as collapsed or seperate. 
+    >
+    > For `collapse`: the table cells' borders are integrated. That is, they overlap and look like one line. 
+    >
+    > For `separate`: by default, the table cells' borders are separate and are visible as two lines. 
 
-    > Among the properties of `<td>`, `<th>`, there is one called `colspan`, which merges each cell horizontally. For example, `colspan="2"` means two cells will be merged. When you want to merge two cells vertically, you can use `rowspan="2"`. 
+[1]: https://www.w3schools.com/cssref/css_selectors.asp
+[2]: https://www.w3schools.com/CSSref/tryit.asp?filename=trycss_border-collapse
+[999]: https://material.io/design/color/#color-usage-palettes

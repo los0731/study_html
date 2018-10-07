@@ -1,77 +1,127 @@
-# CSS
-## <body>
-Facebook design page uses a very light grey background. Also there's a separate font assigned to the whole area. 
-* Background color of `body` is `#FCFCFC`.
-* The font is `'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif`.(This is actually a font for Facebook design.)
+## .card-hero
+
+Like mentioned before, let's style the card's hero with CSS.
+* The width of `.card-hero` is `100%`.
+* The height is `296px`.
+* The url of the background image is `https://scontent-hkg3-1.xx.fbcdn.net/v/t15.0-10/12323191_10153628757763553_1398467009_n.jpg?_nc_cat=0&oh=76da236f6fc18effbfec0f9020e4d009&oe=5BDA9FDB`.
+* The background image is not repeated.
+* The background image's location is `center center` for x-axis/y-axis.
+* The background image overwrites all areas.
+* The top-left rounded edge is `4px`.
+* The top-right rounded edge is `4px`.
 
 
-**Instructions**
-1. Apply style to `body`
+**lesson7_step3_instruction1**
+1. Apply style to `.card-hero`
+
     ```css
-    body {
-    	background-color: #FCFCFC;
-    	font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    .card-hero {
+      width: 100%;
+      height: 296px;
+      background-image: url('https://scontent-hkg3-1.xx.fbcdn.net/v/t15.0-10/12323191_10153628757763553_1398467009_n.jpg?_nc_cat=0&oh=76da236f6fc18effbfec0f9020e4d009&oe=5BDA9FDB');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
     }
     ```
 
 
 
-## .card
-let's define the style of the card. 
+## .card-block
+Now that the hero image is complete, let's style the card block, a bundle of the rest of the elements of the card.
 
-* The margin of `.card` is `80px` top/down, `auto` left/right.
-* The maximum width is `350px`.
-* The shadow's x-axis/y-axis/blur/size/color is `0 20px 20px 0 rgba(0, 0, 0,.08)`.
-* The rounded edges are `3px`.
-* The `transition` attribute is `.24s`.
+* The padding of `.card-block` is `24px`.
+* Background color is `white`.
 
 
-**Instructions**
-1. Apply style to `.card`.
+**lesson7_step3_instruction2**
+1. Apply style to `.card-block`.
     ```css
-    .card {
-    	margin: 80px auto;
-    	max-width: 350px;
-    	box-shadow: 0 20px 20px rgba(0, 0, 0,.08);
-        border-radius: 3px;
-    	transition: .24s;
+    .card-block {
+      padding: 24px;
+      background-color: white;
     }
     ```
 
 
 
-## .card:hover
-`:hover` refers to the hovering the mouse over an element. it's the best UI practice to explain to desktop users that they can click their mouse on an element. let's define the hover style of the card. Thanks to using the `transition: .24s;` at the top, the transition from normal state to hover and back to normal is much smoother. 
+## .card-title
+The card's title uses  `<h2>`. A basic margin has been applied to all the title tags from `<h1>`to`<h6>`. Hence, when defining the style of the titles, the default style has to be taken into consideration. 
 
-* `.card:hover`'s shadow's x-axis/y-axis/blur/size/color is ``0 40px 40px 0 rgba(0, 0, 0,.16)`.
-* Use `transform` to move `20px` upwards.
+* The margin of `.card-title` is `0`
+* The font size is `24px`.
+* The font-weight is `400`.
+* The line height is `32px`.
 
 
-**Instructions**
-1. Apply style to `.card:hover`.
+**lesson7_step3_instruction3**
+1. Apply style to `.card-title`
     ```css
-    .card:hover {
-    	box-shadow: 0 40px 40px rgba(0, 0, 0,.16);
-    	transform: translateY(-20px);
+    .card-title {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
     }
     ```
 
 
 
-## <a>
-In `<a>` the text is by default blue and underlined. that's why we have to define the style separately and remove all the decorative elements. 
+## .card-description
 
-* There are no text decorations in `a`'s text.
-* The font color is `#1D2129`.
+The description text should only show the beginning part of the text. Therefore we have to choose whether it will show 2 or 3 first lines of the text. Here we will set it to show up to only 3 lines. Whatever exceeds 3 lines will be displayed as `...`.
 
-**Instructions**
-1. Apply style to `a`.
-    ```css
-    a {
-    	text-decoration: none;
-    	color: #1D2129;
-    }
-    ```
+- `.card-description` shows text only until the 3rd line, after that it displays `...`.
+- The margin is `12px 0 0 0 0` for top/right/down/left.
+- The font size is `12px`.
+- The font-weight is `400`.
+- The line height is `20px`.
+- The font color is `#4B4F56`. 
+
+**lesson7_step3_instruction4**
+
+1. Apply style to `.card-description`.
+
+   ```css
+   .card-description {
+     display: -webkit-box;
+     -webkit-line-clamp: 3;
+     -webkit-box-orient: vertical;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     margin: 12px 0 0 0;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     color: #4B4F56;
+   }
+   ```
+
+
+
+
+
+## .card-hr
+
+`<hr>` used as a partition line, has a default setting of  `border-width: 1px`. that's why I usually overwrite it with a new `border` attribute and use a partition line that I actually like. 
+
+- The margin of `.card-hr` is `16px 0 0 0` for top/right/down/left.
+- There are no borders.
+- The top border is `1px solid #ECEFF1`
+
+**lesson7_step3_instruction5**
+
+1. Apply style to `.card-hr`.
+
+   ```css
+   .card-hr {
+     margin: 16px 0 0 0;
+     border: 0;
+     border-top: 1px solid #ECEFF1;
+   }
+   ```
 
 
 
@@ -79,13 +129,36 @@ Click the **NEXT STEP** button.
 
 
 
-
-
 ## TIPS!
 
-- Transition attribute 
+- background-image + background-position + background-repeat = background
 
-  > **CSS transitions** offer a way to adjust the animation speed when CSS attributes are changing. Instead of making immediate attribute changes, we can make the attribute change happen smoothly over a period of time. For example, if you change the color of an element from white to black, the change will occur instantaneously. If you use CSS transitions, all the changes take place over period of time, which can be set accordingly. 
+  > * The next two styles are the same. Depending on the situation you may choose the top one or the simpler, bottom one. 
   >
-  > 출처: [Mozilla CSS transitions][https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions]
+  >   ```css
+  >   background-image: url('...');
+  >   background-repeat: no-repeat;
+  >   background-position: center center;
+  >   ==
+  >   background: url('...') no-repeat center center;
+  >   ```
 
+- What does it mean `first 3 lines only`? I'm lost. What do I have to do?
+
+  > - What is the first thing that many developers/designers do when they come across a requirement they don't know or understand? 
+  >
+  >   In the above case, we usually search in Google for `text ellipsis 3 line css`. In most cases, it solves the problem. Here is the code that I found for that: 
+  >
+  >   ```css
+  >   display: -webkit-box;
+  >   -webkit-line-clamp: 3;
+  >   -webkit-box-orient: vertical;
+  >   overflow: hidden;
+  >   text-overflow: ellipsis;
+  >   ```
+  >
+  >   let's paste it in and check if it works. Then let's search on Google. Even I, when I don't remember something, look it up on Google. Moreover, you can get a lot of useful knowhow on `stackoverflow.com`, `css-tricks.com` and similar sites. 
+
+- Why is `border` at the top set to `0` and `border-top` is added on?
+
+  > By default the `<hr>` is set as `border-width: 1px`. However, I only want to apply `border-top` to `<hr>`. that's why I declared  `border: 0` and I reset the default option. And there I added a new `border-top` attribute. 

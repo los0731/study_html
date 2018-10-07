@@ -1,100 +1,80 @@
-# CSS
-## <body>
-To create a style, where the receipt seems to float on the background, let's go for a more grey background, rather than white. For the background color we use `Blue Grey 50` from [Google colors][999]. 
-* The background color is `#ECEFF1`.
+## <td>
+let's organize the `td` style, which is commonly used for body contents of the receipt.
+* The `.table-receipt td`'s padding is `24px` for top/down and `16px` for left/right.
+* There is a border line at the bottom. The border's width/style/color are set as `2px solid #ECEFF1`.
 
-**Instructions**
-1. Apply style to `body`.
+**lesson4_step3_instruction1**
+1. Apply style to `.table-receipt td`.
     ```css
-    body {
-      background-color: #ECEFF1;
+    .table-receipt td {
+    	padding: 24px 16px;
+    	border-bottom: 2px solid #ECEFF1;
     }
     ```
 
 
 
-## .container
-The container sets the receipt in the middle of the screen, at a certain, predetermined width. 
-* The margin of `.container` is `80px` for top/down, `auto` for left/right.
-* The maximum width is `400px`.
+## .t-label
 
-**Instructions**
-1. Apply style to `.container`.
+let's now define the style of the label. 
+* The font size of `.table-receipt .t-label` is `16px`.
+* The letter thickness, font-weight, is `700`. 
+* The font color is `#78909C`. The color is [Google color][999]'s `Blue grey 400`.
+
+**lesson4_step3_instruction2**
+1. Apply style to `.table-receipt .t-label`.
     ```css
-    .container {
-      margin: 80px auto;
-      max-width: 400px;
+    .table-receipt .t-label {
+    	font-size: 16px;
+    	font-weight: 700;
+    	color: #78909C;
     }
     ```
 
 
 
-## .table-receipt
+## .t-price
 
-let's define the style of the receipt inside the container. 
-* Make sure the borders of the `.table-receipt` overlap and appear as one line.
-* The width is `100%`.
-* Background color is `white`.
-* The shadow's x-axis/y-axis/blur/size/color is `40px 40px 80px -8px #B0BEC5`.
+The price is the most important part of the receipt. let's go ahead and define it's style. 
+* `.table-receipt .t-price`'s text size is `24px`.
+* The letters are centered.
 
-**Instructions**
-1. Apply style to `.table-receipt`
+**lesson4_step3_instruction3**
+1. Apply style to `.table-receipt .t-label`.
     ```css
-    .table-receipt {
-    	border-collapse: collapse;
-    	width: 100%;
-    	background-color: white;
-    	box-shadow: 40px 40px 80px -8px #B0BEC5;
-    }
-    ```
-
-
-
-## <th> 
-let's define the style of `th`, the title part of the receipt. In this lesson when we input a selector, we will call it `.table-receipt th`. 
-* The padding of `.table-receipt th ` is `24px`.
-* The width is `100%`.
-* The font color is `white`.
-* Background color is `#2196F3`. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
-
-**Instructions**
-1. Apply style to `.table-receipt th`.
-
-    ```css
-    .table-receipt th {
-    	padding: 24px;
-    	width: 100%;
-    	color: white;
+    .table-receipt .t-price {
     	font-size: 24px;
-    	background-color: #2196F3;
+    	text-align: right;
     }
     ```
 
 
-Click the **NEXT STEP** button.
+​    
+## .t-footer
 
- 
+Last but not least, is the style of the footer. 
+* `.table-receipt .t-footer`'s padding is `24px`.
+* The border at the bottom is `0`.
+* The font size is `16px`.
+* The font color is `#2196F3`. (same as background color.)
+* The font-weight is `700`.
+* The letters are centered.
+
+**lesson4_step3_instruction4**
+1. Apply style to `.table-receipt .t-footer`.
+    ```css
+    .table-receipt .t-footer {
+    	padding: 24px;
+    	border-bottom: 0;
+    	font-size: 16px;
+    	color: #2196F3;
+    	font-weight: 700;
+    	text-align: center;
+    }
+    ```
 
 
-## TIPS! 
-* Reasons for omitting the CSS selector. 
-    > If, like in the previous case, you enter the selector very precisely, you can write as follows.   
-    > ```css
-    > table.table-receipt thead tr th {...}
-    > ```
-    > However, if you think that using classes for the selected range is appropriate, you can omit certain code, making your coding shorter and more efficient. 
-    > ```css
-    > .table-receipt th {...}
-    > ```
-    > A good argument for writing short and concise code is that it helps understand it quicker. Especially when other people have to look through it.
-* What's `border-collapse`?
 
-    > [border-collapse][2] is a CSS property, which sets overlapping properties for table cell borders. The values can be set as collapsed or seperate. 
-    >
-    > For `collapse`: the table cells' borders are integrated. That is, they overlap and look like one line. 
-    >
-    > For `separate`: by default, the table cells' borders are separate and are visible as two lines. 
+Click the **NEXT STEP** button. 
 
-[1]: https://www.w3schools.com/cssref/css_selectors.asp
-[2]: https://www.w3schools.com/CSSref/tryit.asp?filename=trycss_border-collapse
 [999]: https://material.io/design/color/#color-usage-palettes

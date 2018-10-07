@@ -1,138 +1,164 @@
-## .navigation
+## .content
+let's choose the style of the content area.
+* `.content` top padding is `136px`.
+* The letters are centered.
 
-let's define the style of the navigation part. First, in the navigation there are `<div class="nav-left">` and `<div class="nav-right">`, where both `<div>` have to be dispatched on the left/right. To dispatch the elements inside horizontally, it is good to use `flex` function. 
-
-* `.navigation`'s `display` is `flex`.
-* The elements inside that have `flex` applied, are arranged centrally and vertically.
-* The elements inside that have `flex` applied, are dispatched on the left/right.
-* For the padding is `16px 30px 16px 10px` for top/right/down/left.
-
-
-**Instructions**
-1. Apply style to `.navigation`.
+**lesson8_step6_instruction1**
+1. Apply style to `.content`.
     ```css
-    .navigation {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 16px 30px 16px 10px;
+    .content {
+      padding-top: 136px;
+      text-align: center;
     }
     ```
 
 
 
-## .navigation a
-let's arrange the style of `a` in the navigation. 
+## .form-search-wrap
+The element around the search form and voice search button should be set as `position: relative;`. The reason for this is explained further along in the `voice search button` part. let's go on with applying other styles.
+- `.form-search-wrap`'s `position` is `relative`.
+- The margin for top/right/down/left is `24px auto 0 auto`.
+- The width is `50%`.
+- The maximum area is `584px`.
+- The minimum area is `428px`.
 
-- The margin of `.navigation a` is `15px`.
-- The font size is `13px`.
-- The line height is `16px`.
-- The font color is `#333`.
-
-**Instructions**
-
-1. Apply style to `.navigation a`.
+**lesson8_step6_instruction2**
+1. Apply the style of `.form-search-wrap`.
    ```css
-   .navigation a {
-     margin-left: 15px;
-     font-size: 13px;
-     line-height: 16px;
-     color: #333;
+   .form-search-wrap {
+     position: relative;
+     margin: 24px auto 0 auto;
+     width: 50%;
+     max-width: 584px;
+     min-width: 428px;
    }
    ```
 
 
 
-## .navigation a:hover
-`a:hover`, which is inside the navigation, needs a style. Additionally, the  `<a>`there will have a seperate style defined with a `.btn`, so here we have to exclude it. that's why we will use the `:hover` and `:not` selectors together. 
+## .form-search
+The most important element on this page will be, of course, the search form. let's choose the style for this form.
+- The padding of `.form-search` is `5px` top/down, `16px` left/right.
+- Remove `outline`.
+- No boundary line.
+- The rounded edges are `2px`.
+- The width is the difference between `100%` and `32px`.
+- The font size is `16px`.
+- The line height is `34px`.
+- The shadow's x-axis/y-axis/blur/size/color has 2 attributes of `0 2px 2px 0 rgba(0,0,0,0.16)`, `0 0 0 1px rgba(0,0,0,0.08)`
+- `transition`attribute is `.2s` .
 
-- `.navigation a:hover:not(.btn)`의 투명도는 `.85`입니다.
-- The text has `underline` applied.
-
-
-**Instructions**
+**lesson8_step6_instruction3**
 1. Apply style to `.navigation a:hover:not(.btn)`.
    ```css
-   .navigation a:hover:not(.btn) {
-     opacity: .85;
-     text-decoration: underline;
-   }
-   ```
-
-
-
-## .btn-apps
-
-We will now arrange the style of `a.btn-apps`. Here, I don't just use `.btn-apps` but `a.btn-apps`. If we use just a class here, other higher priority properties may get applied. that's why we use the tag and class together to rise the priority higher. 
-
-- `a.btn-apps`'s `display` attribute is `flex`.
-- Padding is `3px`.
-- The font color is `#737373`.
-
-**Instructions**
-1. Apply style to `a.btn-apps`.
-   ```css
-   a.btn-apps {
-     display: flex;
-     padding: 3px;
-     color: #737373;
-   }
-   ```
-
-
-
-## .btn-sign-in
-
-In the upper right corner, define the style of the 'sign-in` button.  
-
-- The padding of `a.btn-sign-in` is `8px` top/down, `13px` left/right.
-- The rounded edges are `2px`.
-- The font-weight is `bold`.
-- The line height is `14px`.
-- The font color is `white`.
-- Background color is `#4387fd`.
-
-**Instructions**
-1. Apply style to `a.btn-sign-in`.
-   ```css
-   a.btn-sign-in {
-     padding: 8px 13px;
+   .form-search {
+     padding: 5px 16px;
+     outline: none;
+     border: 0;
      border-radius: 2px;
-     font-weight: bold;
-     line-height: 14px;
-     color: white;
-     background-color: #4387fd;
+     width: calc(100% - 32px);
+     font-size: 16px;
+     line-height: 34px;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+     transition: .2s;
    }
    ```
 
 
-## .btn-sign-in:active
-If you move your mouse over an element it says `:hover`, doesn't it? What happens when you click the mouse? Active mode is applied to the 'sign-in` button!
-- Background color of `a.btn-sign-in:active` is `#3c7ae4`.
-- The shadow's x-axis/y-axis/blur/size/color is  `inset 0 2px 0 rgba(0,0,0,.15)`.
 
-**Instructions**
-1. Apply style to `a.btn-sign-in:active`. 
+## .form-search:hover, .form-search:hover
+By hovering the mouse over it or by clicking the form, make sure that the shadows are slightly longer, when the form is in focus.  
+- `.form-search:hover, .form-search:focus`'s shadows' x-axis/y-axis/blur/size/color has 2 attributes of `0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08)`.
+
+**lesson8_step6_instruction4**
+1. Apply style to `.form-search:hover,` and `.form-search:focus`.
    ```css
-    a.btn-sign-in:active {
-      background-color: #3c7ae4;
-      box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
-    }
+   .form-search:hover,
+   .form-search:focus {
+     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+   }
    ```
 
 
 
-## .nav-right
-Once you've styled the `sign-in` button, the buttons will be placed from top to down. In `.nav-right` let's use `flex` to arrange the buttons horizontally.
-- `.nav-right`'s `display` attribute is `flex`.
-- The internal elements which have `flex` applied, are centered at the y-axis.
+## .btn-voice
+The voice search button, represented by the microphone icon, should be placed within the the search form, and to do so the `position` properties should be set to `absolute`. let's try to do this now.  
 
-**Instructions**
+- `.btn-voice`'s `position` is `absolute`.
+- It's `10px` from above.
+- It's `10px` from the right.
+- The font color is `#4387fd`.
+
+**lesson8_step6_instruction5**
+1. Apply style to `.btn-voice`.
+   ```css
+   .btn-voice {
+     position: absolute;
+     top: 10px;
+     right: 12px;
+     color: #4387fd;
+   }
+   ```
+
+
+## .buttons-wrap
+Go ahead and style the two buttons under the search form. Before doing that though, let's define the space between those those two elements.    
+- The margin of `.buttons-wrap` is 40px.
+
+**lesson8_step6_instruction6**
+1. Apply style to `.buttons-wrap`.
+   ```css
+   .buttons-wrap {
+     margin-top: 40px;
+   }
+   ```
+
+
+
+## .btn-secondary
+let's go ahead and define the style of the two buttons.
+- Margin of `.btn-secondary` is `0` for top/down `4px` for left/right.
+- Padding is `10px` top/down, `16px` left/right.
+- The border is a `1px` solid line, but it's transparent.
+- The rounded edges are `2px`.
+- The font size is `13px`.
+- The font-weight is `bold`..
+- The line height is `16px`.
+- The font color is `#757575`.
+- Background color is `#f2f2f2`.
+
+**lesson8_step6_instruction7**
 1. Apply style to `.nav-right`.
    ```css
-   .nav-right {
-     display: flex;
-     align-items: center;
+   .btn-secondary {
+     margin: 0 4px;
+     padding: 10px 16px;
+     border: 1px solid transparent;
+     border-radius: 2px;
+     font-size: 13px;
+     font-weight: bold;
+     line-height: 16px;
+     color: #757575;
+     background-color: #f2f2f2;
+   }
+   ```
+
+
+
+## .btn-secondary:hover
+
+let's apply the following styles to the `hover` mode of this button.
+- `.btn-secondary:hover`'s border line's color is `#c6c6c6`.
+- The font color is `#222`.
+- The shadow's x-axis/y-axis/blur/size is `0 1px 1px rgba(0,0,0,0.1);`.
+
+**lesson8_step6_instruction8**
+1. Apply style to `.btn-secondary:hover`.
+   ```css
+   .btn-secondary:hover {
+     border-color: #c6c6c6;
+     color: #222;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
    }
    ```
 

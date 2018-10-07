@@ -29,3 +29,18 @@ body {
   background: url('https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center;
   background-size: cover;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 630px;
+}
+
+.content {
+  margin-bottom: 70px;
+}
+
+.headline-group {
+  padding: 64px 0 24px 0;
+  font-family: 'Heebo', sans-serif;
+}

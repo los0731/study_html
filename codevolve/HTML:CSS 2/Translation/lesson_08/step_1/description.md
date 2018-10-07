@@ -1,44 +1,36 @@
-# Google Search
-What is the web page most visited by people around the world? it's [google.com](https://google.com). it's funny that the most visited webpage in the world is also one of the simplest. In this lesson we will try to make this simple yet beautiful search page. 
+# Before starting 
+let's look at the Google icon!
 
+The are various ways to show image icons in a browser. You can use jpg, png  for image files or svg icon, icon font. Here, the representative way to use the icon font is to use Google material icons. For the Google search page we'll be making, we will use the microphone icon for the voice search and an apps icon. 
 
+For more information about how to better use icon font, check out [Material Design - Icon][2]. For this lesson, all is already pre-set for us to use icon font. let's look at the minimal guidelines for using Google's material icons. 
 
-###The page structure 
-###### By having the description area set wider, we can view the images bigger. 
-![image](https://res.cloudinary.com/dyiqg9qhi/image/upload/v1532609842/wire/img-wire-08.jpg)
+A line of code is attached to the `<head>` to enable using material icons. Whenever you add this code, you can use material icons. 
 
-The Google search page is made of 3 parts: `navigation / content / footer`. The navigation is further split into left menu area and right button area. In the right button area there are various Google app-shaped icon buttons, Google login button etc. In the content area the Google logo image, search bar, as well as Google Search button and `I'm feeling lucky` button are placed in determined order. Last but not least, in the footer, similar to the navigation bar, links are each placed on the left and right. 
-
-And so we will set up the page structure in the following order: navigation / content / footer. In brief, it goes as follows: 
-
-```
-|- Navigation
-    |- Left area
-    |   |- About    
-    |   |- Store
-    |- Right area
-    |   |- Gmail
-    |   |- Images
-    |   |- Google apps button
-    |   |- Sign in button
-|- Content
-    |- Google logo image
-    |- Search bar
-    |   |- Input bar
-    |   |- Voice search button
-    |- Buttons
-    |   |- Google Search button
-    |   |- I'm Feeling Lucky button
-|- Footer
-    |- Left area
-    |   |- Advertising
-    |   |- Business
-    |- Right area
-    |   |- Pricacy
-    |   |- Terms
-    |   |- Settings
+```html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
 
+You can also write the code in `<body>`, so that you can use the material icons there too. 
+
+```html
+<body>
+  <i class="material-icons">mic</i>
+  <i class="material-icons">accessibility</i>
+  <i class="material-icons">assessment</i>
+  <i class="material-icons">alarm</i>    
+</body>
+```
+
+Also, you can add a specific class to this tag and [adjust the size][3] of the icons. 
+```html
+<body>
+  <i class="material-icons md-18">mic</i>
+  <i class="material-icons md-24">accessibility</i>
+  <i class="material-icons md-36">assessment</i>
+  <i class="material-icons md-48">alarm</i>
+</body>
+```
 
 
 

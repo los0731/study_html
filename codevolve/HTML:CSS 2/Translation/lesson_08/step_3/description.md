@@ -1,84 +1,73 @@
-# HTML
-This page has 3 major sections: navigation / contents / footer. 
+## .content
+In the content area there are the Google logo image and the search input form. There are also `Google Search`, `I'm Feeling Lucky` buttons. 
 
-**Instructions**
-1. Add `<nav>` in `<body>` and apply `class="navigation"`.
+**lesson8_step3_instruction1**
+
+1. In `<div class="content">` add `<img>` and apply `src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"`, `alt="Google"`, `width="272"`
+
     ```html
-    <body>
-      <nav class="navigation"></nav>
-    </body>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272">  
     ```
-1. After `<nav class="navigation"> add `<div>` and apply `class="content"`
+1. After the `<img>` add `<div>` and apply `class="form-search-wrap"`
     ```html
-    <div class="content"></div>
+    <div class="form-search-wrap"></div>       
     ```
-1. After `<div class="content">` add `footer` tag and apply `class="footer"`
+1. In `<div class="form-search-wrap">` add `<a>` and apply `class="btn-voice"` and add `mic` icon to the content. Add `<input>` and apply `type="text"`, `class="form-search"`.
     ```html
-    <footer class="footer"></footer>
-    ```
-
-
-
-## <nav>
-`<nav>` defines a set of navigation links. For people who cannot see the screen, screen readers recognize `<nav>` and help them navigate the page more easily. that's why it's really good practise to use `<nav>` in the navigation area to get all the navigation links together. This page's navigation has the following links. 
-
-> About link
-> Store link
-> Gmail link
-> Images link
-> Apps button
-> Sign In button
-
-About, Store are placed on the left, the rest are on the right. That means the left and right areas are seperated. 
-
-**Instructions**
-1. In the `<nav class="navigation">` tag add 2 `<div>` and apply `class="nav-left"`, `class="nav-right"` respectively
-    ```html
-    <nav class="navigation">
-      <div class="nav-left"></div>
-      <div class="nav-right"></div>
-    </nav>
-    ```
-
-1. In the `<div class="nav-left">` tag add 2 `<a href="">` and fill with contents (leave the href attribute empty, as this is just practice programming).
-    ```html
-    <div class="nav-left">
-      <a href="">About</a>
-      <a href="">Store</a>
+    <div class="form-search-wrap">
+      <a href="" class="btn-voice"><i class="material-icons">mic</i></a>
+      <input type="text" class="form-search">
     </div>
     ```
-
-1. In the `<div class="nav-right">` tag add 4 `<a href="">` and fill each with contents. 
-
-    Apply respectively `class="btn btn-apps"`, `class="btn btn-sign-in"`to the last 2 tags, that will be used as buttons. 
-
-    Also in `<a href="" class="btn btn-apps">` add `apps` icon and apply size adjustment of `class="md-24"`
-
+1. After `<div class="form-search-wrap">` add `<div>` and apply `class="buttons-wrap"`.
     ```html
-    <div class="nav-right">
-      <a href="">Gmail</a>
-      <a href="">Images</a>
-      <a href="" class="btn btn-apps"><i class="material-icons md-24">apps</i></a>
-      <a href="" class="btn btn-sign-in">Sign in</a>
+    <div class="buttons-wrap"></div>
+    ```
+1. In `<div class="form-search-wrap">` add 2 `<a>`and apply respectively `class="btn-search"`, `class="btn-lucky"` and fill with contents.
+    ```html
+    <div class="buttons-wrap">
+      <a href="" class="btn-search">Google Search</a>
+      <a href="" class="btn-lucky">I'm Feeling Lucky</a>
     </div>
     ```
 
 
 
-Next, let's write HTML code for the page's content and footer. 
+## .footer
+A footer is a reference section of a document, it contains information about the document. It usually has company information, terms of use, privacy policy and several other links. In the Google search page, there are the following information.
+> * Privacy
+> * Terms
+> * Settings
+> * Advertising
+> * Business
+
+The Privacy, Terms, Settings are on the right, the rest are placed on the left. Just like with `<nav class="navigation">` this section is seperated into two.
+
+**lesson8_step3_instruction2**
+1. In `<footer class="footer">` add 2 `<div>` and apply respectively `class="footer-right"`, `class="footer-left"`.
+    ```html
+    <footer class="footer">
+      <div class="footer-right"></div>
+      <div class="footer-left"></div>
+    </footer>
+    ```
+1. In `<div class="footer-right">` add 3 `<a href="">` and fill each with contents.
+    ```html
+    <div class="footer-right">
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Settings</a>
+    </div>
+    ```
+1. In `<div class="nav-right">` tag add 2 `<a href="">` and fill each with contents.   
+    ```html
+    <div class="footer-left">
+      <a href="">Advertising</a>
+      <a href="">Business</a>
+    </div>
+    ```
+
+ 
+
 Click the **NEXT STEP** button.
-
-
-
-## TIPS!
-
-- Is there a specific order of adding the CSS tag  `<link rel="stylesheet" href="...">` in the `<head>`?
-
-  > Yes, there is. The code at the bottom, has higher priority. that's why the codes of all the common and universal styles are placed at the top and the oned responsible for the detailed styling are at the bottom. 
-  >
-  > Suppose you are using a file `style-A.css` and a file `style-B.css`. In the process of making our page, we can easily get into a situation where in `style-A` we define `h1 {color: black;}` and in `style-B` we define `h1 {color: blue;}`. In such case, we need criteria for which style to ultimately implement. 
-
-
-[2]:https://material.io/tools/icons
-[3]:https://google.github.io/material-design-icons/#styling-icons-in-material-design
 

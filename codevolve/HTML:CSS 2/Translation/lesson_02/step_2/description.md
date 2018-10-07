@@ -1,51 +1,44 @@
-# HTML
-Start by using `<div>` to make the frame of the card.
+# CSS
+## <body>
+Set the color of the card to white and the background to purple.
 
-**Instructions**
-1. Add `<div>` within `<body>` and apply `class="birthday-card`.
-    ```html
-    <div class="birthday-card"></div>
+* The margin of the body is `0`.
+* For the padding all is `16px` for top/right/down/left.
+* Background color is `#512DA8`.
+
+**lesson2_step3_instruction1**
+1. Apply style to `body`. 
+    ```css
+    body {
+      margin: 0;
+      padding: 16px;
+      background-color: #512DA8;
+    }
     ```
 
 
 
 ## .birthday-card
-Add elements of card in `<div class="birthday-card">`.
+`.birthday-card` is the space to write the actual card
 
-**Instructions**
-1. Add `<img>`, and apply `src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg"` and `alt="Birthday image"`. 
-    ```html
-    <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" alt="Birthday Image">
-    ```
-1. Using `<h1>`, enter card text contents, after the image 
-    ```html
-    <h1>Happy Birthday. Hope you are having a great day Michelle.</h1> 
-    ```
-1. After the contents, use `<h3>` to enter the card author 
-    ```html
-    <h3>from Frank</h3>
-    ```
+* The margin is `40px` for top/down, `auto` for left/right
+* Padding is `16px`
+* The maximum width is `400px`.
+* Background color is `white`.
+* The text range is `center`.
+* The shadow's x-axis/y-axis/blur/size/color is `0 24px 40px -8px #311B92`.
 
-
-
-## Leave the image's source for now.
-If you are not a designer, it's difficult to make and use your own graphic sources. that's why when you need an image, you can use free source sites. Here are some popular sites that you can check out:
-* https://www.freepik.com/ (You can use graphic images/illustrations for personal/commercial use, but you have to leave in the source)
-* https://www.pexels.com/ (For pictures taken by professional photographers, you don't have to leave in the source. )
-* https://www.iconfinder.com/free_icons (For free icons, when used for personal/commercial, source must be left in. )
-
-You can download the image source file from here or you can click the right mouse button and `save image address` to use the picture in our project. The important thing is not violate the copyrights.     
-
-**Instructions**
-1. Below `<div class="birthday-card">` add `<h6>` and apply `class="sources-link"` to it.
-    ```html
-    <h6 class="sources-link"></h6>
-    ```
-1. Inside `<h6>` add`<a>` and after applying `href="https://www.freepik.com/free-photos-vectors/background"`to it, add the content below 
-    ```html
-    <h6 class="sources-link">
-      <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Freepik</a>
-    </h6> 
+**lesson2_step2_instruction2**
+1. Apply style to `birthday-card`.
+    ```css
+    .birthday-card {
+      margin: 40px auto;
+      padding: 16px;
+      max-width: 400px;
+      background-color: white;
+      text-align: center;
+      box-shadow: 0 24px 40px -8px #311B92;
+    }
     ```
 
 
@@ -54,7 +47,23 @@ Click the **NEXT STEP** button.
 
 
 
-## TIPS
-* The reason for adding `alt` attribute to images
+## TIPS!
+* What are the criteria for chosing colors? 
+    > If you're not a designer, we recommend using [Google Colors][https://material.io/design/color/#color-usage-palettes]'s pallet of 500 color lines. The 500 color lines are the what can be called the standard flat colors, clear and vivid. As the numbers within the 'lines' go down the colors brighten, as they go up they get darker. 
+    > In Google Colors I usually choose one color line (which is called a theme color). The rest of the colors I prefer to choose in unity with the blue grey color. Otherwise, I use only colors that match the message, meaning intended:
+    >
+    > - For links it's `Blue500`
+    > - For negative things like danger, delete, removing, error etc. we use `Red500`
+    > - For elements that need users' attention, like warnings, caution signs, we use `Orange500`
+    > - For positive messages like upload complete, writing complete, success, correct answer etc. we use `Green500`
+* Isn't the shadow's color black?
 
-    > `Alt` attribute is an abbreviation for `alternate`. it's the alternate text that you see when the picture is not displayed normally. For example, when the user cannot see the screen, she can `hear the image` through a screen-reader. that's when you hear what's inside the `alt` attribute. Also, when the network connection is not good and the image fails to load, the `alt` content is displayed. 
+    > Usually when we apply the shadow's color values, we use black. However, a lot of designers don't use black for the shadow. Shadows usually are close to the color of the background. Therefore when choosing the shadow color, we recommend going for a slightly darker shade than the background. 
+    >
+    > For example, in the above Google Colors, if we use `Blue grey 50~300` on a white background, the background is defined as `Blue500` and to create a natural looking the shadow we should use `Blue700~900`. In a slightly more specialist approach, transparent values are used. We recommend values based on a white basic background, where something like `rgba(50,50,80,.08)` with slightl transparency, will give natural looking bluish grey color. 
+* Don't you notice that the value numbers are multiples of 8?
+    > That's right! The following is the reason for using the multiple of 8 for layout, space gaps, size, numerical figures etc.
+    > 1. It's easy to estimate and soon will be easy for collaborating on projects. it's because we need not only use values known only to designers, but something that's easy to predict, therefore if there are no designers around, developers can still adjust the values on their own. 
+    > 2. That way an efficient layout can be designed, that meets the standards of various devices and displays. 
+    > 3. In other words, we can provide a regular and consistent user experience. 
+    > 4. Let's look into this a bit more.  - https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632

@@ -109,3 +109,27 @@ a.btn-sign-in:active {
   color: #222;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #e4e4e4;
+  width: 100vw;
+  background-color: #f2f2f2;
+}
+
+.footer-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.footer a {
+  margin-left: 25px;
+  font-size: 13px;
+  line-height: 40px;
+  color: #666;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

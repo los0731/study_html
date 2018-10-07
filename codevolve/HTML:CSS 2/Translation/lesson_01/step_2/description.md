@@ -1,75 +1,62 @@
-# HTML
+# CSS
+
 ## .container
+Now click the `style.css` tab in the middle of the code editor. The `.container`, that has all the elements, should be in the middle of the screen and shouldn't be wider than the already predetermined width. 
+* `.container`'s margin is `24px` top/down, `auto` left/right.
+* Padding is `0` top/down, `16px` left/right.
+* The maximum width is `960px`.
 
-We can start off by creating the container. A `container` here means that it contains something within. In this case, it will have an image and text. There are many kinds of tags that act as this kind of container, but we use `<div>` for bundles, like we have now, that don`t carry any specific meaning. 
-
-
-**Instructions**
-1. Add `<div>` within `<body>` and apply `class="container"`
-    ```html
-    <div class="container"></div>
+**lesson1_step2_instruction1**
+1. Apply style to `.container`
+    ```css
+    .container {
+      margin: 24px auto;
+      padding: 0 16px;
+      max-width: 960px;
+    }
     ```
 
 
 
-## Components of Container
+## Logo Image
+let's style the logo image. 
+- The width of `img` is `183px`.
 
-From now on, add the remaining elements in `<div class="container">`. Add image, headline, posting, subheadline, and body text from above in order.
-
-
-**Instructions**
-1. Add `<img>` within `<div class="container">` and apply `src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png"` and `alt="Google Play"`.
-    ```html
-    <img src="https://res.cloudinary.com/dyiqg9qhi/image/upload/v1538867822/img_google_play_f0vk76.png" alt="Google Play">
+**lesson1_step2_instruction2**
+1. Apply style to `img`
+    ```css
+    img {
+      width: 183px;
+    }
     ```
-
-1. Add `<h1>`(headline) to the next line of `<img>`, fill in the content below.
-
-    ```html
-    <h1>Google Play Terms of Service</h1>
-    ```
-
-1. Add `<h6>`(posting) to the next line of `<h1>`, fill in the content below.
-    ```html
-    <h6>February 5, 2018</h6>
-    ```
-
-1. Add `<h2>`(subheadline) to the next line of `<h6>`, fill in the content below.
-
-    ```html
-    <h2>1. Introduction</h2>
-    ```
-
-1. Add `<p>`(body text) to the next line of `<h2>`, fill in the content below.
-    ```html
-    <p>
-        Applicable Terms. Thanks for using Google Play. Google Play is a service provided by Google LLC ("Google", "we" or "us"), located at 1600 Amphitheatre Parkway, Mountain View, California 94043, USA. Your use of Google Play and the apps (including Android Instant Apps), games, music, movies, books, magazines, or other digital content or services (referred to as "Content") available through it is subject to these Google Play Terms of Service and the Google Terms of Service ("Google ToS") ( together referred to as the "Terms"). Google Play is a "Service" as described in the Google ToS. If there is any conflict between the Google Play Terms of Service and the Google ToS, the Google Play Terms of Service shall prevail.
-    </p>
-    ```
-
-1. In the next line, add the second `<h2>`(subheadline) and `<p>`(body text) in the same way as above.
-
-    ```html
-    <h2>2. Your Use of Google Play</h2>
-    <p>
-        Access to and Use of Content. You may use Google Play to browse, locate, view, stream, or download Content for your mobile, computer, tv, watch, or other supported device ("Device"). To use Google Play, you will need a Device that meets the system and compatibility requirements for the relevant Content, working Internet access, and compatible software. The availability of Content and features will vary between countries and not all Content or features may be available in your country. Some Content may be available to share with family members. Content may be offered by Google or made available by third-parties not affiliated with Google. Google is not responsible for and does not endorse any Content made available through Google Play that originates from a source other than Google.
-    </p>
-    ```
-
-1. In the next line, add the second `<h2>`(subheadline) and `<p>`(body text) in the above manner.
-
-    ```html
-    <h2>3. Purchases and Payments</h2>
-    <p>
-        Content on Google Play is offered by Google Commerce Limited, and when you download, view, use or purchase Content on or using Google Play, you will enter into a separate contract based on these Terms (as applicable) with Google Commerce Limited.
-    </p> 
-    ```
-
-
-
-
-Are you done? Since we only wrote the `HTML`, without any `CSS`, the page looks awkward, but that's alright! it's considered a good practice to first just use `HTML` to write the framework. Now let's do some styling, with `CSS`. 
 
 
 
 Click the **NEXT STEP** button.
+
+
+
+## TIPS
+* What is the difference between margin or padding with 4 values vs 2 values? 
+
+    > If you enter 4 values, they will be applied clockwise, starting from the top. You can shorten this process to entering 2 values, in which case the browser applies the first value to the top and bottom and the second to left and right. 
+    >
+    > margin: 10px 20px 10px 8px --> top / right / bottom / left
+    >
+    > margin: 10px 20px --> vertical(top/down) / Horizontal(left/right)
+
+* Margin: auto;
+
+    > The margin's `auto` value is automatically calculated by the browser for the maximum value. If left/right margins are set to `auto` the browser places the element in the middle of the screen. 
+
+* What if you want to use a clear and focused image from the Internet? 
+
+    > When using online images, you have to use an image file, that's twice it's size. it's tthat the image stays clear and focused on a high resolution display, like Apple Macbook's Retina. For example if you are going to have a 100x100 image on the web, the image's file should have the size of 200x200. 
+
+* Is it important to reduce the file size of an image file?
+
+    > The sort answer is yes. File size is very very important. It affects the speed of the final page To make the image file size smaller, I use online image optimization services, like https://tinypng.com. Personally, I don't use images bigger than `1MB`. In fact, if possible, I try to use images smaller than `100kb`. 
+
+* 0px vs 0 
+
+    > If you set a value as `0`, it's better not to put a unit like `px`. That way the code stays simple and clear (but FYI. `0px` is not a mistake!).
