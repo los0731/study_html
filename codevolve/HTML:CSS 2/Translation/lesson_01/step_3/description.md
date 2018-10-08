@@ -9,7 +9,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 * The font size is `20px`.
 
 
-**lesson1_step4_instruction1**
+**lesson1_step3_instruction1**
 1. Apply style to `h1`tag.
     ```css
     h1 {
@@ -25,7 +25,7 @@ On this page the page title is `h1`, `h6` is posting, `h2` subheadline and `p` i
 * Margin of `h6` is `8px` for top/down `0` for left/right.
 * The font size is `12px`.
 
-**lesson1_step4_instruction2**
+**lesson1_step3_instruction2**
 1. Apply style to `h6`tag.
     ```css
     h6 {

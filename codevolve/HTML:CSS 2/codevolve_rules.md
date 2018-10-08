@@ -36,12 +36,57 @@
 - **Failed Feedback**은 유저가 체크를 했으나 실패했을 때 노출됩니다. 이 항목에는 정답코드를 작성하여, 유저가 실패했을때 정답을 보고 따라 입력할 수 있도록 합니다. 상단에 `이 코드와 비교해보세요.` 라는 문구와 `코딩 컨벤션` 을 똑같이 맞춰달라는 안내 문구도 같이 추가합니다.
 
   ```
-  #### 🤷‍♀️ Let's compare it to this code.
-  ​```html
-  <div class="container"></div>
+  <style>
+  	#title_feedback_failed {
+  		margin-top: 8px !important; 
+  		font-weight: 700 !important; 
+  		font-size: 16px !important; 
+  	}
+  	#title_feedback_failed +	pre {	
+  		margin: 8px -10px !important;	
+  		border: none !important;
+  		padding: 4px  !important;
+  	}
+  	#title_feedback_failed +	pre + h6 {
+  		margin-top: 2px !important; 
+  		font-weight: 400 !important;
+  		font-size: 14px !important; 
+  		line-height: 20px !important; 
+  	}
+  </style>
+  
+  <h3 id="title_feedback_failed">
+   Let's compare it to this code.
+  </h3>
+  
+  ​```css
+  .container {
+  	margin: 24px auto;
+  	padding: 0 16px;
+  	max-width: 960px;
+  }
   ​```
   
-  > If your code is correct but not a '🙆‍♀️Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.
+  <h6>
+  If your code is correct but not a '🙆‍♀️Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.
+  </h6>
+  ```
+
+  위의 코드를 줄여서 아래와 같이 사용합니다.
+
+  ```
+  <style>#title_feedback_failed{margin-top:8px!important;font-weight:700!important;font-size:16px!important;}#title_feedback_failed+pre {margin:8px -10px!important;border:none!important;padding:4px!important;}#title_feedback_failed+pre+h6{margin-top:2px!important;font-weight:400!important;font-size:14px!important;line-height:20px!important;}</style>
+  <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
+  
+  ​```css
+  .container {
+  	margin: 24px auto;
+  	padding: 0 16px;
+  	max-width: 960px;
+  }
+  ​```
+  
+  <h6>If your code is correct but not a '🙆‍♀️Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
   ```
 
 - **Passed Feedback**은 모두 `Well Done.` 으로 통일합니다.
