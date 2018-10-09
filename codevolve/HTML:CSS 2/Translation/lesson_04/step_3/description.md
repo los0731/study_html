@@ -40,7 +40,7 @@ The price is the most important part of the receipt. let's go ahead and define i
 * The letters are centered.
 
 **lesson4_step3_instruction3**
-1. Apply style to `.table-receipt .t-label`.
+1. Apply style to `.table-receipt .t-price`.
     ```css
     .table-receipt .t-price {
     	font-size: 24px;

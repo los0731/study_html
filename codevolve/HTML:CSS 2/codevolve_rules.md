@@ -36,46 +36,7 @@
 - **Failed Feedback**은 유저가 체크를 했으나 실패했을 때 노출됩니다. 이 항목에는 정답코드를 작성하여, 유저가 실패했을때 정답을 보고 따라 입력할 수 있도록 합니다. 상단에 `이 코드와 비교해보세요.` 라는 문구와 `코딩 컨벤션` 을 똑같이 맞춰달라는 안내 문구도 같이 추가합니다.
 
   ```
-  <style>
-  	#title_feedback_failed {
-  		margin-top: 8px !important; 
-  		font-weight: 700 !important; 
-  		font-size: 16px !important; 
-  	}
-  	#title_feedback_failed +	pre {	
-  		margin: 8px -10px !important;	
-  		border: none !important;
-  		padding: 4px  !important;
-  	}
-  	#title_feedback_failed +	pre + h6 {
-  		margin-top: 2px !important; 
-  		font-weight: 400 !important;
-  		font-size: 14px !important; 
-  		line-height: 20px !important; 
-  	}
-  </style>
-  
-  <h3 id="title_feedback_failed">
-   Let's compare it to this code.
-  </h3>
-  
-  ​```css
-  .container {
-  	margin: 24px auto;
-  	padding: 0 16px;
-  	max-width: 960px;
-  }
-  ​```
-  
-  <h6>
-  If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.
-  </h6>
-  ```
-
-  위의 코드를 줄여서 아래와 같이 사용합니다.
-
-  ```
-  <style>#title_feedback_failed{margin-top:8px!important;font-weight:700!important;font-size:16px!important;}#title_feedback_failed+pre {margin:8px -10px!important;border:none!important;padding:4px!important;}#title_feedback_failed+pre+h6{margin-top:2px!important;font-weight:400!important;font-size:14px!important;line-height:20px!important;}</style>
+  <style>#title_feedback_failed{margin-top:8px!important;font-weight:700!important;font-size:16px!important;}#title_feedback_failed+pre {margin:8px -10px!important;border:none!important;padding:4px!important;}#title_feedback_failed+pre+h6{margin:2px 0 0 0!important;font-weight:400!important;font-size:12px!important;line-height:18px!important;color:#607D8B!important;}</style>
   <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
   
   ​```css
@@ -127,10 +88,10 @@ Code Pattern은 일반적인 정규표현식을 통하여 코드를 검증합니
 
 check는 1개의 css 프로퍼티만 검증할 수 있습니다. 따라서 3개의 프로퍼티를 검증하길 원할 경우, 3개의 check를 추가해야합니다.
 
-- **Description**은 유저들에게 보이지 않습니다. 강사만 알아볼 수 있도록 ``레슨 〉 스탭 〉 지시 〉 프로퍼티`의 형식으로 이름을 정합니다.
+- **Description**은 유저들에게 보이지 않습니다. 강사만 알아볼 수 있도록 ``클레스/태그 〉 프로퍼티 〉 값`의 형식으로 이름을 정합니다.
 
   ```
-  lesson1_step2_instruction1_margin
+  .container {    margin: 0 auto;
   ```
 
 - **Code Pattern**에 정규표현식을 사용하여 코드를 검증합니다. 아래와 같은 방식입니다.
