@@ -21,7 +21,7 @@ Card UI is the most used UI element throughout web and mobile applications. it's
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!
 
 
 

@@ -20,5 +20,5 @@ Image, contents and the sender are included in the `<div>` that uses a class cal
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!
 

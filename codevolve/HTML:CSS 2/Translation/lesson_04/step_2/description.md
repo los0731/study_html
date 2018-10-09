@@ -87,8 +87,8 @@ Click the **NEXT STEP** button.
     > .table-receipt th {...}
     > ```
     > A good argument for writing short and concise code is that it helps understand it quicker. Especially when other people have to look through it.
-* What's `border-collapse`?
 
+* What's `border-collapse`?
     > [border-collapse][2] is a CSS property, which sets overlapping properties for table cell borders. The values can be set as collapsed or seperate. 
     >
     > For `collapse`: the table cells' borders are integrated. That is, they overlap and look like one line. 

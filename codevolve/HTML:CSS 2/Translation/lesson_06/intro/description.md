@@ -36,4 +36,4 @@ Medium uses it's own fonts. In this lesson, we cannot use the exact same fonts a
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!

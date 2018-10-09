@@ -19,7 +19,7 @@ let's organize the `td` style, which is commonly used for body contents of the r
 let's now define the style of the label. 
 * The font size of `.table-receipt .t-label` is `16px`.
 * The letter thickness, font-weight, is `700`. 
-* The font color is `#78909C`. The color is [Google color][999]'s `Blue grey 400`.
+* The font color is `#78909C`. The color is [Google color](https://material.io/design/color/#color-usage-palettes)'s `Blue grey 400`.
 
 **lesson4_step3_instruction2**
 1. Apply style to `.table-receipt .t-label`.

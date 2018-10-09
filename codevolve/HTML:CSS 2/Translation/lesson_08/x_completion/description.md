@@ -49,4 +49,4 @@ transition
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT PROJECT**!

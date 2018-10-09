@@ -27,4 +27,4 @@ Even though those code editors are free, they have some really amazing functions
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!

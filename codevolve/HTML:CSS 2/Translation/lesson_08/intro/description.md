@@ -43,4 +43,4 @@ And so we will set up the page structure in the following order: navigation / co
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!

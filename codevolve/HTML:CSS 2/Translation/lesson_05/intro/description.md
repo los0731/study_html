@@ -18,5 +18,5 @@ These days more and more restaurants use iPad menus, rather than the old school 
 
 
 
-Click the **NEXT STEP** button.
+Back to Catalog And Start **NEXT STEP**!
 

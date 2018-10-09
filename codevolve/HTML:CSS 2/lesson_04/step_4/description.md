@@ -18,7 +18,7 @@
 이제 라벨의 스타일을 정의합시다.
 * `.table-receipt .t-label`의 글씨 크기는 `16px`입니다.
 * 글씨 두께는 `700`입니다.
-* 글씨의 색상은 `#78909C`입니다. [Google color][999]의 blue grey 400과 같습니다.
+* 글씨의 색상은 `#78909C`입니다. [Google color](https://material.io/design/color/#color-usage-palettes)의 blue grey 400과 같습니다.
 
 **Instructions**
 1. `.table-receipt .t-label`의 스타일 적용하기. 
