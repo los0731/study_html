@@ -68,7 +68,7 @@
   ​```
   
   <h6>
-  If your code is correct but not a '🙆‍♀️Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.
+  If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.
   </h6>
   ```
 
@@ -86,13 +86,13 @@
   }
   ​```
   
-  <h6>If your code is correct but not a '🙆‍♀️Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
+  <h6>If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
   ```
 
 - **Passed Feedback**은 모두 `Well Done.` 으로 통일합니다.
 
   ```
-  🙆‍♀️ Well Done.
+  Well Done.
   ```
 
 - 나머지 옵션은 다음과 같이 선택합니다.
