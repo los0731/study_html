@@ -56,7 +56,7 @@ From now on, add the remaining elements in `<div class="container">`. Add image,
     </p>
     ```
 
-1. In the next line, add the second `<h2>`(subheadline) and `<p>`(body text) in the above manner.
+1. In the next line, add the third `<h2>`(subheadline) and `<p>`(body text) in the above manner.
 
     ```html
     <h2>3. Purchases and Payments</h2>
