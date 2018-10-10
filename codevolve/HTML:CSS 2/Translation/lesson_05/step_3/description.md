@@ -1,7 +1,7 @@
 # CSS
 ## <body>
 We now add the page's background image. In order to fill the entire `body` area, the background has to be set as the height of the entire browser. And so, we can set the entire height as the difference between the `body`'s minimum height and `body`'s up/down padding value. 
-* The padding of `body` is `80px` top/down, `16px left/right.
+* The padding of `body` is `80px` top/down, `16px left/right`.
 * The minimum height value is the difference between the total `Viewport height` and `160px`.
 * The background image's url/repetition/x-axis range/y-axis range is each set to `url("https://image.freepik.com/free-vector/matisse-inspired-shapes-seamless-pattern_1235-418.jpg") no-repeat center center`.
 * Background image overwrites all areas.

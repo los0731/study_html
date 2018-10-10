@@ -132,33 +132,30 @@ Click the **NEXT STEP** button.
 ## TIPS!
 
 - background-image + background-position + background-repeat = background
-
-  > * The next two styles are the same. Depending on the situation you may choose the top one or the simpler, bottom one. 
+  > The next two styles are the same. Depending on the situation you may choose the top one or the simpler, bottom one. 
   >
-  >   ```css
-  >   background-image: url('...');
-  >   background-repeat: no-repeat;
-  >   background-position: center center;
-  >   ==
-  >   background: url('...') no-repeat center center;
-  >   ```
+  > ```css
+  > background-image: url('...');
+  > background-repeat: no-repeat;
+  > background-position: center center;
+  > ==
+  > background: url('...') no-repeat center center;
+  > ```
 
 - What does it mean `first 3 lines only`? I'm lost. What do I have to do?
-
-  > - What is the first thing that many developers/designers do when they come across a requirement they don't know or understand? 
+  > What is the first thing that many developers/designers do when they come across a requirement they don't know or understand? 
   >
-  >   In the above case, we usually search in Google for `text ellipsis 3 line css`. In most cases, it solves the problem. Here is the code that I found for that: 
+  > In the above case, we usually search in Google for `text ellipsis 3 line css`. In most cases, it solves the problem. Here is the code that I found for that: 
   >
-  >   ```css
-  >   display: -webkit-box;
-  >   -webkit-line-clamp: 3;
-  >   -webkit-box-orient: vertical;
-  >   overflow: hidden;
-  >   text-overflow: ellipsis;
-  >   ```
+  > ```css
+  > display: -webkit-box;
+  > -webkit-line-clamp: 3;
+  > -webkit-box-orient: vertical;
+  > overflow: hidden;
+  > text-overflow: ellipsis;
+  > ```
   >
-  >   let's paste it in and check if it works. Then let's search on Google. Even I, when I don't remember something, look it up on Google. Moreover, you can get a lot of useful knowhow on `stackoverflow.com`, `css-tricks.com` and similar sites. 
+  > let's paste it in and check if it works. Then let's search on Google. Even I, when I don't remember something, look it up on Google. Moreover, you can get a lot of useful knowhow on `stackoverflow.com`, `css-tricks.com` and similar sites. 
 
 - Why is `border` at the top set to `0` and `border-top` is added on?
-
   > By default the `<hr>` is set as `border-width: 1px`. However, I only want to apply `border-top` to `<hr>`. that's why I declared  `border: 0` and I reset the default option. And there I added a new `border-top` attribute. 
