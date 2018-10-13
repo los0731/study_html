@@ -26,7 +26,7 @@ The two `<div>`within the footer must be positioned left/right of each other. Th
 - The right margin is `25px`.
 
 **lesson8_step7_instruction2**
-1. Apply style to `.form-search-wrap`.
+1. Apply style to `.footer-right`.
    ```css
    .footer-right {
      float: right;

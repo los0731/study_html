@@ -26,7 +26,7 @@
 - 오른쪽 마진은 `25px`입니다.
 
 **Instructions**
-1. `.form-search-wrap`의 스타일 적용하기.
+1. `.footer-right`의 스타일 적용하기.
    ```css
    .footer-right {
      float: right;

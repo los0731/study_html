@@ -128,7 +128,7 @@ let's go ahead and define the style of the two buttons.
 - Background color is `#f2f2f2`.
 
 **lesson8_step6_instruction7**
-1. Apply style to `.nav-right`.
+1. Apply style to `.btn-secondary`.
    ```css
    .btn-secondary {
      margin: 0 4px;

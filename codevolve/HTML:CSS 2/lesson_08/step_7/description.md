@@ -129,7 +129,7 @@
 - 배경 색상은 `#f2f2f2`입니다.
 
 **Instructions**
-1. `.nav-right`의 스타일 적용하기.
+1. `.btn-secondary`의 스타일 적용하기.
    ```css
    .btn-secondary {
      margin: 0 4px;
