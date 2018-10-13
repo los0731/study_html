@@ -42,7 +42,7 @@
 
 
 
-## .navigation a:hover
+## .navigation a:hover:not(.btn)
 네비게이션 안에 있는 `a:hover`에 대한 스타일이 필요합니다. 거기에 더해서 `.btn`를 가진 `<a>`는 별도의 스타일을 정의할 것이기 때문에, 여기서는 제외 해야합니다. 따라서 `:hover`와 `:not`선택자를 같이 활용합니다.   
 - `.navigation a:hover:not(.btn)`의 투명도는 `.85`입니다.
 - 글씨에 `underline`이 적용됩니다.

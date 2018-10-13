@@ -43,10 +43,10 @@ let's arrange the style of `a` in the navigation.
 
 
 
-## .navigation a:hover
+## .navigation a:hover:not(.btn)
 `a:hover`, which is inside the navigation, needs a style. Additionally, the  `<a>`there will have a seperate style defined with a `.btn`, so here we have to exclude it. that's why we will use the `:hover` and `:not` selectors together. 
 
-- `.navigation a:hover:not(.btn)`의 투명도는 `.85`입니다.
+- `.navigation a:hover:not(.btn)`'s transparency is `.85`.
 - The text has `underline` applied.
 
 

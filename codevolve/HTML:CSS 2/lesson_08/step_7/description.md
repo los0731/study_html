@@ -49,7 +49,7 @@
 - `transition` 속성은 `.2s` 입니다.
 
 **Instructions**
-1. `.navigation a:hover:not(.btn)`의 스타일 적용하기.
+1. `.form-search`의 스타일 적용하기.
    ```css
    .form-search {
      padding: 5px 16px;

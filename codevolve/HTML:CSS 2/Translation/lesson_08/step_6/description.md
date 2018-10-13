@@ -49,7 +49,7 @@ The most important element on this page will be, of course, the search form. let
 - `transition`attribute is `.2s` .
 
 **lesson8_step6_instruction3**
-1. Apply style to `.navigation a:hover:not(.btn)`.
+1. Apply style to `.form-search`.
    ```css
    .form-search {
      padding: 5px 16px;
