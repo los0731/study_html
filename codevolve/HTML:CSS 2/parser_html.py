@@ -23,10 +23,21 @@ index_html = """
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(index_html, 'html.parser')
 
-# print(soup.prettify())
+base_tag = soup.body.select('body *')
 
-if soup.find('h3', text = 'from Frank'):
-    print("성공")
-else:
-    print("실패")
+print(base_tag)  
 
+# print(base_tag.parent.attrs['class']) 부모요소 찾기.
+
+
+# 향후 고려사항
+#
+# 위치
+# A요소 다음에 B요소가 있다.
+# A요소 안에 B요소가 있다.
+#
+# 순서
+# A, B, C요소가 순서대로 있다.
+# 3번째 A 요소의 클래스는 B다.
+#
+# 요소가 포함된 리스트의 값에서 '\n'을 찾아 삭제후 비교한다. -> 줄바꿈이 되어도 체크가 된다.
