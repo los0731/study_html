@@ -8,7 +8,7 @@ This page has 3 major sections: navigation / contents / footer.
       <nav class="navigation"></nav>
     </body>
     ```
-1. After `<nav class="navigation"> add `<div>` and apply `class="content"`
+1. After `<nav class="navigation">` add `<div>` and apply `class="content"`
     ```html
     <div class="content"></div>
     ```

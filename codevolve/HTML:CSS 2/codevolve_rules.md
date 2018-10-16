@@ -17,6 +17,8 @@
 
 
 
+
+
 # Tasks의 작성 가이드
 
 하나의 Task는 하나의 지시(Instruction)와 같습니다. Codevolve에서는 하나의 Task에 여러개의 Checks를 추가하여 코드를 검증합니다. Task를 먼저 추가하고, 별도로 Checks를 추가한다음 Task에서 Checks를 선택하는 방식입니다. 레슨에서 Tasks를 추가할 때에는 다음의 규칙으로 추가합니다.
@@ -39,12 +41,8 @@
   <style>#title_feedback_failed{margin-top:8px!important;font-weight:700!important;font-size:16px!important;}#title_feedback_failed+pre {margin:8px -10px!important;border:none!important;padding:4px!important;}#title_feedback_failed+pre+h6{margin:2px 0 0 0!important;font-weight:400!important;font-size:12px!important;line-height:18px!important;color:#607D8B!important;}</style>
   <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
   
-  ​```css
-  .container {
-  	margin: 24px auto;
-  	padding: 0 16px;
-  	max-width: 960px;
-  }
+  ​```html
+  
   ​```
   
   <h6>If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
@@ -61,6 +59,8 @@
   - Live → on
   - Share Checks → off
   - Same Directory → on
+
+
 
 
 
@@ -168,3 +168,59 @@ check는 1개의 css 프로퍼티만 검증할 수 있습니다. 따라서 3개�
 #### Online Test
 
 - 이곳 (https://regexr.com/40oqm) 에서 작성중인 정규표현식을 테스트해볼 수 있습니다.
+
+
+
+
+
+# HTML Parser 작성가이드
+
+#### **패턴1** :  `<tag attr="">` 안에 `<tag attr="">` 가 있는지 찾기.
+
+```python
+from bs4 import BeautifulSoup
+
+with open('index.html', 'r') as file:
+  soup = BeautifulSoup(file.read(), 'html.parser')
+
+  base_tag = soup.body.find('nav', attrs={'class':'navigation'})
+  assert(
+    base_tag.name == 'nav' 
+    and base_tag['class'][0] == 'navigation'
+  )
+```
+
+
+
+#### **패턴2** :  `<tag attr="">` 다음에 `<tag attr="">` 가 있는지 찾기.
+
+```python
+#임시
+from bs4 import BeautifulSoup
+
+with open('index.html', 'r') as file:
+  soup = BeautifulSoup(file.read(), 'html.parser')
+
+  list_elem = soup.find('body').contents # body 안에 모든 요소를 리스트로 추출.
+  while '\n' in list_elem:list_elem.remove('\n') # base_tag 리스트의 공백만 찾아서 제거.
+  
+  base_tag = list_elem[0]['class'][0]
+
+  
+  # assert(
+  #   base_tag.name == 'div'
+  #   and base_tag['class'][0] == 'content'
+  # )
+  print(base_tag)
+```
+
+```python
+#임시2 : 이 코드는 body 태그 밖에 있어서 찾는다.
+with open('index.html', 'r') as file:
+  soup = BeautifulSoup(file.read(), 'html.parser')
+
+  base_tag = soup.find('body').find('nav', class_="navigation").find_next()
+
+  print(base_tag)
+```
+
