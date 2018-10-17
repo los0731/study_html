@@ -5,31 +5,19 @@ from bs4 import BeautifulSoup
 with open('index.html', 'r') as file:
   soup = BeautifulSoup(file.read(), 'html.parser')
 
-  list_elem = soup.find('body').contents # body 안에 모든 요소를 리스트로 추출.
-  while '\n' in list_elem:list_elem.remove('\n') # base_tag 리스트의 공백만 찾아서 제거.
+  # base_tag = nav.navigation의 다음에 오는 요소. 단 </body> 이후에 있는 요소도 찾음.
+  base_tag = soup.find('nav', class_="navigation").find_next()
   
 
-  base_tag = list_elem.find_all('nav')
+  # 조건 1,2,3을 모두 만족하면 통과.
+  print(
+    '찾는 태그 : ' + base_tag.name + '\n'
+    '찾는 태그의 클래스 : ' + base_tag['class'][0] + '\n'
+    '찾는 태그의 부모 : ' + base_tag.parent.name
+    )
 
-  
   # assert(
-  #   base_tag.name == 'div'
-  #   and base_tag['class'][0] == 'content'
-  # )
-  print(base_tag)
-  
-
-# print(base_tag.parent.attrs['class']) 부모요소 찾기.
-
-
-# 향후 고려사항
-#
-# 위치
-# A요소 다음에 B요소가 있다.
-# A요소 안에 B요소가 있다.
-#
-# 순서
-# A, B, C요소가 순서대로 있다.
-# 3번째 A 요소의 클래스는 B다.
-#
-# 요소가 포함된 리스트의 값에서 '\n'을 찾아 삭제후 비교한다. -> 줄바꿈이 되어도 체크가 된다.
+  #     base_tag.name == 'div'
+  #     and base_tag['class'][0] == 'content'
+  #     and base_tag.parent.name == 'body'
+  #   )

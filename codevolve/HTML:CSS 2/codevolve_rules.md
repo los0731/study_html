@@ -183,10 +183,13 @@ from bs4 import BeautifulSoup
 with open('index.html', 'r') as file:
   soup = BeautifulSoup(file.read(), 'html.parser')
 
+  # base_tag = body 안에 nav.navigation을 찾음. 
   base_tag = soup.body.find('nav', attrs={'class':'navigation'})
+
+  # 조건 1,2를 모두 만족하면 통과
   assert(
-    base_tag.name == 'nav' 
-    and base_tag['class'][0] == 'navigation'
+    base_tag.name == 'nav' #조건1: 태그의 이름이 nav인가? 
+    and base_tag['class'][0] == 'navigation' #조건2: 태그의 클래스가 navigation인가?
   )
 ```
 
@@ -195,32 +198,22 @@ with open('index.html', 'r') as file:
 #### **패턴2** :  `<tag attr="">` 다음에 `<tag attr="">` 가 있는지 찾기.
 
 ```python
-#임시
 from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as file:
   soup = BeautifulSoup(file.read(), 'html.parser')
 
-  list_elem = soup.find('body').contents # body 안에 모든 요소를 리스트로 추출.
-  while '\n' in list_elem:list_elem.remove('\n') # base_tag 리스트의 공백만 찾아서 제거.
+  # base_tag = nav.navigation의 다음에 오는 요소를 찾음. (단 </body> 이후에 있는 요소도 찾음.)
+  base_tag = soup.body.find('nav', class_="navigation").find_next()
   
-  base_tag = list_elem[0]['class'][0]
 
-  
-  # assert(
-  #   base_tag.name == 'div'
-  #   and base_tag['class'][0] == 'content'
-  # )
-  print(base_tag)
+  # 조건 1,2,3을 모두 만족하면 통과.
+  assert(
+      base_tag.name == 'div' #조건1: 태그의 이름이 div인가?
+      and base_tag['class'][0] == 'content' #조건2: 태그의 클래스가 content인가?
+      and base_tag.parent.name == 'body' #조건3: 태그의 부모가 body인가?
+    )
 ```
 
-```python
-#임시2 : 이 코드는 body 태그 밖에 있어서 찾는다.
-with open('index.html', 'r') as file:
-  soup = BeautifulSoup(file.read(), 'html.parser')
 
-  base_tag = soup.find('body').find('nav', class_="navigation").find_next()
-
-  print(base_tag)
-```
 
