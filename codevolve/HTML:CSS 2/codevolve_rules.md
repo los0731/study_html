@@ -173,7 +173,35 @@ check는 1개의 css 프로퍼티만 검증할 수 있습니다. 따라서 3개�
 
 
 
-# HTML Parser 작성가이드
+## HTML 검증 → HTML Parser
+
+#### `Check` 작성
+
+- Description은 유저들에게 보이지 않습니다. 따라서 추가해야하는 html 코드를 작성합니다. 이 항목에는 마크다운이 적용되어, 태그를 작성하면 보이지 않습니다. 
+
+  ```html
+  `<nav class="navigation"></nav>`
+  ```
+
+- Test Contents에 beautiful soup 코드를 작성합니다.
+
+  ```python
+  from bs4 import BeautifulSoup
+  
+  with open('index.html', 'r') as file:
+  	soup = BeautifulSoup(file.read(), 'html.parser')
+  
+  	base_tag = soup.find('nav', class_="navigation").find_next()
+  	assert(
+  		base_tag.name == 'div'
+  		and base_tag['class'][0] == 'content'
+  		and base_tag.parent.name == 'body'
+  	)
+  ```
+
+html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습니다. 따라서 가장 많이 보이는 패턴위주로 작성할태니, 필요에 따라 활용하시면 됩니다.
+
+
 
 #### **패턴1** :  `<tag attr="">` 안에 `<tag attr="">` 가 있는지 찾기.
 
