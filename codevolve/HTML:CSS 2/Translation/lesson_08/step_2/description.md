@@ -40,7 +40,7 @@ About, Store are placed on the left, the rest are on the right. That means the l
     </nav>
     ```
 
-1. In the `<div class="nav-left">` tag add 2 `<a href="">` and fill with contents (leave the href attribute empty, as this is just practice programming).
+2. In the `<div class="nav-left">` tag add 2 `<a href="">` and fill with contents (leave the href attribute empty, as this is just practice programming).
     ```html
     <div class="nav-left">
       <a href="">About</a>
@@ -48,7 +48,7 @@ About, Store are placed on the left, the rest are on the right. That means the l
     </div>
     ```
 
-1. In the `<div class="nav-right">` tag add 4 `<a href="">` and fill each with contents. 
+3. In the `<div class="nav-right">` tag add 4 `<a href="">` and fill each with contents. 
 
     Apply respectively `class="btn btn-apps"`, `class="btn btn-sign-in"`to the last 2 tags, that will be used as buttons. 
 

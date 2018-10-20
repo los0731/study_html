@@ -38,14 +38,32 @@
 - **Failed Feedback**은 유저가 체크를 했으나 실패했을 때 노출됩니다. 이 항목에는 정답코드를 작성하여, 유저가 실패했을때 정답을 보고 따라 입력할 수 있도록 합니다. 상단에 `이 코드와 비교해보세요.` 라는 문구와 `코딩 컨벤션` 을 똑같이 맞춰달라는 안내 문구도 같이 추가합니다.
 
   ```
-  <style>#title_feedback_failed{margin-top:8px!important;font-weight:700!important;font-size:16px!important;}#title_feedback_failed+pre {margin:8px -10px!important;border:none!important;padding:4px!important;}#title_feedback_failed+pre+h6{margin:2px 0 0 0!important;font-weight:400!important;font-size:12px!important;line-height:18px!important;color:#607D8B!important;}</style>
   <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
-  
   ​```html
   
   ​```
-  
   <h6>If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
+  
+  <style>
+  	.custom-markdown.failure p:first-child {display:none;}
+  	.custom-markdown.failure #title_feedback_failed {
+          margin-top : 8px !important;
+          font-weight : 700 !important;
+          font-size : 16px !important;
+  	}
+  	.custom-markdown.failure .cmh-pre {
+          margin : 8px -10px !important;
+          border : none !important;
+          padding : 4px !important;
+  	}
+      .custom-markdown.failure .cmh-pre+h6{
+          margin : 2px 0 0 0 !important;
+          font-weight : 400 !important;
+          font-size : 12px !important;
+          line-height : 18px !important;
+          color : #607D8B !important;
+  	}
+  </style>
   ```
 
 - **Passed Feedback**은 모두 `Well Done.` 으로 통일합니다.
@@ -183,20 +201,20 @@ check는 1개의 css 프로퍼티만 검증할 수 있습니다. 따라서 3개�
   `<nav class="navigation"></nav>`
   ```
 
-- Test Contents에 beautiful soup 코드를 작성합니다.
+- Test Contents에 beautiful soup 코드를 작성합니다. [Beautiful soup 4.0.0의 한글 문서](http://pydockr.16mb.com/blog/beautifulsoup4.html)를 참고하세요.
 
   ```python
   from bs4 import BeautifulSoup
   
   with open('index.html', 'r') as file:
-  	soup = BeautifulSoup(file.read(), 'html.parser')
+      soup = BeautifulSoup(file.read(), 'html.parser')
   
-  	base_tag = soup.find('nav', class_="navigation").find_next()
-  	assert(
-  		base_tag.name == 'div'
-  		and base_tag['class'][0] == 'content'
-  		and base_tag.parent.name == 'body'
-  	)
+      base_tag = soup.find('nav', class_="navigation").find_next()
+      assert(
+          base_tag.name == 'div'
+          and base_tag['class'][0] == 'content'
+          and base_tag.parent.name == 'body'
+      )
   ```
 
 html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습니다. 따라서 가장 많이 보이는 패턴위주로 작성할태니, 필요에 따라 활용하시면 됩니다.
@@ -209,16 +227,13 @@ html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습�
 from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as file:
-  soup = BeautifulSoup(file.read(), 'html.parser')
+    soup = BeautifulSoup(file.read(), 'html.parser')
+    base_tag = soup.body.find('nav', attrs={'class':'navigation'})
 
-  # base_tag = body 안에 nav.navigation을 찾음. 
-  base_tag = soup.body.find('nav', attrs={'class':'navigation'})
-
-  # 조건 1,2를 모두 만족하면 통과
-  assert(
-    base_tag.name == 'nav' #조건1: 태그의 이름이 nav인가? 
-    and base_tag['class'][0] == 'navigation' #조건2: 태그의 클래스가 navigation인가?
-  )
+    assert(
+        base_tag.name == 'nav'
+        and base_tag['class'][0] == 'navigation'
+    )
 ```
 
 
@@ -229,19 +244,12 @@ with open('index.html', 'r') as file:
 from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as file:
-  soup = BeautifulSoup(file.read(), 'html.parser')
-
-  # base_tag = nav.navigation의 다음에 오는 요소를 찾음. (단 </body> 이후에 있는 요소도 찾음.)
-  base_tag = soup.body.find('nav', class_="navigation").find_next()
+	soup = BeautifulSoup(file.read(), 'html.parser')
+	tag = soup.body.find('nav', class_="navigation").find_next('div', class_="content")
   
-
-  # 조건 1,2,3을 모두 만족하면 통과.
-  assert(
-      base_tag.name == 'div' #조건1: 태그의 이름이 div인가?
-      and base_tag['class'][0] == 'content' #조건2: 태그의 클래스가 content인가?
-      and base_tag.parent.name == 'body' #조건3: 태그의 부모가 body인가?
+    assert(
+        tag.name
+        and tag.parent.name == 'body' 
     )
 ```
-
-
 
