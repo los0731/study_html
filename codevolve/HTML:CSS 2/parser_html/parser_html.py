@@ -2,17 +2,18 @@ from bs4 import BeautifulSoup
 
 with open('index.html', 'r') as file:
     soup = BeautifulSoup(file.read(), 'html.parser')
-    tag = soup.find('div', class_="nav-left").find_all('a')
+    tag = soup.find('hr', class_="card-hr").find_next('h6', class_="card-type")
+    tag2 = tag.find_next('h6', class_="card-tag")
 
     assert(
         tag
-        and len(tag) == 3
-        and tag[0].text.strip() == 'Privacy'
-        and tag[1].text.strip() == 'Terms'
-        and tag[2].text.strip() == 'Settings'
+        and tag.text.strip() == 'VIDEO'
+        and tag2
+        and tag2.text.strip() == 'VIEW MORE'
     )
 
     print("===========")
     print(tag)
+    print(tag2)
     print("===========")
     

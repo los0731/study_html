@@ -68,37 +68,11 @@
   </style>
   ```
 
-
   **html의 경우:**
 
-  ```
-  <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
-  ​```html
-  
-  ​```
-  <h6>Please Check for position or typos in tags & properties. Some text contents require you to enter case-sensitive.</h6>
-  
-  <style>
-  	.custom-markdown.failure p:first-child {display:none;}
-  	.custom-markdown.failure #title_feedback_failed {
-          margin-top : 8px !important;
-          font-weight : 700 !important;
-          font-size : 16px !important;
-  	}
-  	.custom-markdown.failure .cmh-pre {
-          margin : 8px -10px !important;
-          border : none !important;
-          padding : 4px !important;
-  	}
-      .custom-markdown.failure .cmh-pre+h6{
-          margin : 2px 0 0 0 !important;
-          font-weight : 400 !important;
-          font-size : 12px !important;
-          line-height : 18px !important;
-          color : #607D8B !important;
-  	}
-  </style>
-  ```
+    ```
+  Please Check for position or typos in tags & properties. Some text contents require you to enter case-sensitive. Compare with solution code.
+    ```
 
 - **Passed Feedback**은 모두 `Well Done.` 으로 통일합니다.
 
@@ -362,5 +336,17 @@ html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습�
       tag
       and tag[0].text.strip() == 'New'
       and tag[1].text.strip() == 'Edit'
+  )
+  ```
+
+- **문법6** : 이 요소가 특정 속성을 가지고 있으면 참 (속성이름을 비교하지 않고, 있는지 아닌지 만 비교)
+
+  ```python
+  # find
+  tag = soup.body.find('a').has_attr('href')
+  
+  # boolean
+  assert(
+      tag
   )
   ```

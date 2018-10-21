@@ -14,7 +14,7 @@ Using `<div>`, we create a card. Inside it let's use `<a>` to add a link. The ma
       <div class="card"></div>
     </body>
     ```
-1. Add `<a>` within `<div class="card">` and apply `href="https://facebook.design/videos/designing-at-facebook"`.
+2. Add `<a>` within `<div class="card">` and apply `href="https://facebook.design/videos/designing-at-facebook"`.
     ```html
     <div class="card">
       <a href="https://facebook.design/videos/designing-at-facebook"></a>
@@ -46,7 +46,7 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     <div class="card-block"></div> 
     ```
 
-1. Add `<h2>` in `<div class="card-block">` and, after applying `class="card-title"`, fill out the contents.
+2. Add `<h2>` in `<div class="card-block">` and, after applying `class="card-title"`, fill out the contents.
 
     ```html
     <div class="card-block">
@@ -54,17 +54,18 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     </div>  
     ```
 
-1. After `<h2 class="card-title>` add `<p>` and, after applying `class="card-description"`, fill out with contents.
+3. After `<h2 class="card-title>` add `<p>` and, after applying `class="card-description"`, fill out with contents.
     ```html
+    <h2 class="card-title">Designing at Facebook</h2> 
     <p class="card-description">Get a sneak peek at the design process at Facebook from product designers Cat Audi and George Kedenburg III.</p>       
     ```
 
-1. Add `<hr>` below `<p class="card-description">` and apply `class="card-hrclass="`.
+4. Add `<hr>` below `<p class="card-description">` and apply `class="card-hrclass="`.
     ```html
     <hr class="card-hr">       
     ```
 
-1. After `<hr class="card-hr">` add 2 `<h6>` and, after applying respectively `class="card-type"`, `class="card-tag"`, fill out with contents.
+5. After `<hr class="card-hr">` add 2 `<h6>` and, after applying respectively `class="card-type"`, `class="card-tag"`, fill out with contents.
     ```html
     <h6 class="card-type">VIDEO</h6>
     <h6 class="card-tag">VIEW MORE</h6>
