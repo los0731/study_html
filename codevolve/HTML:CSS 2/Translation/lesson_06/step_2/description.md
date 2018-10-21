@@ -27,7 +27,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     <div class="container"></div>
     ```
 
-1. Add 4 `<div>` in `<div class="container">` and apply `class="content"`
+2. Add 4 `<div>` in `<div class="container">` and apply `class="content"`
 
     ```html
     <div class="container">
@@ -38,7 +38,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. Add `<div>`  within first `<div class="content">`and apply `class="headline-group"`.
+3. Add `<div>`  within first `<div class="content">`and apply `class="headline-group"`.
 
     ```html
     <div class="content">
@@ -46,7 +46,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. Add `<h1>` inside `<div class="headline-group">` and fill contents after applying `class="headline-text"`.
+4. Add `<h1>` inside `<div class="headline-group">` and fill contents after applying `class="headline-text"`.
 
     ```html
     <div class="headline-group">
@@ -54,7 +54,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. Add `<h3>` below `<h1 class="headline-text">` and fill contents after applying `class="sub-headline-text"`.
+5. Add `<h3>` below `<h1 class="headline-text">` and fill contents after applying `class="sub-headline-text"`.
 
     ```html
     <div class="headline-group">
@@ -63,7 +63,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. Add `<p>` below `<div class="headline-group">` and fill contents after applying `class="content-text"`.
+6. Add `<p>` below `<div class="headline-group">` and fill contents after applying `class="content-text"`.
 
     ```html
     <div class="headline-group">
@@ -73,7 +73,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     </div>
     ```
 
-1. Same as above, write code for the second `<div class="content">`
+7. Same as above, write code for the second `<div class="content">`
 
     ```html
     <div class="content">
@@ -85,7 +85,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. Same as above, write code for the third `<div class="content">`
+8. Same as above, write code for the third `<div class="content">`
 
     ```html
     <div class="content">
@@ -97,7 +97,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. Same as above, write code for the fourth `<div class="content">`
+9. Same as above, write code for the fourth `<div class="content">`
 
     ```html
     <div class="content">
@@ -109,7 +109,7 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
       </div>
     ```
 
-1. Same as above, write code for the last `<div class="content">`
+10. Same as above, write code for the last `<div class="content">`
 
     ```html
     <div class="content">
