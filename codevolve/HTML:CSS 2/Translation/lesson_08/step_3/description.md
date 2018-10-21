@@ -12,7 +12,7 @@ In the content area there are the Google logo image and the search input form. T
     ```html
     <div class="form-search-wrap"></div>       
     ```
-3. In `<div class="form-search-wrap">` add `<a>` and apply `class="btn-voice"` and add `mic` icon to the content. Add `<input>` and apply `type="text"`, `class="form-search"`.
+3. In `<div class="form-search-wrap">` add `<a href="">` and apply `class="btn-voice"` and add `mic` icon to the content. Add `<input>` and apply `type="text"`, `class="form-search"`.
     ```html
     <div class="form-search-wrap">
       <a href="" class="btn-voice">
@@ -23,13 +23,14 @@ In the content area there are the Google logo image and the search input form. T
     ```
 4. After `<div class="form-search-wrap">` add `<div>` and apply `class="buttons-wrap"`.
     ```html
+    <div class="form-search-wrap">...</div>
     <div class="buttons-wrap"></div>
     ```
-5. In `<div class="buttons-wrap">` add 2 `<a>`and apply respectively `class="btn-search"`, `class="btn-lucky"` and fill with contents.
+5. In `<div class="buttons-wrap">` add 2 `<a href="">`and apply `class="btn-secondary"`, `class="btn-lucky"` and fill with contents.
     ```html
     <div class="buttons-wrap">
-      <a href="" class="btn-search">Google Search</a>
-      <a href="" class="btn-lucky">I'm Feeling Lucky</a>
+      <a href="" class="btn-secondary">Google Search</a>
+      <a href="" class="btn-secondary">I'm Feeling Lucky</a>
     </div>
     ```
 

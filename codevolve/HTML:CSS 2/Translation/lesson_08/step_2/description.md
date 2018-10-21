@@ -8,12 +8,14 @@ This page has 3 major sections: navigation / contents / footer.
       <nav class="navigation"></nav>
     </body>
     ```
-1. After `<nav class="navigation">` add `<div>` and apply `class="content"`
+2. After `<nav class="navigation">` add `<div>` and apply `class="content"`
     ```html
+    <nav class="navigation"></nav>
     <div class="content"></div>
     ```
-1. After `<div class="content">` add `footer` tag and apply `class="footer"`
+3. After `<div class="content">` add `<footer>` and apply `class="footer"`
     ```html
+    <div class="content"></div>
     <footer class="footer"></footer>
     ```
 
