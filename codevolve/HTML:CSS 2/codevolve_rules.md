@@ -37,12 +37,46 @@
 
 - **Failed Feedback**은 유저가 체크를 했으나 실패했을 때 노출됩니다. 이 항목에는 정답코드를 작성하여, 유저가 실패했을때 정답을 보고 따라 입력할 수 있도록 합니다. 상단에 `이 코드와 비교해보세요.` 라는 문구와 `코딩 컨벤션` 을 똑같이 맞춰달라는 안내 문구도 같이 추가합니다.
 
+  **css의 경우:**
+
+  ```
+  <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
+  ​```css
+  
+  ​```
+  <h6>If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
+  
+  <style>
+  	.custom-markdown.failure p:first-child {display:none;}
+  	.custom-markdown.failure #title_feedback_failed {
+          margin-top : 8px !important;
+          font-weight : 700 !important;
+          font-size : 16px !important;
+  	}
+  	.custom-markdown.failure .cmh-pre {
+          margin : 8px -10px !important;
+          border : none !important;
+          padding : 4px !important;
+  	}
+      .custom-markdown.failure .cmh-pre+h6{
+          margin : 2px 0 0 0 !important;
+          font-weight : 400 !important;
+          font-size : 12px !important;
+          line-height : 18px !important;
+          color : #607D8B !important;
+  	}
+  </style>
+  ```
+
+
+  **html의 경우:**
+
   ```
   <h3 id="title_feedback_failed">Let's compare it to this code.</h3>
   ​```html
   
   ​```
-  <h6>If your code is correct but not a 'Well Done.', please match the coding style and coding convention to 'solution code'. and Please enter a correct value code.</h6>
+  <h6>Please Check for position or typos in tags & properties. Some text contents require you to enter case-sensitive.</h6>
   
   <style>
   	.custom-markdown.failure p:first-child {display:none;}
@@ -221,35 +255,112 @@ html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습�
 
 
 
-#### **패턴1** :  `<tag attr="">` 안에 `<tag attr="">` 가 있는지 찾기.
+#### 자주 사용되는 패턴
 
-```python
-from bs4 import BeautifulSoup
+- **패턴1** :  `<tag attr="">` 안에 `<tag attr="">` 가 있는지 찾기.
 
-with open('index.html', 'r') as file:
-    soup = BeautifulSoup(file.read(), 'html.parser')
-    base_tag = soup.body.find('nav', attrs={'class':'navigation'})
-
-    assert(
-        base_tag.name == 'nav'
-        and base_tag['class'][0] == 'navigation'
-    )
-```
-
-
-
-#### **패턴2** :  `<tag attr="">` 다음에 `<tag attr="">` 가 있는지 찾기.
-
-```python
-from bs4 import BeautifulSoup
-
-with open('index.html', 'r') as file:
-	soup = BeautifulSoup(file.read(), 'html.parser')
-	tag = soup.body.find('nav', class_="navigation").find_next('div', class_="content")
+  ```py
+  from bs4 import BeautifulSoup
   
-    assert(
-        tag.name
-        and tag.parent.name == 'body' 
-    )
-```
+  with open('index.html', 'r') as file:
+      soup = BeautifulSoup(file.read(), 'html.parser')
+      tag = soup.body.find('nav', class_="navigation")
+  
+      assert(
+          tag
+      )
+  ```
 
+- **패턴2** :  `<tag attr="">` 안에 `<tag attr="">` 가 순서대로 0개 있는지 찾기.
+
+  ```python
+  from bs4 import BeautifulSoup
+  
+  with open('index.html', 'r') as file:
+      soup = BeautifulSoup(file.read(), 'html.parser')
+      tag = soup.find('div', class_="footer-right").find_all('a')
+  
+      assert(
+          tag
+          and len(tag) == 3
+          and tag[0].text.strip() == 'Privacy'
+          and tag[1].text.strip() == 'Terms'
+          and tag[2].text.strip() == 'Settings'
+      )
+  ```
+
+- 패턴3 :  `<tag attr="">` 다음에 `<tag attr="">` 가 있는지 찾기
+
+  ```python
+  from bs4 import BeautifulSoup
+  
+  with open('index.html', 'r') as file:
+      soup = BeautifulSoup(file.read(), 'html.parser')
+      tag = soup.find('div', class_="content").find_next('footer', class_="footer")
+  
+      assert(
+          tag
+          and tag.parent.name == 'body' 
+          #find_next()는 <body> 밖에 있는 요소까지 찾기 때문에 별도로 부모 요소를 비교해야합니다.
+      )
+  ```
+
+
+#### 유용한 문법
+
+- **문법1** : 하위에 있는 요소 찾기
+
+  ```python
+  #find
+  tag = soup.find('div', class_="footer-right")
+  
+  # boolean
+  assert(tag)
+  ```
+
+- **문법2** : 부모요소 찾기
+
+  ```python
+  # find
+  tag = soup.find_parent('div', class_="footer-right")
+  
+  # boolean
+  assert(tag.parent.name == 'body')
+  ```
+
+- **문법3** : 다음에 오는 요소 찾기
+
+  ```python
+  # find
+  tag = soup.find('div', class_="content").find_next('footer', class_="footer")
+  
+  # boolean
+  assert(tag)
+  ```
+
+- **문법4** : 갯수찾기
+
+  ```python
+  # find
+  tag = soup.find_all('div', class_="btn")
+  
+  # boolean
+  assert(
+      tag
+      and len(tag) == 2
+  )
+  ```
+
+- **문법5** : 텍스트 내용 비교하기
+
+  ```python
+  # find
+  tag = soup.find_all('a', class_="btn")
+  
+  # boolean
+  assert(
+      tag
+      and tag[0].text.strip() == 'New'
+      and tag[1].text.strip() == 'Edit'
+  )
+  ```
