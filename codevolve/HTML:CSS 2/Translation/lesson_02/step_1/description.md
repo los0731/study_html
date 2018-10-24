@@ -37,13 +37,13 @@ If you are not a designer, it's difficult to make and use your own graphic sourc
 You can download the image source file from here or you can click the right mouse button and `save image address` to use the picture in our project. The important thing is not violate the copyrights.     
 
 **lesson2_step1_instruction3**
-1. Below `<div class="birthday-card">` add `<h6>` and apply `class="sources-link"` to it.
+1. Below `<div class="birthday-card">` add `<h6>` and apply `class="source-link"` to it.
     ```html
-    <h6 class="sources-link"></h6>
+    <h6 class="source-link"></h6>
     ```
 1. Inside `<h6>` add`<a>` and after applying `href="https://www.freepik.com/free-photos-vectors/background"`to it, add the content below 
     ```html
-    <h6 class="sources-link">
+    <h6 class="source-link">
       <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Freepik</a>
     </h6> 
     ```
