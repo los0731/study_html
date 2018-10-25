@@ -27,10 +27,11 @@ Looking just at the elements there are: headline, sub-headline and body text. Th
     <div class="container"></div>
     ```
 
-2. Add 4 `<div>` in `<div class="container">` and apply `class="content"`
+2. Add 5 `<div>` in `<div class="container">` and apply `class="content"`
 
     ```html
     <div class="container">
+        <div class="content"></div>
         <div class="content"></div>
         <div class="content"></div>
         <div class="content"></div>
