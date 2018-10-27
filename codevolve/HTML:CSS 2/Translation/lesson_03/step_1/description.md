@@ -1,5 +1,7 @@
 # HTML
 
+## <div class="business-card"\>
+
 We're going to put the business card on a very light grey background. Start with using `<div>` to make an outline for the business card.  
 
 **lesson3_step1_instruction1**
@@ -17,15 +19,19 @@ In `<div class="business-card">` we add the card elements. In this card there is
 1. Add `<img>` and apply `class="image"` and `alt="Profile image"`.
 
     ```html
-    <img class="image" src="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Orc-512.png" alt="Profile image">
+    <div class="business-card">
+       <img class="image" src="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Orc-512.png" alt="Profile image">
+     </div> 
     ```
 1. Add `<h2>` and apply `class="name"`.
     ```html
-    <h2 class="name">Jonathan Harris</h2> 
+    <img class="image" src="..." alt="...">
+    <h2 class="name">Jonathan Harris</h2>  
     ```
 1. Add `<ul>` and apply `class="information"`. 
     ```html
-    <ul class="information"></ul>
+    <h2 class="name">...</h2> 
+    <ul class="information"></ul> 
     ```
 1. In the `<ul>`, add `<li>` and apply the following classes to each of the information: job position/phone number/email. 
     ```html
@@ -33,7 +39,7 @@ In `<div class="business-card">` we add the card elements. In this card there is
       <li class="job">Orc</li>
       <li class="phone">+1.23.456.7890</li>
       <li class="mail">jonathan@blackrockclan.com</li>
-    </ul>
+    </ul> 
     ```
 
 

@@ -1,5 +1,5 @@
 # CSS
-## <body>
+## body
 
 Medium's policy page uses a lot of styles for the body tag, like `font-size`, `font-size`, `color`, `line-height`. What they have is common is that the properties can be also applied to the tags that follow the body. that's why we start by setting the basic attributes for the entire site, like font, font size, font color, in the top-level the body tag. let's define the body tag's style. 
 

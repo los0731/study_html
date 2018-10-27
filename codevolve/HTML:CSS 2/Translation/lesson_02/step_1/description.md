@@ -1,29 +1,38 @@
 # HTML
+## <div class="birthday-card"\>
+
 Start by using `<div>` to make the frame of the card.
 
 **lesson2_step1_instruction1**
 1. Add `<div>` within `<body>` and apply `class="birthday-card`.
     ```html
-    <div class="birthday-card"></div>
+    <body>
+      <div class="birthday-card"></div>
+    </body> 
     ```
 
 
 
-## .birthday-card
+## Components of Card
+
 Add elements of card in `<div class="birthday-card">`.
 
 **lesson2_step1_instruction2**
 1. Add `<img>`, and apply `src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg"` and `alt="Birthday image"`. 
     ```html
-    <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" alt="Birthday Image">
+    <div class="birthday-card">
+      <img src="https://image.freepik.com/free-vector/birthday-background-with-hand-drawn-gift_23-2147645419.jpg" alt="Birthday Image">
+    </div> 
     ```
 1. Using `<h1>`, enter card text contents, after the image 
     ```html
-    <h1>Happy Birthday. Hope you are having a great day Michelle.</h1> 
+    <img src="..." alt="...">
+    <h1>Happy Birthday. Hope you are having a great day Michelle.</h1>  
     ```
 1. After the contents, use `<h3>` to enter the card author 
     ```html
-    <h3>from Frank</h3>
+    <h1>...</h1>
+    <h3>from Frank</h3> 
     ```
 
 
@@ -39,13 +48,16 @@ You can download the image source file from here or you can click the right mous
 **lesson2_step1_instruction3**
 1. Below `<div class="birthday-card">` add `<h6>` and apply `class="source-link"` to it.
     ```html
-    <h6 class="source-link"></h6>
+    <div class="birthday-card">
+      ...
+    </div>
+    <h6 class="source-link"></h6> 
     ```
 1. Inside `<h6>` add`<a>` and after applying `href="https://www.freepik.com/free-photos-vectors/background"`to it, add the content below 
     ```html
     <h6 class="source-link">
       <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Freepik</a>
-    </h6> 
+    </h6>   
     ```
 
 

@@ -1,4 +1,4 @@
-## <td>
+## td
 let's organize the `td` style, which is commonly used for body contents of the receipt.
 * The `.table-receipt td`'s padding is `24px` for top/down and `16px` for left/right.
 * There is a border line at the bottom. The border's width/style/color are set as `2px solid #ECEFF1`.

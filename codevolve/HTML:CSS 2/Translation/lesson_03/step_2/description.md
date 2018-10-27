@@ -1,5 +1,5 @@
 # CSS
-## <body> 
+## body
 To better showcase the online business card, we will choose a background color. In [Google colors][1] choose `Blue Grey 50`. 
 * The margin of the body is `0`.
 * Padding is `8px`.
@@ -64,9 +64,11 @@ Click the **NEXT STEP** button.
 
 ## TIPS! 
 * If you specify a font in the `<body>`, it will apply to all the tags after it. 
+
     > Some properties apply to sections they are defined in. However, some properties apply not only to the sections they are specified in, but to all the sections following them. `font-family` is such a property, that applies to sections herethenon. Therefore, if you want to use the fonts `Arial, Helvetica, sans-serif` on all the text on this page, you don't have to define `font-family` for each section, but just for `<body>`.  
 
 * Why are there multiple different fonts specified in `font-family: Arial, Helvetica, sans-serif;`? 
+
     > Starting from the left, `Arial` font will be applied to the text. If the user doesn't have that font installed on their computer, it means that `Helvetica` will be applied. And if they don't have Helvetica, the font of the text will be set to `san-serif`. 
 
 [1]: https://material.io/design/color/#color-usage-palettes

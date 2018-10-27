@@ -1,5 +1,5 @@
 # CSS
-## <body>
+## body
 Set the color of the card to white and the background to purple.
 
 * The margin of the body is `0`.
