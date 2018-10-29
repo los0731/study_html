@@ -8,7 +8,7 @@ Start by creating container using `<div>`.
     ```html
     <body>
       <div class="container"></div> 
-    </body>
+    </body> 
     ```
 
 
@@ -29,9 +29,9 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
     ```html
     <div class="container">
       <table class="table-receipt"></table>
-    </div>
+    </div> 
     ```
-1. Add `<thead>` and `<tbody>`in the `<table>`
+2. Add `<thead>` and `<tbody>`in the `<table>`
 
     ```html
     <table class="table-receipt">
@@ -39,7 +39,7 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       <tbody></tbody>
     </table> 
     ```
-1. Write code for the `<thead>` part
+3. Write code for the `<thead>` part
     * Use `<tr>`in `<thead>` to create 1 row.
     * Use `<th>` in `<tr>` to add 1 column and apply `class="t-header"`, `colspan="2"`
     * Fill in content
@@ -50,7 +50,7 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       </tr>
     </thead> 
     ```
-1. Write code for the `<tbody>` part
+4. Write code for the `<tbody>` part
     * Use `<tr>`in `<tbody>` to create 5 rows.
     * For rows 1~4 use `<tr>` to create 2 columns and apply `class="t-label"`, `class="t-content"` to each.
     * For the 5th row create 1 column and apply `class="t-footer"`, `colspan="2"`.
@@ -67,18 +67,16 @@ In the `<div class="container">` we add `<table>`, which will be the framework f
       </tr>
       <tr>
         <td class="t-label">Order ID</td>
-       <td class="t-content">UDVD12548</td>
+        <td class="t-content">UDVD12548</td>
       </tr>
       <tr>
         <td class="t-label">Price</td>
         <td class="t-content">$109.00</td>
       </tr>
       <tr>
-        <td class="t-footer" colspan="2">
-          Thank you for purchasing form us.
-        </td>
+        <td class="t-footer" colspan="2">Thank you for purchasing form us.</td>
       </tr>
-    </tbody> 
+    </tbody>  
     ```
 
 So this is how we have constructed the page framework using `HTML`. On the next page let's use `CSS` to do some styling. 

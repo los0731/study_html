@@ -23,7 +23,8 @@ Using `<div>`, we create a card. Inside it let's use `<a>` to add a link. The ma
 
 
 
-## .card-hero 
+## <div class="card-hero"\>
+
 Hero image is usually big, take up the full screen and is set on top of the designated area. Hero image sets the tone for the page, sparks curiosity in the users before reading the contents or simply conveys the general message of the text. This element will be handled with CSS, so for now we just leave an empty tag and class. 
 
 **lesson7_step1_instruction2**
@@ -31,12 +32,13 @@ Hero image is usually big, take up the full screen and is set on top of the desi
     ```html
     <a href="https://facebook.design/videos/designing-at-facebook">
       <div class="card-hero"></div>
-    </a>
+    </a> 
     ```
 
 
 
-## .card-block
+## <div class="card-block"\>
+
 Other than the hero image, the rest of the elements (title, descriptions, dividing lines, tags etc.) will be grouped together. These elements are called `card-block`. 
 
 **lesson7_step1_instruction3**
@@ -51,7 +53,7 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
     ```html
     <div class="card-block">
       <h2 class="card-title">Designing at Facebook</h2> 
-    </div>  
+    </div>   
     ```
 
 3. After `<h2 class="card-title>` add `<p>` and, after applying `class="card-description"`, fill out with contents.
@@ -62,13 +64,15 @@ Other than the hero image, the rest of the elements (title, descriptions, dividi
 
 4. Add `<hr>` below `<p class="card-description">` and apply `class="card-hrclass="`.
     ```html
-    <hr class="card-hr">       
+    <p class="card-description">...</p>
+    <hr class="card-hr">         
     ```
 
 5. After `<hr class="card-hr">` add 2 `<h6>` and, after applying respectively `class="card-type"`, `class="card-tag"`, fill out with contents.
     ```html
+    <hr class="card-hr">
     <h6 class="card-type">VIDEO</h6>
-    <h6 class="card-tag">VIEW MORE</h6>
+    <h6 class="card-tag">VIEW MORE</h6> 
     ```
 
 

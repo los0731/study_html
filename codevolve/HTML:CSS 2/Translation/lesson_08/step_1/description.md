@@ -22,17 +22,11 @@ You can also write the code in `<body>`, so that you can use the material icons 
 </body>
 ```
 
-Also, you can add a specific class to this tag and [adjust the size][3] of the icons. 
-```html
-<body>
-  <i class="material-icons md-18">mic</i>
-  <i class="material-icons md-24">accessibility</i>
-  <i class="material-icons md-36">assessment</i>
-  <i class="material-icons md-48">alarm</i>
-</body>
-```
 
 
+For more information, see the [Material Icons Guide][3].
 
+Back to Catalog And Start **NEXT STEP**!
 
-Click the **NEXT STEP** button.
+[2]:https://material.io/tools/icons
+[3]:https://google.github.io/material-design-icons/

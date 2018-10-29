@@ -1,5 +1,5 @@
 # CSS
-## <body>
+## body
 Facebook design page uses a very light grey background. Also there's a separate font assigned to the whole area. 
 * Background color of `body` is `#FCFCFC`.
 * The font is `'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif`.(This is actually a font for Facebook design.)
@@ -58,7 +58,7 @@ let's define the style of the card.
 
 
 
-## <a>
+## a
 In `<a>` the text is by default blue and underlined. that's why we have to define the style separately and remove all the decorative elements. 
 
 * There are no text decorations in `a`'s text.
