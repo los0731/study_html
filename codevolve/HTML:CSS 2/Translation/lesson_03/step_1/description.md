@@ -13,7 +13,7 @@ We're going to put the business card on a very light grey background. Start with
 ## Fill out the contents of the business card
 In `<div class="business-card">` we add the card elements. In this card there is an image that illustrates the appropriate concept, name, information (job position, phone number, email). We take an image from `iconfinder.com` and then we will use a list tag, without any specific order of elements, to arrange the information (job position, phone number, email).
 
-**lesson3_step1_instruction1**
+**lesson3_step1_instruction2**
 1. Add `<img>` and apply `class="image"` and `alt="Profile image"`.
 
     ```html
