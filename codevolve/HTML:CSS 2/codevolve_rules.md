@@ -231,14 +231,14 @@ html parser를 이용한 체크는 아직 간단한 패턴을 찾지 못했습�
 
 #### 자주 사용되는 패턴
 
-- **패턴1** :  `<tag attr="">` 안에 `<tag attr="">` 가 있는지 찾기.
+- **패턴1** :  `<body></body>` 안에 `<tag attr="">` 가 있는지 찾기.
 
   ```py
   from bs4 import BeautifulSoup
   
   with open('index.html', 'r') as file:
       soup = BeautifulSoup(file.read(), 'html.parser')
-      tag = soup.body.find('nav', class_="navigation")
+      tag = soup.body.find('nav', class_="navigation") #찾는 태그 
   
       assert(
           tag
