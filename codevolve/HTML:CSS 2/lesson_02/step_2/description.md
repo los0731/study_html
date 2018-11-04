@@ -37,13 +37,13 @@
 이 곳에서 이미지 소스의 파일을 다운로드 받거나, 마우스 우클릭 후 `이미지 주소 복사`를 통해서 이미지를 사용할 수 있습니다. 중요한 점은 저작권에 어긋나지 않게 사용하는 것입니다. 
 
 **Instructions**
-1. `<div class="birthday-card">`아래에 `<h6>`를 추가하고, `class="sources-link"` 적용하기.
+1. `<div class="birthday-card">`아래에 `<h6>`를 추가하고, `class="source-link"` 적용하기.
     ```html
-    <h6 class="sources-link"></h6>
+    <h6 class="source-link"></h6>
     ```
 1. `<h6>` 안에 `<a>`를 추가하고, `href="https://www.freepik.com/free-photos-vectors/background"` 적용 후 아래 내용 추가하기.  
     ```html
-    <h6 class="sources-link">
+    <h6 class="source-link">
       <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by Freepik</a>
     </h6> 
     ```
