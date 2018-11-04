@@ -1,6 +1,6 @@
 # CSS
 ## <body> 
-영수증이 배경에서 조금 떠있는 스타일을 연출하기 위해서는 배경이 흰색보다 약간 회색에 가깝도록 해봅시다. 배경 색상은 [Google colors][999]의 Blue Grey 50를 사용합니다. 
+영수증이 배경에서 조금 떠있는 스타일을 연출하기 위해서는 배경이 흰색보다 약간 회색에 가깝도록 해봅시다. 배경 색상은 [Google colors](https://material.io/design/color/#color-usage-palettes)의 Blue Grey 50를 사용합니다. 
 * `body`의 배경 색상은 `#ECEFF1`입니다.
 
 **Instructions**
@@ -54,7 +54,7 @@
 * `.table-receipt th ` 의 패딩은 `24px`입니다.
 * 넓이는 `100%`입니다.
 * 글씨 색상은 `white`입니다.
-* 배경 색상은 `#2196F3`입니다. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
+* 배경 색상은 `#2196F3`입니다. 이 색상은 [Google colors](https://material.io/design/color/#color-usage-palettes)의 Blue 500과 같습니다.
 
 **Instructions**
 1. `.table-receipt th`의 스타일 적용하기. 
@@ -87,8 +87,8 @@
     > ```
     > 간결하게 코드를 작성하면 좋은 이유는 짧은 시간에 코드를 이해하는데 도움이 되기 때문입니다. 특히 다른 사람이 내 코드를 봐야한다면요.
 * `border-collapse`는 뭔가요?
-    > [border-collapse][2]는 테이블 cell 경계선의 겹침 속성을 설정하는 CSS 프로퍼티입니다. 값은 collapse, separate가 있습니다. `collapse`: 테이블 cell의 테두리를 통합합니다. 즉 겹쳐서 한줄로 보이도록 합니다. `separate`: 기본설정으로 테이블 cell의 테두리를 분리해서 두줄로 보이게됩니다.
+    > [border-collapse](https://www.w3schools.com/CSSref/tryit.asp?filename=trycss_border-collapse)는 테이블 cell 경계선의 겹침 속성을 설정하는 CSS 프로퍼티입니다. 값은 collapse, separate가 있습니다. `collapse`: 테이블 cell의 테두리를 통합합니다. 즉 겹쳐서 한줄로 보이도록 합니다. `separate`: 기본설정으로 테이블 cell의 테두리를 분리해서 두줄로 보이게됩니다.
 
 [1]: https://www.w3schools.com/cssref/css_selectors.asp
 [2]: https://www.w3schools.com/CSSref/tryit.asp?filename=trycss_border-collapse
-[999]: https://material.io/design/color/#color-usage-palettes
+(https://material.io/design/color/#color-usage-palettes): https://material.io/design/color/#color-usage-palettes

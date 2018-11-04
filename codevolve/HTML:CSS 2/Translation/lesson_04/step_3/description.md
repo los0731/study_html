@@ -77,4 +77,4 @@ Last but not least, is the style of the footer.
 
 Click the **NEXT STEP** button. 
 
-[999]: https://material.io/design/color/#color-usage-palettes
+(https://material.io/design/color/#color-usage-palettes): https://material.io/design/color/#color-usage-palettes

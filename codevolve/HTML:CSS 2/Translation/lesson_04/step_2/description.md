@@ -1,6 +1,6 @@
 # CSS
 ## body
-To create a style, where the receipt seems to float on the background, let's go for a more grey background, rather than white. For the background color we use `Blue Grey 50` from [Google colors][999]. 
+To create a style, where the receipt seems to float on the background, let's go for a more grey background, rather than white. For the background color we use `Blue Grey 50` from [Google colors](https://material.io/design/color/#color-usage-palettes). 
 * The background color is `#ECEFF1`.
 
 **lesson4_step2_instruction1**
@@ -55,7 +55,7 @@ let's define the style of `th`, the title part of the receipt. In this lesson wh
 * The padding of `.table-receipt th ` is `24px`.
 * The width is `100%`.
 * The font color is `white`.
-* Background color is `#2196F3`. 이 색상은 [Google colors][999]의 Blue 500과 같습니다.
+* Background color is `#2196F3`. 이 색상은 [Google colors](https://material.io/design/color/#color-usage-palettes)의 Blue 500과 같습니다.
 
 **lesson4_step2_instruction4**
 1. Apply style to `.table-receipt th`.
@@ -97,4 +97,4 @@ Click the **NEXT STEP** button.
 
 [1]: https://www.w3schools.com/cssref/css_selectors.asp
 [2]: https://www.w3schools.com/CSSref/tryit.asp?filename=trycss_border-collapse
-[999]: https://material.io/design/color/#color-usage-palettes
+(https://material.io/design/color/#color-usage-palettes): https://material.io/design/color/#color-usage-palettes

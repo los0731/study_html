@@ -73,5 +73,3 @@
     
 
 모두 완료했다면 **NEXT STEP** 버튼을 클릭하세요.  
-
-[999]: https://material.io/design/color/#color-usage-palettes
