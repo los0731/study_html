@@ -38,7 +38,7 @@
 * 글은 오른쪽 정렬입니다.
 
 **Instructions**
-1. `.table-receipt .t-label`의 스타일 적용하기. 
+1. `.table-receipt .t-price`의 스타일 적용하기. 
     ```css
     .table-receipt .t-price {
     	font-size: 24px;

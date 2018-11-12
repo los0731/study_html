@@ -79,19 +79,18 @@
   }
   ​```
   
-  <h6>만약 올바르게 코드를 작성했는데도 불구하고 'Well Done.' 이라는 피드백이 보여지지 않는다면 정답코드와 코드를 비교 후, 올바른 코드를 입력하세요.</h6>
+  <h6>만약 올바르게 코드를 작성했는데도 불구하고 'Well Done.' 이라는 피드백이 보여지지 않는다면 정답코드와 비교 후, 정확한 코드를 입력하세요.</h6>
   ```
 
 
 
-  **html의 경우:**
+- **html의 경우:**
 
-    ```
-  Please Check for position or typos in tags & properties. Some text contents require you to enter case-sensitive. Compare with solution code.
-    ```
-
-  ```
-  태그와 프로퍼티에 오타는 없는지, 위치가 올바른지 확인하세요. 일부 컨텐트 글씨는 대소문자를 정확하게 입력해야 합니다. 위의 해답 코드와 비교해보세요.
+	```
+	Please Check for position or typos in tags & properties. Some text contents require you to enter case-sensitive. Compare with solution code.
+	```
+	```
+	태그와 프로퍼티에 오타는 없는지, 위치가 올바른지 확인하세요. 일부 컨텐트 글씨는 대소문자를 정확하게 입력해야 합니다. 위의 해답 코드와 비교해보세요.
   ```
 
 - **Passed Feedback**은 모두 `Well Done.` 으로 통일합니다.
